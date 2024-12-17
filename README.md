@@ -126,30 +126,36 @@ git clone https://github.com/yourname/stratx.git
 cd stratx
 ```
 
-### **2. Start services**
+### **2. Start the frontend**
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The dashboard will be available at `http://localhost:5173`
+
+### **3. (Optional) Start backend services**
 ```bash
 docker-compose up -d
 ```
 
-### **3. Run ingestion**
+### **4. (Optional) Run ingestion**
 ```bash
 python -m src.ingestion
 ```
 
-### **4. Start streaming feature pipeline**
+### **5. (Optional) Start streaming feature pipeline**
 ```bash
 python src/feature_pipeline/streaming/faust_app.py
 ```
 
-### **5. Train models**
+### **6. (Optional) Train models**
 ```bash
 python src/models/lap_time/train.py
 ```
 
-### **6. Launch dashboard**
-```bash
-streamlit run src/dashboards/streamlit_app/app.py
-```
+> **Note**: The frontend works with mock data by default, so you can explore the dashboard without setting up the backend infrastructure.
 
 ---
 

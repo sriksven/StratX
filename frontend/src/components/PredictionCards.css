@@ -1,0 +1,408 @@
+.predictions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.prediction-card {
+    padding: var(--spacing-xl);
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.prediction-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border-secondary);
+}
+
+.prediction-icon {
+    width: 24px;
+    height: 24px;
+    color: var(--f1-red);
+}
+
+.icon-warning {
+    color: var(--racing-yellow);
+}
+
+.icon-success {
+    color: var(--racing-green);
+}
+
+.icon-purple {
+    color: var(--racing-purple);
+}
+
+.icon-danger {
+    color: var(--f1-red);
+}
+
+.prediction-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.prediction-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+/* Lap Time Prediction */
+.prediction-main-value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    background: var(--gradient-racing);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.confidence-bar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.confidence-label {
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.confidence-track {
+    height: 8px;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+}
+
+.confidence-fill {
+    height: 100%;
+    background: var(--gradient-racing);
+    border-radius: var(--radius-sm);
+    transition: width 0.5s ease;
+    box-shadow: 0 0 10px var(--f1-red-glow);
+}
+
+.confidence-value {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    text-align: right;
+}
+
+.prediction-factors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+}
+
+.factor {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-md);
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-secondary);
+}
+
+.factor-label {
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+}
+
+.factor-value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* Tyre Wear */
+.tyre-compound {
+    text-align: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.compound-badge {
+    display: inline-block;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: var(--radius-md);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+}
+
+.compound-soft {
+    background: var(--f1-red);
+    color: white;
+    box-shadow: 0 0 20px var(--f1-red-glow);
+}
+
+.compound-medium {
+    background: var(--racing-yellow);
+    color: var(--bg-primary);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+.compound-hard {
+    background: white;
+    color: var(--bg-primary);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.wear-percentage {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-align: center;
+    background: var(--gradient-racing);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wear-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+}
+
+.wear-stat {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    text-align: center;
+}
+
+.wear-label {
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+}
+
+.wear-value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* Pit Window */
+.pit-window-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+}
+
+.optimal-lap,
+.current-lap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.optimal-label,
+.current-label {
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+}
+
+.optimal-value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--racing-green);
+    text-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
+}
+
+.current-value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--text-secondary);
+}
+
+.pit-reasoning {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-md);
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--racing-green);
+}
+
+.reason-item {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* Overtake Probability */
+.overtake-probability {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    background: linear-gradient(135deg, var(--racing-purple) 0%, var(--racing-orange) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.overtake-matchup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-md);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.attacker {
+    color: var(--racing-green);
+}
+
+.vs {
+    color: var(--text-tertiary);
+    font-size: 0.875rem;
+}
+
+.defender {
+    color: var(--f1-red);
+}
+
+.overtake-factors {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.overtake-factor {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-md);
+}
+
+.factor-icon {
+    font-size: 1.25rem;
+}
+
+.factor-text {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+/* Anomaly Detection */
+.anomaly-card {
+    border: 2px solid transparent;
+    transition: all var(--transition-base);
+}
+
+.anomaly-low {
+    border-color: var(--racing-green);
+}
+
+.anomaly-medium {
+    border-color: var(--racing-yellow);
+}
+
+.anomaly-high {
+    border-color: var(--f1-red);
+    animation: pulseGlow 2s ease-in-out infinite;
+}
+
+.anomaly-status {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.status-none {
+    background: rgba(0, 255, 65, 0.1);
+    color: var(--racing-green);
+    border: 1px solid var(--racing-green);
+}
+
+.status-mechanical,
+.status-driver {
+    background: rgba(225, 6, 0, 0.1);
+    color: var(--f1-red);
+    border: 1px solid var(--f1-red);
+}
+
+.anomaly-description {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    text-align: center;
+    line-height: 1.6;
+}
+
+.anomaly-severity {
+    text-align: center;
+}
+
+.severity-badge {
+    display: inline-block;
+    padding: var(--spacing-xs) var(--spacing-md);
+    border-radius: var(--radius-sm);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+}
+
+.severity-low {
+    background: var(--racing-green);
+    color: var(--bg-primary);
+}
+
+.severity-medium {
+    background: var(--racing-yellow);
+    color: var(--bg-primary);
+}
+
+.severity-high {
+    background: var(--f1-red);
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .predictions-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .prediction-main-value,
+    .wear-percentage,
+    .overtake-probability {
+        font-size: 2.5rem;
+    }
+}
