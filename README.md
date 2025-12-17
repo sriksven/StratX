@@ -1,5 +1,5 @@
 
-# 🏎️ StratX  
+# StratX  
 ### **Real-Time F1 Telemetry and Machine Learning Race Strategy Engine**
 
 StratX is an **end-to-end, fully open-source, real-time Formula 1 race strategy platform** that transforms live telemetry into actionable race insights using **streaming pipelines**, **feature stores**, **machine learning models**, and an interactive **race strategy dashboard**.
@@ -8,21 +8,21 @@ Built with **FastF1**, **OpenF1**, **Kafka**, **Flink/Faust**, **Feast**, **MLfl
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔴 **Real-Time Streaming**
+### Real-Time Streaming
 - Ingest live telemetry from **OpenF1 API**
 - Replay historical sessions using **FastF1**
 - Stream raw data → Kafka topics in real time
 
-### 🟡 **Real-Time Feature Engineering**
+### Real-Time Feature Engineering
 - Rolling lap features  
 - Stint metrics  
 - Pace deltas  
 - Driver aggression metrics  
 - Gap computations  
 
-### 🟢 **5 ML Prediction Models**
+### 5 ML Prediction Models
 StratX includes **five independent models**, trained offline and served in real-time:
 
 | Model | Description |
@@ -33,7 +33,7 @@ StratX includes **five independent models**, trained offline and served in real-
 | **Overtake Probability** | Predicts overtaking chances in 1–3 laps |
 | **Anomaly Detection** | Detects mechanical/driver irregularities |
 
-### 🔵 **Live Strategy Dashboard**
+### Live Strategy Dashboard
 Interactive UI (Streamlit / React):
 - Telemetry gauges (speed, throttle, RPM)
 - Live ML model predictions
@@ -41,7 +41,7 @@ Interactive UI (Streamlit / React):
 - Traffic gaps visualization
 - Alerts for tyre cliff, anomalies, pit window
 
-### 🧠 **MLOps & Observability**
+### MLOps & Observability
 - MLflow for experiment tracking & model registry  
 - Feast for feature store (online/offline)  
 - Seldon/FastAPI for live inference  
@@ -51,7 +51,7 @@ Interactive UI (Streamlit / React):
 
 ---
 
-## 🧩 Architecture Overview
+## Architecture Overview
 
 ```
 FastF1 (Historical)      OpenF1 (Live API)
@@ -78,7 +78,7 @@ FastF1 (Historical)      OpenF1 (Live API)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 StratX/
@@ -118,7 +118,7 @@ StratX/
 
 ---
 
-## ▶️ Getting Started
+## Getting Started
 
 ### **1. Clone the project**
 ```bash
@@ -159,10 +159,10 @@ python src/models/lap_time/train.py
 
 ---
 
-## 📜 License
+## License
 
 MIT License.
 
 ---
 
-## ⭐ If you like this project, give it a star!
+## If you like this project, give it a star!

@@ -2,7 +2,7 @@
 
 Modern, real-time F1 telemetry dashboard built with React, TypeScript, and Vite.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Development
 
@@ -22,7 +22,7 @@ npm run preview
 
 The app will be available at `http://localhost:5173`
 
-## 📦 Deployment
+## Deployment
 
 ### Deploy to Vercel (Recommended)
 
@@ -84,7 +84,7 @@ The app will be available at `http://localhost:5173`
    - Select `gh-pages` branch
    - Save
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 frontend/
@@ -114,7 +114,7 @@ frontend/
 └── package.json
 ```
 
-## 🎨 Features
+## Features
 
 - **Real-Time Telemetry**: Live speed, RPM, throttle, brake gauges
 - **ML Predictions**: 5 AI models for race strategy
@@ -128,7 +128,7 @@ frontend/
 - **Responsive Design**: Works on desktop, tablet, and mobile
 - **Dark Theme**: F1-inspired racing aesthetics
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -148,7 +148,7 @@ The app uses mock data by default for development. To connect to a real backend:
 2. Update `VITE_API_URL` in your environment variables
 3. The app will automatically try to fetch from the API and fall back to mocks if unavailable
 
-## 🎯 Tech Stack
+## Tech Stack
 
 - **React 18** - UI library
 - **TypeScript** - Type safety
@@ -158,14 +158,14 @@ The app uses mock data by default for development. To connect to a real backend:
 - **Axios** - HTTP client
 - **Lucide React** - Icons
 
-## 📱 Browser Support
+## Browser Support
 
 - Chrome/Edge (latest)
 - Firefox (latest)
 - Safari (latest)
 - Mobile browsers
 
-## 🚦 Development Tips
+## Development Tips
 
 ### Mock Data
 
@@ -184,6 +184,6 @@ Use the "Go Live" button to enable/disable real-time data fetching. When live mo
 - **Refresh Rates**: Adjust `refetchInterval` in hooks
 - **Components**: All components are modular and can be used independently
 
-## 📄 License
+## License
 
 MIT
