@@ -1,0 +1,335 @@
+.race-detail-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+    padding-bottom: 4rem;
+}
+
+/* Race Header */
+.race-header {
+    background: linear-gradient(180deg, rgba(220, 38, 38, 0.1) 0%, transparent 100%);
+    padding: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: white;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.back-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateX(-4px);
+}
+
+.race-header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.race-status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    background: rgba(220, 38, 38, 0.2);
+    border: 1px solid var(--accent-red);
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.live-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--accent-red);
+    border-radius: 50%;
+    animation: pulse-dot 2s ease-in-out infinite;
+}
+
+.race-header-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #fff 0%, var(--accent-red) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.race-header-meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+}
+
+/* Sessions Section */
+.sessions-section {
+    max-width: 1400px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+.sessions-section h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.sessions-timeline {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.session-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.session-card.live {
+    border-color: var(--accent-red);
+    background: rgba(220, 38, 38, 0.1);
+    box-shadow: 0 0 20px rgba(220, 38, 38, 0.3);
+}
+
+.session-card.past {
+    opacity: 0.5;
+}
+
+.session-live-badge {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--accent-red);
+}
+
+.session-type {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.session-time {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.875rem;
+}
+
+/* Race Content */
+.race-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.content-tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    overflow-x: auto;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.tab:hover {
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.tab.active {
+    color: var(--accent-red);
+    border-bottom-color: var(--accent-red);
+}
+
+.content-body {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+/* Driver Selector */
+.driver-selector {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+
+.driver-selector label {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.driver-selector select {
+    padding: 0.75rem 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 250px;
+}
+
+.driver-selector select:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.driver-selector select:focus {
+    outline: none;
+    border-color: var(--accent-red);
+}
+
+.live-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.live-toggle input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.live-toggle span {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Tab Content */
+.tab-content {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Error Screen */
+.error-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 1.5rem;
+}
+
+.error-screen button {
+    padding: 1rem 2rem;
+    background: var(--accent-red);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.error-screen button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(220, 38, 38, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .race-header-title {
+        font-size: 2rem;
+    }
+
+    .race-header-meta {
+        gap: 1rem;
+    }
+
+    .sessions-timeline {
+        grid-template-columns: 1fr;
+    }
+
+    .content-tabs {
+        gap: 0.5rem;
+    }
+
+    .tab {
+        padding: 0.75rem 1rem;
+        font-size: 0.875rem;
+    }
+
+    .driver-selector {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .driver-selector select {
+        min-width: 100%;
+    }
+
+    .live-toggle {
+        margin-left: 0;
+    }
+}

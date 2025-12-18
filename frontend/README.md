@@ -1,189 +1,113 @@
-# StratX Frontend
+# StratX - 2025 F1 Season Hub
 
-Modern, real-time F1 telemetry dashboard built with React, TypeScript, and Vite.
+## 🎯 New Structure
 
-## Quick Start
+The application has been redesigned with a modern, race-focused layout:
 
-### Development
+### **Homepage** (`/`)
+- **2025 F1 Season Overview**
+  - Next race hero section with countdown timer
+  - Complete 2025 driver grid
+  - Full 2025 race calendar (24 races)
+  - Click any race to view details
+
+### **Race Detail Page** (`/race/:raceId`)
+- **Weekend Schedule** - All sessions (FP1, FP2, FP3, Qualifying, Race)
+- **Live Telemetry** - Real-time car data (speed, RPM, throttle, brake)
+- **AI Predictions** - 5 ML models:
+  1. Lap Time Prediction
+  2. Tyre Degradation
+  3. Pit Window Recommendation
+  4. Overtake Probability
+  5. Anomaly Detection
+- **Analytics** - Performance charts and driver comparison
+
+## 🚀 Quick Start
 
 ```bash
 # Install dependencies
 npm install
 
-# Start dev server
+# Start development server
 npm run dev
 
 # Build for production
 npm run build
-
-# Preview production build
-npm run preview
 ```
 
-The app will be available at `http://localhost:5173`
-
-## Deployment
-
-### Deploy to Vercel (Recommended)
-
-1. **Install Vercel CLI** (optional):
-   ```bash
-   npm install -g vercel
-   ```
-
-2. **Deploy via Vercel Dashboard**:
-   - Push your code to GitHub
-   - Go to [vercel.com](https://vercel.com)
-   - Click "New Project"
-   - Import your GitHub repository
-   - Vercel will auto-detect Vite configuration
-   - Click "Deploy"
-
-3. **Deploy via CLI**:
-   ```bash
-   cd frontend
-   vercel
-   ```
-
-4. **Environment Variables**:
-   In Vercel dashboard, add:
-   - `VITE_API_URL`: Your backend API URL (e.g., `https://your-api.vercel.app/api`)
-
-### Deploy to GitHub Pages
-
-1. **Update `vite.config.ts`**:
-   ```typescript
-   export default defineConfig({
-     base: '/StratX/', // Your repo name
-     // ... rest of config
-   })
-   ```
-
-2. **Install gh-pages**:
-   ```bash
-   npm install --save-dev gh-pages
-   ```
-
-3. **Add deploy scripts to `package.json`**:
-   ```json
-   {
-     "scripts": {
-       "predeploy": "npm run build",
-       "deploy": "gh-pages -d dist"
-     }
-   }
-   ```
-
-4. **Deploy**:
-   ```bash
-   npm run deploy
-   ```
-
-5. **Enable GitHub Pages**:
-   - Go to repository Settings → Pages
-   - Select `gh-pages` branch
-   - Save
-
-## Project Structure
+## 📁 Project Structure
 
 ```
-frontend/
-├── src/
-│   ├── components/        # React components
-│   │   ├── Header.tsx
-│   │   ├── LiveTelemetry.tsx
-│   │   ├── PredictionCards.tsx
-│   │   ├── TelemetryCharts.tsx
-│   │   └── DriverComparison.tsx
-│   ├── hooks/            # Custom React hooks
-│   │   ├── useTelemetry.ts
-│   │   ├── usePredictions.ts
-│   │   └── useTelemetryHistory.ts
-│   ├── services/         # API services
-│   │   └── api.ts
-│   ├── types/            # TypeScript types
-│   │   └── index.ts
-│   ├── App.tsx           # Main app component
-│   ├── App.css
-│   ├── index.css         # Global styles & design system
-│   └── main.tsx          # Entry point
-├── public/               # Static assets
-├── index.html
-├── vite.config.ts
-├── vercel.json          # Vercel configuration
-└── package.json
+src/
+├── pages/
+│   ├── HomePage.tsx          # 2025 season overview
+│   ├── HomePage.css
+│   ├── RaceDetailPage.tsx    # Individual race hub
+│   └── RaceDetailPage.css
+├── components/
+│   ├── Header.tsx            # Navigation header
+│   ├── LiveTelemetry.tsx     # Real-time gauges
+│   ├── PredictionCards.tsx   # ML predictions
+│   ├── TelemetryCharts.tsx   # Performance charts
+│   └── DriverComparison.tsx  # Standings table
+├── services/
+│   └── api.ts                # OpenF1 API integration
+├── types/
+│   └── index.ts              # TypeScript types
+└── App.tsx                   # Main app with routing
 ```
 
-## Features
+## 🔌 API Integration
 
-- **Real-Time Telemetry**: Live speed, RPM, throttle, brake gauges
-- **ML Predictions**: 5 AI models for race strategy
-  - Lap time prediction
-  - Tyre degradation
-  - Pit window recommendations
-  - Overtake probability
-  - Anomaly detection
-- **Performance Charts**: Speed, throttle, and tyre wear visualization
-- **Driver Comparison**: Live standings table
-- **Responsive Design**: Works on desktop, tablet, and mobile
-- **Dark Theme**: F1-inspired racing aesthetics
+### OpenF1 API Endpoints Used:
 
-## Configuration
+- `GET /v1/meetings?year=2025` - Race calendar
+- `GET /v1/sessions?meeting_key={id}` - Session schedule
+- `GET /v1/drivers?session_key=latest` - Driver list
+- `GET /v1/car_data?session_key=latest` - Live telemetry
+- `GET /v1/location?session_key=latest` - Car positions
+- `GET /v1/intervals?session_key=latest` - Race gaps
+- `GET /v1/weather?session_key=latest` - Weather data
 
-### Environment Variables
+## 🎨 Features
 
-Create a `.env` file:
+### Homepage
+- ✅ Next race countdown timer
+- ✅ 2025 driver grid with team colors
+- ✅ Full race calendar with status badges
+- ✅ Responsive design
 
-```env
-VITE_API_URL=http://localhost:8000/api
-```
+### Race Detail Page
+- ✅ Live/upcoming/completed race detection
+- ✅ Session timeline with live indicators
+- ✅ Tabbed interface (Telemetry/Predictions/Analytics)
+- ✅ Driver selector
+- ✅ Live mode toggle
 
-For production, set this to your deployed backend URL.
+## 🛠️ Tech Stack
 
-### API Integration
-
-The app uses mock data by default for development. To connect to a real backend:
-
-1. Deploy the FastAPI backend (see `/backend` directory)
-2. Update `VITE_API_URL` in your environment variables
-3. The app will automatically try to fetch from the API and fall back to mocks if unavailable
-
-## Tech Stack
-
-- **React 18** - UI library
-- **TypeScript** - Type safety
-- **Vite** - Build tool
-- **TanStack Query** - Data fetching & caching
+- **React 19** + **TypeScript**
+- **React Router** - Page navigation
+- **TanStack Query** - Data fetching
 - **Recharts** - Data visualization
-- **Axios** - HTTP client
 - **Lucide React** - Icons
+- **OpenF1 API** - Live F1 data
 
-## Browser Support
+## 📱 Responsive Design
 
-- Chrome/Edge (latest)
-- Firefox (latest)
-- Safari (latest)
-- Mobile browsers
+- Desktop: Full layout with all features
+- Tablet: Optimized grid layouts
+- Mobile: Single column, touch-friendly
 
-## Development Tips
+## 🔮 Future Enhancements
 
-### Mock Data
+- [ ] Live circuit map with car positions
+- [ ] Real-time race commentary
+- [ ] Historical race comparison
+- [ ] Driver performance trends
+- [ ] Team strategy analysis
+- [ ] Push notifications for race events
 
-The app includes comprehensive mock data generators in `src/services/api.ts`. This allows you to:
-- Develop the frontend independently
-- Test UI without backend
-- Demo the application
-
-### Live Mode Toggle
-
-Use the "Go Live" button to enable/disable real-time data fetching. When live mode is off, queries are paused.
-
-### Customization
-
-- **Colors**: Edit CSS custom properties in `src/index.css`
-- **Refresh Rates**: Adjust `refetchInterval` in hooks
-- **Components**: All components are modular and can be used independently
-
-## License
+## 📄 License
 
 MIT
