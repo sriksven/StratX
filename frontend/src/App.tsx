@@ -6,6 +6,8 @@ import DriversPage from './pages/DriversPage';
 import TeamsPage from './pages/TeamsPage';
 import SchedulePage from './pages/SchedulePage';
 import ResultsPage from './pages/ResultsPage';
+import NewsPage from './pages/NewsPage';
+import CircuitsPage from './pages/CircuitsPage';
 import Header from './components/Header';
 import './App.css';
 
@@ -30,6 +32,8 @@ function App() {
             <Route path="/race/:raceId" element={<RaceDetailPage />} />
             <Route path="/drivers" element={<DriversPage />} />
             <Route path="/teams" element={<TeamsPage />} />
+            <Route path="/circuits" element={<CircuitsPage />} />
+            <Route path="/news" element={<NewsPage />} />
             <Route path="/schedule/:year" element={<SchedulePage />} />
             <Route path="/schedule/archive" element={<SchedulePage />} />
             <Route path="/results/:year" element={<ResultsPage />} />

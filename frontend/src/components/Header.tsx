@@ -112,6 +112,8 @@ export default function Header() {
 
                     <Link to="/drivers" className="nav-link">DRIVERS</Link>
                     <Link to="/teams" className="nav-link">TEAMS</Link>
+                    <Link to="/circuits" className="nav-link">CIRCUITS</Link>
+                    <Link to="/news" className="nav-link">NEWS</Link>
                 </nav>
             </div>
         </header>
