@@ -28,7 +28,7 @@
     max-width: 1440px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
 }
 
@@ -104,6 +104,18 @@
     color: #999;
     font-weight: 500;
     letter-spacing: 0.5px;
+}
+
+@media (max-width: 1200px) {
+    .drivers-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .drivers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {

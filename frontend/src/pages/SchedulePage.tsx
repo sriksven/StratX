@@ -1,4 +1,4 @@
-import { Calendar, MapPin } from 'lucide-react';
+import { Calendar, MapPin, Clock } from 'lucide-react';
 import './SchedulePage.css';
 
 interface RaceEvent {
@@ -18,7 +18,7 @@ const races2026: RaceEvent[] = [
         location: 'Melbourne',
         circuit: 'Albert Park Circuit',
         raceName: 'Australian Grand Prix',
-        date: 'March 15, 2026'
+        date: '2026-03-15'
     },
     {
         round: 2,
@@ -26,7 +26,7 @@ const races2026: RaceEvent[] = [
         location: 'Shanghai',
         circuit: 'Shanghai International Circuit',
         raceName: 'Chinese Grand Prix',
-        date: 'March 22, 2026'
+        date: '2026-03-22'
     },
     {
         round: 3,
@@ -34,7 +34,7 @@ const races2026: RaceEvent[] = [
         location: 'Suzuka',
         circuit: 'Suzuka Circuit',
         raceName: 'Japanese Grand Prix',
-        date: 'April 5, 2026'
+        date: '2026-04-05'
     },
     {
         round: 4,
@@ -42,7 +42,7 @@ const races2026: RaceEvent[] = [
         location: 'Sakhir',
         circuit: 'Bahrain International Circuit',
         raceName: 'Bahrain Grand Prix',
-        date: 'April 12, 2026'
+        date: '2026-04-12'
     },
     {
         round: 5,
@@ -50,7 +50,7 @@ const races2026: RaceEvent[] = [
         location: 'Jeddah',
         circuit: 'Jeddah Corniche Circuit',
         raceName: 'Saudi Arabian Grand Prix',
-        date: 'April 19, 2026'
+        date: '2026-04-19'
     },
     {
         round: 6,
@@ -58,7 +58,7 @@ const races2026: RaceEvent[] = [
         location: 'Imola',
         circuit: 'Autodromo Enzo e Dino Ferrari',
         raceName: 'Emilia Romagna Grand Prix',
-        date: 'May 3, 2026'
+        date: '2026-05-03'
     },
     {
         round: 7,
@@ -66,7 +66,7 @@ const races2026: RaceEvent[] = [
         location: 'Monte Carlo',
         circuit: 'Circuit de Monaco',
         raceName: 'Monaco Grand Prix',
-        date: 'May 24, 2026'
+        date: '2026-05-24'
     },
     {
         round: 8,
@@ -74,7 +74,7 @@ const races2026: RaceEvent[] = [
         location: 'Barcelona',
         circuit: 'Circuit de Barcelona-Catalunya',
         raceName: 'Spanish Grand Prix',
-        date: 'May 31, 2026'
+        date: '2026-05-31'
     },
     {
         round: 9,
@@ -82,7 +82,7 @@ const races2026: RaceEvent[] = [
         location: 'Montreal',
         circuit: 'Circuit Gilles Villeneuve',
         raceName: 'Canadian Grand Prix',
-        date: 'June 14, 2026'
+        date: '2026-06-14'
     },
     {
         round: 10,
@@ -90,7 +90,7 @@ const races2026: RaceEvent[] = [
         location: 'Spielberg',
         circuit: 'Red Bull Ring',
         raceName: 'Austrian Grand Prix',
-        date: 'June 28, 2026'
+        date: '2026-06-28'
     },
     {
         round: 11,
@@ -98,7 +98,7 @@ const races2026: RaceEvent[] = [
         location: 'Silverstone',
         circuit: 'Silverstone Circuit',
         raceName: 'British Grand Prix',
-        date: 'July 5, 2026'
+        date: '2026-07-05'
     },
     {
         round: 12,
@@ -106,7 +106,7 @@ const races2026: RaceEvent[] = [
         location: 'Spa-Francorchamps',
         circuit: 'Circuit de Spa-Francorchamps',
         raceName: 'Belgian Grand Prix',
-        date: 'July 26, 2026'
+        date: '2026-07-26'
     },
     {
         round: 13,
@@ -114,7 +114,7 @@ const races2026: RaceEvent[] = [
         location: 'Budapest',
         circuit: 'Hungaroring',
         raceName: 'Hungarian Grand Prix',
-        date: 'August 2, 2026'
+        date: '2026-08-02'
     },
     {
         round: 14,
@@ -122,7 +122,7 @@ const races2026: RaceEvent[] = [
         location: 'Zandvoort',
         circuit: 'Circuit Zandvoort',
         raceName: 'Dutch Grand Prix',
-        date: 'August 30, 2026'
+        date: '2026-08-30'
     },
     {
         round: 15,
@@ -130,7 +130,7 @@ const races2026: RaceEvent[] = [
         location: 'Monza',
         circuit: 'Autodromo Nazionale di Monza',
         raceName: 'Italian Grand Prix',
-        date: 'September 6, 2026'
+        date: '2026-09-06'
     },
     {
         round: 16,
@@ -138,7 +138,7 @@ const races2026: RaceEvent[] = [
         location: 'Baku',
         circuit: 'Baku City Circuit',
         raceName: 'Azerbaijan Grand Prix',
-        date: 'September 20, 2026'
+        date: '2026-09-20'
     },
     {
         round: 17,
@@ -146,7 +146,7 @@ const races2026: RaceEvent[] = [
         location: 'Marina Bay',
         circuit: 'Marina Bay Street Circuit',
         raceName: 'Singapore Grand Prix',
-        date: 'October 4, 2026'
+        date: '2026-10-04'
     },
     {
         round: 18,
@@ -154,7 +154,7 @@ const races2026: RaceEvent[] = [
         location: 'Austin',
         circuit: 'Circuit of the Americas',
         raceName: 'United States Grand Prix',
-        date: 'October 18, 2026'
+        date: '2026-10-18'
     },
     {
         round: 19,
@@ -162,7 +162,7 @@ const races2026: RaceEvent[] = [
         location: 'Mexico City',
         circuit: 'Autódromo Hermanos Rodríguez',
         raceName: 'Mexico City Grand Prix',
-        date: 'October 25, 2026'
+        date: '2026-10-25'
     },
     {
         round: 20,
@@ -170,7 +170,7 @@ const races2026: RaceEvent[] = [
         location: 'São Paulo',
         circuit: 'Autódromo José Carlos Pace',
         raceName: 'São Paulo Grand Prix',
-        date: 'November 8, 2026'
+        date: '2026-11-08'
     },
     {
         round: 21,
@@ -178,7 +178,7 @@ const races2026: RaceEvent[] = [
         location: 'Las Vegas',
         circuit: 'Las Vegas Street Circuit',
         raceName: 'Las Vegas Grand Prix',
-        date: 'November 21, 2026'
+        date: '2026-11-21'
     },
     {
         round: 22,
@@ -186,7 +186,7 @@ const races2026: RaceEvent[] = [
         location: 'Lusail',
         circuit: 'Lusail International Circuit',
         raceName: 'Qatar Grand Prix',
-        date: 'November 29, 2026'
+        date: '2026-11-29'
     },
     {
         round: 23,
@@ -194,11 +194,37 @@ const races2026: RaceEvent[] = [
         location: 'Abu Dhabi',
         circuit: 'Yas Marina Circuit',
         raceName: 'Abu Dhabi Grand Prix',
-        date: 'December 6, 2026'
+        date: '2026-12-06'
     }
 ];
 
+function getNextRace(races: RaceEvent[]): RaceEvent {
+    const now = new Date();
+    const upcomingRace = races.find(race => new Date(race.date) > now);
+    return upcomingRace || races[races.length - 1]; // Return last race if season is over
+}
+
+function formatDateLong(dateString: string): string {
+    const date = new Date(dateString);
+    return date.toLocaleDateString('en-US', {
+        month: 'long',
+        day: 'numeric',
+        year: 'numeric'
+    });
+}
+
+function getDaysUntilRace(dateString: string): number {
+    const now = new Date();
+    const raceDate = new Date(dateString);
+    const diffTime = raceDate.getTime() - now.getTime();
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    return diffDays;
+}
+
 export default function SchedulePage() {
+    const nextRace = getNextRace(races2026);
+    const daysUntil = getDaysUntilRace(nextRace.date);
+
     return (
         <div className="schedule-page">
             <div className="page-header">
@@ -206,34 +232,67 @@ export default function SchedulePage() {
                 <p className="page-subtitle">{races2026.length} races in the 2026 Formula 1 World Championship</p>
             </div>
 
-            <div className="schedule-list">
-                {races2026.map((race) => (
-                    <div
-                        key={race.round}
-                        className="schedule-item upcoming"
-                    >
-                        <div className="race-round">
-                            <div className="round-number">ROUND {race.round}</div>
-                            <div className="upcoming-badge">2026</div>
+            {/* Featured Next Race */}
+            <div className="next-race-hero">
+                <div className="hero-label">NEXT RACE</div>
+                <h2 className="hero-race-name">{nextRace.raceName}</h2>
+                <div className="hero-details">
+                    <div className="hero-detail-item">
+                        <MapPin size={20} />
+                        <span>{nextRace.circuit}</span>
+                    </div>
+                    <div className="hero-detail-item">
+                        <MapPin size={20} />
+                        <span>{nextRace.location}, {nextRace.country}</span>
+                    </div>
+                    <div className="hero-detail-item">
+                        <Calendar size={20} />
+                        <span>{formatDateLong(nextRace.date)}</span>
+                    </div>
+                    {daysUntil > 0 && (
+                        <div className="hero-detail-item countdown">
+                            <Clock size={20} />
+                            <span>{daysUntil} days until race</span>
                         </div>
+                    )}
+                </div>
+                <div className="hero-round">ROUND {nextRace.round}</div>
+            </div>
 
-                        <div className="race-info">
-                            <h3 className="race-name">{race.raceName}</h3>
-                            <div className="race-meta">
-                                <div className="meta-item">
-                                    <MapPin size={16} />
-                                    <span>{race.circuit}, {race.location}</span>
-                                </div>
-                                <div className="meta-item">
-                                    <Calendar size={16} />
-                                    <span>{race.date}</span>
+            {/* Full Schedule Grid */}
+            <div className="schedule-section-title">FULL 2026 CALENDAR</div>
+            <div className="schedule-grid">
+                {races2026.map((race) => {
+                    const isPast = new Date(race.date) < new Date();
+                    const isNext = race.round === nextRace.round;
+
+                    return (
+                        <div
+                            key={race.round}
+                            className={`race-card ${isPast ? 'past' : ''} ${isNext ? 'next' : ''}`}
+                        >
+                            <div className="race-round-badge">
+                                <div className="round-label">ROUND {race.round}</div>
+                                {isNext && <div className="next-badge">NEXT</div>}
+                                {!isNext && <div className="year-badge">2026</div>}
+                            </div>
+
+                            <div className="race-details">
+                                <h3 className="race-title">{race.raceName}</h3>
+                                <div className="race-meta">
+                                    <div className="meta-row">
+                                        <MapPin size={14} />
+                                        <span>{race.circuit}, {race.location}</span>
+                                    </div>
+                                    <div className="meta-row">
+                                        <Calendar size={14} />
+                                        <span>{formatDateLong(race.date)}</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="race-arrow">→</div>
-                    </div>
-                ))}
+                    );
+                })}
             </div>
         </div>
     );
