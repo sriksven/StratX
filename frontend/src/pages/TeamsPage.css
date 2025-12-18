@@ -1,0 +1,125 @@
+.teams-page {
+    min-height: calc(100vh - 70px);
+    background: #15151e;
+    padding: 4rem 2rem;
+}
+
+.teams-grid {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.team-card {
+    background: #1e1e28;
+    border: 1px solid #38383f;
+    border-top: 4px solid;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    border-color: #e10600;
+}
+
+.team-header {
+    padding: 2rem;
+    position: relative;
+}
+
+.team-color-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+}
+
+.team-name {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.05em;
+}
+
+.team-full-name {
+    font-size: 0.875rem;
+    color: #999;
+    font-weight: 500;
+}
+
+.team-details {
+    padding: 0 2rem 1.5rem;
+    border-bottom: 1px solid #38383f;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #2a2a35;
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-label {
+    font-size: 0.875rem;
+    color: #999;
+    font-weight: 500;
+}
+
+.detail-value {
+    font-size: 0.875rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: right;
+}
+
+.team-drivers {
+    padding: 1.5rem 2rem;
+}
+
+.drivers-label {
+    font-size: 0.75rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.driver-name {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    font-size: 0.875rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.driver-bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .teams-page {
+        padding: 2rem 1rem;
+    }
+
+    .teams-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}

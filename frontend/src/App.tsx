@@ -2,6 +2,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import HomePage from './pages/HomePage';
 import RaceDetailPage from './pages/RaceDetailPage';
+import DriversPage from './pages/DriversPage';
+import TeamsPage from './pages/TeamsPage';
+import SchedulePage from './pages/SchedulePage';
+import ResultsPage from './pages/ResultsPage';
 import Header from './components/Header';
 import './App.css';
 
@@ -24,15 +28,21 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/race/:raceId" element={<RaceDetailPage />} />
+            <Route path="/drivers" element={<DriversPage />} />
+            <Route path="/teams" element={<TeamsPage />} />
+            <Route path="/schedule/:year" element={<SchedulePage />} />
+            <Route path="/schedule/archive" element={<SchedulePage />} />
+            <Route path="/results/:year" element={<ResultsPage />} />
+            <Route path="/results/:year/drivers" element={<ResultsPage />} />
+            <Route path="/results/:year/teams" element={<ResultsPage />} />
+            <Route path="/results/archive" element={<ResultsPage />} />
           </Routes>
 
           <footer className="footer">
-            <div className="container">
-              <p>
-                Built with FastF1, OpenF1, Kafka, Feast, MLflow & React
-              </p>
+            <div className="footer-container">
+              <p>&copy; 2025 StratX | F1 Analytics Platform</p>
               <p className="footer-tech">
-                Deployed on Vercel | Open Source on GitHub
+                Powered by OpenF1 API & FastF1
               </p>
             </div>
           </footer>

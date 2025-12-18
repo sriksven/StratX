@@ -1,0 +1,125 @@
+.schedule-page {
+    min-height: calc(100vh - 70px);
+    background: #15151e;
+    padding: 4rem 2rem;
+}
+
+.schedule-list {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.schedule-item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background: #1e1e28;
+    border: 1px solid #38383f;
+    border-left: 4px solid #e10600;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.schedule-item:hover {
+    transform: translateX(8px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    border-left-color: #fff;
+}
+
+.schedule-item.past {
+    opacity: 0.6;
+    border-left-color: #666;
+}
+
+.race-round {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 100px;
+}
+
+.round-number {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #999;
+    letter-spacing: 1px;
+}
+
+.upcoming-badge {
+    padding: 0.25rem 0.75rem;
+    background: #e10600;
+    color: #fff;
+    font-size: 0.625rem;
+    font-weight: 700;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+
+.race-info {
+    flex: 1;
+}
+
+.race-name {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.05em;
+}
+
+.race-meta {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #999;
+    font-size: 0.875rem;
+}
+
+.race-arrow {
+    font-size: 2rem;
+    color: #666;
+    transition: all 0.3s ease;
+}
+
+.schedule-item:hover .race-arrow {
+    color: #e10600;
+    transform: translateX(8px);
+}
+
+@media (max-width: 768px) {
+    .schedule-page {
+        padding: 2rem 1rem;
+    }
+
+    .schedule-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+
+    .race-round {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .race-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .race-arrow {
+        display: none;
+    }
+}
