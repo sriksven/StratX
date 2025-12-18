@@ -18,7 +18,7 @@ export default function DriverComparison({ isLive }: DriverComparisonProps) {
         <div className="driver-comparison glass-card">
             <div className="comparison-header">
                 <Trophy className="comparison-icon" />
-                <h3 className="comparison-title">Live Standings</h3>
+                <h3 className="comparison-title">{isLive ? 'Live Standings' : 'Race Standings'}</h3>
             </div>
 
             <div className="drivers-table">
