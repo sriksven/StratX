@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Calendar, MapPin, Clock } from 'lucide-react';
+import { Calendar, MapPin, Clock, ChevronDown, ChevronUp } from 'lucide-react';
+import { useState } from 'react';
 import './HomePage.css';
 
 interface RaceEvent {
@@ -37,6 +38,47 @@ const races2026: RaceEvent[] = [
     { round: 23, country: 'UAE', location: 'Abu Dhabi', circuit: 'Yas Marina Circuit', raceName: 'Abu Dhabi Grand Prix', date: '2026-12-06' }
 ];
 
+const featureDetails = {
+    regulations: {
+        title: 'New Regulations',
+        icon: '🏛️',
+        subtitle: 'Revolutionary technical changes',
+        details: [
+            'Smaller, lighter cars - 30kg weight reduction to 768kg',
+            'Reduced dimensions: 200mm shorter wheelbase, 100mm narrower cars',
+            'Active aerodynamics with movable front and rear wings',
+            'Simplified front wing design for better racing',
+            'Mandatory sustainable materials in chassis construction'
+        ]
+    },
+    power: {
+        title: 'Sustainable Power',
+        icon: '⚡',
+        subtitle: '100% sustainable fuels',
+        details: [
+            '100% sustainable fuels - fully carbon-neutral',
+            'Increased electrical power: 350kW (up from 120kW)',
+            'Power unit split: 50% combustion, 50% electrical',
+            'Removal of MGU-H for cost reduction',
+            'Enhanced energy recovery systems',
+            'Target: 1000+ horsepower with zero carbon footprint'
+        ]
+    },
+    aero: {
+        title: 'Advanced Aerodynamics',
+        icon: '🔧',
+        subtitle: 'Next-generation car design',
+        details: [
+            'Active aerodynamics - adjustable wings for overtaking',
+            'Reduced downforce for closer racing',
+            'Improved ground effect with stricter regulations',
+            'Simplified bodywork to reduce costs',
+            'Better wheel wake management',
+            'Enhanced safety structures and crash testing'
+        ]
+    }
+};
+
 function getNextRace(races: RaceEvent[]): RaceEvent {
     const now = new Date();
     const upcomingRace = races.find(race => new Date(race.date) > now);
@@ -59,6 +101,11 @@ function getDaysUntilRace(dateString: string): number {
 export default function HomePage() {
     const nextRace = getNextRace(races2026);
     const daysUntil = getDaysUntilRace(nextRace.date);
+    const [expandedCard, setExpandedCard] = useState<string | null>(null);
+
+    const toggleCard = (cardId: string) => {
+        setExpandedCard(expandedCard === cardId ? null : cardId);
+    };
 
     return (
         <div className="homepage-2026">
@@ -93,20 +140,73 @@ export default function HomePage() {
                 </Link>
 
                 <div className="feature-grid">
-                    <div className="feature-item">
-                        <div className="feature-icon">�️</div>
-                        <h3>New Regulations</h3>
-                        <p>Revolutionary technical changes</p>
+                    <div
+                        className={`feature-item ${expandedCard === 'regulations' ? 'expanded' : ''}`}
+                        onClick={() => toggleCard('regulations')}
+                    >
+                        <div className="feature-icon">{featureDetails.regulations.icon}</div>
+                        <h3>{featureDetails.regulations.title}</h3>
+                        <p>{featureDetails.regulations.subtitle}</p>
+                        {expandedCard === 'regulations' ? (
+                            <ChevronUp className="expand-icon" size={20} />
+                        ) : (
+                            <ChevronDown className="expand-icon" size={20} />
+                        )}
+                        {expandedCard === 'regulations' && (
+                            <div className="feature-details">
+                                <ul>
+                                    {featureDetails.regulations.details.map((detail, idx) => (
+                                        <li key={idx}>{detail}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
                     </div>
-                    <div className="feature-item">
-                        <div className="feature-icon">⚡</div>
-                        <h3>Sustainable Power</h3>
-                        <p>100% sustainable fuels</p>
+
+                    <div
+                        className={`feature-item ${expandedCard === 'power' ? 'expanded' : ''}`}
+                        onClick={() => toggleCard('power')}
+                    >
+                        <div className="feature-icon">{featureDetails.power.icon}</div>
+                        <h3>{featureDetails.power.title}</h3>
+                        <p>{featureDetails.power.subtitle}</p>
+                        {expandedCard === 'power' ? (
+                            <ChevronUp className="expand-icon" size={20} />
+                        ) : (
+                            <ChevronDown className="expand-icon" size={20} />
+                        )}
+                        {expandedCard === 'power' && (
+                            <div className="feature-details">
+                                <ul>
+                                    {featureDetails.power.details.map((detail, idx) => (
+                                        <li key={idx}>{detail}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
                     </div>
-                    <div className="feature-item">
-                        <div className="feature-icon">🔧</div>
-                        <h3>Advanced Aerodynamics</h3>
-                        <p>Next-generation car design</p>
+
+                    <div
+                        className={`feature-item ${expandedCard === 'aero' ? 'expanded' : ''}`}
+                        onClick={() => toggleCard('aero')}
+                    >
+                        <div className="feature-icon">{featureDetails.aero.icon}</div>
+                        <h3>{featureDetails.aero.title}</h3>
+                        <p>{featureDetails.aero.subtitle}</p>
+                        {expandedCard === 'aero' ? (
+                            <ChevronUp className="expand-icon" size={20} />
+                        ) : (
+                            <ChevronDown className="expand-icon" size={20} />
+                        )}
+                        {expandedCard === 'aero' && (
+                            <div className="feature-details">
+                                <ul>
+                                    {featureDetails.aero.details.map((detail, idx) => (
+                                        <li key={idx}>{detail}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
                     </div>
                 </div>
 
