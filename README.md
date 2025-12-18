@@ -159,6 +159,44 @@ python src/models/lap_time/train.py
 
 ---
 
+## Deployment
+
+### GitHub Pages
+
+This project is configured to automatically deploy to GitHub Pages on every push to the `main` branch.
+
+#### **Setup GitHub Pages (One-time)**
+
+1. Go to your repository on GitHub
+2. Navigate to **Settings** → **Pages**
+3. Under **Source**, select **GitHub Actions**
+4. The workflow will automatically deploy on the next push
+
+#### **Access Your Deployed Site**
+
+After the workflow completes, your site will be available at:
+```
+https://[your-username].github.io/StratX/
+```
+
+#### **Manual Deployment**
+
+You can also trigger a deployment manually:
+1. Go to the **Actions** tab in your GitHub repository
+2. Select the **Deploy to GitHub Pages** workflow
+3. Click **Run workflow**
+
+#### **Local Build Test**
+
+To test the production build locally before deploying:
+```bash
+cd frontend
+npm run build
+npm run preview
+```
+
+---
+
 ## License
 
 MIT License.

@@ -80,73 +80,66 @@ vercel --prod
 
 ## Option 2: Deploy to GitHub Pages
 
-GitHub Pages is free and works well for static sites, but requires a bit more setup.
+GitHub Pages is free and works well for static sites. This project is now configured with **automated deployment via GitHub Actions**.
 
-### Step 1: Update Vite Configuration
-
-Edit `frontend/vite.config.ts`:
-
-```typescript
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-export default defineConfig({
-  plugins: [react()],
-  base: '/StratX/', // Replace with your repository name
-})
-```
-
-### Step 2: Install gh-pages
-
-```bash
-cd frontend
-npm install --save-dev gh-pages
-```
-
-### Step 3: Add Deploy Scripts
-
-Edit `frontend/package.json` and add these scripts:
-
-```json
-{
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  }
-}
-```
-
-### Step 4: Deploy
-
-```bash
-npm run deploy
-```
-
-This will:
-1. Build your app
-2. Create a `gh-pages` branch
-3. Push the build to that branch
-
-### Step 5: Enable GitHub Pages
+### Step 1: Enable GitHub Pages
 
 1. Go to your repository on GitHub
 2. Click **"Settings"** → **"Pages"**
-3. Under "Source", select:
-   - Branch: `gh-pages`
-   - Folder: `/ (root)`
+3. Under **"Build and deployment"** → **"Source"**, select **"GitHub Actions"**
 4. Click **"Save"**
 
-Your site will be live at `https://yourusername.github.io/StratX/` in a few minutes!
+### Step 2: Push to Main Branch
+
+The deployment workflow is already configured! Simply push to `main`:
+
+```bash
+git add .
+git commit -m "Deploy to GitHub Pages"
+git push origin main
+```
+
+### Step 3: Monitor Deployment
+
+1. Go to the **"Actions"** tab in your repository
+2. Watch the **"Deploy to GitHub Pages"** workflow run
+3. Once complete (green checkmark), your site is live!
+
+Your site will be available at: `https://yourusername.github.io/StratX/`
+
+### Manual Deployment Trigger
+
+You can also manually trigger a deployment:
+
+1. Go to **"Actions"** tab
+2. Select **"Deploy to GitHub Pages"** workflow
+3. Click **"Run workflow"**
+4. Select the branch (usually `main`)
+5. Click **"Run workflow"**
+
+### How It Works
+
+The automated workflow (`.github/workflows/deploy.yml`):
+1. Triggers on every push to `main` branch
+2. Builds the frontend using Node.js 20
+3. Runs `npm ci` and `npm run build`
+4. Uploads the `dist` folder as an artifact
+5. Deploys to GitHub Pages
+
+### Configuration Files
+
+- **`.github/workflows/deploy.yml`**: GitHub Actions workflow
+- **`frontend/vite.config.ts`**: Vite config with base path `/StratX/`
+- **`frontend/public/.nojekyll`**: Prevents Jekyll processing
 
 ### Updating Your Deployment
 
-To update your GitHub Pages site:
+Simply push changes to `main` - the workflow handles everything automatically!
 
 ```bash
-npm run deploy
+git add .
+git commit -m "Update site"
+git push origin main
 ```
 
 ---
@@ -239,44 +232,15 @@ To deploy from a different branch:
 
 ### GitHub Pages
 
-Set up GitHub Actions for automatic deployment:
+**Already configured!** The workflow at `.github/workflows/deploy.yml` automatically deploys on every push to `main`.
 
-Create `.github/workflows/deploy.yml`:
+The workflow:
+- Builds the frontend with Node.js 20
+- Uses `npm ci` for reliable installs
+- Deploys the `dist` folder to GitHub Pages
+- Prevents concurrent deployments to avoid conflicts
 
-```yaml
-name: Deploy to GitHub Pages
-
-on:
-  push:
-    branches: [ main ]
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-          
-      - name: Install dependencies
-        run: |
-          cd frontend
-          npm ci
-          
-      - name: Build
-        run: |
-          cd frontend
-          npm run build
-          
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./frontend/dist
-```
+No additional setup needed - just enable GitHub Pages in your repository settings and select "GitHub Actions" as the source.
 
 ---
 
