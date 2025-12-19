@@ -4,25 +4,44 @@
 
 StratX is an **end-to-end, fully open-source, real-time Formula 1 race strategy platform** that transforms live telemetry into actionable race insights using **streaming pipelines**, **feature stores**, **machine learning models**, and an interactive **race strategy dashboard**.
 
-Built with **FastF1**, **OpenF1**, **Kafka**, **Flink/Faust**, **Feast**, **MLflow**, **Seldon**, **Prometheus**, and **Grafana**.
+Built with **FastF1**, **OpenF1**, **Ergast API**, **Kafka**, **Flink/Faust**, **Feast**, **MLflow**, **Seldon**, **Prometheus**, and **Grafana**.
 
 ---
 
 ## Features
 
-### Real-Time Streaming
+### 📊 Historical F1 Data (1950-2024)
+- **Complete Archive**: Access 75 years of Formula 1 history via Ergast API
+- **Season Overview**: Champions, race results, and standings for every season
+- **Interactive Archive Grid**: Browse all seasons from 1950-2024
+- **Historical Analysis**:
+  - Season-long performance trends
+  - Circuit-specific statistics
+  - Head-to-head driver comparisons
+  - Qualifying vs race pace analysis
+  - Tyre degradation patterns
+  - Pit stop efficiency
+
+### 🏎️ 2025 Season Features
+- **Live Season Tracking**: Real-time championship standings
+- **Championship Progression Chart**: Interactive visualization of points accumulation
+- **Race Results**: Detailed results for all 24 races
+- **Podium Visualization**: Stunning race winner displays
+- **Driver & Team Standings**: Complete championship tables
+
+### 🔴 Real-Time Streaming
 - Ingest live telemetry from **OpenF1 API**
 - Replay historical sessions using **FastF1**
 - Stream raw data → Kafka topics in real time
 
-### Real-Time Feature Engineering
+### ⚙️ Real-Time Feature Engineering
 - Rolling lap features  
 - Stint metrics  
 - Pace deltas  
 - Driver aggression metrics  
 - Gap computations  
 
-### 5 ML Prediction Models
+### 🤖 5 ML Prediction Models
 StratX includes **five independent models**, trained offline and served in real-time:
 
 | Model | Description |
@@ -33,15 +52,16 @@ StratX includes **five independent models**, trained offline and served in real-
 | **Overtake Probability** | Predicts overtaking chances in 1–3 laps |
 | **Anomaly Detection** | Detects mechanical/driver irregularities |
 
-### Live Strategy Dashboard
-Interactive UI (Streamlit / React):
+### 📱 Live Strategy Dashboard
+Interactive UI (React + TypeScript):
 - Telemetry gauges (speed, throttle, RPM)
 - Live ML model predictions
 - Wear curves & pace falloff charts
 - Traffic gaps visualization
 - Alerts for tyre cliff, anomalies, pit window
+- Historical data exploration
 
-### MLOps & Observability
+### 🛠️ MLOps & Observability
 - MLflow for experiment tracking & model registry  
 - Feast for feature store (online/offline)  
 - Seldon/FastAPI for live inference  
