@@ -1,9 +1,12 @@
+import { useState, useMemo } from 'react';
 import './CircuitsPage.css';
 
 interface Circuit {
     name: string;
     country: string;
 }
+
+type SortOption = 'name' | 'country';
 
 const allF1Circuits: Circuit[] = [
     { name: 'Adelaide Street Circuit', country: 'Australia' },
@@ -54,18 +57,46 @@ const allF1Circuits: Circuit[] = [
     { name: 'Watkins Glen', country: 'United States' },
     { name: 'Yas Marina Circuit', country: 'United Arab Emirates' },
     { name: 'Zolder Circuit', country: 'Belgium' },
-].sort((a, b) => a.name.localeCompare(b.name));
+];
 
 export default function CircuitsPage() {
+    const [sortBy, setSortBy] = useState<SortOption>('name');
+
+    const sortedCircuits = useMemo(() => {
+        return [...allF1Circuits].sort((a, b) => {
+            if (sortBy === 'name') {
+                return a.name.localeCompare(b.name);
+            } else {
+                // Sort by country, then by name within the same country
+                const countryCompare = a.country.localeCompare(b.country);
+                if (countryCompare !== 0) return countryCompare;
+                return a.name.localeCompare(b.name);
+            }
+        });
+    }, [sortBy]);
+
     return (
         <div className="circuits-page">
             <div className="page-header">
                 <h1>F1 CIRCUITS</h1>
                 <p className="page-subtitle">All Formula 1 circuits throughout history</p>
+                
+                <div className="sort-controls">
+                    <label htmlFor="sort-select">Sort by:</label>
+                    <select 
+                        id="sort-select"
+                        value={sortBy} 
+                        onChange={(e) => setSortBy(e.target.value as SortOption)}
+                        className="sort-select"
+                    >
+                        <option value="name">Circuit Name</option>
+                        <option value="country">Country</option>
+                    </select>
+                </div>
             </div>
 
             <div className="circuits-grid">
-                {allF1Circuits.map((circuit, index) => (
+                {sortedCircuits.map((circuit, index) => (
                     <div key={index} className="circuit-card">
                         <div className="circuit-name">{circuit.name}</div>
                         <div className="circuit-country">{circuit.country}</div>

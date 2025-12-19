@@ -24,32 +24,223 @@
     font-weight: 500;
 }
 
-.coming-soon-block {
-    max-width: 600px;
-    margin: 4rem auto;
-    padding: 4rem 2rem;
-    background: #1e1e28;
-    border: 2px solid #38383f;
-    border-radius: 12px;
-    text-align: center;
+/* Champions Section */
+.champions-section {
+    max-width: 1440px;
+    margin: 0 auto 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 }
 
-.coming-soon-icon {
+.champion-card {
+    background: linear-gradient(135deg, #1e1e28 0%, #252530 100%);
+    border: 2px solid #e10600;
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.champion-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #ffd700 0%, #ffed4e 100%);
+}
+
+.champion-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 48px rgba(225, 6, 0, 0.4);
+}
+
+.champion-icon {
     font-size: 4rem;
+    margin-bottom: 1rem;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.champion-card h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
     margin-bottom: 1.5rem;
 }
 
-.coming-soon-block h2 {
-    font-size: 2rem;
+.champion-name {
+    font-size: 2.5rem;
     font-weight: 900;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.05em;
+}
+
+.champion-team {
+    font-size: 1.125rem;
     color: #e10600;
-    letter-spacing: 0.2em;
+    font-weight: 600;
     margin-bottom: 1rem;
 }
 
-.coming-soon-block p {
-    font-size: 1.125rem;
+.champion-points {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #ffd700;
+    margin-bottom: 1rem;
+}
+
+.champion-note {
+    font-size: 0.9375rem;
     color: #999;
+    font-style: italic;
+}
+
+/* Standings Navigation */
+.standings-navigation {
+    max-width: 1440px;
+    margin: 0 auto 4rem;
+}
+
+.standings-navigation h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 0.05em;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.nav-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.nav-card {
+    background: #1e1e28;
+    border: 1px solid #38383f;
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(225, 6, 0, 0.3);
+    border-color: #e10600;
+}
+
+.nav-card-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.nav-card h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.05em;
+}
+
+.nav-card p {
+    font-size: 0.9375rem;
+    color: #999;
+    margin-bottom: 1.5rem;
+}
+
+.nav-card-arrow {
+    font-size: 2rem;
+    color: #e10600;
+    font-weight: 900;
+    transition: transform 0.3s ease;
+}
+
+.nav-card:hover .nav-card-arrow {
+    transform: translateX(8px);
+}
+
+/* Season Stats */
+.season-stats {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.season-stats h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 0.05em;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.stat-card {
+    background: #1e1e28;
+    border: 1px solid #38383f;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(225, 6, 0, 0.3);
+    border-color: #e10600;
+}
+
+.stat-value {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #e10600;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
@@ -59,5 +250,24 @@
 
     .coming-soon-block {
         padding: 3rem 1.5rem;
+    }
+
+    .champions-section,
+    .nav-cards {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .champion-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .champion-name {
+        font-size: 2rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
 }
