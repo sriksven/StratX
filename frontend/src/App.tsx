@@ -10,6 +10,7 @@ import DriverStandingsPage from './pages/DriverStandingsPage';
 import TeamStandingsPage from './pages/TeamStandingsPage';
 import RaceResultsListPage from './pages/RaceResultsListPage';
 import IndividualRaceResultPage from './pages/IndividualRaceResultPage';
+import ArchivePage from './pages/ArchivePage';
 import NewsPage from './pages/NewsPage';
 import CircuitsPage from './pages/CircuitsPage';
 import Header from './components/Header';
@@ -45,7 +46,7 @@ function App() {
             <Route path="/results/:year/teams" element={<TeamStandingsPage />} />
             <Route path="/results/:year/races" element={<RaceResultsListPage />} />
             <Route path="/results/:year/race/:raceId" element={<IndividualRaceResultPage />} />
-            <Route path="/results/archive" element={<ResultsPage />} />
+            <Route path="/results/archive" element={<ArchivePage />} />
           </Routes>
 
           <footer className="footer">
