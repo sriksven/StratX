@@ -96,6 +96,19 @@ export default function ResultsPage() {
                                     color: '#fff'
                                 }}
                                 labelFormatter={(value) => `Race ${value}`}
+                                formatter={(value: any, name: string | undefined) => {
+                                    if (!name) return [value, ''];
+                                    const names: { [key: string]: string } = {
+                                        norris: 'Lando Norris',
+                                        verstappen: 'Max Verstappen',
+                                        piastri: 'Oscar Piastri',
+                                        russell: 'George Russell',
+                                        leclerc: 'Charles Leclerc',
+                                        hamilton: 'Lewis Hamilton'
+                                    };
+                                    return [value, names[name] || name];
+                                }}
+                                itemSorter={(item: any) => -item.value}
                             />
                             <Legend
                                 wrapperStyle={{ paddingTop: '20px' }}
@@ -111,37 +124,14 @@ export default function ResultsPage() {
                                     return names[value] || value;
                                 }}
                             />
+                            {/* Render lines in reverse order so highest points appear on top */}
                             <Line
                                 type="monotone"
-                                dataKey="norris"
-                                stroke={driverColors.norris}
-                                strokeWidth={3}
-                                dot={{ fill: driverColors.norris, r: 4 }}
-                                activeDot={{ r: 6 }}
-                            />
-                            <Line
-                                type="monotone"
-                                dataKey="verstappen"
-                                stroke={driverColors.verstappen}
-                                strokeWidth={3}
-                                dot={{ fill: driverColors.verstappen, r: 4 }}
-                                activeDot={{ r: 6 }}
-                            />
-                            <Line
-                                type="monotone"
-                                dataKey="piastri"
-                                stroke={driverColors.piastri}
+                                dataKey="hamilton"
+                                stroke={driverColors.hamilton}
                                 strokeWidth={2}
                                 strokeDasharray="5 5"
-                                dot={{ fill: driverColors.piastri, r: 3 }}
-                                activeDot={{ r: 5 }}
-                            />
-                            <Line
-                                type="monotone"
-                                dataKey="russell"
-                                stroke={driverColors.russell}
-                                strokeWidth={2}
-                                dot={{ fill: driverColors.russell, r: 3 }}
+                                dot={{ fill: driverColors.hamilton, r: 3 }}
                                 activeDot={{ r: 5 }}
                             />
                             <Line
@@ -154,12 +144,36 @@ export default function ResultsPage() {
                             />
                             <Line
                                 type="monotone"
-                                dataKey="hamilton"
-                                stroke={driverColors.hamilton}
+                                dataKey="russell"
+                                stroke={driverColors.russell}
+                                strokeWidth={2}
+                                dot={{ fill: driverColors.russell, r: 3 }}
+                                activeDot={{ r: 5 }}
+                            />
+                            <Line
+                                type="monotone"
+                                dataKey="piastri"
+                                stroke={driverColors.piastri}
                                 strokeWidth={2}
                                 strokeDasharray="5 5"
-                                dot={{ fill: driverColors.hamilton, r: 3 }}
+                                dot={{ fill: driverColors.piastri, r: 3 }}
                                 activeDot={{ r: 5 }}
+                            />
+                            <Line
+                                type="monotone"
+                                dataKey="verstappen"
+                                stroke={driverColors.verstappen}
+                                strokeWidth={3}
+                                dot={{ fill: driverColors.verstappen, r: 4 }}
+                                activeDot={{ r: 6 }}
+                            />
+                            <Line
+                                type="monotone"
+                                dataKey="norris"
+                                stroke={driverColors.norris}
+                                strokeWidth={3}
+                                dot={{ fill: driverColors.norris, r: 4 }}
+                                activeDot={{ r: 6 }}
                             />
                         </LineChart>
                     </ResponsiveContainer>
@@ -196,20 +210,28 @@ export default function ResultsPage() {
                 <h2>2025 Season Statistics</h2>
                 <div className="stats-grid">
                     <div className="stat-card">
+                        <div className="stat-icon">🏁</div>
                         <div className="stat-value">24</div>
                         <div className="stat-label">Total Races</div>
+                        <div className="stat-desc">Complete season</div>
                     </div>
                     <div className="stat-card">
+                        <div className="stat-icon">🏆</div>
                         <div className="stat-value">9</div>
                         <div className="stat-label">Different Winners</div>
+                        <div className="stat-desc">Competitive field</div>
                     </div>
                     <div className="stat-card">
+                        <div className="stat-icon">🔥</div>
                         <div className="stat-value">14</div>
                         <div className="stat-label">McLaren Wins</div>
+                        <div className="stat-desc">Dominant season</div>
                     </div>
                     <div className="stat-card">
+                        <div className="stat-icon">⚡</div>
                         <div className="stat-value">2</div>
-                        <div className="stat-label">Point Gap (Drivers)</div>
+                        <div className="stat-label">Point Gap</div>
+                        <div className="stat-desc">Closest finish ever</div>
                     </div>
                 </div>
             </div>

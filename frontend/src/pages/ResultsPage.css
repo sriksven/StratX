@@ -147,6 +147,11 @@
     padding: 2rem 1rem;
 }
 
+/* Ensure tooltips appear on top */
+.chart-container .recharts-tooltip-wrapper {
+    z-index: 9999 !important;
+}
+
 /* Standings Navigation */
 .standings-navigation {
     max-width: 1440px;
@@ -240,33 +245,65 @@
 }
 
 .stat-card {
-    background: #1e1e28;
+    background: linear-gradient(135deg, #1e1e28 0%, #252530 100%);
     border: 1px solid #38383f;
     border-radius: 12px;
-    padding: 2rem;
+    padding: 2.5rem 2rem;
     text-align: center;
     transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #e10600 0%, #ff4444 100%);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover::before {
+    transform: scaleX(1);
 }
 
 .stat-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(225, 6, 0, 0.3);
+    transform: translateY(-8px);
+    box-shadow: 0 12px 32px rgba(225, 6, 0, 0.4);
     border-color: #e10600;
 }
 
-.stat-value {
+.stat-icon {
     font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: float 3s ease-in-out infinite;
+}
+
+.stat-value {
+    font-size: 3.5rem;
     font-weight: 900;
     color: #e10600;
     margin-bottom: 0.5rem;
+    line-height: 1;
 }
 
 .stat-label {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+}
+
+.stat-desc {
+    font-size: 0.875rem;
+    color: #999;
+    font-style: italic;
 }
 
 /* Responsive */

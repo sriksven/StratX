@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ChevronDown } from 'lucide-react';
 import { useState, useRef } from 'react';
+import stratxLogo from '../assets/stratx-logo.png';
 import './Header.css';
 
 export default function Header() {
@@ -40,10 +41,7 @@ export default function Header() {
         <header className="header">
             <div className="header-container">
                 <Link to="/" className="f1-logo">
-                    <svg viewBox="0 0 120 30" className="logo-svg">
-                        <path d="M0 0h120v30H0z" fill="#e10600" />
-                        <text x="10" y="22" fill="white" fontSize="20" fontWeight="900" fontFamily="Formula1">F1</text>
-                    </svg>
+                    <img src={stratxLogo} alt="StratX" className="logo-img" />
                 </Link>
 
                 <nav className="main-nav">
