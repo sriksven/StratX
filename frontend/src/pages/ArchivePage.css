@@ -1,0 +1,103 @@
+.archive-page {
+    min-height: calc(100vh - 70px);
+    background: #15151e;
+    padding: 4rem 2rem;
+}
+
+.page-header {
+    max-width: 1440px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+.page-subtitle {
+    font-size: 1.125rem;
+    color: #999;
+    font-weight: 500;
+}
+
+.years-grid {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1.5rem;
+}
+
+.year-card {
+    background: linear-gradient(135deg, #1e1e28 0%, #252530 100%);
+    border: 1px solid #38383f;
+    border-radius: 12px;
+    padding: 2.5rem 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.year-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #e10600 0%, #ff4444 100%);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.year-card:hover::before {
+    transform: scaleX(1);
+}
+
+.year-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 32px rgba(225, 6, 0, 0.4);
+    border-color: #e10600;
+}
+
+.year-number {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.05em;
+}
+
+.year-label {
+    font-size: 0.875rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .archive-page {
+        padding: 2rem 1rem;
+    }
+
+    .years-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 1rem;
+    }
+
+    .year-card {
+        padding: 2rem 1rem;
+    }
+
+    .year-number {
+        font-size: 2rem;
+    }
+}
