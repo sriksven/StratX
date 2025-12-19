@@ -1,5 +1,9 @@
 import './DriversPage.css';
-import lineupImage from '../assets/drivers/2026-lineup.png';
+import norrisImg from '../assets/drivers/norris.png';
+import piastriImg from '../assets/drivers/piastri.png';
+import leclercImg from '../assets/drivers/leclerc.png';
+import hamiltonImg from '../assets/drivers/hamilton.png';
+import verstappenImg from '../assets/drivers/verstappen.png';
 
 interface Driver {
     number: number;
@@ -8,14 +12,15 @@ interface Driver {
     team: string;
     teamColor: string;
     country: string;
+    image?: string;
 }
 
 const drivers2026: Driver[] = [
-    { number: 4, firstName: 'LANDO', lastName: 'NORRIS', team: 'MCLAREN', teamColor: 'FF8000', country: 'GBR' },
-    { number: 81, firstName: 'OSCAR', lastName: 'PIASTRI', team: 'MCLAREN', teamColor: 'FF8000', country: 'AUS' },
-    { number: 16, firstName: 'CHARLES', lastName: 'LECLERC', team: 'FERRARI', teamColor: 'E8002D', country: 'MON' },
-    { number: 44, firstName: 'LEWIS', lastName: 'HAMILTON', team: 'FERRARI', teamColor: 'E8002D', country: 'GBR' },
-    { number: 1, firstName: 'MAX', lastName: 'VERSTAPPEN', team: 'RED BULL RACING', teamColor: '3671C6', country: 'NED' },
+    { number: 4, firstName: 'LANDO', lastName: 'NORRIS', team: 'MCLAREN', teamColor: 'FF8000', country: 'GBR', image: norrisImg },
+    { number: 81, firstName: 'OSCAR', lastName: 'PIASTRI', team: 'MCLAREN', teamColor: 'FF8000', country: 'AUS', image: piastriImg },
+    { number: 16, firstName: 'CHARLES', lastName: 'LECLERC', team: 'FERRARI', teamColor: 'E8002D', country: 'MON', image: leclercImg },
+    { number: 44, firstName: 'LEWIS', lastName: 'HAMILTON', team: 'FERRARI', teamColor: 'E8002D', country: 'GBR', image: hamiltonImg },
+    { number: 1, firstName: 'MAX', lastName: 'VERSTAPPEN', team: 'RED BULL RACING', teamColor: '3671C6', country: 'NED', image: verstappenImg },
     { number: 6, firstName: 'ISACK', lastName: 'HADJAR', team: 'RED BULL RACING', teamColor: '6692FF', country: 'FRA' },
     { number: 63, firstName: 'GEORGE', lastName: 'RUSSELL', team: 'MERCEDES', teamColor: '27F4D2', country: 'GBR' },
     { number: 12, firstName: 'KIMI', lastName: 'ANTONELLI', team: 'MERCEDES', teamColor: '27F4D2', country: 'ITA' },
@@ -43,10 +48,6 @@ export default function DriversPage() {
                 <p className="page-subtitle">Find the current Formula 1 drivers for the 2026 season</p>
             </div>
 
-            <div className="lineup-image-container">
-                <img src={lineupImage} alt="2026 F1 Driver Lineup" className="lineup-image" />
-            </div>
-
             <div className="drivers-grid">
                 {drivers2026.map((driver) => (
                     <div
@@ -57,6 +58,12 @@ export default function DriversPage() {
                         <div className="driver-number" style={{ backgroundColor: `#${driver.teamColor}` }}>
                             {driver.number}
                         </div>
+
+                        {driver.image && (
+                            <div className="driver-photo">
+                                <img src={driver.image} alt={`${driver.firstName} ${driver.lastName}`} />
+                            </div>
+                        )}
 
                         <div className="driver-info">
                             <div className="driver-name">
