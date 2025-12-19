@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { fetchSeasonData } from '../services/ergast';
 import './ResultsPage.css';
 
-// Championship progression data - points after each race
-const championshipProgression = [
+// 2025 Championship progression data - points after each race
+const championshipProgression2025 = [
     { race: 0, norris: 0, verstappen: 0, piastri: 0, russell: 0, leclerc: 0, hamilton: 0 },
     { race: 1, norris: 25, verstappen: 18, piastri: 15, russell: 12, leclerc: 10, hamilton: 8 },
     { race: 2, norris: 43, verstappen: 36, piastri: 40, russell: 24, leclerc: 18, hamilton: 14 },
@@ -41,144 +43,189 @@ const driverColors = {
 };
 
 export default function ResultsPage() {
+    const { year } = useParams<{ year: string }>();
+    const seasonYear = year ? parseInt(year) : 2025;
+
+    // Fetch historical data for years before 2025
+    const { data: seasonData, isLoading, error } = useQuery({
+        queryKey: ['season', seasonYear],
+        queryFn: () => fetchSeasonData(seasonYear),
+        enabled: seasonYear < 2025,
+        staleTime: Infinity, // Historical data doesn't change
+    });
+
+    if (isLoading && seasonYear < 2025) {
+        return (
+            <div className="results-page">
+                <div className="loading-container">
+                    <div className="loading-spinner"></div>
+                    <p>Loading {seasonYear} season data...</p>
+                </div>
+            </div>
+        );
+    }
+
+    if (error && seasonYear < 2025) {
+        return (
+            <div className="results-page">
+                <div className="error-container">
+                    <h2>Error Loading Season Data</h2>
+                    <p>Could not load data for {seasonYear} season.</p>
+                    <Link to="/results/archive" className="back-link">← Back to Archive</Link>
+                </div>
+            </div>
+        );
+    }
+
+    // Use 2025 hardcoded data or historical data
+    const is2025 = seasonYear === 2025;
+    const championDriver = is2025 ?
+        { name: 'Lando Norris', team: 'McLaren-Mercedes', points: 423 } :
+        seasonData?.driverChampion;
+    const championConstructor = is2025 ?
+        { name: 'McLaren-Mercedes', points: 833 } :
+        seasonData?.constructorChampion;
+
     return (
         <div className="results-page">
             <div className="page-header">
-                <h1>2025 SEASON RESULTS</h1>
-                <p className="page-subtitle">Complete results from the 2025 Formula 1 World Championship</p>
+                <h1>{seasonYear} SEASON RESULTS</h1>
+                <p className="page-subtitle">Complete results from the {seasonYear} Formula 1 World Championship</p>
             </div>
 
             <div className="champions-section">
                 <div className="champion-card drivers-champion">
                     <div className="champion-icon">🏆</div>
                     <h2>Drivers' World Champion</h2>
-                    <div className="champion-name">Lando Norris</div>
-                    <div className="champion-team">McLaren-Mercedes</div>
-                    <div className="champion-points">423 Points</div>
-                    <p className="champion-note">Won by just 2 points over Max Verstappen</p>
+                    <div className="champion-name">{championDriver?.name || 'Loading...'}</div>
+                    <div className="champion-team">{championDriver?.team || ''}</div>
+                    <div className="champion-points">{championDriver?.points || 0} Points</div>
+                    {is2025 && <p className="champion-note">Won by just 2 points over Max Verstappen</p>}
                 </div>
 
                 <div className="champion-card constructors-champion">
                     <div className="champion-icon">🏆</div>
                     <h2>Constructors' Champion</h2>
-                    <div className="champion-name">McLaren-Mercedes</div>
-                    <div className="champion-points">833 Points</div>
-                    <p className="champion-note">Second consecutive championship, 10th overall</p>
+                    <div className="champion-name">{championConstructor?.name || 'Loading...'}</div>
+                    <div className="champion-points">{championConstructor?.points || 0} Points</div>
+                    {is2025 && <p className="champion-note">Second consecutive championship, 10th overall</p>}
                 </div>
             </div>
 
-            {/* Championship Progression Chart */}
-            <div className="championship-progression">
-                <h2>Championship Points Progression</h2>
-                <p className="chart-subtitle">Track how the top drivers accumulated points across all 24 races</p>
+            {/* Championship Progression Chart - Only for 2025 */}
+            {is2025 && (
+                <div className="championship-progression">
+                    <h2>Championship Points Progression</h2>
+                    <p className="chart-subtitle">Track how the top drivers accumulated points across all 24 races</p>
 
-                <div className="chart-container">
-                    <ResponsiveContainer width="100%" height={500}>
-                        <LineChart
-                            data={championshipProgression}
-                            margin={{ top: 20, right: 30, left: 20, bottom: 20 }}
-                        >
-                            <CartesianGrid strokeDasharray="3 3" stroke="#38383f" />
-                            <XAxis
-                                dataKey="race"
-                                stroke="#999"
-                                label={{ value: 'Race Number', position: 'insideBottom', offset: -10, fill: '#999' }}
-                            />
-                            <YAxis
-                                stroke="#999"
-                                label={{ value: 'Points', angle: -90, position: 'insideLeft', fill: '#999' }}
-                            />
-                            <Tooltip
-                                contentStyle={{
-                                    backgroundColor: '#1e1e28',
-                                    border: '1px solid #38383f',
-                                    borderRadius: '8px',
-                                    color: '#fff'
-                                }}
-                                labelFormatter={(value) => `Race ${value}`}
-                                formatter={(value: any, name: string | undefined) => {
-                                    if (!name) return [value, ''];
-                                    const names: { [key: string]: string } = {
-                                        norris: 'Lando Norris',
-                                        verstappen: 'Max Verstappen',
-                                        piastri: 'Oscar Piastri',
-                                        russell: 'George Russell',
-                                        leclerc: 'Charles Leclerc',
-                                        hamilton: 'Lewis Hamilton'
-                                    };
-                                    return [value, names[name] || name];
-                                }}
-                                itemSorter={(item: any) => -item.value}
-                            />
-                            <Legend
-                                wrapperStyle={{ paddingTop: '20px' }}
-                                formatter={(value) => {
-                                    const names: { [key: string]: string } = {
-                                        norris: 'Lando Norris',
-                                        verstappen: 'Max Verstappen',
-                                        piastri: 'Oscar Piastri',
-                                        russell: 'George Russell',
-                                        leclerc: 'Charles Leclerc',
-                                        hamilton: 'Lewis Hamilton'
-                                    };
-                                    return names[value] || value;
-                                }}
-                            />
-                            {/* Render lines in reverse order so highest points appear on top */}
-                            <Line
-                                type="monotone"
-                                dataKey="hamilton"
-                                stroke={driverColors.hamilton}
-                                strokeWidth={2}
-                                strokeDasharray="5 5"
-                                dot={{ fill: driverColors.hamilton, r: 3 }}
-                                activeDot={{ r: 5 }}
-                            />
-                            <Line
-                                type="monotone"
-                                dataKey="leclerc"
-                                stroke={driverColors.leclerc}
-                                strokeWidth={2}
-                                dot={{ fill: driverColors.leclerc, r: 3 }}
-                                activeDot={{ r: 5 }}
-                            />
-                            <Line
-                                type="monotone"
-                                dataKey="russell"
-                                stroke={driverColors.russell}
-                                strokeWidth={2}
-                                dot={{ fill: driverColors.russell, r: 3 }}
-                                activeDot={{ r: 5 }}
-                            />
-                            <Line
-                                type="monotone"
-                                dataKey="piastri"
-                                stroke={driverColors.piastri}
-                                strokeWidth={2}
-                                strokeDasharray="5 5"
-                                dot={{ fill: driverColors.piastri, r: 3 }}
-                                activeDot={{ r: 5 }}
-                            />
-                            <Line
-                                type="monotone"
-                                dataKey="verstappen"
-                                stroke={driverColors.verstappen}
-                                strokeWidth={3}
-                                dot={{ fill: driverColors.verstappen, r: 4 }}
-                                activeDot={{ r: 6 }}
-                            />
-                            <Line
-                                type="monotone"
-                                dataKey="norris"
-                                stroke={driverColors.norris}
-                                strokeWidth={3}
-                                dot={{ fill: driverColors.norris, r: 4 }}
-                                activeDot={{ r: 6 }}
-                            />
-                        </LineChart>
-                    </ResponsiveContainer>
+                    <div className="chart-container">
+                        <ResponsiveContainer width="100%" height={500}>
+                            <LineChart
+                                data={championshipProgression2025}
+                                margin={{ top: 20, right: 30, left: 20, bottom: 20 }}
+                            >
+                                <CartesianGrid strokeDasharray="3 3" stroke="#38383f" />
+                                <XAxis
+                                    dataKey="race"
+                                    stroke="#999"
+                                    label={{ value: 'Race Number', position: 'insideBottom', offset: -10, fill: '#999' }}
+                                />
+                                <YAxis
+                                    stroke="#999"
+                                    label={{ value: 'Points', angle: -90, position: 'insideLeft', fill: '#999' }}
+                                />
+                                <Tooltip
+                                    contentStyle={{
+                                        backgroundColor: '#1e1e28',
+                                        border: '1px solid #38383f',
+                                        borderRadius: '8px',
+                                        color: '#fff'
+                                    }}
+                                    labelFormatter={(value) => `Race ${value}`}
+                                    formatter={(value: any, name: string | undefined) => {
+                                        if (!name) return [value, ''];
+                                        const names: { [key: string]: string } = {
+                                            norris: 'Lando Norris',
+                                            verstappen: 'Max Verstappen',
+                                            piastri: 'Oscar Piastri',
+                                            russell: 'George Russell',
+                                            leclerc: 'Charles Leclerc',
+                                            hamilton: 'Lewis Hamilton'
+                                        };
+                                        return [value, names[name] || name];
+                                    }}
+                                    itemSorter={(item: any) => -item.value}
+                                />
+                                <Legend
+                                    wrapperStyle={{ paddingTop: '20px' }}
+                                    formatter={(value) => {
+                                        const names: { [key: string]: string } = {
+                                            norris: 'Lando Norris',
+                                            verstappen: 'Max Verstappen',
+                                            piastri: 'Oscar Piastri',
+                                            russell: 'George Russell',
+                                            leclerc: 'Charles Leclerc',
+                                            hamilton: 'Lewis Hamilton'
+                                        };
+                                        return names[value] || value;
+                                    }}
+                                />
+                                {/* Render lines in reverse order so highest points appear on top */}
+                                <Line
+                                    type="monotone"
+                                    dataKey="hamilton"
+                                    stroke={driverColors.hamilton}
+                                    strokeWidth={2}
+                                    strokeDasharray="5 5"
+                                    dot={{ fill: driverColors.hamilton, r: 3 }}
+                                    activeDot={{ r: 5 }}
+                                />
+                                <Line
+                                    type="monotone"
+                                    dataKey="leclerc"
+                                    stroke={driverColors.leclerc}
+                                    strokeWidth={2}
+                                    dot={{ fill: driverColors.leclerc, r: 3 }}
+                                    activeDot={{ r: 5 }}
+                                />
+                                <Line
+                                    type="monotone"
+                                    dataKey="russell"
+                                    stroke={driverColors.russell}
+                                    strokeWidth={2}
+                                    dot={{ fill: driverColors.russell, r: 3 }}
+                                    activeDot={{ r: 5 }}
+                                />
+                                <Line
+                                    type="monotone"
+                                    dataKey="piastri"
+                                    stroke={driverColors.piastri}
+                                    strokeWidth={2}
+                                    strokeDasharray="5 5"
+                                    dot={{ fill: driverColors.piastri, r: 3 }}
+                                    activeDot={{ r: 5 }}
+                                />
+                                <Line
+                                    type="monotone"
+                                    dataKey="verstappen"
+                                    stroke={driverColors.verstappen}
+                                    strokeWidth={3}
+                                    dot={{ fill: driverColors.verstappen, r: 4 }}
+                                    activeDot={{ r: 6 }}
+                                />
+                                <Line
+                                    type="monotone"
+                                    dataKey="norris"
+                                    stroke={driverColors.norris}
+                                    strokeWidth={3}
+                                    dot={{ fill: driverColors.norris, r: 4 }}
+                                    activeDot={{ r: 6 }}
+                                />
+                            </LineChart>
+                        </ResponsiveContainer>
+                    </div>
                 </div>
-            </div>
+            )}
 
             <div className="standings-navigation">
                 <h2>View Full Standings</h2>
