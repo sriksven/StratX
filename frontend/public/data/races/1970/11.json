@@ -1,0 +1,168 @@
+{
+  "raceName": "Canadian Grand Prix",
+  "circuit": "Quebec",
+  "country": "Canada",
+  "date": "1970-09-20",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Chris Amon",
+      "team": "March",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "John Surtees",
+      "team": "Surtees",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Peter Gethin",
+      "team": "McLaren-Ford",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Henri Pescarolo",
+      "team": "Matra",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 9,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "March",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "George Eaton",
+      "team": "BRM",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Tim Schenken",
+      "team": "De Tomaso",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 12,
+      "driver": "Graham Hill",
+      "team": "Team Lotus",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 13,
+      "driver": "Andrea de Adamich",
+      "team": "McLaren-Alfa Romeo",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 14,
+      "driver": "Ronnie Peterson",
+      "team": "March",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 15,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Jack Brabham",
+      "team": "Brabham",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 17,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 18,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "Axle",
+      "points": 0.0,
+      "status": "Axle"
+    },
+    {
+      "position": 19,
+      "driver": "Rolf Stommelen",
+      "team": "Brabham",
+      "time": "Handling",
+      "points": 0.0,
+      "status": "Handling"
+    },
+    {
+      "position": 20,
+      "driver": "Jo Siffert",
+      "team": "March",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

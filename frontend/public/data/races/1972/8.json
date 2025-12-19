@@ -1,0 +1,224 @@
+{
+  "raceName": "German Grand Prix",
+  "circuit": "N\u00fcrburg",
+  "country": "Germany",
+  "date": "1972-07-30",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Ronnie Peterson",
+      "team": "March",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Howden Ganley",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Brian Redman",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Graham Hill",
+      "team": "Brabham",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Wilson Fittipaldi",
+      "team": "Brabham",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 8,
+      "driver": "Mike Beuttler",
+      "team": "March",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 9,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 10,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "Tyrrell",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 11,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "Collision",
+      "points": 0.0,
+      "status": "Collision"
+    },
+    {
+      "position": 12,
+      "driver": "Arturo Merzario",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 13,
+      "driver": "Andrea de Adamich",
+      "team": "Surtees",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 14,
+      "driver": "Tim Schenken",
+      "team": "Surtees",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 15,
+      "driver": "Chris Amon",
+      "team": "Matra",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 16,
+      "driver": "Carlos Pace",
+      "team": "March",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 17,
+      "driver": "Emerson Fittipaldi",
+      "team": "Team Lotus",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 18,
+      "driver": "Henri Pescarolo",
+      "team": "March",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 19,
+      "driver": "Denny Hulme",
+      "team": "McLaren",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 20,
+      "driver": "Mike Hailwood",
+      "team": "Surtees",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 21,
+      "driver": "Carlos Reutemann",
+      "team": "Brabham",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 22,
+      "driver": "Rolf Stommelen",
+      "team": "March",
+      "time": "Electrical",
+      "points": 0.0,
+      "status": "Electrical"
+    },
+    {
+      "position": 23,
+      "driver": "David Walker",
+      "team": "Team Lotus",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 24,
+      "driver": "Niki Lauda",
+      "team": "March",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 25,
+      "driver": "Derek Bell",
+      "team": "Tecno",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 26,
+      "driver": "Dave Charlton",
+      "team": "Team Lotus",
+      "time": "Physical",
+      "points": 0.0,
+      "status": "Physical"
+    },
+    {
+      "position": 27,
+      "driver": "Reine Wisell",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

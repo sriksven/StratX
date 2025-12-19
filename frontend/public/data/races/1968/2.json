@@ -1,0 +1,120 @@
+{
+  "raceName": "Spanish Grand Prix",
+  "circuit": "Madrid",
+  "country": "Spain",
+  "date": "1968-05-12",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Graham Hill",
+      "team": "Lotus-Ford",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Brian Redman",
+      "team": "Cooper-BRM",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Ludovico Scarfiotti",
+      "team": "Cooper-BRM",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra-Ford",
+      "time": "+9 Laps",
+      "points": 2.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Bruce McLaren",
+      "team": "McLaren-Ford",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 7,
+      "driver": "John Surtees",
+      "team": "Honda",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 8,
+      "driver": "Jo Siffert",
+      "team": "Lotus-Ford",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 9,
+      "driver": "Chris Amon",
+      "team": "Ferrari",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 10,
+      "driver": "Piers Courage",
+      "team": "BRM",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 11,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 12,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 13,
+      "driver": "Jochen Rindt",
+      "team": "Brabham-Repco",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 14,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Repco",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

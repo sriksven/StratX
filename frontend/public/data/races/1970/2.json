@@ -1,0 +1,144 @@
+{
+  "raceName": "Spanish Grand Prix",
+  "circuit": "Madrid",
+  "country": "Spain",
+  "date": "1970-04-19",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jackie Stewart",
+      "team": "March",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Bruce McLaren",
+      "team": "McLaren-Ford",
+      "time": "+1 Lap",
+      "points": 6.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 3,
+      "driver": "Mario Andretti",
+      "team": "March",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Graham Hill",
+      "team": "Team Lotus",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Johnny Servoz-Gavin",
+      "team": "March",
+      "time": "+2 Laps",
+      "points": 2.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "John Surtees",
+      "team": "McLaren-Ford",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 7,
+      "driver": "Jack Brabham",
+      "team": "Brabham",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 8,
+      "driver": "Rolf Stommelen",
+      "team": "Brabham",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 9,
+      "driver": "Henri Pescarolo",
+      "team": "Matra",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 10,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 11,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 12,
+      "driver": "Chris Amon",
+      "team": "March",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Jochen Rindt",
+      "team": "Team Lotus",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 14,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 15,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 16,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 17,
+      "driver": "Piers Courage",
+      "team": "De Tomaso",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

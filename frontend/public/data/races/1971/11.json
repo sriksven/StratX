@@ -1,0 +1,240 @@
+{
+  "raceName": "United States Grand Prix",
+  "circuit": "New York State",
+  "country": "USA",
+  "date": "1971-10-03",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "Tyrrell",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jo Siffert",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Ronnie Peterson",
+      "team": "March-Ford",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Howden Ganley",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Graham Hill",
+      "team": "Brabham",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 9,
+      "driver": "Peter Gethin",
+      "team": "BRM",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 10,
+      "driver": "David Hobbs",
+      "team": "McLaren",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 11,
+      "driver": "Andrea de Adamich",
+      "team": "March-Alfa Romeo",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Chris Amon",
+      "team": "Matra",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Helmut Marko",
+      "team": "BRM",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "John Cannon",
+      "team": "BRM",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Mike Hailwood",
+      "team": "Surtees",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 16,
+      "driver": "Jo Bonnier",
+      "team": "McLaren",
+      "time": "Out of fuel",
+      "points": 0.0,
+      "status": "Out of fuel"
+    },
+    {
+      "position": 17,
+      "driver": "John Surtees",
+      "team": "Surtees",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 18,
+      "driver": "Skip Barber",
+      "team": "March-Ford",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 19,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Alternator",
+      "points": 0.0,
+      "status": "Alternator"
+    },
+    {
+      "position": 20,
+      "driver": "Emerson Fittipaldi",
+      "team": "Lotus-Ford",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 21,
+      "driver": "Pete Lovely",
+      "team": "Lotus-Ford",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 22,
+      "driver": "Denny Hulme",
+      "team": "McLaren",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 23,
+      "driver": "Tim Schenken",
+      "team": "Brabham",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 24,
+      "driver": "Chris Craft",
+      "team": "Brabham",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 25,
+      "driver": "Sam Posey",
+      "team": "Surtees",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 26,
+      "driver": "Henri Pescarolo",
+      "team": "March-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 27,
+      "driver": "Nanni Galli",
+      "team": "March-Ford",
+      "time": "Wheel",
+      "points": 0.0,
+      "status": "Wheel"
+    },
+    {
+      "position": 28,
+      "driver": "Reine Wisell",
+      "team": "Lotus-Ford",
+      "time": "Brakes",
+      "points": 0.0,
+      "status": "Brakes"
+    },
+    {
+      "position": 29,
+      "driver": "Peter Revson",
+      "team": "Tyrrell",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    }
+  ]
+}

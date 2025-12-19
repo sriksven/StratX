@@ -1,0 +1,192 @@
+{
+  "raceName": "Dutch Grand Prix",
+  "circuit": "Zandvoort",
+  "country": "Netherlands",
+  "date": "1971-06-20",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Ronnie Peterson",
+      "team": "March-Ford",
+      "time": "+2 Laps",
+      "points": 3.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "John Surtees",
+      "team": "Surtees",
+      "time": "+2 Laps",
+      "points": 2.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Jo Siffert",
+      "team": "BRM",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Howden Ganley",
+      "team": "BRM",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Gijs van Lennep",
+      "team": "Surtees",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Graham Hill",
+      "team": "Brabham",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Denny Hulme",
+      "team": "McLaren",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Henri Pescarolo",
+      "team": "March-Ford",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 14,
+      "driver": "Skip Barber",
+      "team": "March-Ford",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 15,
+      "driver": "Peter Gethin",
+      "team": "McLaren",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 16,
+      "driver": "Alex Soler-Roig",
+      "team": "March-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 17,
+      "driver": "Tim Schenken",
+      "team": "Brabham",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 18,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "Tyrrell",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 19,
+      "driver": "Rolf Stommelen",
+      "team": "Surtees",
+      "time": "Disqualified",
+      "points": 0.0,
+      "status": "Disqualified"
+    },
+    {
+      "position": 20,
+      "driver": "Reine Wisell",
+      "team": "Lotus-Ford",
+      "time": "Disqualified",
+      "points": 0.0,
+      "status": "Disqualified"
+    },
+    {
+      "position": 21,
+      "driver": "Mario Andretti",
+      "team": "Ferrari",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 22,
+      "driver": "David Walker",
+      "team": "Lotus-Pratt &amp; Whitney",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 23,
+      "driver": "Chris Amon",
+      "team": "Matra",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    }
+  ]
+}

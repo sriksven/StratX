@@ -1,0 +1,200 @@
+{
+  "raceName": "French Grand Prix",
+  "circuit": "Clermont-Ferrand",
+  "country": "France",
+  "date": "1972-07-02",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Emerson Fittipaldi",
+      "team": "Team Lotus",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Chris Amon",
+      "team": "Matra",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "Tyrrell",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Ronnie Peterson",
+      "team": "March",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Mike Hailwood",
+      "team": "Surtees",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Denny Hulme",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 8,
+      "driver": "Wilson Fittipaldi",
+      "team": "Brabham",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 9,
+      "driver": "Brian Redman",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 10,
+      "driver": "Graham Hill",
+      "team": "Brabham",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 11,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 12,
+      "driver": "Carlos Reutemann",
+      "team": "Brabham",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 13,
+      "driver": "Nanni Galli",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 14,
+      "driver": "Andrea de Adamich",
+      "team": "Surtees",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 15,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "BRM",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 16,
+      "driver": "Rolf Stommelen",
+      "team": "March",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 17,
+      "driver": "Tim Schenken",
+      "team": "Surtees",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 18,
+      "driver": "David Walker",
+      "team": "Team Lotus",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 19,
+      "driver": "Mike Beuttler",
+      "team": "March",
+      "time": "Out of fuel",
+      "points": 0.0,
+      "status": "Out of fuel"
+    },
+    {
+      "position": 20,
+      "driver": "Patrick Depailler",
+      "team": "Tyrrell",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 21,
+      "driver": "Reine Wisell",
+      "team": "BRM",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 22,
+      "driver": "Carlos Pace",
+      "team": "March",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 23,
+      "driver": "Helmut Marko",
+      "team": "BRM",
+      "time": "Eye injury",
+      "points": 0.0,
+      "status": "Eye injury"
+    },
+    {
+      "position": 24,
+      "driver": "Niki Lauda",
+      "team": "March",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    }
+  ]
+}

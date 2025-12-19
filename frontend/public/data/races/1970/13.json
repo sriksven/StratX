@@ -1,0 +1,152 @@
+{
+  "raceName": "Mexican Grand Prix",
+  "circuit": "Mexico City",
+  "country": "Mexico",
+  "date": "1970-10-25",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Chris Amon",
+      "team": "March",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "John Surtees",
+      "team": "Surtees",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 9,
+      "driver": "Henri Pescarolo",
+      "team": "Matra",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Reine Wisell",
+      "team": "Team Lotus",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 11,
+      "driver": "Jack Brabham",
+      "team": "Brabham",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 12,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 13,
+      "driver": "Peter Gethin",
+      "team": "McLaren-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 14,
+      "driver": "Rolf Stommelen",
+      "team": "Brabham",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    },
+    {
+      "position": 15,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "March",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Graham Hill",
+      "team": "Team Lotus",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 17,
+      "driver": "Jo Siffert",
+      "team": "March",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 18,
+      "driver": "Emerson Fittipaldi",
+      "team": "Team Lotus",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

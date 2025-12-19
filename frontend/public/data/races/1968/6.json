@@ -1,0 +1,144 @@
+{
+  "raceName": "French Grand Prix",
+  "circuit": "Rouen",
+  "country": "France",
+  "date": "1968-07-07",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "John Surtees",
+      "team": "Honda",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jackie Stewart",
+      "team": "Matra-Ford",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Vic Elford",
+      "team": "Cooper-BRM",
+      "time": "+2 Laps",
+      "points": 3.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "+2 Laps",
+      "points": 2.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Piers Courage",
+      "team": "BRM",
+      "time": "+3 Laps",
+      "points": 1.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Richard Attwood",
+      "team": "BRM",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Bruce McLaren",
+      "team": "McLaren-Ford",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Chris Amon",
+      "team": "Ferrari",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Jo Siffert",
+      "team": "Lotus-Ford",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 13,
+      "driver": "Jochen Rindt",
+      "team": "Brabham-Repco",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 14,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Repco",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 15,
+      "driver": "Graham Hill",
+      "team": "Lotus-Ford",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 16,
+      "driver": "Johnny Servoz-Gavin",
+      "team": "Cooper-BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 17,
+      "driver": "Jo Schlesser",
+      "team": "Honda",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    }
+  ]
+}

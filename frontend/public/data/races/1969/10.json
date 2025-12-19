@@ -1,0 +1,152 @@
+{
+  "raceName": "United States Grand Prix",
+  "circuit": "New York State",
+  "country": "USA",
+  "date": "1969-10-05",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jochen Rindt",
+      "team": "Lotus-Ford",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Piers Courage",
+      "team": "Brabham-Ford",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "John Surtees",
+      "team": "BRM",
+      "time": "+2 Laps",
+      "points": 4.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Ford",
+      "time": "+2 Laps",
+      "points": 3.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "Ferrari",
+      "time": "+7 Laps",
+      "points": 2.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Silvio Moser",
+      "team": "Brabham-Ford",
+      "time": "+10 Laps",
+      "points": 1.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Johnny Servoz-Gavin",
+      "team": "Matra-Ford",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 8,
+      "driver": "Graham Hill",
+      "team": "Lotus-Ford",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 9,
+      "driver": "Jacky Ickx",
+      "team": "Brabham-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 10,
+      "driver": "George Eaton",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 11,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 12,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 13,
+      "driver": "Jackie Stewart",
+      "team": "Matra-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 14,
+      "driver": "Pete Lovely",
+      "team": "Lotus-Ford",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 15,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Jo Siffert",
+      "team": "Lotus-Ford",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    },
+    {
+      "position": 17,
+      "driver": "Mario Andretti",
+      "team": "Lotus-Ford",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 18,
+      "driver": "Bruce McLaren",
+      "team": "McLaren-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

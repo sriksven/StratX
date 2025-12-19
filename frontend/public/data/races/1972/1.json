@@ -1,0 +1,184 @@
+{
+  "raceName": "Argentine Grand Prix",
+  "circuit": "Buenos Aires",
+  "country": "Argentina",
+  "date": "1972-01-23",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Denny Hulme",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Tim Schenken",
+      "team": "Surtees",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Ronnie Peterson",
+      "team": "March",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Carlos Reutemann",
+      "team": "Brabham",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Henri Pescarolo",
+      "team": "March",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Howden Ganley",
+      "team": "BRM",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Helmut Marko",
+      "team": "BRM",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Niki Lauda",
+      "team": "March",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Emerson Fittipaldi",
+      "team": "Team Lotus",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 13,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "Tyrrell",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 14,
+      "driver": "Reine Wisell",
+      "team": "BRM",
+      "time": "Water leak",
+      "points": 0.0,
+      "status": "Water leak"
+    },
+    {
+      "position": 15,
+      "driver": "Peter Revson",
+      "team": "McLaren",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Mario Andretti",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 17,
+      "driver": "Andrea de Adamich",
+      "team": "Surtees",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    },
+    {
+      "position": 18,
+      "driver": "Graham Hill",
+      "team": "Brabham",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 19,
+      "driver": "David Walker",
+      "team": "Team Lotus",
+      "time": "Disqualified",
+      "points": 0.0,
+      "status": "Disqualified"
+    },
+    {
+      "position": 20,
+      "driver": "Peter Gethin",
+      "team": "BRM",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 21,
+      "driver": "Alex Soler-Roig",
+      "team": "BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 22,
+      "driver": "Chris Amon",
+      "team": "Matra",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

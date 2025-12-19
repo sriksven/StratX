@@ -1,0 +1,192 @@
+{
+  "raceName": "French Grand Prix",
+  "circuit": "Le Castellet",
+  "country": "France",
+  "date": "1971-07-04",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "Tyrrell",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Emerson Fittipaldi",
+      "team": "Lotus-Ford",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Jo Siffert",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Chris Amon",
+      "team": "Matra",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Reine Wisell",
+      "team": "Lotus-Ford",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 8,
+      "driver": "John Surtees",
+      "team": "Surtees",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 9,
+      "driver": "Peter Gethin",
+      "team": "McLaren",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 10,
+      "driver": "Howden Ganley",
+      "team": "BRM",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 11,
+      "driver": "Rolf Stommelen",
+      "team": "Surtees",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Tim Schenken",
+      "team": "Brabham",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 13,
+      "driver": "Fran\u00e7ois Mazet",
+      "team": "March-Ford",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Max Jean",
+      "team": "March-Ford",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 15,
+      "driver": "Henri Pescarolo",
+      "team": "March-Ford",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 16,
+      "driver": "Graham Hill",
+      "team": "Brabham",
+      "time": "Oil pipe",
+      "points": 0.0,
+      "status": "Oil pipe"
+    },
+    {
+      "position": 17,
+      "driver": "Andrea de Adamich",
+      "team": "March-Alfa Romeo",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 18,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 19,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 20,
+      "driver": "Ronnie Peterson",
+      "team": "March-Alfa Romeo",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 21,
+      "driver": "Denny Hulme",
+      "team": "McLaren",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 22,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 23,
+      "driver": "Alex Soler-Roig",
+      "team": "March-Ford",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    }
+  ]
+}

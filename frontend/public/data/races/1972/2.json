@@ -1,0 +1,216 @@
+{
+  "raceName": "South African Grand Prix",
+  "circuit": "Midrand",
+  "country": "South Africa",
+  "date": "1972-03-04",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Denny Hulme",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Emerson Fittipaldi",
+      "team": "Team Lotus",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Peter Revson",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Mario Andretti",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Ronnie Peterson",
+      "team": "March",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Graham Hill",
+      "team": "Brabham",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Niki Lauda",
+      "team": "March",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 9,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "Tyrrell",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 10,
+      "driver": "David Walker",
+      "team": "Team Lotus",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 11,
+      "driver": "Henri Pescarolo",
+      "team": "March",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 12,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Rolf Stommelen",
+      "team": "March",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Helmut Marko",
+      "team": "BRM",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Chris Amon",
+      "team": "Matra",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 16,
+      "driver": "John Love",
+      "team": "Surtees",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    },
+    {
+      "position": 17,
+      "driver": "Carlos Pace",
+      "team": "March",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 18,
+      "driver": "Howden Ganley",
+      "team": "BRM",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 19,
+      "driver": "Andrea de Adamich",
+      "team": "Surtees",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 20,
+      "driver": "Peter Gethin",
+      "team": "BRM",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 21,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 22,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 23,
+      "driver": "Mike Hailwood",
+      "team": "Surtees",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 24,
+      "driver": "Carlos Reutemann",
+      "team": "Brabham",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    },
+    {
+      "position": 25,
+      "driver": "Tim Schenken",
+      "team": "Surtees",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 26,
+      "driver": "Dave Charlton",
+      "team": "Team Lotus",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "raceName": "South African Grand Prix",
+  "circuit": "Midrand",
+  "country": "South Africa",
+  "date": "1971-03-06",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Mario Andretti",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Reine Wisell",
+      "team": "Lotus-Ford",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Chris Amon",
+      "team": "Matra",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Denny Hulme",
+      "team": "McLaren",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Brian Redman",
+      "team": "Surtees",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 9,
+      "driver": "Graham Hill",
+      "team": "Brabham",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Ronnie Peterson",
+      "team": "March-Ford",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Henri Pescarolo",
+      "team": "March-Ford",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Rolf Stommelen",
+      "team": "Surtees",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Andrea de Adamich",
+      "team": "March-Alfa Romeo",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Emerson Fittipaldi",
+      "team": "Lotus-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 15,
+      "driver": "John Surtees",
+      "team": "Surtees",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 16,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "Tyrrell",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 17,
+      "driver": "Howden Ganley",
+      "team": "BRM",
+      "time": "Physical",
+      "points": 0.0,
+      "status": "Physical"
+    },
+    {
+      "position": 18,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 19,
+      "driver": "Dave Charlton",
+      "team": "Brabham",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 20,
+      "driver": "Jo Siffert",
+      "team": "BRM",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 21,
+      "driver": "John Love",
+      "team": "March-Ford",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 22,
+      "driver": "Jackie Pretorius",
+      "team": "Brabham",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 23,
+      "driver": "Peter Gethin",
+      "team": "McLaren",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 24,
+      "driver": "Jo Bonnier",
+      "team": "McLaren",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 25,
+      "driver": "Alex Soler-Roig",
+      "team": "March-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

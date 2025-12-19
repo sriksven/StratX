@@ -1,0 +1,216 @@
+{
+  "raceName": "British Grand Prix",
+  "circuit": "Kent",
+  "country": "UK",
+  "date": "1972-07-15",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Emerson Fittipaldi",
+      "team": "Team Lotus",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Peter Revson",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Chris Amon",
+      "team": "Matra",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Denny Hulme",
+      "team": "McLaren",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Arturo Merzario",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Ronnie Peterson",
+      "team": "March",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    },
+    {
+      "position": 8,
+      "driver": "Carlos Reutemann",
+      "team": "Brabham",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Niki Lauda",
+      "team": "March",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Rolf Stommelen",
+      "team": "March",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "BRM",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Wilson Fittipaldi",
+      "team": "Brabham",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 13,
+      "driver": "Mike Beuttler",
+      "team": "March",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Tim Schenken",
+      "team": "Surtees",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 15,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "Tyrrell",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    },
+    {
+      "position": 16,
+      "driver": "David Walker",
+      "team": "Team Lotus",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 17,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 18,
+      "driver": "Graham Hill",
+      "team": "Brabham",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    },
+    {
+      "position": 19,
+      "driver": "Carlos Pace",
+      "team": "March",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 20,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 21,
+      "driver": "Mike Hailwood",
+      "team": "Surtees",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 22,
+      "driver": "Dave Charlton",
+      "team": "Team Lotus",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 23,
+      "driver": "Nanni Galli",
+      "team": "Tecno",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    },
+    {
+      "position": 24,
+      "driver": "Henri Pescarolo",
+      "team": "Politoys",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 25,
+      "driver": "Peter Gethin",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 26,
+      "driver": "Andrea de Adamich",
+      "team": "Surtees",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    }
+  ]
+}

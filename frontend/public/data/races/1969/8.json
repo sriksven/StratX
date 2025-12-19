@@ -1,0 +1,128 @@
+{
+  "raceName": "Italian Grand Prix",
+  "circuit": "Monza",
+  "country": "Italy",
+  "date": "1969-09-07",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jackie Stewart",
+      "team": "Matra-Ford",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jochen Rindt",
+      "team": "Lotus-Ford",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra-Ford",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Bruce McLaren",
+      "team": "McLaren-Ford",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Piers Courage",
+      "team": "Brabham-Ford",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Jo Siffert",
+      "team": "Lotus-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 9,
+      "driver": "Graham Hill",
+      "team": "Lotus-Ford",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 10,
+      "driver": "Jacky Ickx",
+      "team": "Brabham-Ford",
+      "time": "Out of fuel",
+      "points": 0.0,
+      "status": "Out of fuel"
+    },
+    {
+      "position": 11,
+      "driver": "John Surtees",
+      "team": "BRM",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 12,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 13,
+      "driver": "Silvio Moser",
+      "team": "Brabham-Ford",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 14,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Ford",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 15,
+      "driver": "John Miles",
+      "team": "Lotus-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

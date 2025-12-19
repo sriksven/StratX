@@ -1,0 +1,168 @@
+{
+  "raceName": "French Grand Prix",
+  "circuit": "Clermont-Ferrand",
+  "country": "France",
+  "date": "1970-07-05",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jochen Rindt",
+      "team": "Team Lotus",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Chris Amon",
+      "team": "March",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jack Brabham",
+      "team": "Brabham",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Henri Pescarolo",
+      "team": "Matra",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Dan Gurney",
+      "team": "McLaren-Ford",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Rolf Stommelen",
+      "team": "Brabham",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 8,
+      "driver": "John Miles",
+      "team": "Team Lotus",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 9,
+      "driver": "Jackie Stewart",
+      "team": "March",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 10,
+      "driver": "Graham Hill",
+      "team": "Team Lotus",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 11,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "March",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 12,
+      "driver": "George Eaton",
+      "team": "BRM",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "Out of fuel",
+      "points": 0.0,
+      "status": "Out of fuel"
+    },
+    {
+      "position": 14,
+      "driver": "Ignazio Giunti",
+      "team": "Ferrari",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Andrea de Adamich",
+      "team": "McLaren-Alfa Romeo",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 16,
+      "driver": "Jo Siffert",
+      "team": "March",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 17,
+      "driver": "Ronnie Peterson",
+      "team": "March",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 18,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 20,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "raceName": "Italian Grand Prix",
+  "circuit": "Monza",
+  "country": "Italy",
+  "date": "1970-09-06",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jackie Stewart",
+      "team": "March",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Rolf Stommelen",
+      "team": "Brabham",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "March",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Chris Amon",
+      "team": "March",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Andrea de Adamich",
+      "team": "McLaren-Alfa Romeo",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Peter Gethin",
+      "team": "McLaren-Ford",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 10,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 11,
+      "driver": "Ronnie Peterson",
+      "team": "March",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 12,
+      "driver": "Jack Brabham",
+      "team": "Brabham",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 13,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 14,
+      "driver": "George Eaton",
+      "team": "BRM",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 15,
+      "driver": "Tim Schenken",
+      "team": "De Tomaso",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Ignazio Giunti",
+      "team": "Ferrari",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    },
+    {
+      "position": 17,
+      "driver": "Henri Pescarolo",
+      "team": "Matra",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 18,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Jo Siffert",
+      "team": "March",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 20,
+      "driver": "John Surtees",
+      "team": "Surtees",
+      "time": "Electrical",
+      "points": 0.0,
+      "status": "Electrical"
+    },
+    {
+      "position": 21,
+      "driver": "Graham Hill",
+      "team": "Team Lotus",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 22,
+      "driver": "John Miles",
+      "team": "Team Lotus",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 23,
+      "driver": "Jochen Rindt",
+      "team": "Team Lotus",
+      "time": "Fatal accident",
+      "points": 0.0,
+      "status": "Fatal accident"
+    },
+    {
+      "position": 25,
+      "driver": "Emerson Fittipaldi",
+      "team": "Team Lotus",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

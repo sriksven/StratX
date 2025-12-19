@@ -7,8 +7,8 @@ import time
 import numpy as np
 
 # Configuration
-START_YEAR = 2019
-END_YEAR = 2024
+START_YEAR = 1968
+END_YEAR = 2018
 SEASONS_DIR = "frontend/public/data/seasons"
 RACES_DIR = "frontend/public/data/races"
 

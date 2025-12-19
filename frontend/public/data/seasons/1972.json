@@ -1,0 +1,465 @@
+{
+  "year": 1972,
+  "driverChampion": {
+    "name": "Emerson Fittipaldi",
+    "team": "Team Lotus",
+    "points": 61.0
+  },
+  "constructorChampion": {
+    "name": "Team Lotus",
+    "points": 61.0
+  },
+  "races": [
+    {
+      "round": 1,
+      "name": "Argentine Grand Prix",
+      "circuit": "Buenos Aires",
+      "country": "Argentina",
+      "date": "1972-01-23",
+      "winner": "Jackie Stewart",
+      "team": "Tyrrell"
+    },
+    {
+      "round": 2,
+      "name": "South African Grand Prix",
+      "circuit": "Midrand",
+      "country": "South Africa",
+      "date": "1972-03-04",
+      "winner": "Denny Hulme",
+      "team": "McLaren"
+    },
+    {
+      "round": 3,
+      "name": "Spanish Grand Prix",
+      "circuit": "Madrid",
+      "country": "Spain",
+      "date": "1972-05-01",
+      "winner": "Emerson Fittipaldi",
+      "team": "Team Lotus"
+    },
+    {
+      "round": 4,
+      "name": "Monaco Grand Prix",
+      "circuit": "Monte Carlo",
+      "country": "Monaco",
+      "date": "1972-05-14",
+      "winner": "Jean-Pierre Beltoise",
+      "team": "BRM"
+    },
+    {
+      "round": 5,
+      "name": "Belgian Grand Prix",
+      "circuit": "Brussels",
+      "country": "Belgium",
+      "date": "1972-06-04",
+      "winner": "Emerson Fittipaldi",
+      "team": "Team Lotus"
+    },
+    {
+      "round": 6,
+      "name": "French Grand Prix",
+      "circuit": "Clermont-Ferrand",
+      "country": "France",
+      "date": "1972-07-02",
+      "winner": "Jackie Stewart",
+      "team": "Tyrrell"
+    },
+    {
+      "round": 7,
+      "name": "British Grand Prix",
+      "circuit": "Kent",
+      "country": "UK",
+      "date": "1972-07-15",
+      "winner": "Emerson Fittipaldi",
+      "team": "Team Lotus"
+    },
+    {
+      "round": 8,
+      "name": "German Grand Prix",
+      "circuit": "N\u00fcrburg",
+      "country": "Germany",
+      "date": "1972-07-30",
+      "winner": "Jacky Ickx",
+      "team": "Ferrari"
+    },
+    {
+      "round": 9,
+      "name": "Austrian Grand Prix",
+      "circuit": "Spielberg",
+      "country": "Austria",
+      "date": "1972-08-13",
+      "winner": "Emerson Fittipaldi",
+      "team": "Team Lotus"
+    }
+  ],
+  "driverStandings": [
+    {
+      "position": 1,
+      "driver": "Emerson Fittipaldi",
+      "team": "Team Lotus",
+      "points": 61.0,
+      "wins": 5
+    },
+    {
+      "position": 2,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "points": 45.0,
+      "wins": 4
+    },
+    {
+      "position": 3,
+      "driver": "Denny Hulme",
+      "team": "McLaren",
+      "points": 39.0,
+      "wins": 1
+    },
+    {
+      "position": 4,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "points": 27.0,
+      "wins": 1
+    },
+    {
+      "position": 5,
+      "driver": "Peter Revson",
+      "team": "McLaren",
+      "points": 23.0,
+      "wins": 0
+    },
+    {
+      "position": 6,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "Tyrrell",
+      "points": 15.0,
+      "wins": 0
+    },
+    {
+      "position": 7,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "points": 15.0,
+      "wins": 0
+    },
+    {
+      "position": 8,
+      "driver": "Mike Hailwood",
+      "team": "Surtees",
+      "points": 13.0,
+      "wins": 0
+    },
+    {
+      "position": 9,
+      "driver": "Ronnie Peterson",
+      "team": "March",
+      "points": 12.0,
+      "wins": 0
+    },
+    {
+      "position": 10,
+      "driver": "Chris Amon",
+      "team": "Matra",
+      "points": 12.0,
+      "wins": 0
+    },
+    {
+      "position": 11,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "BRM",
+      "points": 9.0,
+      "wins": 1
+    },
+    {
+      "position": 12,
+      "driver": "Mario Andretti",
+      "team": "Ferrari",
+      "points": 4.0,
+      "wins": 0
+    },
+    {
+      "position": 13,
+      "driver": "Howden Ganley",
+      "team": "BRM",
+      "points": 4.0,
+      "wins": 0
+    },
+    {
+      "position": 14,
+      "driver": "Brian Redman",
+      "team": "McLaren",
+      "points": 4.0,
+      "wins": 0
+    },
+    {
+      "position": 15,
+      "driver": "Graham Hill",
+      "team": "Brabham",
+      "points": 4.0,
+      "wins": 0
+    },
+    {
+      "position": 16,
+      "driver": "Carlos Reutemann",
+      "team": "Brabham",
+      "points": 3.0,
+      "wins": 0
+    },
+    {
+      "position": 17,
+      "driver": "Andrea de Adamich",
+      "team": "Surtees",
+      "points": 3.0,
+      "wins": 0
+    },
+    {
+      "position": 18,
+      "driver": "Carlos Pace",
+      "team": "March",
+      "points": 3.0,
+      "wins": 0
+    },
+    {
+      "position": 19,
+      "driver": "Tim Schenken",
+      "team": "Surtees",
+      "points": 2.0,
+      "wins": 0
+    },
+    {
+      "position": 20,
+      "driver": "Arturo Merzario",
+      "team": "Ferrari",
+      "points": 1.0,
+      "wins": 0
+    },
+    {
+      "position": 21,
+      "driver": "Peter Gethin",
+      "team": "BRM",
+      "points": 1.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Wilson Fittipaldi",
+      "team": "Brabham",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Niki Lauda",
+      "team": "March",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Patrick Depailler",
+      "team": "Tyrrell",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Helmut Marko",
+      "team": "BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Mike Beuttler",
+      "team": "March",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Henri Pescarolo",
+      "team": "March",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "David Walker",
+      "team": "Team Lotus",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Jody Scheckter",
+      "team": "McLaren",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Rolf Stommelen",
+      "team": "March",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Reine Wisell",
+      "team": "BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Sam Posey",
+      "team": "Surtees",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Nanni Galli",
+      "team": "Tecno",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Skip Barber",
+      "team": "March",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "John Love",
+      "team": "Surtees",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "John Surtees",
+      "team": "Surtees",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Alex Soler-Roig",
+      "team": "BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Fran\u00e7ois Migault",
+      "team": "Connew",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Dave Charlton",
+      "team": "Team Lotus",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Bill Brack",
+      "team": "BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Derek Bell",
+      "team": "Tecno",
+      "points": 0.0,
+      "wins": 0
+    }
+  ],
+  "constructorStandings": [
+    {
+      "position": 1,
+      "constructor": "Team Lotus",
+      "points": 61.0,
+      "wins": 5
+    },
+    {
+      "position": 2,
+      "constructor": "Tyrrell",
+      "points": 51.0,
+      "wins": 4
+    },
+    {
+      "position": 3,
+      "constructor": "McLaren",
+      "points": 49.0,
+      "wins": 1
+    },
+    {
+      "position": 4,
+      "constructor": "Ferrari",
+      "points": 33.0,
+      "wins": 1
+    },
+    {
+      "position": 5,
+      "constructor": "Surtees",
+      "points": 18.0,
+      "wins": 0
+    },
+    {
+      "position": 6,
+      "constructor": "March",
+      "points": 15.0,
+      "wins": 0
+    },
+    {
+      "position": 7,
+      "constructor": "BRM",
+      "points": 14.0,
+      "wins": 1
+    },
+    {
+      "position": 8,
+      "constructor": "Matra",
+      "points": 12.0,
+      "wins": 0
+    },
+    {
+      "position": 9,
+      "constructor": "Brabham",
+      "points": 7.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "constructor": "Tecno",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "constructor": "Connew",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "constructor": "Politoys",
+      "points": 0.0,
+      "wins": 0
+    }
+  ]
+}

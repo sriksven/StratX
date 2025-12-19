@@ -1,0 +1,120 @@
+{
+  "raceName": "Spanish Grand Prix",
+  "circuit": "Barcelona",
+  "country": "Spain",
+  "date": "1969-05-04",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jackie Stewart",
+      "team": "Matra-Ford",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Bruce McLaren",
+      "team": "McLaren-Ford",
+      "time": "+2 Laps",
+      "points": 6.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 3,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra-Ford",
+      "time": "+3 Laps",
+      "points": 4.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "+3 Laps",
+      "points": 3.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "John Surtees",
+      "team": "BRM",
+      "time": "+6 Laps",
+      "points": 2.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Jacky Ickx",
+      "team": "Brabham-Ford",
+      "time": "+7 Laps",
+      "points": 1.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 8,
+      "driver": "Chris Amon",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 9,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 10,
+      "driver": "Jo Siffert",
+      "team": "Lotus-Ford",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 11,
+      "driver": "Jochen Rindt",
+      "team": "Lotus-Ford",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 12,
+      "driver": "Piers Courage",
+      "team": "Brabham-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Graham Hill",
+      "team": "Lotus-Ford",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 14,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "time": "Oil pipe",
+      "points": 0.0,
+      "status": "Oil pipe"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "raceName": "Spanish Grand Prix",
+  "circuit": "Barcelona",
+  "country": "Spain",
+  "date": "1971-04-18",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Chris Amon",
+      "team": "Matra",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Denny Hulme",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "Tyrrell",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Peter Gethin",
+      "team": "McLaren",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Tim Schenken",
+      "team": "Brabham",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Howden Ganley",
+      "team": "BRM",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "John Surtees",
+      "team": "Surtees",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Reine Wisell",
+      "team": "Lotus-Ford",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 13,
+      "driver": "Emerson Fittipaldi",
+      "team": "Lotus-Ford",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 14,
+      "driver": "Henri Pescarolo",
+      "team": "March-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 15,
+      "driver": "Mario Andretti",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Alex Soler-Roig",
+      "team": "March-Ford",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 17,
+      "driver": "Andrea de Adamich",
+      "team": "March-Alfa Romeo",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 18,
+      "driver": "Ronnie Peterson",
+      "team": "March-Ford",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 19,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 20,
+      "driver": "Rolf Stommelen",
+      "team": "Surtees",
+      "time": "Fuel pressure",
+      "points": 0.0,
+      "status": "Fuel pressure"
+    },
+    {
+      "position": 21,
+      "driver": "Jo Siffert",
+      "team": "BRM",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 22,
+      "driver": "Graham Hill",
+      "team": "Brabham",
+      "time": "Steering",
+      "points": 0.0,
+      "status": "Steering"
+    }
+  ]
+}

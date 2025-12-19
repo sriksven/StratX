@@ -1,0 +1,208 @@
+{
+  "raceName": "Spanish Grand Prix",
+  "circuit": "Madrid",
+  "country": "Spain",
+  "date": "1972-05-01",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Emerson Fittipaldi",
+      "team": "Team Lotus",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Andrea de Adamich",
+      "team": "Surtees",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Peter Revson",
+      "team": "McLaren",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Carlos Pace",
+      "team": "March",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Wilson Fittipaldi",
+      "team": "Brabham",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Tim Schenken",
+      "team": "Surtees",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "David Walker",
+      "team": "Team Lotus",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Graham Hill",
+      "team": "Brabham",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Henri Pescarolo",
+      "team": "March",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Jackie Stewart",
+      "team": "Tyrrell",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 13,
+      "driver": "Chris Amon",
+      "team": "Matra",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 14,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "Tyrrell",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 15,
+      "driver": "Peter Gethin",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Denny Hulme",
+      "team": "McLaren",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 17,
+      "driver": "Howden Ganley",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 18,
+      "driver": "Reine Wisell",
+      "team": "BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 19,
+      "driver": "Mario Andretti",
+      "team": "Ferrari",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 20,
+      "driver": "Mike Hailwood",
+      "team": "Surtees",
+      "time": "Electrical",
+      "points": 0.0,
+      "status": "Electrical"
+    },
+    {
+      "position": 21,
+      "driver": "Ronnie Peterson",
+      "team": "March",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 22,
+      "driver": "Rolf Stommelen",
+      "team": "March",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 23,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "BRM",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 24,
+      "driver": "Niki Lauda",
+      "team": "March",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 25,
+      "driver": "Alex Soler-Roig",
+      "team": "BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    }
+  ]
+}

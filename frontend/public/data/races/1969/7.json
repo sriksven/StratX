@@ -1,0 +1,120 @@
+{
+  "raceName": "German Grand Prix",
+  "circuit": "N\u00fcrburg",
+  "country": "Germany",
+  "date": "1969-08-03",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jacky Ickx",
+      "team": "Brabham-Ford",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jackie Stewart",
+      "team": "Matra-Ford",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Bruce McLaren",
+      "team": "McLaren-Ford",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Graham Hill",
+      "team": "Lotus-Ford",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Jo Siffert",
+      "team": "Lotus-Ford",
+      "time": "Suspension",
+      "points": 2.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 6,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra-Ford",
+      "time": "Suspension",
+      "points": 1.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 7,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 8,
+      "driver": "Jackie Oliver",
+      "team": "BRM-Ford",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 9,
+      "driver": "Jochen Rindt",
+      "team": "Lotus-Ford",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 10,
+      "driver": "Jo Bonnier",
+      "team": "Lotus-Ford",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 11,
+      "driver": "Piers Courage",
+      "team": "Brabham-Ford",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 12,
+      "driver": "Vic Elford",
+      "team": "McLaren-Ford",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 13,
+      "driver": "Mario Andretti",
+      "team": "Lotus-Ford",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 14,
+      "driver": "John Surtees",
+      "team": "BRM",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

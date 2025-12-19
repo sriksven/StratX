@@ -1,0 +1,136 @@
+{
+  "raceName": "Monaco Grand Prix",
+  "circuit": "Monte Carlo",
+  "country": "Monaco",
+  "date": "1968-05-26",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Graham Hill",
+      "team": "Lotus-Ford",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Richard Attwood",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Lucien Bianchi",
+      "team": "Cooper-BRM",
+      "time": "+4 Laps",
+      "points": 4.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Ludovico Scarfiotti",
+      "team": "Cooper-BRM",
+      "time": "+4 Laps",
+      "points": 3.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "+7 Laps",
+      "points": 2.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "John Surtees",
+      "team": "Honda",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 7,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 8,
+      "driver": "Jo Siffert",
+      "team": "Lotus-Ford",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 9,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 10,
+      "driver": "Piers Courage",
+      "team": "BRM",
+      "time": "Chassis",
+      "points": 0.0,
+      "status": "Chassis"
+    },
+    {
+      "position": 11,
+      "driver": "Dan Gurney",
+      "team": "Eagle-Weslake",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 12,
+      "driver": "Jochen Rindt",
+      "team": "Brabham-Repco",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 13,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Repco",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 14,
+      "driver": "Johnny Servoz-Gavin",
+      "team": "Matra-Ford",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 15,
+      "driver": "Bruce McLaren",
+      "team": "McLaren-Ford",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 16,
+      "driver": "Jackie Oliver",
+      "team": "Lotus-Ford",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    }
+  ]
+}

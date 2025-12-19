@@ -1,0 +1,176 @@
+{
+  "raceName": "Canadian Grand Prix",
+  "circuit": "Quebec",
+  "country": "Canada",
+  "date": "1968-09-22",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Bruce McLaren",
+      "team": "McLaren-Ford",
+      "time": "+1 Lap",
+      "points": 6.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 3,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "+2 Laps",
+      "points": 4.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Graham Hill",
+      "team": "Lotus-Ford",
+      "time": "+4 Laps",
+      "points": 3.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Vic Elford",
+      "team": "Cooper-BRM",
+      "time": "+4 Laps",
+      "points": 2.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Jackie Stewart",
+      "team": "Matra-Ford",
+      "time": "+7 Laps",
+      "points": 1.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 8,
+      "driver": "Chris Amon",
+      "team": "Ferrari",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 9,
+      "driver": "Johnny Servoz-Gavin",
+      "team": "Matra-Ford",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 10,
+      "driver": "Lucien Bianchi",
+      "team": "Cooper-BRM",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 11,
+      "driver": "Henri Pescarolo",
+      "team": "Matra",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 12,
+      "driver": "Jochen Rindt",
+      "team": "Brabham-Repco",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Jackie Oliver",
+      "team": "Lotus-Ford",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 14,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Repco",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 15,
+      "driver": "Jo Siffert",
+      "team": "Lotus-Ford",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 16,
+      "driver": "Dan Gurney",
+      "team": "McLaren-Ford",
+      "time": "Radiator",
+      "points": 0.0,
+      "status": "Radiator"
+    },
+    {
+      "position": 17,
+      "driver": "Piers Courage",
+      "team": "BRM",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 18,
+      "driver": "Bill Brack",
+      "team": "Lotus-Ford",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 19,
+      "driver": "John Surtees",
+      "team": "Honda",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 20,
+      "driver": "Jo Bonnier",
+      "team": "McLaren-BRM",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    },
+    {
+      "position": 21,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    }
+  ]
+}

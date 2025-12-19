@@ -1,0 +1,168 @@
+{
+  "raceName": "Canadian Grand Prix",
+  "circuit": "Ontario",
+  "country": "Canada",
+  "date": "1969-09-20",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jacky Ickx",
+      "team": "Brabham-Ford",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Ford",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jochen Rindt",
+      "team": "Lotus-Ford",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra-Ford",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Bruce McLaren",
+      "team": "McLaren-Ford",
+      "time": "+3 Laps",
+      "points": 2.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Johnny Servoz-Gavin",
+      "team": "Matra-Ford",
+      "time": "+6 Laps",
+      "points": 1.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Pete Lovely",
+      "team": "Lotus-Ford",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Bill Brack",
+      "team": "BRM",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 9,
+      "driver": "Graham Hill",
+      "team": "Lotus-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 10,
+      "driver": "Jo Siffert",
+      "team": "Lotus-Ford",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 11,
+      "driver": "John Miles",
+      "team": "Lotus-Ford",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 12,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "Ferrari",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 13,
+      "driver": "Jackie Stewart",
+      "team": "Matra-Ford",
+      "time": "Collision",
+      "points": 0.0,
+      "status": "Collision"
+    },
+    {
+      "position": 14,
+      "driver": "Al Pease",
+      "team": "Eagle-Climax",
+      "time": "Disqualified",
+      "points": 0.0,
+      "status": "Disqualified"
+    },
+    {
+      "position": 15,
+      "driver": "John Surtees",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Piers Courage",
+      "team": "Brabham-Ford",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 17,
+      "driver": "John Cordts",
+      "team": "Brabham-Climax",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 18,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "Distributor",
+      "points": 0.0,
+      "status": "Distributor"
+    },
+    {
+      "position": 19,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 20,
+      "driver": "Silvio Moser",
+      "team": "Brabham-Ford",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    }
+  ]
+}

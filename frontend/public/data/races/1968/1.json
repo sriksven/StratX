@@ -1,0 +1,192 @@
+{
+  "raceName": "South African Grand Prix",
+  "circuit": "Midrand",
+  "country": "South Africa",
+  "date": "1968-01-01",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jim Clark",
+      "team": "Lotus-Ford",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Graham Hill",
+      "team": "Lotus-Ford",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jochen Rindt",
+      "team": "Brabham-Repco",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Chris Amon",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 3.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Denny Hulme",
+      "team": "McLaren-BRM",
+      "time": "+2 Laps",
+      "points": 2.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra-Ford",
+      "time": "+3 Laps",
+      "points": 1.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Jo Siffert",
+      "team": "Cooper-Maserati",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "John Surtees",
+      "team": "Honda",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "John Love",
+      "team": "Brabham-Repco",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Jackie Pretorius",
+      "team": "Brabham-Climax",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 11,
+      "driver": "Dan Gurney",
+      "team": "Eagle-Weslake",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 12,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 13,
+      "driver": "Jo Bonnier",
+      "team": "Cooper-Maserati",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 14,
+      "driver": "Jackie Stewart",
+      "team": "Matra-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 15,
+      "driver": "Sam Tingle",
+      "team": "LDS",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 16,
+      "driver": "Basil van Rooyen",
+      "team": "Cooper-Climax",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 17,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    },
+    {
+      "position": 18,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Repco",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Andrea de Adamich",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 20,
+      "driver": "Mike Spence",
+      "team": "BRM",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    },
+    {
+      "position": 21,
+      "driver": "Brian Redman",
+      "team": "Cooper-Maserati",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 22,
+      "driver": "Dave Charlton",
+      "team": "Brabham-Repco",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 23,
+      "driver": "Ludovico Scarfiotti",
+      "team": "Cooper-BRM",
+      "time": "Water pipe",
+      "points": 0.0,
+      "status": "Water pipe"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "raceName": "British Grand Prix",
+  "circuit": "Kent",
+  "country": "UK",
+  "date": "1970-07-18",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jochen Rindt",
+      "team": "Team Lotus",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jack Brabham",
+      "team": "Brabham",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Chris Amon",
+      "team": "March",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Graham Hill",
+      "team": "Team Lotus",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "March",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Emerson Fittipaldi",
+      "team": "Team Lotus",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Ronnie Peterson",
+      "team": "March",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Pete Lovely",
+      "team": "Team Lotus",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 11,
+      "driver": "Dan Gurney",
+      "team": "McLaren-Ford",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 12,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 13,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 14,
+      "driver": "Jackie Stewart",
+      "team": "March",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 15,
+      "driver": "John Surtees",
+      "team": "Surtees",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 16,
+      "driver": "Henri Pescarolo",
+      "team": "Matra",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 17,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "Wheel",
+      "points": 0.0,
+      "status": "Wheel"
+    },
+    {
+      "position": 18,
+      "driver": "Mario Andretti",
+      "team": "March",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 19,
+      "driver": "Jo Siffert",
+      "team": "March",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 20,
+      "driver": "John Miles",
+      "team": "Team Lotus",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 21,
+      "driver": "George Eaton",
+      "team": "BRM",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 22,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 23,
+      "driver": "Andrea de Adamich",
+      "team": "McLaren-Alfa Romeo",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    }
+  ]
+}

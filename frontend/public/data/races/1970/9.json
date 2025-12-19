@@ -1,0 +1,200 @@
+{
+  "raceName": "Austrian Grand Prix",
+  "circuit": "Spielberg",
+  "country": "Austria",
+  "date": "1970-08-16",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jacky Ickx",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Clay Regazzoni",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Rolf Stommelen",
+      "team": "Brabham",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "BRM",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Jackie Oliver",
+      "team": "BRM",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "Matra",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Ignazio Giunti",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Chris Amon",
+      "team": "March",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 9,
+      "driver": "Jo Siffert",
+      "team": "March",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 10,
+      "driver": "Peter Gethin",
+      "team": "McLaren-Ford",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 11,
+      "driver": "George Eaton",
+      "team": "BRM",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Andrea de Adamich",
+      "team": "McLaren-Alfa Romeo",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Jack Brabham",
+      "team": "Brabham",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Henri Pescarolo",
+      "team": "Matra",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Emerson Fittipaldi",
+      "team": "Team Lotus",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 16,
+      "driver": "Denny Hulme",
+      "team": "McLaren-Ford",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 17,
+      "driver": "John Surtees",
+      "team": "Surtees",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 18,
+      "driver": "Tim Schenken",
+      "team": "De Tomaso",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Jochen Rindt",
+      "team": "Team Lotus",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 20,
+      "driver": "Mario Andretti",
+      "team": "March",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 21,
+      "driver": "Silvio Moser",
+      "team": "Bellasi",
+      "time": "Radiator",
+      "points": 0.0,
+      "status": "Radiator"
+    },
+    {
+      "position": 22,
+      "driver": "Jackie Stewart",
+      "team": "March",
+      "time": "Fuel pipe",
+      "points": 0.0,
+      "status": "Fuel pipe"
+    },
+    {
+      "position": 23,
+      "driver": "John Miles",
+      "team": "Team Lotus",
+      "time": "Brakes",
+      "points": 0.0,
+      "status": "Brakes"
+    },
+    {
+      "position": 24,
+      "driver": "Fran\u00e7ois Cevert",
+      "team": "March",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}
