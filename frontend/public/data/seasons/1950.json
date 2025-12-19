@@ -1,0 +1,647 @@
+{
+  "year": 1950,
+  "driverChampion": {
+    "name": "Nino Farina",
+    "team": "Alfa Romeo",
+    "points": 30.0
+  },
+  "constructorChampion": {
+    "name": "Unknown",
+    "points": 0
+  },
+  "races": [
+    {
+      "round": 1,
+      "name": "British Grand Prix",
+      "circuit": "Silverstone",
+      "country": "UK",
+      "date": "1950-05-13",
+      "winner": "Nino Farina",
+      "team": "Alfa Romeo"
+    },
+    {
+      "round": 2,
+      "name": "Monaco Grand Prix",
+      "circuit": "Monte Carlo",
+      "country": "Monaco",
+      "date": "1950-05-21",
+      "winner": "Juan Fangio",
+      "team": "Alfa Romeo"
+    },
+    {
+      "round": 3,
+      "name": "Indianapolis 500",
+      "circuit": "Indianapolis",
+      "country": "USA",
+      "date": "1950-05-30",
+      "winner": "Johnnie Parsons",
+      "team": "Kurtis Kraft"
+    },
+    {
+      "round": 4,
+      "name": "Swiss Grand Prix",
+      "circuit": "Bern",
+      "country": "Switzerland",
+      "date": "1950-06-04",
+      "winner": "Nino Farina",
+      "team": "Alfa Romeo"
+    },
+    {
+      "round": 5,
+      "name": "Belgian Grand Prix",
+      "circuit": "Spa",
+      "country": "Belgium",
+      "date": "1950-06-18",
+      "winner": "Juan Fangio",
+      "team": "Alfa Romeo"
+    },
+    {
+      "round": 6,
+      "name": "French Grand Prix",
+      "circuit": "Reims",
+      "country": "France",
+      "date": "1950-07-02",
+      "winner": "Juan Fangio",
+      "team": "Alfa Romeo"
+    },
+    {
+      "round": 7,
+      "name": "Italian Grand Prix",
+      "circuit": "Monza",
+      "country": "Italy",
+      "date": "1950-09-03",
+      "winner": "Nino Farina",
+      "team": "Alfa Romeo"
+    }
+  ],
+  "driverStandings": [
+    {
+      "position": 1,
+      "driver": "Nino Farina",
+      "team": "Alfa Romeo",
+      "points": 30.0,
+      "wins": 3
+    },
+    {
+      "position": 2,
+      "driver": "Juan Fangio",
+      "team": "Alfa Romeo",
+      "points": 27.0,
+      "wins": 3
+    },
+    {
+      "position": 3,
+      "driver": "Luigi Fagioli",
+      "team": "Alfa Romeo",
+      "points": 24.0,
+      "wins": 0
+    },
+    {
+      "position": 4,
+      "driver": "Louis Rosier",
+      "team": "Talbot-Lago",
+      "points": 13.0,
+      "wins": 0
+    },
+    {
+      "position": 5,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "points": 11.0,
+      "wins": 0
+    },
+    {
+      "position": 6,
+      "driver": "Johnnie Parsons",
+      "team": "Kurtis Kraft",
+      "points": 9.0,
+      "wins": 1
+    },
+    {
+      "position": 7,
+      "driver": "Bill Holland",
+      "team": "Deidt",
+      "points": 6.0,
+      "wins": 0
+    },
+    {
+      "position": 8,
+      "driver": "Prince Bira",
+      "team": "Maserati",
+      "points": 5.0,
+      "wins": 0
+    },
+    {
+      "position": 9,
+      "driver": "Peter Whitehead",
+      "team": "Ferrari",
+      "points": 4.0,
+      "wins": 0
+    },
+    {
+      "position": 10,
+      "driver": "Louis Chiron",
+      "team": "Maserati",
+      "points": 4.0,
+      "wins": 0
+    },
+    {
+      "position": 11,
+      "driver": "Reg Parnell",
+      "team": "Alfa Romeo",
+      "points": 4.0,
+      "wins": 0
+    },
+    {
+      "position": 12,
+      "driver": "Mauri Rose",
+      "team": "Deidt",
+      "points": 4.0,
+      "wins": 0
+    },
+    {
+      "position": 13,
+      "driver": "Dorino Serafini",
+      "team": "Ferrari",
+      "points": 3.0,
+      "wins": 0
+    },
+    {
+      "position": 14,
+      "driver": "Yves Cabantous",
+      "team": "Talbot-Lago",
+      "points": 3.0,
+      "wins": 0
+    },
+    {
+      "position": 15,
+      "driver": "Raymond Sommer",
+      "team": "Ferrari",
+      "points": 3.0,
+      "wins": 0
+    },
+    {
+      "position": 16,
+      "driver": "Robert Manzon",
+      "team": "Simca",
+      "points": 3.0,
+      "wins": 0
+    },
+    {
+      "position": 17,
+      "driver": "Cecil Green",
+      "team": "Kurtis Kraft",
+      "points": 3.0,
+      "wins": 0
+    },
+    {
+      "position": 18,
+      "driver": "Philippe \u00c9tancelin",
+      "team": "Talbot-Lago",
+      "points": 3.0,
+      "wins": 0
+    },
+    {
+      "position": 19,
+      "driver": "Felice Bonetto",
+      "team": "Maserati",
+      "points": 2.0,
+      "wins": 0
+    },
+    {
+      "position": 20,
+      "driver": "Eug\u00e8ne Chaboud",
+      "team": "Talbot-Lago",
+      "points": 1.0,
+      "wins": 0
+    },
+    {
+      "position": 21,
+      "driver": "Tony Bettenhausen",
+      "team": "Kurtis Kraft",
+      "points": 1.0,
+      "wins": 0
+    },
+    {
+      "position": 22,
+      "driver": "Joie Chitwood",
+      "team": "Kurtis Kraft",
+      "points": 1.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Toulo de Graffenried",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Bob Gerard",
+      "team": "ERA",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Luigi Villoresi",
+      "team": "Ferrari",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Lee Wallard",
+      "team": "Moore",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Charles Pozzi",
+      "team": "Talbot-Lago",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Johnny Claes",
+      "team": "Talbot-Lago",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Pierre Levegh",
+      "team": "Talbot-Lago",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Cuth Harrison",
+      "team": "ERA",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Walt Faulkner",
+      "team": "Kurtis Kraft",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Nello Pagani",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Harry Schell",
+      "team": "Cooper",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "George Connor",
+      "team": "Lesovsky",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "David Hampshire",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Geoff Crossley",
+      "team": "Alta",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Paul Russo",
+      "team": "Nichels",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Toni Branca",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Brian Shawe Taylor",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Joe Fry",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Pat Flaherty",
+      "team": "Kurtis Kraft",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Myron Fohr",
+      "team": "Marchese",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Duane Carter",
+      "team": "Stevens",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Mack Hellings",
+      "team": "Kurtis Kraft",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Jack McGrath",
+      "team": "Kurtis Kraft",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Troy Ruttman",
+      "team": "Lesovsky",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Gene Hartley",
+      "team": "Langley",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Jimmy Davies",
+      "team": "Ewing",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Johnny McDowell",
+      "team": "Kurtis Kraft",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Walt Brown",
+      "team": "Kurtis Kraft",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Travis Webb",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Jerry Hoyt",
+      "team": "Kurtis Kraft",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Walt Ader",
+      "team": "Rae",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Jackie Holmes",
+      "team": "Olson",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Jim Rathmann",
+      "team": "Wetteroth",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "David Murray",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Guy Mairesse",
+      "team": "Talbot-Lago",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Franco Rol",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Joe Kelly",
+      "team": "Alta",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Piero Taruffi",
+      "team": "Alfa Romeo",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Eug\u00e8ne Martin",
+      "team": "Talbot-Lago",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Maurice Trintignant",
+      "team": "Simca",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Clemente Biondetti",
+      "team": "Ferrari",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Henri Louveau",
+      "team": "Talbot-Lago",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Peter Walker",
+      "team": "ERA",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Tony Rolt",
+      "team": "ERA",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Franco Comotti",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Leslie Johnson",
+      "team": "ERA",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Alfredo Pi\u00e1n",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Consalvo Sanesi",
+      "team": "Alfa Romeo",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Henry Banks",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Bill Schindler",
+      "team": "Snowberger",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Paul Pietsch",
+      "team": "Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Bayliss Levrett",
+      "team": "Adams",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Bill Cantrell",
+      "team": "Adams",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Fred Agabashian",
+      "team": "Kurtis Kraft",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Jimmy Jackson",
+      "team": "Kurtis Kraft",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Sam Hanks",
+      "team": "Kurtis Kraft",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Dick Rathmann",
+      "team": "Watson",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Duke Dinsmore",
+      "team": "Kurtis Kraft",
+      "points": 0.0,
+      "wins": 0
+    }
+  ],
+  "constructorStandings": []
+}

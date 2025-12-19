@@ -1,0 +1,88 @@
+{
+  "raceName": "Argentine Grand Prix",
+  "circuit": "Buenos Aires",
+  "country": "Argentina",
+  "date": "1958-01-19",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Stirling Moss",
+      "team": "Cooper",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Luigi Musso",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Juan Fangio",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Jean Behra",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 2.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Carlos Menditeguy",
+      "team": "Maserati",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Paco Godia",
+      "team": "Maserati",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Horace Gould",
+      "team": "Maserati",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Peter Collins",
+      "team": "Ferrari",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    }
+  ]
+}

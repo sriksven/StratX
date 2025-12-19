@@ -1,0 +1,384 @@
+{
+  "raceName": "Indianapolis 500",
+  "circuit": "Indianapolis",
+  "country": "USA",
+  "date": "1953-05-30",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Bill Vukovich",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Art Cross",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Duane Carter",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Sam Hanks",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Fred Agabashian",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 1.5,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Paul Russo",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 1.5,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Jack McGrath",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Jimmy Daywalt",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Jim Rathmann",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Eddie Johnson",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 8,
+      "driver": "Ernie McCoy",
+      "team": "Stevens",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 9,
+      "driver": "Tony Bettenhausen",
+      "team": "Kuzma",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 9,
+      "driver": "Chuck Stevenson",
+      "team": "Kuzma",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 9,
+      "driver": "Gene Hartley",
+      "team": "Kuzma",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 10,
+      "driver": "Jimmy Davies",
+      "team": "Kurtis Kraft",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Duke Nalon",
+      "team": "Kurtis Kraft",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 12,
+      "driver": "Bob Scott",
+      "team": "Kurtis Kraft",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Carl Scarborough",
+      "team": "Kurtis Kraft",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Manny Ayulo",
+      "team": "Kuzma",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 14,
+      "driver": "Jimmy Bryan",
+      "team": "Schroeder",
+      "time": "+17 Laps",
+      "points": 0.0,
+      "status": "+17 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Jim Rathmann",
+      "team": "Kurtis Kraft",
+      "time": "Magneto",
+      "points": 0.0,
+      "status": "Magneto"
+    },
+    {
+      "position": 15,
+      "driver": "Bill Holland",
+      "team": "Kurtis Kraft",
+      "time": "Magneto",
+      "points": 0.0,
+      "status": "Magneto"
+    },
+    {
+      "position": 16,
+      "driver": "Rodger Ward",
+      "team": "Kurtis Kraft",
+      "time": "Axle",
+      "points": 0.0,
+      "status": "Axle"
+    },
+    {
+      "position": 16,
+      "driver": "Andy Linden",
+      "team": "Kurtis Kraft",
+      "time": "Axle",
+      "points": 0.0,
+      "status": "Axle"
+    },
+    {
+      "position": 16,
+      "driver": "Duke Dinsmore",
+      "team": "Kurtis Kraft",
+      "time": "Axle",
+      "points": 0.0,
+      "status": "Axle"
+    },
+    {
+      "position": 17,
+      "driver": "Walt Faulkner",
+      "team": "Kurtis Kraft",
+      "time": "+24 Laps",
+      "points": 0.0,
+      "status": "+24 Laps"
+    },
+    {
+      "position": 17,
+      "driver": "Johnny Mantz",
+      "team": "Kurtis Kraft",
+      "time": "+24 Laps",
+      "points": 0.0,
+      "status": "+24 Laps"
+    },
+    {
+      "position": 18,
+      "driver": "Marshall Teague",
+      "team": "Kurtis Kraft",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 19,
+      "driver": "Johnny Thomson",
+      "team": "Kurtis Kraft",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 19,
+      "driver": "Jackie Holmes",
+      "team": "Kurtis Kraft",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 19,
+      "driver": "Travis Webb",
+      "team": "Kurtis Kraft",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 20,
+      "driver": "Bob Sweikert",
+      "team": "Kuzma",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 21,
+      "driver": "Mike Nazaruk",
+      "team": "Turner",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 22,
+      "driver": "Pat Flaherty",
+      "team": "Kuzma",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 23,
+      "driver": "Jerry Hoyt",
+      "team": "Kurtis Kraft",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 23,
+      "driver": "Chuck Stevenson",
+      "team": "Kurtis Kraft",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 23,
+      "driver": "Andy Linden",
+      "team": "Kurtis Kraft",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 24,
+      "driver": "Duane Carter",
+      "team": "Lesovsky",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 25,
+      "driver": "Paul Russo",
+      "team": "Kurtis Kraft",
+      "time": "Magneto",
+      "points": 0.0,
+      "status": "Magneto"
+    },
+    {
+      "position": 26,
+      "driver": "Johnnie Parsons",
+      "team": "Kurtis Kraft",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 27,
+      "driver": "Don Freeland",
+      "team": "Watson",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 28,
+      "driver": "Gene Hartley",
+      "team": "Kurtis Kraft",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 29,
+      "driver": "Chuck Stevenson",
+      "team": "Kuzma",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 30,
+      "driver": "Cal Niday",
+      "team": "Kurtis Kraft",
+      "time": "Magneto",
+      "points": 0.0,
+      "status": "Magneto"
+    },
+    {
+      "position": 31,
+      "driver": "Bob Scott",
+      "team": "Bromme",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 32,
+      "driver": "Johnny Thomson",
+      "team": "Del Roy",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 33,
+      "driver": "Andy Linden",
+      "team": "Stevens",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    }
+  ]
+}

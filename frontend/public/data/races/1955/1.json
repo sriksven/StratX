@@ -1,0 +1,288 @@
+{
+  "raceName": "Argentine Grand Prix",
+  "circuit": "Buenos Aires",
+  "country": "Argentina",
+  "date": "1955-01-16",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Juan Fangio",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Maurice Trintignant",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Umberto Maglioli",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 1.33,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 3,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 1.33,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 3,
+      "driver": "Maurice Trintignant",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 1.33,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Hans Herrmann",
+      "team": "Mercedes",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Stirling Moss",
+      "team": "Mercedes",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Karl Kling",
+      "team": "Mercedes",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Roberto Mieres",
+      "team": "Maserati",
+      "time": "+5 Laps",
+      "points": 2.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Jean Behra",
+      "team": "Maserati",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "+13 Laps",
+      "points": 0.0,
+      "status": "+13 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Luigi Musso",
+      "team": "Maserati",
+      "time": "+13 Laps",
+      "points": 0.0,
+      "status": "+13 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Sergio Mantovani",
+      "team": "Maserati",
+      "time": "+13 Laps",
+      "points": 0.0,
+      "status": "+13 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Sergio Mantovani",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 8,
+      "driver": "Jean Behra",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 8,
+      "driver": "Luigi Musso",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 9,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "Fuel pressure",
+      "points": 0.0,
+      "status": "Fuel pressure"
+    },
+    {
+      "position": 9,
+      "driver": "Carlos Menditeguy",
+      "team": "Maserati",
+      "time": "Fuel pressure",
+      "points": 0.0,
+      "status": "Fuel pressure"
+    },
+    {
+      "position": 9,
+      "driver": "Clemar Bucci",
+      "team": "Maserati",
+      "time": "Fuel pressure",
+      "points": 0.0,
+      "status": "Fuel pressure"
+    },
+    {
+      "position": 10,
+      "driver": "Jes\u00fas Iglesias",
+      "team": "Gordini",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 11,
+      "driver": "Maurice Trintignant",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 12,
+      "driver": "Eugenio Castellotti",
+      "team": "Lancia",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 12,
+      "driver": "Luigi Villoresi",
+      "team": "Lancia",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 13,
+      "driver": "Stirling Moss",
+      "team": "Mercedes",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    },
+    {
+      "position": 14,
+      "driver": "Alberto Uria",
+      "team": "Maserati",
+      "time": "Out of fuel",
+      "points": 0.0,
+      "status": "Out of fuel"
+    },
+    {
+      "position": 15,
+      "driver": "Alberto Ascari",
+      "team": "Lancia",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 16,
+      "driver": "\u00c9lie Bayol",
+      "team": "Gordini",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 17,
+      "driver": "Jean Behra",
+      "team": "Maserati",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 18,
+      "driver": "Karl Kling",
+      "team": "Mercedes",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 19,
+      "driver": "Luigi Villoresi",
+      "team": "Lancia",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 20,
+      "driver": "Pablo Birger",
+      "team": "Gordini",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 21,
+      "driver": "Carlos Menditeguy",
+      "team": "Maserati",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    }
+  ]
+}

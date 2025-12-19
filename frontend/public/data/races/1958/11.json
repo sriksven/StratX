@@ -1,0 +1,208 @@
+{
+  "raceName": "Moroccan Grand Prix",
+  "circuit": "Casablanca",
+  "country": "Morocco",
+  "date": "1958-10-19",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Stirling Moss",
+      "team": "Vanwall",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Phil Hill",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Jo Bonnier",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Harry Schell",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Masten Gregory",
+      "team": "Maserati",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Roy Salvadori",
+      "team": "Cooper",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Jack Fairman",
+      "team": "Cooper",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Hans Herrmann",
+      "team": "Maserati",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Cliff Allison",
+      "team": "Team Lotus",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Jack Brabham",
+      "team": "Cooper",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Gerino Gerini",
+      "team": "Maserati",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Bruce McLaren",
+      "team": "Cooper",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Robert La Caze",
+      "team": "Cooper",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Andr\u00e9 Guelfi",
+      "team": "Cooper",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 16,
+      "driver": "Graham Hill",
+      "team": "Team Lotus",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 17,
+      "driver": "Stuart Lewis-Evans",
+      "team": "Vanwall",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 18,
+      "driver": "Fran\u00e7ois Picard",
+      "team": "Cooper",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 19,
+      "driver": "Tom Bridger",
+      "team": "Cooper",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 20,
+      "driver": "Tony Brooks",
+      "team": "Vanwall",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 21,
+      "driver": "Olivier Gendebien",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 22,
+      "driver": "Jean Behra",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 23,
+      "driver": "Wolfgang Seidel",
+      "team": "Cooper",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 24,
+      "driver": "Ron Flockhart",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 25,
+      "driver": "Maurice Trintignant",
+      "team": "Cooper",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "raceName": "Portuguese Grand Prix",
+  "circuit": "Oporto",
+  "country": "Portugal",
+  "date": "1958-08-24",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Stirling Moss",
+      "team": "Vanwall",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 7.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Stuart Lewis-Evans",
+      "team": "Vanwall",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Jean Behra",
+      "team": "BRM",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Wolfgang von Trips",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Harry Schell",
+      "team": "BRM",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Jack Brabham",
+      "team": "Cooper",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Maurice Trintignant",
+      "team": "Cooper",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Roy Salvadori",
+      "team": "Cooper",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Carroll Shelby",
+      "team": "Maserati",
+      "time": "Brakes",
+      "points": 0.0,
+      "status": "Brakes"
+    },
+    {
+      "position": 11,
+      "driver": "Tony Brooks",
+      "team": "Vanwall",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    },
+    {
+      "position": 12,
+      "driver": "Graham Hill",
+      "team": "Team Lotus",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    },
+    {
+      "position": 13,
+      "driver": "Cliff Allison",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 14,
+      "driver": "Jo Bonnier",
+      "team": "Maserati",
+      "time": "Physical",
+      "points": 0.0,
+      "status": "Physical"
+    },
+    {
+      "position": 15,
+      "driver": "Maria de Filippis",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

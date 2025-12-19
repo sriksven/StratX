@@ -1,0 +1,168 @@
+{
+  "raceName": "French Grand Prix",
+  "circuit": "Reims",
+  "country": "France",
+  "date": "1950-07-02",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Juan Fangio",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Luigi Fagioli",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Peter Whitehead",
+      "team": "Ferrari",
+      "time": "+3 Laps",
+      "points": 4.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Robert Manzon",
+      "team": "Simca",
+      "time": "+3 Laps",
+      "points": 3.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Philippe \u00c9tancelin",
+      "team": "Talbot-Lago",
+      "time": "+5 Laps",
+      "points": 1.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Eug\u00e8ne Chaboud",
+      "team": "Talbot-Lago",
+      "time": "+5 Laps",
+      "points": 1.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Louis Rosier",
+      "team": "Talbot-Lago",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Charles Pozzi",
+      "team": "Talbot-Lago",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Nino Farina",
+      "team": "Alfa Romeo",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 8,
+      "driver": "Yves Cabantous",
+      "team": "Talbot-Lago",
+      "time": "+12 Laps",
+      "points": 0.0,
+      "status": "+12 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Pierre Levegh",
+      "team": "Talbot-Lago",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 10,
+      "driver": "Felice Bonetto",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 11,
+      "driver": "Johnny Claes",
+      "team": "Talbot-Lago",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 12,
+      "driver": "Louis Rosier",
+      "team": "Talbot-Lago",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 13,
+      "driver": "Reg Parnell",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 14,
+      "driver": "Franco Rol",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 15,
+      "driver": "Louis Chiron",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "David Hampshire",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 17,
+      "driver": "Raymond Sommer",
+      "team": "Talbot-Lago",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 18,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

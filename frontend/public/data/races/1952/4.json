@@ -1,0 +1,184 @@
+{
+  "raceName": "French Grand Prix",
+  "circuit": "Rouen",
+  "country": "France",
+  "date": "1952-07-06",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 6.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 3,
+      "driver": "Piero Taruffi",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 4.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Robert Manzon",
+      "team": "Gordini",
+      "time": "+3 Laps",
+      "points": 3.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Maurice Trintignant",
+      "team": "Simca",
+      "time": "+5 Laps",
+      "points": 2.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Peter Collins",
+      "team": "HWM",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Jean Behra",
+      "team": "Gordini",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Philippe \u00c9tancelin",
+      "team": "Maserati",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Lance Macklin",
+      "team": "HWM",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Yves Cabantous",
+      "team": "HWM",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Peter Hirt",
+      "team": "Ferrari",
+      "time": "+11 Laps",
+      "points": 0.0,
+      "status": "+11 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Rudi Fischer",
+      "team": "Ferrari",
+      "time": "+11 Laps",
+      "points": 0.0,
+      "status": "+11 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Franco Comotti",
+      "team": "Ferrari",
+      "time": "+14 Laps",
+      "points": 0.0,
+      "status": "+14 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Prince Bira",
+      "team": "Gordini",
+      "time": "Axle",
+      "points": 0.0,
+      "status": "Axle"
+    },
+    {
+      "position": 14,
+      "driver": "Mike Hawthorn",
+      "team": "Cooper",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 15,
+      "driver": "Toulo de Graffenried",
+      "team": "Maserati",
+      "time": "Brakes",
+      "points": 0.0,
+      "status": "Brakes"
+    },
+    {
+      "position": 15,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "Brakes",
+      "points": 0.0,
+      "status": "Brakes"
+    },
+    {
+      "position": 16,
+      "driver": "Peter Whitehead",
+      "team": "Alta",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 17,
+      "driver": "Louis Rosier",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 18,
+      "driver": "Johnny Claes",
+      "team": "Simca",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 20,
+      "driver": "Piero Carini",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

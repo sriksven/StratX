@@ -1,0 +1,200 @@
+{
+  "raceName": "French Grand Prix",
+  "circuit": "Reims",
+  "country": "France",
+  "date": "1963-06-30",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jim Clark",
+      "team": "Lotus-Climax",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Tony Maggs",
+      "team": "Cooper-Climax",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Graham Hill",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Jack Brabham",
+      "team": "Brabham",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Dan Gurney",
+      "team": "Brabham",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Jo Siffert",
+      "team": "Lotus-BRM",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Chris Amon",
+      "team": "Lola",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Maurice Trintignant",
+      "team": "Lotus-Climax",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Innes Ireland",
+      "team": "BRP",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Lorenzo Bandini",
+      "team": "BRM",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Jim Hall",
+      "team": "Lotus-BRM",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Bruce McLaren",
+      "team": "Cooper-Climax",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 13,
+      "driver": "Trevor Taylor",
+      "team": "Lotus-Climax",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 14,
+      "driver": "Phil Hill",
+      "team": "Lotus-BRM",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 15,
+      "driver": "Jo Bonnier",
+      "team": "Cooper-Climax",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 16,
+      "driver": "Masten Gregory",
+      "team": "Lotus-BRM",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 17,
+      "driver": "John Surtees",
+      "team": "Ferrari",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 18,
+      "driver": "Tony Settember",
+      "team": "Scirocco",
+      "time": "Wheel bearing",
+      "points": 0.0,
+      "status": "Wheel bearing"
+    },
+    {
+      "position": 19,
+      "driver": "Richie Ginther",
+      "team": "BRM",
+      "time": "Radiator",
+      "points": 0.0,
+      "status": "Radiator"
+    },
+    {
+      "position": 20,
+      "driver": "Ludovico Scarfiotti",
+      "team": "Ferrari",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 21,
+      "driver": "Peter Arundell",
+      "team": "Lotus-Climax",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 22,
+      "driver": "Giancarlo Baghetti",
+      "team": "ATS",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 23,
+      "driver": "Ian Burgess",
+      "team": "Scirocco",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 24,
+      "driver": "Nasif Est\u00e9fano",
+      "team": "De Tomaso",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

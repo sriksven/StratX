@@ -1,0 +1,256 @@
+{
+  "raceName": "Italian Grand Prix",
+  "circuit": "Monza",
+  "country": "Italy",
+  "date": "1953-09-13",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Juan Fangio",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Luigi Villoresi",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Maurice Trintignant",
+      "team": "Gordini",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Roberto Mieres",
+      "team": "Gordini",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Luigi Musso",
+      "team": "Maserati",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Sergio Mantovani",
+      "team": "Maserati",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Umberto Maglioli",
+      "team": "Ferrari",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Harry Schell",
+      "team": "Gordini",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Louis Chiron",
+      "team": "OSCA",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Prince Bira",
+      "team": "Maserati",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Alan Brown",
+      "team": "Cooper",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Stirling Moss",
+      "team": "Cooper",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Hans von Stuck",
+      "team": "AFM",
+      "time": "+13 Laps",
+      "points": 0.0,
+      "status": "+13 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Yves Cabantous",
+      "team": "HWM",
+      "time": "+13 Laps",
+      "points": 0.0,
+      "status": "+13 Laps"
+    },
+    {
+      "position": 16,
+      "driver": "Louis Rosier",
+      "team": "Ferrari",
+      "time": "+15 Laps",
+      "points": 0.0,
+      "status": "+15 Laps"
+    },
+    {
+      "position": 17,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 18,
+      "driver": "Felice Bonetto",
+      "team": "Maserati",
+      "time": "Out of fuel",
+      "points": 0.0,
+      "status": "Out of fuel"
+    },
+    {
+      "position": 19,
+      "driver": "Onofre Marim\u00f3n",
+      "team": "Maserati",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 20,
+      "driver": "Toulo de Graffenried",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 21,
+      "driver": "Jack Fairman",
+      "team": "Connaught",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 22,
+      "driver": "Ken Wharton",
+      "team": "Cooper",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 23,
+      "driver": "Kenneth McAlpine",
+      "team": "Connaught",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 24,
+      "driver": "Piero Carini",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 25,
+      "driver": "Roy Salvadori",
+      "team": "Connaught",
+      "time": "Throttle",
+      "points": 0.0,
+      "status": "Throttle"
+    },
+    {
+      "position": 26,
+      "driver": "Chico Landi",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 27,
+      "driver": "\u00c9lie Bayol",
+      "team": "OSCA",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 28,
+      "driver": "John Fitch",
+      "team": "HWM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 29,
+      "driver": "Johnny Claes",
+      "team": "Connaught",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    },
+    {
+      "position": 30,
+      "driver": "Lance Macklin",
+      "team": "HWM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

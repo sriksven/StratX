@@ -1,0 +1,248 @@
+{
+  "raceName": "German Grand Prix",
+  "circuit": "N\u00fcrburg",
+  "country": "Germany",
+  "date": "1952-08-03",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Rudi Fischer",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Piero Taruffi",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Jean Behra",
+      "team": "Gordini",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Roger Laurent",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Fritz Riess",
+      "team": "Veritas",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Toni Ulmen",
+      "team": "Veritas",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Helmut Niedermayr",
+      "team": "AFM",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Johnny Claes",
+      "team": "HWM",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Hans Klenk",
+      "team": "Veritas",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Ernst Klodwig",
+      "team": "BMW",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Robert Manzon",
+      "team": "Gordini",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 14,
+      "driver": "Willi Heeks",
+      "team": "AFM",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 15,
+      "driver": "Tony Gaze",
+      "team": "HWM",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 16,
+      "driver": "Adolf Brudes",
+      "team": "Veritas",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 17,
+      "driver": "Marcel Balsa",
+      "team": "BMW",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 18,
+      "driver": "G\u00fcnther Bechem",
+      "team": "BMW",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 19,
+      "driver": "Eitel Cantoni",
+      "team": "Maserati",
+      "time": "Axle",
+      "points": 0.0,
+      "status": "Axle"
+    },
+    {
+      "position": 20,
+      "driver": "Rudolf Krause",
+      "team": "BMW",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 21,
+      "driver": "Rudolf Schoeller",
+      "team": "Ferrari",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 22,
+      "driver": "Bill Aston",
+      "team": "Aston Butterworth",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 23,
+      "driver": "Maurice Trintignant",
+      "team": "Gordini",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 24,
+      "driver": "Paul Pietsch",
+      "team": "Veritas",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 25,
+      "driver": "Felice Bonetto",
+      "team": "Maserati",
+      "time": "Disqualified",
+      "points": 0.0,
+      "status": "Disqualified"
+    },
+    {
+      "position": 26,
+      "driver": "Paul Fr\u00e8re",
+      "team": "HWM",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 27,
+      "driver": "Theo Helfrich",
+      "team": "Veritas",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 28,
+      "driver": "Josef Peters",
+      "team": "Veritas",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 29,
+      "driver": "Piero Carini",
+      "team": "Ferrari",
+      "time": "Brakes",
+      "points": 0.0,
+      "status": "Brakes"
+    },
+    {
+      "position": 30,
+      "driver": "Gino Bianco",
+      "team": "Maserati",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "raceName": "Indianapolis 500",
+  "circuit": "Indianapolis",
+  "country": "USA",
+  "date": "1952-05-30",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Troy Ruttman",
+      "team": "Kuzma",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jim Rathmann",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Sam Hanks",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Duane Carter",
+      "team": "Lesovsky",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Art Cross",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Jimmy Bryan",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Jimmy Reece",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 8,
+      "driver": "George Connor",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 9,
+      "driver": "Cliff Griffith",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 10,
+      "driver": "Johnnie Parsons",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 11,
+      "driver": "Jack McGrath",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 12,
+      "driver": "Jim Rigsby",
+      "team": "Watson",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 13,
+      "driver": "Joe James",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 14,
+      "driver": "Bill Schindler",
+      "team": "Stevens",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 15,
+      "driver": "George Fonder",
+      "team": "Sherman",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 16,
+      "driver": "Eddie Johnson",
+      "team": "Trevis",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 17,
+      "driver": "Bill Vukovich",
+      "team": "Kurtis Kraft",
+      "time": "Steering",
+      "points": 1.0,
+      "status": "Steering"
+    },
+    {
+      "position": 18,
+      "driver": "Chuck Stevenson",
+      "team": "Kurtis Kraft",
+      "time": "+13 Laps",
+      "points": 0.0,
+      "status": "+13 Laps"
+    },
+    {
+      "position": 19,
+      "driver": "Henry Banks",
+      "team": "Lesovsky",
+      "time": "+16 Laps",
+      "points": 0.0,
+      "status": "+16 Laps"
+    },
+    {
+      "position": 20,
+      "driver": "Manny Ayulo",
+      "team": "Lesovsky",
+      "time": "+16 Laps",
+      "points": 0.0,
+      "status": "+16 Laps"
+    },
+    {
+      "position": 21,
+      "driver": "Johnny McDowell",
+      "team": "Kurtis Kraft",
+      "time": "+18 Laps",
+      "points": 0.0,
+      "status": "+18 Laps"
+    },
+    {
+      "position": 22,
+      "driver": "Travis Webb",
+      "team": "Bromme",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 23,
+      "driver": "Rodger Ward",
+      "team": "Kurtis Kraft",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 24,
+      "driver": "Tony Bettenhausen",
+      "team": "Deidt",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 25,
+      "driver": "Duke Nalon",
+      "team": "Kurtis Kraft",
+      "time": "Supercharger",
+      "points": 0.0,
+      "status": "Supercharger"
+    },
+    {
+      "position": 26,
+      "driver": "Bob Sweikert",
+      "team": "Kurtis Kraft",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 27,
+      "driver": "Fred Agabashian",
+      "team": "Kurtis Kraft",
+      "time": "Turbo",
+      "points": 0.0,
+      "status": "Turbo"
+    },
+    {
+      "position": 28,
+      "driver": "Gene Hartley",
+      "team": "Kurtis Kraft",
+      "time": "Exhaust",
+      "points": 0.0,
+      "status": "Exhaust"
+    },
+    {
+      "position": 29,
+      "driver": "Bob Scott",
+      "team": "Kurtis Kraft",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 30,
+      "driver": "Chet Miller",
+      "team": "Kurtis Kraft",
+      "time": "Supercharger",
+      "points": 0.0,
+      "status": "Supercharger"
+    },
+    {
+      "position": 31,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Wheel",
+      "points": 0.0,
+      "status": "Wheel"
+    },
+    {
+      "position": 32,
+      "driver": "Bobby Ball",
+      "team": "Stevens",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 33,
+      "driver": "Andy Linden",
+      "team": "Kurtis Kraft",
+      "time": "Oil pump",
+      "points": 0.0,
+      "status": "Oil pump"
+    }
+  ]
+}

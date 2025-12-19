@@ -1,0 +1,184 @@
+{
+  "raceName": "Swiss Grand Prix",
+  "circuit": "Bern",
+  "country": "Switzerland",
+  "date": "1953-08-23",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Felice Bonetto",
+      "team": "Maserati",
+      "time": "+1 Lap",
+      "points": 1.5,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Juan Fangio",
+      "team": "Maserati",
+      "time": "+1 Lap",
+      "points": 1.5,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Hermann Lang",
+      "team": "Maserati",
+      "time": "+3 Laps",
+      "points": 2.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Luigi Villoresi",
+      "team": "Ferrari",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Ken Wharton",
+      "team": "Cooper",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Max de Terra",
+      "team": "Ferrari",
+      "time": "+14 Laps",
+      "points": 0.0,
+      "status": "+14 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Albert Scherrer",
+      "team": "HWM",
+      "time": "+16 Laps",
+      "points": 0.0,
+      "status": "+16 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Chico Landi",
+      "team": "Maserati",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 11,
+      "driver": "Toulo de Graffenried",
+      "team": "Maserati",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 12,
+      "driver": "Onofre Marim\u00f3n",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Maurice Trintignant",
+      "team": "Gordini",
+      "time": "Axle",
+      "points": 0.0,
+      "status": "Axle"
+    },
+    {
+      "position": 14,
+      "driver": "Jean Behra",
+      "team": "Gordini",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 15,
+      "driver": "Juan Fangio",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 15,
+      "driver": "Felice Bonetto",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Lance Macklin",
+      "team": "HWM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 17,
+      "driver": "Peter Hirt",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 18,
+      "driver": "Paul Fr\u00e8re",
+      "team": "HWM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Jacques Swaters",
+      "team": "Ferrari",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    },
+    {
+      "position": 20,
+      "driver": "Louis Rosier",
+      "team": "Ferrari",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    }
+  ]
+}

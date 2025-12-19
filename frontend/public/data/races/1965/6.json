@@ -1,0 +1,144 @@
+{
+  "raceName": "Dutch Grand Prix",
+  "circuit": "Zandvoort",
+  "country": "Netherlands",
+  "date": "1965-07-18",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jim Clark",
+      "team": "Lotus-Climax",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jackie Stewart",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Dan Gurney",
+      "team": "Brabham-Climax",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Graham Hill",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Denny Hulme",
+      "team": "Brabham-Climax",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Richie Ginther",
+      "team": "Honda",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "John Surtees",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Mike Spence",
+      "team": "Lotus-Climax",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 9,
+      "driver": "Lorenzo Bandini",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 10,
+      "driver": "Innes Ireland",
+      "team": "Lotus-BRM",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Frank Gardner",
+      "team": "Brabham-BRM",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Richard Attwood",
+      "team": "Lotus-BRM",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Jo Siffert",
+      "team": "Brabham-BRM",
+      "time": "+25 Laps",
+      "points": 0.0,
+      "status": "+25 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Jochen Rindt",
+      "team": "Cooper-Climax",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 15,
+      "driver": "Bruce McLaren",
+      "team": "Cooper-Climax",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 16,
+      "driver": "Jo Bonnier",
+      "team": "Brabham-Climax",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 17,
+      "driver": "Bob Anderson",
+      "team": "Brabham-Climax",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

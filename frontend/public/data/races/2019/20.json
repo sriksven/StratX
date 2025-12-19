@@ -1,0 +1,168 @@
+{
+  "raceName": "Brazilian Grand Prix",
+  "circuit": "S\u00e3o Paulo",
+  "country": "Brazil",
+  "date": "2019-11-17",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Max Verstappen",
+      "team": "Red Bull",
+      "time": "Finished",
+      "points": 25.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Pierre Gasly",
+      "team": "Toro Rosso",
+      "time": "Finished",
+      "points": 18.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Carlos Sainz",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 15.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Kimi R\u00e4ikk\u00f6nen",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 12.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Antonio Giovinazzi",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 10.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Daniel Ricciardo",
+      "team": "Renault",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Lewis Hamilton",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 8,
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 9,
+      "driver": "Sergio P\u00e9rez",
+      "team": "Racing Point",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 10,
+      "driver": "Daniil Kvyat",
+      "team": "Toro Rosso",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 11,
+      "driver": "Kevin Magnussen",
+      "team": "Haas F1 Team",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 12,
+      "driver": "George Russell",
+      "team": "Williams",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 13,
+      "driver": "Romain Grosjean",
+      "team": "Haas F1 Team",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 14,
+      "driver": "Alexander Albon",
+      "team": "Red Bull",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 15,
+      "driver": "Nico H\u00fclkenberg",
+      "team": "Renault",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 16,
+      "driver": "Robert Kubica",
+      "team": "Williams",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 17,
+      "driver": "Sebastian Vettel",
+      "team": "Ferrari",
+      "time": "Collision",
+      "points": 0.0,
+      "status": "Collision"
+    },
+    {
+      "position": 18,
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "time": "Collision",
+      "points": 0.0,
+      "status": "Collision"
+    },
+    {
+      "position": 19,
+      "driver": "Lance Stroll",
+      "team": "Racing Point",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 20,
+      "driver": "Valtteri Bottas",
+      "team": "Mercedes",
+      "time": "Power Unit",
+      "points": 0.0,
+      "status": "Power Unit"
+    }
+  ]
+}

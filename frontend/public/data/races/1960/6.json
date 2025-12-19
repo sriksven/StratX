@@ -1,0 +1,192 @@
+{
+  "raceName": "French Grand Prix",
+  "circuit": "Reims",
+  "country": "France",
+  "date": "1960-07-03",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jack Brabham",
+      "team": "Cooper-Climax",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Olivier Gendebien",
+      "team": "Cooper-Climax",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Bruce McLaren",
+      "team": "Cooper-Climax",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Henry Taylor",
+      "team": "Cooper-Climax",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Jim Clark",
+      "team": "Team Lotus",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Ron Flockhart",
+      "team": "Team Lotus",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Innes Ireland",
+      "team": "Team Lotus",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Bruce Halford",
+      "team": "Cooper-Climax",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 9,
+      "driver": "Masten Gregory",
+      "team": "Cooper-Maserati",
+      "time": "+13 Laps",
+      "points": 0.0,
+      "status": "+13 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Ian Burgess",
+      "team": "Cooper-Maserati",
+      "time": "+14 Laps",
+      "points": 0.0,
+      "status": "+14 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Wolfgang von Trips",
+      "team": "Ferrari",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 12,
+      "driver": "Phil Hill",
+      "team": "Ferrari",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 13,
+      "driver": "Jo Bonnier",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 14,
+      "driver": "Lucien Bianchi",
+      "team": "Cooper-Climax",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 15,
+      "driver": "Dan Gurney",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Gino Munaron",
+      "team": "Cooper-Castellotti",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 17,
+      "driver": "Willy Mairesse",
+      "team": "Ferrari",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 18,
+      "driver": "Tony Brooks",
+      "team": "Vanwall",
+      "time": "Vibrations",
+      "points": 0.0,
+      "status": "Vibrations"
+    },
+    {
+      "position": 19,
+      "driver": "Graham Hill",
+      "team": "BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 20,
+      "driver": "Maurice Trintignant",
+      "team": "Cooper-Maserati",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 21,
+      "driver": "Richie Ginther",
+      "team": "Scarab",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 22,
+      "driver": "David Piper",
+      "team": "Team Lotus",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 23,
+      "driver": "Chuck Daigh",
+      "team": "Scarab",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

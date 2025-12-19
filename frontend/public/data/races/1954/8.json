@@ -1,0 +1,176 @@
+{
+  "raceName": "Italian Grand Prix",
+  "circuit": "Monza",
+  "country": "Italy",
+  "date": "1954-09-05",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Juan Fangio",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 6.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 3,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 3.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 3,
+      "driver": "Umberto Maglioli",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 2.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Hans Herrmann",
+      "team": "Mercedes",
+      "time": "+3 Laps",
+      "points": 3.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Maurice Trintignant",
+      "team": "Ferrari",
+      "time": "+5 Laps",
+      "points": 2.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Fred Wacker",
+      "team": "Gordini",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Peter Collins",
+      "team": "Vanwall",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Louis Rosier",
+      "team": "Maserati",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Sergio Mantovani",
+      "team": "Maserati",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Stirling Moss",
+      "team": "Maserati",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Jorge Daponte",
+      "team": "Maserati",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Luigi Villoresi",
+      "team": "Maserati",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 14,
+      "driver": "Karl Kling",
+      "team": "Mercedes",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 15,
+      "driver": "Roberto Mieres",
+      "team": "Maserati",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 16,
+      "driver": "Luigi Musso",
+      "team": "Maserati",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 17,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Ferrari",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 18,
+      "driver": "Robert Manzon",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Clemar Bucci",
+      "team": "Gordini",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 20,
+      "driver": "Jean Behra",
+      "team": "Gordini",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

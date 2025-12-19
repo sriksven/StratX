@@ -1,0 +1,168 @@
+{
+  "raceName": "British Grand Prix",
+  "circuit": "Silverstone",
+  "country": "UK",
+  "date": "1958-07-19",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Peter Collins",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 7.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Roy Salvadori",
+      "team": "Cooper",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Stuart Lewis-Evans",
+      "team": "Vanwall",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Harry Schell",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Jack Brabham",
+      "team": "Cooper",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Tony Brooks",
+      "team": "Vanwall",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Maurice Trintignant",
+      "team": "Cooper",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Carroll Shelby",
+      "team": "Maserati",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Wolfgang von Trips",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 11,
+      "driver": "Jo Bonnier",
+      "team": "Maserati",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 12,
+      "driver": "Gerino Gerini",
+      "team": "Maserati",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 13,
+      "driver": "Ian Burgess",
+      "team": "Cooper",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 14,
+      "driver": "Stirling Moss",
+      "team": "Vanwall",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 15,
+      "driver": "Cliff Allison",
+      "team": "Team Lotus",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Jean Behra",
+      "team": "BRM",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 17,
+      "driver": "Ivor Bueb",
+      "team": "Connaught",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 18,
+      "driver": "Alan Stacey",
+      "team": "Team Lotus",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 19,
+      "driver": "Graham Hill",
+      "team": "Team Lotus",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 20,
+      "driver": "Jack Fairman",
+      "team": "Connaught",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    }
+  ]
+}

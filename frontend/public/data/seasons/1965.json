@@ -1,0 +1,422 @@
+{
+  "year": 1965,
+  "driverChampion": {
+    "name": "Jim Clark",
+    "team": "Lotus-Climax",
+    "points": 54.0
+  },
+  "constructorChampion": {
+    "name": "Lotus-Climax",
+    "points": 54.0
+  },
+  "races": [
+    {
+      "round": 6,
+      "name": "Dutch Grand Prix",
+      "circuit": "Zandvoort",
+      "country": "Netherlands",
+      "date": "1965-07-18",
+      "winner": "Jim Clark",
+      "team": "Lotus-Climax"
+    },
+    {
+      "round": 10,
+      "name": "Mexican Grand Prix",
+      "circuit": "Mexico City",
+      "country": "Mexico",
+      "date": "1965-10-24",
+      "winner": "Richie Ginther",
+      "team": "Honda"
+    }
+  ],
+  "driverStandings": [
+    {
+      "position": 1,
+      "driver": "Jim Clark",
+      "team": "Lotus-Climax",
+      "points": 54.0,
+      "wins": 6
+    },
+    {
+      "position": 2,
+      "driver": "Graham Hill",
+      "team": "BRM",
+      "points": 40.0,
+      "wins": 2
+    },
+    {
+      "position": 3,
+      "driver": "Jackie Stewart",
+      "team": "BRM",
+      "points": 33.0,
+      "wins": 1
+    },
+    {
+      "position": 4,
+      "driver": "Dan Gurney",
+      "team": "Brabham-Climax",
+      "points": 25.0,
+      "wins": 0
+    },
+    {
+      "position": 5,
+      "driver": "John Surtees",
+      "team": "Ferrari",
+      "points": 17.0,
+      "wins": 0
+    },
+    {
+      "position": 6,
+      "driver": "Lorenzo Bandini",
+      "team": "Ferrari",
+      "points": 13.0,
+      "wins": 0
+    },
+    {
+      "position": 7,
+      "driver": "Richie Ginther",
+      "team": "Honda",
+      "points": 11.0,
+      "wins": 1
+    },
+    {
+      "position": 8,
+      "driver": "Mike Spence",
+      "team": "Lotus-Climax",
+      "points": 10.0,
+      "wins": 0
+    },
+    {
+      "position": 9,
+      "driver": "Bruce McLaren",
+      "team": "Cooper-Climax",
+      "points": 10.0,
+      "wins": 0
+    },
+    {
+      "position": 10,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Climax",
+      "points": 9.0,
+      "wins": 0
+    },
+    {
+      "position": 11,
+      "driver": "Denny Hulme",
+      "team": "Brabham-Climax",
+      "points": 5.0,
+      "wins": 0
+    },
+    {
+      "position": 12,
+      "driver": "Jo Siffert",
+      "team": "Brabham-BRM",
+      "points": 5.0,
+      "wins": 0
+    },
+    {
+      "position": 13,
+      "driver": "Jochen Rindt",
+      "team": "Cooper-Climax",
+      "points": 4.0,
+      "wins": 0
+    },
+    {
+      "position": 14,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "Ferrari",
+      "points": 2.0,
+      "wins": 0
+    },
+    {
+      "position": 15,
+      "driver": "Ronnie Bucknum",
+      "team": "Honda",
+      "points": 2.0,
+      "wins": 0
+    },
+    {
+      "position": 16,
+      "driver": "Richard Attwood",
+      "team": "Lotus-BRM",
+      "points": 2.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Jo Bonnier",
+      "team": "Brabham-Climax",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Frank Gardner",
+      "team": "Brabham-BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Masten Gregory",
+      "team": "BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Bob Anderson",
+      "team": "Brabham-Climax",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Innes Ireland",
+      "team": "Lotus-BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Paul Hawkins",
+      "team": "Brabham-Ford",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Bob Bondurant",
+      "team": "Ferrari",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Peter de Klerk",
+      "team": "Alfa Romeo",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Ian Raby",
+      "team": "Brabham-BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Tony Maggs",
+      "team": "Lotus-BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Mois\u00e9s Solana",
+      "team": "Lotus-Climax",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Lucien Bianchi",
+      "team": "BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Nino Vaccarella",
+      "team": "Ferrari",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Roberto Bussinello",
+      "team": "BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Sam Tingle",
+      "team": "LDS-Alfa Romeo",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "David Prophet",
+      "team": "Brabham-Ford",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Chris Amon",
+      "team": "Lotus-BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Gerhard Mitter",
+      "team": "Lotus-Climax",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Mike Hailwood",
+      "team": "Lotus-BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "John Rhodes",
+      "team": "Cooper-Climax",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Giacomo Russo",
+      "team": "Lotus-Climax",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "John Love",
+      "team": "Cooper-Climax",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Ludovico Scarfiotti",
+      "team": "Ferrari",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Giancarlo Baghetti",
+      "team": "Brabham-Climax",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Giorgio Bassi",
+      "team": "BRM",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Ray Reed",
+      "team": "RE",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "David Clapham",
+      "team": "Cooper-Maserati",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "driver": "Alex Blignaut",
+      "team": "Cooper-Climax",
+      "points": 0.0,
+      "wins": 0
+    }
+  ],
+  "constructorStandings": [
+    {
+      "position": 1,
+      "constructor": "Lotus-Climax",
+      "points": 54.0,
+      "wins": 6
+    },
+    {
+      "position": 2,
+      "constructor": "BRM",
+      "points": 45.0,
+      "wins": 3
+    },
+    {
+      "position": 3,
+      "constructor": "Brabham-Climax",
+      "points": 27.0,
+      "wins": 0
+    },
+    {
+      "position": 4,
+      "constructor": "Ferrari",
+      "points": 26.0,
+      "wins": 0
+    },
+    {
+      "position": 5,
+      "constructor": "Cooper-Climax",
+      "points": 14.0,
+      "wins": 0
+    },
+    {
+      "position": 6,
+      "constructor": "Honda",
+      "points": 11.0,
+      "wins": 1
+    },
+    {
+      "position": 7,
+      "constructor": "Brabham-BRM",
+      "points": 5.0,
+      "wins": 0
+    },
+    {
+      "position": 8,
+      "constructor": "Lotus-BRM",
+      "points": 2.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "constructor": "Brabham-Ford",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "constructor": "Alfa Romeo",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "constructor": "LDS-Alfa Romeo",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "constructor": "RE",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 0,
+      "constructor": "Cooper-Maserati",
+      "points": 0.0,
+      "wins": 0
+    }
+  ]
+}

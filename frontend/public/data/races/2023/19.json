@@ -1,0 +1,168 @@
+{
+  "raceName": "Mexico City Grand Prix",
+  "circuit": "Mexico City",
+  "country": "Mexico",
+  "date": "2023-10-29",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Max Verstappen",
+      "team": "Red Bull",
+      "time": "Finished",
+      "points": 25.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Lewis Hamilton",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 19.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 15.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Carlos Sainz",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 12.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 10.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "George Russell",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Daniel Ricciardo",
+      "team": "AlphaTauri",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 8,
+      "driver": "Oscar Piastri",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 9,
+      "driver": "Alexander Albon",
+      "team": "Williams",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 10,
+      "driver": "Esteban Ocon",
+      "team": "Alpine F1 Team",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 11,
+      "driver": "Pierre Gasly",
+      "team": "Alpine F1 Team",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 12,
+      "driver": "Yuki Tsunoda",
+      "team": "AlphaTauri",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 13,
+      "driver": "Nico H\u00fclkenberg",
+      "team": "Haas F1 Team",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 14,
+      "driver": "Guanyu Zhou",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 15,
+      "driver": "Valtteri Bottas",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 16,
+      "driver": "Logan Sargeant",
+      "team": "Williams",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 17,
+      "driver": "Lance Stroll",
+      "team": "Aston Martin",
+      "time": "Collision damage",
+      "points": 0.0,
+      "status": "Collision damage"
+    },
+    {
+      "position": 18,
+      "driver": "Fernando Alonso",
+      "team": "Aston Martin",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 19,
+      "driver": "Kevin Magnussen",
+      "team": "Haas F1 Team",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 20,
+      "driver": "Sergio P\u00e9rez",
+      "team": "Red Bull",
+      "time": "Collision damage",
+      "points": 0.0,
+      "status": "Collision damage"
+    }
+  ]
+}

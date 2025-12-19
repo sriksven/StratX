@@ -1,0 +1,264 @@
+{
+  "raceName": "British Grand Prix",
+  "circuit": "Silverstone",
+  "country": "UK",
+  "date": "1952-07-19",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Piero Taruffi",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 6.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 3,
+      "driver": "Mike Hawthorn",
+      "team": "Cooper",
+      "time": "+2 Laps",
+      "points": 4.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Dennis Poore",
+      "team": "Connaught",
+      "time": "+2 Laps",
+      "points": 3.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Eric Thompson",
+      "team": "Connaught",
+      "time": "+3 Laps",
+      "points": 2.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Reg Parnell",
+      "team": "Cooper",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Roy Salvadori",
+      "team": "Ferrari",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Ken Downing",
+      "team": "Connaught",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Peter Whitehead",
+      "team": "Ferrari",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Prince Bira",
+      "team": "Gordini",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Graham Whitehead",
+      "team": "Alta",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Rudi Fischer",
+      "team": "Ferrari",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Johnny Claes",
+      "team": "Simca",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Lance Macklin",
+      "team": "HWM",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 16,
+      "driver": "Kenneth McAlpine",
+      "team": "Connaught",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 17,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 18,
+      "driver": "Gino Bianco",
+      "team": "Maserati",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 19,
+      "driver": "Toulo de Graffenried",
+      "team": "Maserati",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 20,
+      "driver": "Eric Brandon",
+      "team": "Cooper",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 21,
+      "driver": "Tony Crook",
+      "team": "Frazer Nash",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 22,
+      "driver": "Alan Brown",
+      "team": "Cooper",
+      "time": "+16 Laps",
+      "points": 0.0,
+      "status": "+16 Laps"
+    },
+    {
+      "position": 23,
+      "driver": "Peter Collins",
+      "team": "HWM",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 24,
+      "driver": "Duncan Hamilton",
+      "team": "HWM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 25,
+      "driver": "Stirling Moss",
+      "team": "ERA",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 26,
+      "driver": "Maurice Trintignant",
+      "team": "Gordini",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 27,
+      "driver": "Tony Gaze",
+      "team": "HWM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 28,
+      "driver": "David Murray",
+      "team": "Cooper",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 29,
+      "driver": "Robert Manzon",
+      "team": "Gordini",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 30,
+      "driver": "Peter Hirt",
+      "team": "Ferrari",
+      "time": "Brakes",
+      "points": 0.0,
+      "status": "Brakes"
+    },
+    {
+      "position": 31,
+      "driver": "Eitel Cantoni",
+      "team": "Maserati",
+      "time": "Brakes",
+      "points": 0.0,
+      "status": "Brakes"
+    },
+    {
+      "position": 32,
+      "driver": "Bill Aston",
+      "team": "Aston Butterworth",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

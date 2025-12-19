@@ -1,0 +1,136 @@
+{
+  "raceName": "Monaco Grand Prix",
+  "circuit": "Monte Carlo",
+  "country": "Monaco",
+  "date": "1958-05-18",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Maurice Trintignant",
+      "team": "Cooper",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Luigi Musso",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Peter Collins",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Jack Brabham",
+      "team": "Cooper",
+      "time": "+3 Laps",
+      "points": 3.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Harry Schell",
+      "team": "BRM",
+      "time": "+9 Laps",
+      "points": 2.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Cliff Allison",
+      "team": "Team Lotus",
+      "time": "+13 Laps",
+      "points": 0.0,
+      "status": "+13 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Wolfgang von Trips",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 8,
+      "driver": "Jo Bonnier",
+      "team": "Maserati",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 9,
+      "driver": "Graham Hill",
+      "team": "Team Lotus",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 10,
+      "driver": "Roy Salvadori",
+      "team": "Cooper",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 11,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Fuel pump",
+      "points": 1.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 12,
+      "driver": "Stirling Moss",
+      "team": "Vanwall",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Jean Behra",
+      "team": "BRM",
+      "time": "Brakes",
+      "points": 0.0,
+      "status": "Brakes"
+    },
+    {
+      "position": 14,
+      "driver": "Giorgio Scarlatti",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 15,
+      "driver": "Tony Brooks",
+      "team": "Vanwall",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Stuart Lewis-Evans",
+      "team": "Vanwall",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    }
+  ]
+}

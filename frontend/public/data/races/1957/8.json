@@ -1,0 +1,168 @@
+{
+  "raceName": "Italian Grand Prix",
+  "circuit": "Monza",
+  "country": "Italy",
+  "date": "1957-09-08",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Stirling Moss",
+      "team": "Vanwall",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Juan Fangio",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Wolfgang von Trips",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 4.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Masten Gregory",
+      "team": "Maserati",
+      "time": "+3 Laps",
+      "points": 3.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "+3 Laps",
+      "points": 1.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Giorgio Scarlatti",
+      "team": "Maserati",
+      "time": "+3 Laps",
+      "points": 1.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Tony Brooks",
+      "team": "Vanwall",
+      "time": "+5 Laps",
+      "points": 1.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Luigi Musso",
+      "team": "Ferrari",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Paco Godia",
+      "team": "Maserati",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Horace Gould",
+      "team": "Maserati",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Ottorino Volonterio",
+      "team": "Maserati",
+      "time": "+15 Laps",
+      "points": 0.0,
+      "status": "+15 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Andr\u00e9 Simon",
+      "team": "Maserati",
+      "time": "+15 Laps",
+      "points": 0.0,
+      "status": "+15 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Peter Collins",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Stuart Lewis-Evans",
+      "team": "Vanwall",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 14,
+      "driver": "Jean Behra",
+      "team": "Maserati",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 15,
+      "driver": "Bruce Halford",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 17,
+      "driver": "Jo Bonnier",
+      "team": "Maserati",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 18,
+      "driver": "Luigi Piotti",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "raceName": "Italian Grand Prix",
+  "circuit": "Monza",
+  "country": "Italy",
+  "date": "1950-09-03",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Nino Farina",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Dorino Serafini",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Luigi Fagioli",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Louis Rosier",
+      "team": "Talbot-Lago",
+      "time": "+5 Laps",
+      "points": 3.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Philippe \u00c9tancelin",
+      "team": "Talbot-Lago",
+      "time": "+5 Laps",
+      "points": 2.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Toulo de Graffenried",
+      "team": "Maserati",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Peter Whitehead",
+      "team": "Ferrari",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "David Murray",
+      "team": "Maserati",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 9,
+      "driver": "Cuth Harrison",
+      "team": "ERA",
+      "time": "Radiator",
+      "points": 0.0,
+      "status": "Radiator"
+    },
+    {
+      "position": 10,
+      "driver": "Raymond Sommer",
+      "team": "Talbot-Lago",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 11,
+      "driver": "Guy Mairesse",
+      "team": "Talbot-Lago",
+      "time": "Oil pipe",
+      "points": 0.0,
+      "status": "Oil pipe"
+    },
+    {
+      "position": 12,
+      "driver": "Franco Rol",
+      "team": "Maserati",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 13,
+      "driver": "Juan Fangio",
+      "team": "Alfa Romeo",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Piero Taruffi",
+      "team": "Alfa Romeo",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 14,
+      "driver": "Pierre Levegh",
+      "team": "Talbot-Lago",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 15,
+      "driver": "Juan Fangio",
+      "team": "Alfa Romeo",
+      "time": "Gearbox",
+      "points": 1.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 16,
+      "driver": "Johnny Claes",
+      "team": "Talbot-Lago",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 17,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 18,
+      "driver": "Clemente Biondetti",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Henri Louveau",
+      "team": "Talbot-Lago",
+      "time": "Brakes",
+      "points": 0.0,
+      "status": "Brakes"
+    },
+    {
+      "position": 20,
+      "driver": "Franco Comotti",
+      "team": "Maserati",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 21,
+      "driver": "Maurice Trintignant",
+      "team": "Simca",
+      "time": "Water pipe",
+      "points": 0.0,
+      "status": "Water pipe"
+    },
+    {
+      "position": 22,
+      "driver": "Louis Chiron",
+      "team": "Maserati",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 23,
+      "driver": "Consalvo Sanesi",
+      "team": "Alfa Romeo",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 24,
+      "driver": "Robert Manzon",
+      "team": "Simca",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 25,
+      "driver": "Prince Bira",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 26,
+      "driver": "Paul Pietsch",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 27,
+      "driver": "Felice Bonetto",
+      "team": "Milano",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

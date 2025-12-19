@@ -1,0 +1,144 @@
+{
+  "raceName": "Swiss Grand Prix",
+  "circuit": "Bern",
+  "country": "Switzerland",
+  "date": "1954-08-22",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Juan Fangio",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Hans Herrmann",
+      "team": "Mercedes",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Roberto Mieres",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 3.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Sergio Mantovani",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 2.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Ken Wharton",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Umberto Maglioli",
+      "team": "Ferrari",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Jacques Swaters",
+      "team": "Ferrari",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Karl Kling",
+      "team": "Mercedes",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    },
+    {
+      "position": 10,
+      "driver": "Maurice Trintignant",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 11,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 12,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "Oil pump",
+      "points": 0.0,
+      "status": "Oil pump"
+    },
+    {
+      "position": 13,
+      "driver": "Stirling Moss",
+      "team": "Maserati",
+      "time": "Oil pump",
+      "points": 0.0,
+      "status": "Oil pump"
+    },
+    {
+      "position": 14,
+      "driver": "Fred Wacker",
+      "team": "Gordini",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 15,
+      "driver": "Jean Behra",
+      "team": "Gordini",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 16,
+      "driver": "Clemar Bucci",
+      "team": "Gordini",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 17,
+      "driver": "Robert Manzon",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    }
+  ]
+}

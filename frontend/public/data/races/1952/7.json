@@ -1,0 +1,160 @@
+{
+  "raceName": "Dutch Grand Prix",
+  "circuit": "Zandvoort",
+  "country": "Netherlands",
+  "date": "1952-08-17",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Luigi Villoresi",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Mike Hawthorn",
+      "team": "Cooper",
+      "time": "+2 Laps",
+      "points": 3.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Robert Manzon",
+      "team": "Gordini",
+      "time": "+3 Laps",
+      "points": 2.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Maurice Trintignant",
+      "team": "Gordini",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Duncan Hamilton",
+      "team": "HWM",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Lance Macklin",
+      "team": "HWM",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Chico Landi",
+      "team": "Maserati",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Jan Flinterman",
+      "team": "Maserati",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Ken Wharton",
+      "team": "Frazer Nash",
+      "time": "Wheel bearing",
+      "points": 0.0,
+      "status": "Wheel bearing"
+    },
+    {
+      "position": 11,
+      "driver": "Stirling Moss",
+      "team": "ERA",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 12,
+      "driver": "Dries van der Lof",
+      "team": "HWM",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 13,
+      "driver": "Ken Downing",
+      "team": "Connaught",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 14,
+      "driver": "Charles de Tornaco",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 15,
+      "driver": "Paul Fr\u00e8re",
+      "team": "Simca",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 16,
+      "driver": "Jean Behra",
+      "team": "Gordini",
+      "time": "Electrical",
+      "points": 0.0,
+      "status": "Electrical"
+    },
+    {
+      "position": 17,
+      "driver": "Jan Flinterman",
+      "team": "Maserati",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 18,
+      "driver": "Gino Bianco",
+      "team": "Maserati",
+      "time": "Axle",
+      "points": 0.0,
+      "status": "Axle"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "raceName": "German Grand Prix",
+  "circuit": "N\u00fcrburg",
+  "country": "Germany",
+  "date": "1953-08-02",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Juan Fangio",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Felice Bonetto",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Toulo de Graffenried",
+      "team": "Maserati",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Stirling Moss",
+      "team": "Cooper",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Jacques Swaters",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Luigi Villoresi",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 9,
+      "driver": "Hans Herrmann",
+      "team": "Veritas",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 10,
+      "driver": "Louis Rosier",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 11,
+      "driver": "Rodney Nuckey",
+      "team": "Cooper",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Theo Helfrich",
+      "team": "Veritas",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Kenneth McAlpine",
+      "team": "Connaught",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Rudolf Krause",
+      "team": "BMW",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Ernst Klodwig",
+      "team": "BMW",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 16,
+      "driver": "Wolfgang Seidel",
+      "team": "Veritas",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 17,
+      "driver": "Luigi Villoresi",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 17,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 1.0,
+      "status": "Engine"
+    },
+    {
+      "position": 18,
+      "driver": "Alan Brown",
+      "team": "Cooper",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Onofre Marim\u00f3n",
+      "team": "Maserati",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 20,
+      "driver": "Edgar Barth",
+      "team": "EMW",
+      "time": "Exhaust",
+      "points": 0.0,
+      "status": "Exhaust"
+    },
+    {
+      "position": 21,
+      "driver": "Johnny Claes",
+      "team": "Connaught",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 22,
+      "driver": "Oswald Karch",
+      "team": "Veritas",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 23,
+      "driver": "Willi Heeks",
+      "team": "Veritas",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 24,
+      "driver": "Jean Behra",
+      "team": "Gordini",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 25,
+      "driver": "Harry Schell",
+      "team": "Gordini",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 26,
+      "driver": "Prince Bira",
+      "team": "Connaught",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 27,
+      "driver": "Theo Fitzau",
+      "team": "AFM",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 28,
+      "driver": "Kurt Adolff",
+      "team": "Ferrari",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 29,
+      "driver": "G\u00fcnther Bechem",
+      "team": "AFM",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 30,
+      "driver": "Maurice Trintignant",
+      "team": "Gordini",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 31,
+      "driver": "Roy Salvadori",
+      "team": "Connaught",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 32,
+      "driver": "Erwin Bauer",
+      "team": "Veritas",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 33,
+      "driver": "Hans von Stuck",
+      "team": "AFM",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 34,
+      "driver": "Ernst Loof",
+      "team": "Veritas",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    }
+  ]
+}

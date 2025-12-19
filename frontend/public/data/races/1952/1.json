@@ -1,0 +1,184 @@
+{
+  "raceName": "Swiss Grand Prix",
+  "circuit": "Bern",
+  "country": "Switzerland",
+  "date": "1952-05-18",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Piero Taruffi",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Rudi Fischer",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jean Behra",
+      "team": "Gordini",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Ken Wharton",
+      "team": "Frazer Nash",
+      "time": "+2 Laps",
+      "points": 3.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Alan Brown",
+      "team": "Cooper",
+      "time": "+3 Laps",
+      "points": 2.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Toulo de Graffenried",
+      "team": "Maserati",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Peter Hirt",
+      "team": "Ferrari",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Eric Brandon",
+      "team": "Cooper",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Prince Bira",
+      "team": "Simca",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 10,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "Magneto",
+      "points": 0.0,
+      "status": "Magneto"
+    },
+    {
+      "position": 10,
+      "driver": "Andr\u00e9 Simon",
+      "team": "Ferrari",
+      "time": "Magneto",
+      "points": 0.0,
+      "status": "Magneto"
+    },
+    {
+      "position": 11,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 12,
+      "driver": "Stirling Moss",
+      "team": "HWM",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 13,
+      "driver": "Lance Macklin",
+      "team": "HWM",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 14,
+      "driver": "Robert Manzon",
+      "team": "Gordini",
+      "time": "Radiator",
+      "points": 0.0,
+      "status": "Radiator"
+    },
+    {
+      "position": 15,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "Magneto",
+      "points": 0.0,
+      "status": "Magneto"
+    },
+    {
+      "position": 16,
+      "driver": "Peter Collins",
+      "team": "HWM",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 17,
+      "driver": "George Abecassis",
+      "team": "HWM",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 18,
+      "driver": "Hans von Stuck",
+      "team": "AFM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Toni Ulmen",
+      "team": "Veritas",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 20,
+      "driver": "Louis Rosier",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 21,
+      "driver": "Max de Terra",
+      "team": "Simca",
+      "time": "Magneto",
+      "points": 0.0,
+      "status": "Magneto"
+    }
+  ]
+}

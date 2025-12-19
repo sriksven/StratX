@@ -1,0 +1,168 @@
+{
+  "raceName": "Mexico City Grand Prix",
+  "circuit": "Mexico City",
+  "country": "Mexico",
+  "date": "2021-11-07",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Max Verstappen",
+      "team": "Red Bull",
+      "time": "Finished",
+      "points": 25.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Lewis Hamilton",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 18.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Sergio P\u00e9rez",
+      "team": "Red Bull",
+      "time": "Finished",
+      "points": 15.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Pierre Gasly",
+      "team": "AlphaTauri",
+      "time": "Finished",
+      "points": 12.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 10.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Carlos Sainz",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 8.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Sebastian Vettel",
+      "team": "Aston Martin",
+      "time": "+1 Lap",
+      "points": 6.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Kimi R\u00e4ikk\u00f6nen",
+      "team": "Alfa Romeo",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 9,
+      "driver": "Fernando Alonso",
+      "team": "Alpine F1 Team",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 10,
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 11,
+      "driver": "Antonio Giovinazzi",
+      "team": "Alfa Romeo",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 12,
+      "driver": "Daniel Ricciardo",
+      "team": "McLaren",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 13,
+      "driver": "Esteban Ocon",
+      "team": "Alpine F1 Team",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 14,
+      "driver": "Lance Stroll",
+      "team": "Aston Martin",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Valtteri Bottas",
+      "team": "Mercedes",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 16,
+      "driver": "George Russell",
+      "team": "Williams",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 17,
+      "driver": "Nicholas Latifi",
+      "team": "Williams",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 18,
+      "driver": "Nikita Mazepin",
+      "team": "Haas F1 Team",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 19,
+      "driver": "Mick Schumacher",
+      "team": "Haas F1 Team",
+      "time": "Collision",
+      "points": 0.0,
+      "status": "Collision"
+    },
+    {
+      "position": 20,
+      "driver": "Yuki Tsunoda",
+      "team": "AlphaTauri",
+      "time": "Collision",
+      "points": 0.0,
+      "status": "Collision"
+    }
+  ]
+}

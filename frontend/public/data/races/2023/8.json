@@ -1,0 +1,168 @@
+{
+  "raceName": "Canadian Grand Prix",
+  "circuit": "Montr\u00e9al",
+  "country": "Canada",
+  "date": "2023-06-18",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Max Verstappen",
+      "team": "Red Bull",
+      "time": "Finished",
+      "points": 25.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Fernando Alonso",
+      "team": "Aston Martin",
+      "time": "Finished",
+      "points": 18.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Lewis Hamilton",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 15.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 12.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Carlos Sainz",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 10.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Sergio P\u00e9rez",
+      "team": "Red Bull",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Alexander Albon",
+      "team": "Williams",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 8,
+      "driver": "Esteban Ocon",
+      "team": "Alpine F1 Team",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 9,
+      "driver": "Lance Stroll",
+      "team": "Aston Martin",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 10,
+      "driver": "Valtteri Bottas",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 11,
+      "driver": "Oscar Piastri",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 12,
+      "driver": "Pierre Gasly",
+      "team": "Alpine F1 Team",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 13,
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 14,
+      "driver": "Yuki Tsunoda",
+      "team": "AlphaTauri",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 15,
+      "driver": "Nico H\u00fclkenberg",
+      "team": "Haas F1 Team",
+      "time": "Lapped",
+      "points": 0.0,
+      "status": "Lapped"
+    },
+    {
+      "position": 16,
+      "driver": "Guanyu Zhou",
+      "team": "Alfa Romeo",
+      "time": "Lapped",
+      "points": 0.0,
+      "status": "Lapped"
+    },
+    {
+      "position": 17,
+      "driver": "Kevin Magnussen",
+      "team": "Haas F1 Team",
+      "time": "Lapped",
+      "points": 0.0,
+      "status": "Lapped"
+    },
+    {
+      "position": 18,
+      "driver": "Nyck de Vries",
+      "team": "AlphaTauri",
+      "time": "Lapped",
+      "points": 0.0,
+      "status": "Lapped"
+    },
+    {
+      "position": 19,
+      "driver": "George Russell",
+      "team": "Mercedes",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 20,
+      "driver": "Logan Sargeant",
+      "team": "Williams",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    }
+  ]
+}

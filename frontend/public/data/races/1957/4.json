@@ -1,0 +1,136 @@
+{
+  "raceName": "French Grand Prix",
+  "circuit": "Rouen",
+  "country": "France",
+  "date": "1957-07-07",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Juan Fangio",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Luigi Musso",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 7.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Peter Collins",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "+7 Laps",
+      "points": 2.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Jean Behra",
+      "team": "Maserati",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Jack Brabham",
+      "team": "Cooper",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Mike MacDowel",
+      "team": "Cooper",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Carlos Menditeguy",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 9,
+      "driver": "Stuart Lewis-Evans",
+      "team": "Vanwall",
+      "time": "Steering",
+      "points": 0.0,
+      "status": "Steering"
+    },
+    {
+      "position": 10,
+      "driver": "Roy Salvadori",
+      "team": "Vanwall",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 11,
+      "driver": "Herbert MacKay-Fraser",
+      "team": "BRM",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 12,
+      "driver": "Maurice Trintignant",
+      "team": "Ferrari",
+      "time": "Electrical",
+      "points": 0.0,
+      "status": "Electrical"
+    },
+    {
+      "position": 13,
+      "driver": "Jack Brabham",
+      "team": "Cooper",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 14,
+      "driver": "Horace Gould",
+      "team": "Maserati",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 15,
+      "driver": "Ron Flockhart",
+      "team": "BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    }
+  ]
+}

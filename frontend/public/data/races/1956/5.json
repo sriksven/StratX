@@ -1,0 +1,184 @@
+{
+  "raceName": "French Grand Prix",
+  "circuit": "Reims",
+  "country": "France",
+  "date": "1956-07-01",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Peter Collins",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Eugenio Castellotti",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jean Behra",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Juan Fangio",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Stirling Moss",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Cesare Perdisa",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Louis Rosier",
+      "team": "Maserati",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Paco Godia",
+      "team": "Maserati",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Hernando da Silva Ramos",
+      "team": "Gordini",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Robert Manzon",
+      "team": "Gordini",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Mike Hawthorn",
+      "team": "Vanwall",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Harry Schell",
+      "team": "Vanwall",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Andr\u00e9 Pilette",
+      "team": "Gordini",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Andr\u00e9 Simon",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Hernando da Silva Ramos",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 14,
+      "driver": "Olivier Gendebien",
+      "team": "Ferrari",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 15,
+      "driver": "Luigi Villoresi",
+      "team": "Maserati",
+      "time": "Brakes",
+      "points": 0.0,
+      "status": "Brakes"
+    },
+    {
+      "position": 16,
+      "driver": "Alfonso de Portago",
+      "team": "Ferrari",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 17,
+      "driver": "Maurice Trintignant",
+      "team": "Bugatti",
+      "time": "Throttle",
+      "points": 0.0,
+      "status": "Throttle"
+    },
+    {
+      "position": 18,
+      "driver": "Stirling Moss",
+      "team": "Maserati",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 19,
+      "driver": "Harry Schell",
+      "team": "Vanwall",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 20,
+      "driver": "Colin Chapman",
+      "team": "Vanwall",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "raceName": "Italian Grand Prix",
+  "circuit": "Monza",
+  "country": "Italy",
+  "date": "1961-09-10",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Phil Hill",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Dan Gurney",
+      "team": "Porsche",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Bruce McLaren",
+      "team": "Cooper-Climax",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Jackie Lewis",
+      "team": "Cooper-Climax",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Tony Brooks",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Roy Salvadori",
+      "team": "Cooper-Climax",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Carel Godin de Beaufort",
+      "team": "Porsche",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Lorenzo Bandini",
+      "team": "Cooper-Maserati",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Maurice Trintignant",
+      "team": "Cooper-Maserati",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Tim Parnell",
+      "team": "Lotus-Climax",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Henry Taylor",
+      "team": "Lotus-Climax",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Renato Pirocchi",
+      "team": "Cooper-Maserati",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Stirling Moss",
+      "team": "Lotus-Climax",
+      "time": "Wheel bearing",
+      "points": 0.0,
+      "status": "Wheel bearing"
+    },
+    {
+      "position": 14,
+      "driver": "Richie Ginther",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 15,
+      "driver": "Gaetano Starrabba",
+      "team": "Lotus-Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Jo Bonnier",
+      "team": "Porsche",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 17,
+      "driver": "Ricardo Rodr\u00edguez",
+      "team": "Ferrari",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    },
+    {
+      "position": 18,
+      "driver": "Giancarlo Baghetti",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Nino Vaccarella",
+      "team": "De Tomaso-Alfa Romeo",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 20,
+      "driver": "Masten Gregory",
+      "team": "Lotus-Climax",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 21,
+      "driver": "Graham Hill",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 22,
+      "driver": "Jack Brabham",
+      "team": "Cooper-Climax",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 23,
+      "driver": "Brian Naylor",
+      "team": "JBW",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 24,
+      "driver": "Innes Ireland",
+      "team": "Lotus-Climax",
+      "time": "Chassis",
+      "points": 0.0,
+      "status": "Chassis"
+    },
+    {
+      "position": 25,
+      "driver": "Jack Fairman",
+      "team": "Cooper-Climax",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 26,
+      "driver": "John Surtees",
+      "team": "Cooper-Climax",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 27,
+      "driver": "Wolfgang von Trips",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 28,
+      "driver": "Jim Clark",
+      "team": "Lotus-Climax",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 29,
+      "driver": "Roberto Bussinello",
+      "team": "De Tomaso-Alfa Romeo",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 30,
+      "driver": "Wolfgang Seidel",
+      "team": "Lotus-Climax",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 31,
+      "driver": "Roberto Lippi",
+      "team": "De Tomaso-Osca",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 32,
+      "driver": "Gerry Ashmore",
+      "team": "Lotus-Climax",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 34,
+      "driver": "Edgar Barth",
+      "team": "Porsche",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 35,
+      "driver": "Massimo Natili",
+      "team": "Cooper-Maserati",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 36,
+      "driver": "Alfonso Thiele",
+      "team": "Cooper-Climax",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 37,
+      "driver": "Ernesto Prinoth",
+      "team": "Lotus-Climax",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 38,
+      "driver": "Menato Boffa",
+      "team": "Cooper-Climax",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 39,
+      "driver": "Michael May",
+      "team": "Lotus-Climax",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

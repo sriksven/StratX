@@ -1,0 +1,200 @@
+{
+  "raceName": "Belgian Grand Prix",
+  "circuit": "Spa",
+  "country": "Belgium",
+  "date": "1963-06-09",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jim Clark",
+      "team": "Lotus-Climax",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Bruce McLaren",
+      "team": "Cooper-Climax",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Dan Gurney",
+      "team": "Brabham",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Richie Ginther",
+      "team": "BRM",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Jo Bonnier",
+      "team": "Cooper-Climax",
+      "time": "+2 Laps",
+      "points": 2.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Carel Godin de Beaufort",
+      "team": "Porsche",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Tony Maggs",
+      "team": "Cooper-Climax",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 8,
+      "driver": "Tony Settember",
+      "team": "Scirocco",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 9,
+      "driver": "John Surtees",
+      "team": "Ferrari",
+      "time": "Injection",
+      "points": 0.0,
+      "status": "Injection"
+    },
+    {
+      "position": 10,
+      "driver": "Graham Hill",
+      "team": "BRM",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 11,
+      "driver": "Lucien Bianchi",
+      "team": "Lola",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 12,
+      "driver": "Jim Hall",
+      "team": "Lotus-BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 13,
+      "driver": "Jo Siffert",
+      "team": "Lotus-BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 14,
+      "driver": "Phil Hill",
+      "team": "ATS",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 15,
+      "driver": "Jack Brabham",
+      "team": "Brabham",
+      "time": "Injection",
+      "points": 0.0,
+      "status": "Injection"
+    },
+    {
+      "position": 16,
+      "driver": "Chris Amon",
+      "team": "Lola",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 17,
+      "driver": "Innes Ireland",
+      "team": "BRP",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 18,
+      "driver": "Willy Mairesse",
+      "team": "Ferrari",
+      "time": "Injection",
+      "points": 0.0,
+      "status": "Injection"
+    },
+    {
+      "position": 19,
+      "driver": "Giancarlo Baghetti",
+      "team": "ATS",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 20,
+      "driver": "Trevor Taylor",
+      "team": "Lotus-Climax",
+      "time": "Physical",
+      "points": 0.0,
+      "status": "Physical"
+    },
+    {
+      "position": 21,
+      "driver": "Peter Arundell",
+      "team": "Lotus-Climax",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 22,
+      "driver": "Ludovico Scarfiotti",
+      "team": "Ferrari",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 23,
+      "driver": "Lorenzo Bandini",
+      "team": "BRM",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 24,
+      "driver": "Ian Burgess",
+      "team": "Scirocco",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "raceName": "Pescara Grand Prix",
+  "circuit": "Pescara",
+  "country": "Italy",
+  "date": "1957-08-18",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Stirling Moss",
+      "team": "Vanwall",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Juan Fangio",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Masten Gregory",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Stuart Lewis-Evans",
+      "team": "Vanwall",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Giorgio Scarlatti",
+      "team": "Maserati",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Jack Brabham",
+      "team": "Cooper",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Luigi Musso",
+      "team": "Ferrari",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 9,
+      "driver": "Paco Godia",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 10,
+      "driver": "Bruce Halford",
+      "team": "Maserati",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 11,
+      "driver": "Jo Bonnier",
+      "team": "Maserati",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 12,
+      "driver": "Jean Behra",
+      "team": "Maserati",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 13,
+      "driver": "Roy Salvadori",
+      "team": "Cooper",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 14,
+      "driver": "Tony Brooks",
+      "team": "Vanwall",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 15,
+      "driver": "Horace Gould",
+      "team": "Maserati",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 16,
+      "driver": "Luigi Piotti",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

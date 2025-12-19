@@ -1,0 +1,184 @@
+{
+  "raceName": "German Grand Prix",
+  "circuit": "N\u00fcrburg",
+  "country": "Germany",
+  "date": "1956-08-05",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Juan Fangio",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Stirling Moss",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jean Behra",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Paco Godia",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 3.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Louis Rosier",
+      "team": "Maserati",
+      "time": "+3 Laps",
+      "points": 2.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Bruce Halford",
+      "team": "Maserati",
+      "time": "Disqualified",
+      "points": 0.0,
+      "status": "Disqualified"
+    },
+    {
+      "position": 7,
+      "driver": "Ottorino Volonterio",
+      "team": "Maserati",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Andr\u00e9 Milhoux",
+      "team": "Gordini",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 9,
+      "driver": "Alfonso de Portago",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 10,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 11,
+      "driver": "Luigi Villoresi",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 12,
+      "driver": "Luigi Musso",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 13,
+      "driver": "Peter Collins",
+      "team": "Ferrari",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 14,
+      "driver": "Eugenio Castellotti",
+      "team": "Ferrari",
+      "time": "Electrical",
+      "points": 0.0,
+      "status": "Electrical"
+    },
+    {
+      "position": 15,
+      "driver": "Umberto Maglioli",
+      "team": "Maserati",
+      "time": "Steering",
+      "points": 0.0,
+      "status": "Steering"
+    },
+    {
+      "position": 16,
+      "driver": "Horace Gould",
+      "team": "Maserati",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 17,
+      "driver": "Roy Salvadori",
+      "team": "Maserati",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 18,
+      "driver": "Robert Manzon",
+      "team": "Gordini",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 19,
+      "driver": "Giorgio Scarlatti",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 20,
+      "driver": "Cesare Perdisa",
+      "team": "Maserati",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 21,
+      "driver": "Andr\u00e9 Pilette",
+      "team": "Gordini",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 22,
+      "driver": "Luigi Piotti",
+      "team": "Maserati",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

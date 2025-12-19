@@ -1,0 +1,168 @@
+{
+  "raceName": "Sakhir Grand Prix",
+  "circuit": "Sakhir",
+  "country": "Bahrain",
+  "date": "2020-12-06",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Sergio P\u00e9rez",
+      "team": "Racing Point",
+      "time": "Finished",
+      "points": 25.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Esteban Ocon",
+      "team": "Renault",
+      "time": "Finished",
+      "points": 18.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Lance Stroll",
+      "team": "Racing Point",
+      "time": "Finished",
+      "points": 15.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Carlos Sainz",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 12.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Daniel Ricciardo",
+      "team": "Renault",
+      "time": "Finished",
+      "points": 10.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Alexander Albon",
+      "team": "Red Bull",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Daniil Kvyat",
+      "team": "AlphaTauri",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 8,
+      "driver": "Valtteri Bottas",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 9,
+      "driver": "George Russell",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 10,
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 11,
+      "driver": "Pierre Gasly",
+      "team": "AlphaTauri",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 12,
+      "driver": "Sebastian Vettel",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 13,
+      "driver": "Antonio Giovinazzi",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 14,
+      "driver": "Kimi R\u00e4ikk\u00f6nen",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 15,
+      "driver": "Kevin Magnussen",
+      "team": "Haas F1 Team",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 16,
+      "driver": "Jack Aitken",
+      "team": "Williams",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 17,
+      "driver": "Pietro Fittipaldi",
+      "team": "Haas F1 Team",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 18,
+      "driver": "Nicholas Latifi",
+      "team": "Williams",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Max Verstappen",
+      "team": "Red Bull",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 20,
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "time": "Collision",
+      "points": 0.0,
+      "status": "Collision"
+    }
+  ]
+}

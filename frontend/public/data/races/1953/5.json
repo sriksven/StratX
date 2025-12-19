@@ -1,0 +1,208 @@
+{
+  "raceName": "French Grand Prix",
+  "circuit": "Reims",
+  "country": "France",
+  "date": "1953-07-05",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Juan Fangio",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 7.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Luigi Villoresi",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Toulo de Graffenried",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Louis Rosier",
+      "team": "Ferrari",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Onofre Marim\u00f3n",
+      "team": "Maserati",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Jean Behra",
+      "team": "Gordini",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Bob Gerard",
+      "team": "Cooper",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Johnny Claes",
+      "team": "Connaught",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Peter Collins",
+      "team": "HWM",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Yves Cabantous",
+      "team": "HWM",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Louis Chiron",
+      "team": "OSCA",
+      "time": "+17 Laps",
+      "points": 0.0,
+      "status": "+17 Laps"
+    },
+    {
+      "position": 16,
+      "driver": "Felice Bonetto",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 17,
+      "driver": "Stirling Moss",
+      "team": "Cooper",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 18,
+      "driver": "Prince Bira",
+      "team": "Connaught",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 19,
+      "driver": "\u00c9lie Bayol",
+      "team": "OSCA",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 20,
+      "driver": "Ken Wharton",
+      "team": "Cooper",
+      "time": "Wheel bearing",
+      "points": 0.0,
+      "status": "Wheel bearing"
+    },
+    {
+      "position": 21,
+      "driver": "Maurice Trintignant",
+      "team": "Gordini",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 22,
+      "driver": "Lance Macklin",
+      "team": "HWM",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 23,
+      "driver": "Harry Schell",
+      "team": "Gordini",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 24,
+      "driver": "Roberto Mieres",
+      "team": "Gordini",
+      "time": "Axle",
+      "points": 0.0,
+      "status": "Axle"
+    },
+    {
+      "position": 25,
+      "driver": "Roy Salvadori",
+      "team": "Connaught",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    }
+  ]
+}

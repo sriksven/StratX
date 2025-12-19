@@ -1,0 +1,168 @@
+{
+  "raceName": "Spanish Grand Prix",
+  "circuit": "Barcelona",
+  "country": "Spain",
+  "date": "2020-08-16",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Lewis Hamilton",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 25.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Max Verstappen",
+      "team": "Red Bull",
+      "time": "Finished",
+      "points": 18.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Valtteri Bottas",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 16.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Lance Stroll",
+      "team": "Racing Point",
+      "time": "+1 Lap",
+      "points": 12.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Sergio P\u00e9rez",
+      "team": "Racing Point",
+      "time": "+1 Lap",
+      "points": 10.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Carlos Sainz",
+      "team": "McLaren",
+      "time": "+1 Lap",
+      "points": 8.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Sebastian Vettel",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 6.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Alexander Albon",
+      "team": "Red Bull",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 9,
+      "driver": "Pierre Gasly",
+      "team": "AlphaTauri",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 10,
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 11,
+      "driver": "Daniel Ricciardo",
+      "team": "Renault",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 12,
+      "driver": "Daniil Kvyat",
+      "team": "AlphaTauri",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 13,
+      "driver": "Esteban Ocon",
+      "team": "Renault",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 14,
+      "driver": "Kimi R\u00e4ikk\u00f6nen",
+      "team": "Alfa Romeo",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 15,
+      "driver": "Kevin Magnussen",
+      "team": "Haas F1 Team",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 16,
+      "driver": "Antonio Giovinazzi",
+      "team": "Alfa Romeo",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 17,
+      "driver": "George Russell",
+      "team": "Williams",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 18,
+      "driver": "Nicholas Latifi",
+      "team": "Williams",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 19,
+      "driver": "Romain Grosjean",
+      "team": "Haas F1 Team",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 20,
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "time": "Electronics",
+      "points": 0.0,
+      "status": "Electronics"
+    }
+  ]
+}

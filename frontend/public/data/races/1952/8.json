@@ -1,0 +1,200 @@
+{
+  "raceName": "Italian Grand Prix",
+  "circuit": "Monza",
+  "country": "Italy",
+  "date": "1952-09-07",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 8.5,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 6.5,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Luigi Villoresi",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Felice Bonetto",
+      "team": "Maserati",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Andr\u00e9 Simon",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Piero Taruffi",
+      "team": "Ferrari",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Chico Landi",
+      "team": "Maserati",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Ken Wharton",
+      "team": "Cooper",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Louis Rosier",
+      "team": "Ferrari",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Eitel Cantoni",
+      "team": "Maserati",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Dennis Poore",
+      "team": "Connaught",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Eric Brandon",
+      "team": "Cooper",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Robert Manzon",
+      "team": "Gordini",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Alan Brown",
+      "team": "Cooper",
+      "time": "+12 Laps",
+      "points": 0.0,
+      "status": "+12 Laps"
+    },
+    {
+      "position": 16,
+      "driver": "Stirling Moss",
+      "team": "Connaught",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 17,
+      "driver": "Gino Bianco",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 18,
+      "driver": "Jean Behra",
+      "team": "Gordini",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Mike Hawthorn",
+      "team": "Cooper",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 20,
+      "driver": "Franco Rol",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 21,
+      "driver": "Maurice Trintignant",
+      "team": "Gordini",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 22,
+      "driver": "Kenneth McAlpine",
+      "team": "Connaught",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 23,
+      "driver": "Rudi Fischer",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 24,
+      "driver": "\u00c9lie Bayol",
+      "team": "OSCA",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    }
+  ]
+}

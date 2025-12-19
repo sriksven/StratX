@@ -1,0 +1,160 @@
+{
+  "raceName": "Mexican Grand Prix",
+  "circuit": "Mexico City",
+  "country": "Mexico",
+  "date": "1967-10-22",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jim Clark",
+      "team": "Lotus-Ford",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Repco",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Denny Hulme",
+      "team": "Brabham-Repco",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "John Surtees",
+      "team": "Honda",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Mike Spence",
+      "team": "BRM",
+      "time": "+2 Laps",
+      "points": 2.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "Cooper-Maserati",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Jean-Pierre Beltoise",
+      "team": "McLaren-Ford",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Jonathan Williams",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Chris Amon",
+      "team": "Ferrari",
+      "time": "Out of fuel",
+      "points": 0.0,
+      "status": "Out of fuel"
+    },
+    {
+      "position": 10,
+      "driver": "Jo Bonnier",
+      "team": "Cooper-Maserati",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Guy Ligier",
+      "team": "Brabham-Repco",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Jo Siffert",
+      "team": "Cooper-Maserati",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 13,
+      "driver": "Bruce McLaren",
+      "team": "McLaren-BRM",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 14,
+      "driver": "Chris Irwin",
+      "team": "BRM",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 15,
+      "driver": "Jackie Stewart",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Graham Hill",
+      "team": "Lotus-Ford",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 17,
+      "driver": "Mois\u00e9s Solana",
+      "team": "Lotus-BRM",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 18,
+      "driver": "Dan Gurney",
+      "team": "Eagle-Climax",
+      "time": "Radiator",
+      "points": 0.0,
+      "status": "Radiator"
+    },
+    {
+      "position": 19,
+      "driver": "Mike Fisher",
+      "team": "Lotus-BRM",
+      "time": "Fuel system",
+      "points": 0.0,
+      "status": "Fuel system"
+    }
+  ]
+}

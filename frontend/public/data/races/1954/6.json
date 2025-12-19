@@ -1,0 +1,200 @@
+{
+  "raceName": "German Grand Prix",
+  "circuit": "N\u00fcrburg",
+  "country": "Germany",
+  "date": "1954-08-01",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Juan Fangio",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Maurice Trintignant",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Karl Kling",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Sergio Mantovani",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Piero Taruffi",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Louis Rosier",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 9,
+      "driver": "Robert Manzon",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Jean Behra",
+      "team": "Gordini",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Prince Bira",
+      "team": "Maserati",
+      "time": "Steering",
+      "points": 0.0,
+      "status": "Steering"
+    },
+    {
+      "position": 12,
+      "driver": "Hermann Lang",
+      "team": "Mercedes",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    },
+    {
+      "position": 13,
+      "driver": "Clemar Bucci",
+      "team": "Gordini",
+      "time": "Wheel",
+      "points": 0.0,
+      "status": "Wheel"
+    },
+    {
+      "position": 14,
+      "driver": "Theo Helfrich",
+      "team": "Klenk",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 15,
+      "driver": "Hans Herrmann",
+      "team": "Mercedes",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 16,
+      "driver": "Paul Fr\u00e8re",
+      "team": "Gordini",
+      "time": "Wheel",
+      "points": 0.0,
+      "status": "Wheel"
+    },
+    {
+      "position": 17,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 18,
+      "driver": "Roberto Mieres",
+      "team": "Maserati",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 19,
+      "driver": "Stirling Moss",
+      "team": "Maserati",
+      "time": "Wheel bearing",
+      "points": 0.0,
+      "status": "Wheel bearing"
+    },
+    {
+      "position": 20,
+      "driver": "Andr\u00e9 Pilette",
+      "team": "Gordini",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 21,
+      "driver": "Onofre Marim\u00f3n",
+      "team": "Maserati",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 22,
+      "driver": "Luigi Villoresi",
+      "team": "Maserati",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 23,
+      "driver": "Ken Wharton",
+      "team": "Maserati",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

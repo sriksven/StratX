@@ -1,0 +1,144 @@
+{
+  "raceName": "French Grand Prix",
+  "circuit": "Rouen",
+  "country": "France",
+  "date": "1964-06-28",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Dan Gurney",
+      "team": "Brabham-Climax",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Graham Hill",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Climax",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Peter Arundell",
+      "team": "Lotus-Climax",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Richie Ginther",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 2.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Bruce McLaren",
+      "team": "Cooper-Climax",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Phil Hill",
+      "team": "Cooper-Climax",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Mike Hailwood",
+      "team": "Lotus-BRM",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 9,
+      "driver": "Lorenzo Bandini",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Chris Amon",
+      "team": "Lotus-BRM",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Maurice Trintignant",
+      "team": "BRM",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Bob Anderson",
+      "team": "Brabham-Climax",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Innes Ireland",
+      "team": "BRP",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 14,
+      "driver": "Jim Clark",
+      "team": "Lotus-Climax",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 15,
+      "driver": "John Surtees",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Trevor Taylor",
+      "team": "BRP",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 17,
+      "driver": "Jo Siffert",
+      "team": "Brabham-BRM",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    }
+  ]
+}

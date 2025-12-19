@@ -1,0 +1,168 @@
+{
+  "raceName": "Dutch Grand Prix",
+  "circuit": "Zandvoort",
+  "country": "Netherlands",
+  "date": "1953-06-07",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Nino Farina",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Maserati",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 3,
+      "driver": "Felice Bonetto",
+      "team": "Maserati",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Toulo de Graffenried",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 2.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Maurice Trintignant",
+      "team": "Gordini",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Louis Rosier",
+      "team": "Ferrari",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Peter Collins",
+      "team": "HWM",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Stirling Moss",
+      "team": "Connaught",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Luigi Villoresi",
+      "team": "Ferrari",
+      "time": "Throttle",
+      "points": 1.0,
+      "status": "Throttle"
+    },
+    {
+      "position": 11,
+      "driver": "Kenneth McAlpine",
+      "team": "Connaught",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 12,
+      "driver": "Harry Schell",
+      "team": "Gordini",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 13,
+      "driver": "Johnny Claes",
+      "team": "Connaught",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 14,
+      "driver": "Juan Fangio",
+      "team": "Maserati",
+      "time": "Axle",
+      "points": 0.0,
+      "status": "Axle"
+    },
+    {
+      "position": 15,
+      "driver": "Roberto Mieres",
+      "team": "Gordini",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 16,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Maserati",
+      "time": "Axle",
+      "points": 0.0,
+      "status": "Axle"
+    },
+    {
+      "position": 17,
+      "driver": "Ken Wharton",
+      "team": "Cooper",
+      "time": "Physical",
+      "points": 0.0,
+      "status": "Physical"
+    },
+    {
+      "position": 18,
+      "driver": "Roy Salvadori",
+      "team": "Connaught",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 19,
+      "driver": "Lance Macklin",
+      "team": "HWM",
+      "time": "Throttle",
+      "points": 0.0,
+      "status": "Throttle"
+    }
+  ]
+}

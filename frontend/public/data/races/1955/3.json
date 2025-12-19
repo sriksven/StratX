@@ -1,0 +1,288 @@
+{
+  "raceName": "Indianapolis 500",
+  "circuit": "Indianapolis",
+  "country": "USA",
+  "date": "1955-05-30",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Bob Sweikert",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Paul Russo",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Tony Bettenhausen",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Jimmy Davies",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Johnny Thomson",
+      "team": "Kuzma",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Walt Faulkner",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Bill Homeier",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 1.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Andy Linden",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Al Herman",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 8,
+      "driver": "Pat O'Connor",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 9,
+      "driver": "Jimmy Daywalt",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 10,
+      "driver": "Pat Flaherty",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 11,
+      "driver": "Duane Carter",
+      "team": "Kuzma",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Chuck Weyant",
+      "team": "Kurtis Kraft",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Eddie Johnson",
+      "team": "Trevis",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Jim Rathmann",
+      "team": "Epperly",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 15,
+      "driver": "Don Freeland",
+      "team": "Phillips",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 16,
+      "driver": "Cal Niday",
+      "team": "Kurtis Kraft",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 17,
+      "driver": "Art Cross",
+      "team": "Kurtis Kraft",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 18,
+      "driver": "Shorty Templeman",
+      "team": "Trevis",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 19,
+      "driver": "Sam Hanks",
+      "team": "Kurtis Kraft",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 20,
+      "driver": "Keith Andrews",
+      "team": "Schroeder",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 21,
+      "driver": "Johnnie Parsons",
+      "team": "Kurtis Kraft",
+      "time": "Magneto",
+      "points": 0.0,
+      "status": "Magneto"
+    },
+    {
+      "position": 22,
+      "driver": "Eddie Russo",
+      "team": "Pawl",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 23,
+      "driver": "Ray Crawford",
+      "team": "Kurtis Kraft",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 24,
+      "driver": "Jimmy Bryan",
+      "team": "Kuzma",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 25,
+      "driver": "Bill Vukovich",
+      "team": "Kurtis Kraft",
+      "time": "Accident",
+      "points": 1.0,
+      "status": "Accident"
+    },
+    {
+      "position": 26,
+      "driver": "Jack McGrath",
+      "team": "Kurtis Kraft",
+      "time": "Magneto",
+      "points": 0.0,
+      "status": "Magneto"
+    },
+    {
+      "position": 27,
+      "driver": "Al Keller",
+      "team": "Kurtis Kraft",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 28,
+      "driver": "Rodger Ward",
+      "team": "Kuzma",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 29,
+      "driver": "Johnny Boyd",
+      "team": "Kurtis Kraft",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 30,
+      "driver": "Ed Elisian",
+      "team": "Kurtis Kraft",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 31,
+      "driver": "Jerry Hoyt",
+      "team": "Stevens",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 32,
+      "driver": "Fred Agabashian",
+      "team": "Kurtis Kraft",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    },
+    {
+      "position": 33,
+      "driver": "Jimmy Reece",
+      "team": "Pankratz",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

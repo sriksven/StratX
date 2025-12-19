@@ -1,0 +1,349 @@
+{
+  "year": 2023,
+  "driverChampion": {
+    "name": "Max Verstappen",
+    "team": "Red Bull",
+    "points": 575.0
+  },
+  "constructorChampion": {
+    "name": "Red Bull",
+    "points": 860.0
+  },
+  "races": [
+    {
+      "round": 1,
+      "name": "Bahrain Grand Prix",
+      "circuit": "Sakhir",
+      "country": "Bahrain",
+      "date": "2023-03-05",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "round": 2,
+      "name": "Saudi Arabian Grand Prix",
+      "circuit": "Jeddah",
+      "country": "Saudi Arabia",
+      "date": "2023-03-19",
+      "winner": "Sergio P\u00e9rez",
+      "team": "Red Bull"
+    },
+    {
+      "round": 3,
+      "name": "Australian Grand Prix",
+      "circuit": "Melbourne",
+      "country": "Australia",
+      "date": "2023-04-02",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "round": 4,
+      "name": "Azerbaijan Grand Prix",
+      "circuit": "Baku",
+      "country": "Azerbaijan",
+      "date": "2023-04-30",
+      "winner": "Sergio P\u00e9rez",
+      "team": "Red Bull"
+    },
+    {
+      "round": 5,
+      "name": "Miami Grand Prix",
+      "circuit": "Miami",
+      "country": "United States",
+      "date": "2023-05-07",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "round": 6,
+      "name": "Monaco Grand Prix",
+      "circuit": "Monaco",
+      "country": "Monaco",
+      "date": "2023-05-28",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "round": 7,
+      "name": "Spanish Grand Prix",
+      "circuit": "Barcelona",
+      "country": "Spain",
+      "date": "2023-06-04",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "round": 8,
+      "name": "Canadian Grand Prix",
+      "circuit": "Montr\u00e9al",
+      "country": "Canada",
+      "date": "2023-06-18",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "round": 9,
+      "name": "Austrian Grand Prix",
+      "circuit": "Spielberg",
+      "country": "Austria",
+      "date": "2023-07-02",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "round": 10,
+      "name": "British Grand Prix",
+      "circuit": "Silverstone",
+      "country": "Great Britain",
+      "date": "2023-07-09",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "round": 11,
+      "name": "Hungarian Grand Prix",
+      "circuit": "Budapest",
+      "country": "Hungary",
+      "date": "2023-07-23",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "round": 16,
+      "name": "Japanese Grand Prix",
+      "circuit": "Suzuka",
+      "country": "Japan",
+      "date": "2023-09-24",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "round": 19,
+      "name": "Mexico City Grand Prix",
+      "circuit": "Mexico City",
+      "country": "Mexico",
+      "date": "2023-10-29",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    }
+  ],
+  "driverStandings": [
+    {
+      "position": 1,
+      "driver": "Max Verstappen",
+      "team": "Red Bull",
+      "points": 575.0,
+      "wins": 19
+    },
+    {
+      "position": 2,
+      "driver": "Sergio P\u00e9rez",
+      "team": "Red Bull",
+      "points": 285.0,
+      "wins": 2
+    },
+    {
+      "position": 3,
+      "driver": "Lewis Hamilton",
+      "team": "Mercedes",
+      "points": 234.0,
+      "wins": 0
+    },
+    {
+      "position": 4,
+      "driver": "Fernando Alonso",
+      "team": "Aston Martin",
+      "points": 206.0,
+      "wins": 0
+    },
+    {
+      "position": 5,
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "points": 206.0,
+      "wins": 0
+    },
+    {
+      "position": 6,
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "points": 205.0,
+      "wins": 0
+    },
+    {
+      "position": 7,
+      "driver": "Carlos Sainz",
+      "team": "Ferrari",
+      "points": 200.0,
+      "wins": 1
+    },
+    {
+      "position": 8,
+      "driver": "George Russell",
+      "team": "Mercedes",
+      "points": 175.0,
+      "wins": 0
+    },
+    {
+      "position": 9,
+      "driver": "Oscar Piastri",
+      "team": "McLaren",
+      "points": 97.0,
+      "wins": 0
+    },
+    {
+      "position": 10,
+      "driver": "Lance Stroll",
+      "team": "Aston Martin",
+      "points": 74.0,
+      "wins": 0
+    },
+    {
+      "position": 11,
+      "driver": "Pierre Gasly",
+      "team": "Alpine F1 Team",
+      "points": 62.0,
+      "wins": 0
+    },
+    {
+      "position": 12,
+      "driver": "Esteban Ocon",
+      "team": "Alpine F1 Team",
+      "points": 58.0,
+      "wins": 0
+    },
+    {
+      "position": 13,
+      "driver": "Alexander Albon",
+      "team": "Williams",
+      "points": 27.0,
+      "wins": 0
+    },
+    {
+      "position": 14,
+      "driver": "Yuki Tsunoda",
+      "team": "AlphaTauri",
+      "points": 17.0,
+      "wins": 0
+    },
+    {
+      "position": 15,
+      "driver": "Valtteri Bottas",
+      "team": "Alfa Romeo",
+      "points": 10.0,
+      "wins": 0
+    },
+    {
+      "position": 16,
+      "driver": "Nico H\u00fclkenberg",
+      "team": "Haas F1 Team",
+      "points": 9.0,
+      "wins": 0
+    },
+    {
+      "position": 17,
+      "driver": "Daniel Ricciardo",
+      "team": "AlphaTauri",
+      "points": 6.0,
+      "wins": 0
+    },
+    {
+      "position": 18,
+      "driver": "Guanyu Zhou",
+      "team": "Alfa Romeo",
+      "points": 6.0,
+      "wins": 0
+    },
+    {
+      "position": 19,
+      "driver": "Kevin Magnussen",
+      "team": "Haas F1 Team",
+      "points": 3.0,
+      "wins": 0
+    },
+    {
+      "position": 20,
+      "driver": "Liam Lawson",
+      "team": "AlphaTauri",
+      "points": 2.0,
+      "wins": 0
+    },
+    {
+      "position": 21,
+      "driver": "Logan Sargeant",
+      "team": "Williams",
+      "points": 1.0,
+      "wins": 0
+    },
+    {
+      "position": 22,
+      "driver": "Nyck de Vries",
+      "team": "AlphaTauri",
+      "points": 0.0,
+      "wins": 0
+    }
+  ],
+  "constructorStandings": [
+    {
+      "position": 1,
+      "constructor": "Red Bull",
+      "points": 860.0,
+      "wins": 21
+    },
+    {
+      "position": 2,
+      "constructor": "Mercedes",
+      "points": 409.0,
+      "wins": 0
+    },
+    {
+      "position": 3,
+      "constructor": "Ferrari",
+      "points": 406.0,
+      "wins": 1
+    },
+    {
+      "position": 4,
+      "constructor": "McLaren",
+      "points": 302.0,
+      "wins": 0
+    },
+    {
+      "position": 5,
+      "constructor": "Aston Martin",
+      "points": 280.0,
+      "wins": 0
+    },
+    {
+      "position": 6,
+      "constructor": "Alpine F1 Team",
+      "points": 120.0,
+      "wins": 0
+    },
+    {
+      "position": 7,
+      "constructor": "Williams",
+      "points": 28.0,
+      "wins": 0
+    },
+    {
+      "position": 8,
+      "constructor": "AlphaTauri",
+      "points": 25.0,
+      "wins": 0
+    },
+    {
+      "position": 9,
+      "constructor": "Alfa Romeo",
+      "points": 16.0,
+      "wins": 0
+    },
+    {
+      "position": 10,
+      "constructor": "Haas F1 Team",
+      "points": 12.0,
+      "wins": 0
+    }
+  ]
+}

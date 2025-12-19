@@ -1,0 +1,160 @@
+{
+  "raceName": "Mexican Grand Prix",
+  "circuit": "Mexico City",
+  "country": "Mexico",
+  "date": "1965-10-24",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Richie Ginther",
+      "team": "Honda",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Dan Gurney",
+      "team": "Brabham-Climax",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Mike Spence",
+      "team": "Lotus-Climax",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Jo Siffert",
+      "team": "Brabham-BRM",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Ronnie Bucknum",
+      "team": "Honda",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Richard Attwood",
+      "team": "Lotus-BRM",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "Ferrari",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Lorenzo Bandini",
+      "team": "Ferrari",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Graham Hill",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 10,
+      "driver": "Mois\u00e9s Solana",
+      "team": "Lotus-Climax",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 11,
+      "driver": "Jo Bonnier",
+      "team": "Brabham-Climax",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 12,
+      "driver": "Jochen Rindt",
+      "team": "Cooper-Climax",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 13,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Climax",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 14,
+      "driver": "Jackie Stewart",
+      "team": "BRM",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 15,
+      "driver": "Bob Bondurant",
+      "team": "Lotus-BRM",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 16,
+      "driver": "Bruce McLaren",
+      "team": "Cooper-Climax",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 17,
+      "driver": "Jim Clark",
+      "team": "Lotus-Climax",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 18,
+      "driver": "Innes Ireland",
+      "team": "Lotus-BRM",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 19,
+      "driver": "Ludovico Scarfiotti",
+      "team": "Ferrari",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

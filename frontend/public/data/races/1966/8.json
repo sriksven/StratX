@@ -1,0 +1,160 @@
+{
+  "raceName": "United States Grand Prix",
+  "circuit": "New York State",
+  "country": "USA",
+  "date": "1966-10-02",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jim Clark",
+      "team": "Lotus-BRM",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jochen Rindt",
+      "team": "Cooper-Maserati",
+      "time": "Out of fuel",
+      "points": 6.0,
+      "status": "Out of fuel"
+    },
+    {
+      "position": 3,
+      "driver": "John Surtees",
+      "team": "Cooper-Maserati",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Jo Siffert",
+      "team": "Cooper-Maserati",
+      "time": "+3 Laps",
+      "points": 3.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Bruce McLaren",
+      "team": "McLaren-Ford",
+      "time": "+3 Laps",
+      "points": 2.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Peter Arundell",
+      "team": "Lotus-Climax",
+      "time": "+7 Laps",
+      "points": 1.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Innes Ireland",
+      "team": "BRM",
+      "time": "Alternator",
+      "points": 0.0,
+      "status": "Alternator"
+    },
+    {
+      "position": 8,
+      "driver": "Richie Ginther",
+      "team": "Honda",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 9,
+      "driver": "Mike Spence",
+      "team": "Lotus-BRM",
+      "time": "Ignition",
+      "points": 0.0,
+      "status": "Ignition"
+    },
+    {
+      "position": 10,
+      "driver": "Ronnie Bucknum",
+      "team": "Honda",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 11,
+      "driver": "Jo Bonnier",
+      "team": "Cooper-Maserati",
+      "time": "Not classified",
+      "points": 0.0,
+      "status": "Not classified"
+    },
+    {
+      "position": 12,
+      "driver": "Jack Brabham",
+      "team": "Brabham-Repco",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Jackie Stewart",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 14,
+      "driver": "Graham Hill",
+      "team": "BRM",
+      "time": "Differential",
+      "points": 0.0,
+      "status": "Differential"
+    },
+    {
+      "position": 15,
+      "driver": "Lorenzo Bandini",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Denny Hulme",
+      "team": "Brabham-Repco",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 17,
+      "driver": "Pedro Rodr\u00edguez",
+      "team": "Lotus-BRM",
+      "time": "Retired",
+      "points": 0.0,
+      "status": "Retired"
+    },
+    {
+      "position": 18,
+      "driver": "Dan Gurney",
+      "team": "Eagle-Weslake",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 19,
+      "driver": "Bob Bondurant",
+      "team": "Eagle-Climax",
+      "time": "Disqualified",
+      "points": 0.0,
+      "status": "Disqualified"
+    }
+  ]
+}

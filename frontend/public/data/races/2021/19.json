@@ -1,0 +1,168 @@
+{
+  "raceName": "S\u00e3o Paulo Grand Prix",
+  "circuit": "S\u00e3o Paulo",
+  "country": "Brazil",
+  "date": "2021-11-14",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Lewis Hamilton",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 25.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Max Verstappen",
+      "team": "Red Bull",
+      "time": "Finished",
+      "points": 18.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Valtteri Bottas",
+      "team": "Mercedes",
+      "time": "Finished",
+      "points": 15.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Sergio P\u00e9rez",
+      "team": "Red Bull",
+      "time": "Finished",
+      "points": 13.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 10.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Carlos Sainz",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Pierre Gasly",
+      "team": "AlphaTauri",
+      "time": "+1 Lap",
+      "points": 6.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 8,
+      "driver": "Esteban Ocon",
+      "team": "Alpine F1 Team",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 9,
+      "driver": "Fernando Alonso",
+      "team": "Alpine F1 Team",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 10,
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 11,
+      "driver": "Sebastian Vettel",
+      "team": "Aston Martin",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 12,
+      "driver": "Kimi R\u00e4ikk\u00f6nen",
+      "team": "Alfa Romeo",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 13,
+      "driver": "George Russell",
+      "team": "Williams",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 14,
+      "driver": "Antonio Giovinazzi",
+      "team": "Alfa Romeo",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 15,
+      "driver": "Yuki Tsunoda",
+      "team": "AlphaTauri",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 16,
+      "driver": "Nicholas Latifi",
+      "team": "Williams",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 17,
+      "driver": "Nikita Mazepin",
+      "team": "Haas F1 Team",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 18,
+      "driver": "Mick Schumacher",
+      "team": "Haas F1 Team",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 19,
+      "driver": "Daniel Ricciardo",
+      "team": "McLaren",
+      "time": "Power loss",
+      "points": 0.0,
+      "status": "Power loss"
+    },
+    {
+      "position": 20,
+      "driver": "Lance Stroll",
+      "team": "Aston Martin",
+      "time": "Collision damage",
+      "points": 0.0,
+      "status": "Collision damage"
+    }
+  ]
+}

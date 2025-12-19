@@ -1,0 +1,184 @@
+{
+  "raceName": "Italian Grand Prix",
+  "circuit": "Monza",
+  "country": "Italy",
+  "date": "1958-09-07",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Tony Brooks",
+      "team": "Vanwall",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Phil Hill",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 5.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Carroll Shelby",
+      "team": "Maserati",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Masten Gregory",
+      "team": "Maserati",
+      "time": "+1 Lap",
+      "points": 0.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Roy Salvadori",
+      "team": "Cooper",
+      "time": "+8 Laps",
+      "points": 2.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Graham Hill",
+      "team": "Team Lotus",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Cliff Allison",
+      "team": "Team Lotus",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Maria de Filippis",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 9,
+      "driver": "Giulio Cabianca",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 10,
+      "driver": "Jean Behra",
+      "team": "BRM",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 11,
+      "driver": "Hans Herrmann",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 12,
+      "driver": "Stuart Lewis-Evans",
+      "team": "Vanwall",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 13,
+      "driver": "Maurice Trintignant",
+      "team": "Cooper",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 14,
+      "driver": "Stirling Moss",
+      "team": "Vanwall",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 15,
+      "driver": "Jo Bonnier",
+      "team": "BRM",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 16,
+      "driver": "Olivier Gendebien",
+      "team": "Ferrari",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 17,
+      "driver": "Gerino Gerini",
+      "team": "Maserati",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 18,
+      "driver": "Carroll Shelby",
+      "team": "Maserati",
+      "time": "Handling",
+      "points": 0.0,
+      "status": "Handling"
+    },
+    {
+      "position": 19,
+      "driver": "Wolfgang von Trips",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 20,
+      "driver": "Harry Schell",
+      "team": "BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 21,
+      "driver": "Jack Brabham",
+      "team": "Cooper",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    }
+  ]
+}

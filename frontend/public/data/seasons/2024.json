@@ -1,0 +1,318 @@
+{
+  "year": 2024,
+  "driverChampion": {
+    "name": "Max Verstappen",
+    "team": "Red Bull",
+    "points": 437.0
+  },
+  "constructorChampion": {
+    "name": "McLaren",
+    "points": 666.0
+  },
+  "races": [
+    {
+      "round": 3,
+      "name": "Australian Grand Prix",
+      "circuit": "Melbourne",
+      "country": "Australia",
+      "date": "2024-03-24",
+      "winner": "Carlos Sainz",
+      "team": "Ferrari"
+    },
+    {
+      "round": 6,
+      "name": "Miami Grand Prix",
+      "circuit": "Miami",
+      "country": "United States",
+      "date": "2024-05-05",
+      "winner": "Lando Norris",
+      "team": "McLaren"
+    },
+    {
+      "round": 9,
+      "name": "Canadian Grand Prix",
+      "circuit": "Montr\u00e9al",
+      "country": "Canada",
+      "date": "2024-06-09",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "round": 10,
+      "name": "Spanish Grand Prix",
+      "circuit": "Barcelona",
+      "country": "Spain",
+      "date": "2024-06-23",
+      "winner": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "round": 11,
+      "name": "Austrian Grand Prix",
+      "circuit": "Spielberg",
+      "country": "Austria",
+      "date": "2024-06-30",
+      "winner": "George Russell",
+      "team": "Mercedes"
+    },
+    {
+      "round": 13,
+      "name": "Hungarian Grand Prix",
+      "circuit": "Budapest",
+      "country": "Hungary",
+      "date": "2024-07-21",
+      "winner": "Oscar Piastri",
+      "team": "McLaren"
+    },
+    {
+      "round": 16,
+      "name": "Italian Grand Prix",
+      "circuit": "Monza",
+      "country": "Italy",
+      "date": "2024-09-01",
+      "winner": "Charles Leclerc",
+      "team": "Ferrari"
+    },
+    {
+      "round": 20,
+      "name": "Mexico City Grand Prix",
+      "circuit": "Mexico City",
+      "country": "Mexico",
+      "date": "2024-10-27",
+      "winner": "Carlos Sainz",
+      "team": "Ferrari"
+    }
+  ],
+  "driverStandings": [
+    {
+      "position": 1,
+      "driver": "Max Verstappen",
+      "team": "Red Bull",
+      "points": 437.0,
+      "wins": 9
+    },
+    {
+      "position": 2,
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "points": 374.0,
+      "wins": 4
+    },
+    {
+      "position": 3,
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "points": 356.0,
+      "wins": 3
+    },
+    {
+      "position": 4,
+      "driver": "Oscar Piastri",
+      "team": "McLaren",
+      "points": 292.0,
+      "wins": 2
+    },
+    {
+      "position": 5,
+      "driver": "Carlos Sainz",
+      "team": "Ferrari",
+      "points": 290.0,
+      "wins": 2
+    },
+    {
+      "position": 6,
+      "driver": "George Russell",
+      "team": "Mercedes",
+      "points": 245.0,
+      "wins": 2
+    },
+    {
+      "position": 7,
+      "driver": "Lewis Hamilton",
+      "team": "Mercedes",
+      "points": 223.0,
+      "wins": 2
+    },
+    {
+      "position": 8,
+      "driver": "Sergio P\u00e9rez",
+      "team": "Red Bull",
+      "points": 152.0,
+      "wins": 0
+    },
+    {
+      "position": 9,
+      "driver": "Fernando Alonso",
+      "team": "Aston Martin",
+      "points": 70.0,
+      "wins": 0
+    },
+    {
+      "position": 10,
+      "driver": "Pierre Gasly",
+      "team": "Alpine F1 Team",
+      "points": 42.0,
+      "wins": 0
+    },
+    {
+      "position": 11,
+      "driver": "Nico H\u00fclkenberg",
+      "team": "Haas F1 Team",
+      "points": 41.0,
+      "wins": 0
+    },
+    {
+      "position": 12,
+      "driver": "Yuki Tsunoda",
+      "team": "RB F1 Team",
+      "points": 30.0,
+      "wins": 0
+    },
+    {
+      "position": 13,
+      "driver": "Lance Stroll",
+      "team": "Aston Martin",
+      "points": 24.0,
+      "wins": 0
+    },
+    {
+      "position": 14,
+      "driver": "Esteban Ocon",
+      "team": "Alpine F1 Team",
+      "points": 23.0,
+      "wins": 0
+    },
+    {
+      "position": 15,
+      "driver": "Kevin Magnussen",
+      "team": "Haas F1 Team",
+      "points": 16.0,
+      "wins": 0
+    },
+    {
+      "position": 16,
+      "driver": "Alexander Albon",
+      "team": "Williams",
+      "points": 12.0,
+      "wins": 0
+    },
+    {
+      "position": 17,
+      "driver": "Daniel Ricciardo",
+      "team": "RB F1 Team",
+      "points": 12.0,
+      "wins": 0
+    },
+    {
+      "position": 18,
+      "driver": "Oliver Bearman",
+      "team": "Ferrari",
+      "points": 7.0,
+      "wins": 0
+    },
+    {
+      "position": 19,
+      "driver": "Franco Colapinto",
+      "team": "Williams",
+      "points": 5.0,
+      "wins": 0
+    },
+    {
+      "position": 20,
+      "driver": "Guanyu Zhou",
+      "team": "Sauber",
+      "points": 4.0,
+      "wins": 0
+    },
+    {
+      "position": 21,
+      "driver": "Liam Lawson",
+      "team": "RB F1 Team",
+      "points": 4.0,
+      "wins": 0
+    },
+    {
+      "position": 22,
+      "driver": "Valtteri Bottas",
+      "team": "Sauber",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 23,
+      "driver": "Logan Sargeant",
+      "team": "Williams",
+      "points": 0.0,
+      "wins": 0
+    },
+    {
+      "position": 24,
+      "driver": "Jack Doohan",
+      "team": "Alpine F1 Team",
+      "points": 0.0,
+      "wins": 0
+    }
+  ],
+  "constructorStandings": [
+    {
+      "position": 1,
+      "constructor": "McLaren",
+      "points": 666.0,
+      "wins": 6
+    },
+    {
+      "position": 2,
+      "constructor": "Ferrari",
+      "points": 652.0,
+      "wins": 5
+    },
+    {
+      "position": 3,
+      "constructor": "Red Bull",
+      "points": 589.0,
+      "wins": 9
+    },
+    {
+      "position": 4,
+      "constructor": "Mercedes",
+      "points": 468.0,
+      "wins": 4
+    },
+    {
+      "position": 5,
+      "constructor": "Aston Martin",
+      "points": 94.0,
+      "wins": 0
+    },
+    {
+      "position": 6,
+      "constructor": "Alpine F1 Team",
+      "points": 65.0,
+      "wins": 0
+    },
+    {
+      "position": 7,
+      "constructor": "Haas F1 Team",
+      "points": 58.0,
+      "wins": 0
+    },
+    {
+      "position": 8,
+      "constructor": "RB F1 Team",
+      "points": 46.0,
+      "wins": 0
+    },
+    {
+      "position": 9,
+      "constructor": "Williams",
+      "points": 17.0,
+      "wins": 0
+    },
+    {
+      "position": 10,
+      "constructor": "Sauber",
+      "points": 4.0,
+      "wins": 0
+    }
+  ]
+}

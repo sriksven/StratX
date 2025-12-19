@@ -1,0 +1,136 @@
+{
+  "raceName": "Argentine Grand Prix",
+  "circuit": "Buenos Aires",
+  "country": "Argentina",
+  "date": "1956-01-22",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Juan Fangio",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 5.0,
+      "status": "Finished"
+    },
+    {
+      "position": 1,
+      "driver": "Luigi Musso",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jean Behra",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Mike Hawthorn",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 4.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Chico Landi",
+      "team": "Maserati",
+      "time": "+6 Laps",
+      "points": 1.5,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 4,
+      "driver": "Gerino Gerini",
+      "team": "Maserati",
+      "time": "+6 Laps",
+      "points": 1.5,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Olivier Gendebien",
+      "team": "Ferrari",
+      "time": "+7 Laps",
+      "points": 2.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "\u00d3scar Gonz\u00e1lez",
+      "team": "Maserati",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Alberto Uria",
+      "team": "Maserati",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Stirling Moss",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 8,
+      "driver": "Peter Collins",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 9,
+      "driver": "Luigi Piotti",
+      "team": "Maserati",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 10,
+      "driver": "Carlos Menditeguy",
+      "team": "Maserati",
+      "time": "Halfshaft",
+      "points": 0.0,
+      "status": "Halfshaft"
+    },
+    {
+      "position": 11,
+      "driver": "Eugenio Castellotti",
+      "team": "Ferrari",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 12,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Juan Fangio",
+      "team": "Ferrari",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    }
+  ]
+}

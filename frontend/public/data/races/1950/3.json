@@ -1,0 +1,288 @@
+{
+  "raceName": "Indianapolis 500",
+  "circuit": "Indianapolis",
+  "country": "USA",
+  "date": "1950-05-30",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Johnnie Parsons",
+      "team": "Kurtis Kraft",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Bill Holland",
+      "team": "Deidt",
+      "time": "+1 Lap",
+      "points": 6.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 3,
+      "driver": "Mauri Rose",
+      "team": "Deidt",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Cecil Green",
+      "team": "Kurtis Kraft",
+      "time": "+1 Lap",
+      "points": 3.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 5,
+      "driver": "Tony Bettenhausen",
+      "team": "Kurtis Kraft",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Joie Chitwood",
+      "team": "Kurtis Kraft",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Lee Wallard",
+      "team": "Moore",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Walt Faulkner",
+      "team": "Kurtis Kraft",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "George Connor",
+      "team": "Lesovsky",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Paul Russo",
+      "team": "Nichels",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Pat Flaherty",
+      "team": "Kurtis Kraft",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Myron Fohr",
+      "team": "Marchese",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Duane Carter",
+      "team": "Stevens",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 13,
+      "driver": "Mack Hellings",
+      "team": "Kurtis Kraft",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 14,
+      "driver": "Jack McGrath",
+      "team": "Kurtis Kraft",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    },
+    {
+      "position": 15,
+      "driver": "Troy Ruttman",
+      "team": "Lesovsky",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 16,
+      "driver": "Gene Hartley",
+      "team": "Langley",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 17,
+      "driver": "Jimmy Davies",
+      "team": "Ewing",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 18,
+      "driver": "Johnny McDowell",
+      "team": "Kurtis Kraft",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 19,
+      "driver": "Walt Brown",
+      "team": "Kurtis Kraft",
+      "time": "+11 Laps",
+      "points": 0.0,
+      "status": "+11 Laps"
+    },
+    {
+      "position": 20,
+      "driver": "Travis Webb",
+      "team": "Maserati",
+      "time": "+12 Laps",
+      "points": 0.0,
+      "status": "+12 Laps"
+    },
+    {
+      "position": 21,
+      "driver": "Jerry Hoyt",
+      "team": "Kurtis Kraft",
+      "time": "+13 Laps",
+      "points": 0.0,
+      "status": "+13 Laps"
+    },
+    {
+      "position": 22,
+      "driver": "Walt Ader",
+      "team": "Rae",
+      "time": "+15 Laps",
+      "points": 0.0,
+      "status": "+15 Laps"
+    },
+    {
+      "position": 23,
+      "driver": "Jackie Holmes",
+      "team": "Olson",
+      "time": "Spun off",
+      "points": 0.0,
+      "status": "Spun off"
+    },
+    {
+      "position": 24,
+      "driver": "Jim Rathmann",
+      "team": "Wetteroth",
+      "time": "+16 Laps",
+      "points": 0.0,
+      "status": "+16 Laps"
+    },
+    {
+      "position": 25,
+      "driver": "Henry Banks",
+      "team": "Maserati",
+      "time": "Oil line",
+      "points": 0.0,
+      "status": "Oil line"
+    },
+    {
+      "position": 26,
+      "driver": "Bill Schindler",
+      "team": "Snowberger",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 27,
+      "driver": "Bayliss Levrett",
+      "team": "Adams",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 27,
+      "driver": "Bill Cantrell",
+      "team": "Adams",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 28,
+      "driver": "Fred Agabashian",
+      "team": "Kurtis Kraft",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    },
+    {
+      "position": 29,
+      "driver": "Jimmy Jackson",
+      "team": "Kurtis Kraft",
+      "time": "Supercharger",
+      "points": 0.0,
+      "status": "Supercharger"
+    },
+    {
+      "position": 30,
+      "driver": "Sam Hanks",
+      "team": "Kurtis Kraft",
+      "time": "Oil pressure",
+      "points": 0.0,
+      "status": "Oil pressure"
+    },
+    {
+      "position": 31,
+      "driver": "Tony Bettenhausen",
+      "team": "Deidt",
+      "time": "Wheel bearing",
+      "points": 0.0,
+      "status": "Wheel bearing"
+    },
+    {
+      "position": 32,
+      "driver": "Dick Rathmann",
+      "team": "Watson",
+      "time": "Stalled",
+      "points": 0.0,
+      "status": "Stalled"
+    },
+    {
+      "position": 33,
+      "driver": "Duke Dinsmore",
+      "team": "Kurtis Kraft",
+      "time": "Oil leak",
+      "points": 0.0,
+      "status": "Oil leak"
+    }
+  ]
+}

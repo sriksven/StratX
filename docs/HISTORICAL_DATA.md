@@ -65,66 +65,41 @@ GET /f1/{year}/{round}/results.json
 
 ---
 
-## Implementation Details
+## Data Architecture
 
-### **Service Layer** (`ergast.ts`)
+### **Source: FastF1 (Static Generation)**
+- **Primary Source**: `fastf1` Python library (wraps Official F1 Live Timing & Ergast)
+- **Generation Script**: `scripts/fetch_data_fastf1.py`
+- **Output**: Static JSON files in `frontend/public/data/`
+
+### **Storage Structure**
+- **/seasons/{year}.json**: Complete season overview (champions, standings, races summary)
+- **/races/{year}/{round}.json**: Detailed results for every single race
+
+### **Why this approach?**
+1. **Reliability**: Removes runtime dependency on 3rd party APIs (Ergast is often rate-limited or down)
+2. **Performance**: Zero-latency loading from local JSON files
+3. **Completeness**: 100% of F1 history (1950-2024) is pre-fetched and available offline
+
+---
+
+## API Integration (Internal)
+
+The frontend `ergast.ts` service now points to these local files:
 
 ```typescript
-import { fetchSeasonData } from '../services/ergast';
-
 // Fetch complete season data
-const seasonData = await fetchSeasonData(2024);
+GET /data/seasons/{year}.json
+
+// Fetch specific race results
+GET /data/races/{year}/{round}.json
 ```
 
-**Returns**:
-```typescript
-{
-  year: number;
-  driverChampion: {
-    name: string;
-    team: string;
-    points: number;
-  };
-  constructorChampion: {
-    name: string;
-    points: number;
-  };
-  races: Array<{
-    round: number;
-    name: string;
-    circuit: string;
-    country: string;
-    date: string;
-    winner: string;
-    team: string;
-  }>;
-  driverStandings: Array<{
-    position: number;
-    driver: string;
-    team: string;
-    points: number;
-    wins: number;
-  }>;
-  constructorStandings: Array<{
-    position: number;
-    constructor: string;
-    points: number;
-    wins: number;
-  }>;
-}
-```
+*(The older Ergast API direct integration has been replaced with this robust static approach)*
 
-### **React Query Integration**
+---
 
-```typescript
-const { data: seasonData, isLoading, error } = useQuery({
-    queryKey: ['season', year],
-    queryFn: () => fetchSeasonData(year),
-    enabled: year < 2025,
-    staleTime: Infinity, // Historical data doesn't change
-});
-```
-
+## Data Content
 ---
 
 ## User Experience

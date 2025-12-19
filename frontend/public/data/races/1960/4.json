@@ -1,0 +1,176 @@
+{
+  "raceName": "Dutch Grand Prix",
+  "circuit": "Zandvoort",
+  "country": "Netherlands",
+  "date": "1960-06-06",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Jack Brabham",
+      "team": "Cooper-Climax",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Innes Ireland",
+      "team": "Team Lotus",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Graham Hill",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Stirling Moss",
+      "team": "Team Lotus",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Wolfgang von Trips",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Richie Ginther",
+      "team": "Ferrari",
+      "time": "+1 Lap",
+      "points": 1.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 7,
+      "driver": "Henry Taylor",
+      "team": "Cooper-Climax",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Carel Godin de Beaufort",
+      "team": "Cooper-Climax",
+      "time": "+6 Laps",
+      "points": 0.0,
+      "status": "+6 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Alan Stacey",
+      "team": "Team Lotus",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 10,
+      "driver": "Jo Bonnier",
+      "team": "BRM",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 11,
+      "driver": "Phil Hill",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 12,
+      "driver": "Jim Clark",
+      "team": "Team Lotus",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 13,
+      "driver": "Maurice Trintignant",
+      "team": "Cooper-Maserati",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 14,
+      "driver": "Dan Gurney",
+      "team": "BRM",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 15,
+      "driver": "Chris Bristow",
+      "team": "Cooper-Climax",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Bruce McLaren",
+      "team": "Cooper-Climax",
+      "time": "Transmission",
+      "points": 0.0,
+      "status": "Transmission"
+    },
+    {
+      "position": 17,
+      "driver": "Tony Brooks",
+      "team": "Cooper-Climax",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 18,
+      "driver": "Roy Salvadori",
+      "team": "Aston Martin",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 19,
+      "driver": "Masten Gregory",
+      "team": "Cooper-Maserati",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 20,
+      "driver": "Lance Reventlow",
+      "team": "Scarab",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    },
+    {
+      "position": 21,
+      "driver": "Chuck Daigh",
+      "team": "Scarab",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

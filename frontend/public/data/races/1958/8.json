@@ -1,0 +1,216 @@
+{
+  "raceName": "German Grand Prix",
+  "circuit": "N\u00fcrburg",
+  "country": "Germany",
+  "date": "1958-08-03",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Tony Brooks",
+      "team": "Vanwall",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Roy Salvadori",
+      "team": "Cooper",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Maurice Trintignant",
+      "team": "Cooper",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Wolfgang von Trips",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Bruce McLaren",
+      "team": "Cooper",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 6,
+      "driver": "Edgar Barth",
+      "team": "Porsche",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 7,
+      "driver": "Ian Burgess",
+      "team": "Cooper",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 8,
+      "driver": "Tony Marsh",
+      "team": "Cooper",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 9,
+      "driver": "Phil Hill",
+      "team": "Ferrari",
+      "time": "Finished",
+      "points": 0.0,
+      "status": "Finished"
+    },
+    {
+      "position": 10,
+      "driver": "Cliff Allison",
+      "team": "Team Lotus",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Ivor Bueb",
+      "team": "Team Lotus",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 13,
+      "driver": "Peter Collins",
+      "team": "Ferrari",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 14,
+      "driver": "Wolfgang Seidel",
+      "team": "Cooper",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 15,
+      "driver": "Harry Schell",
+      "team": "BRM",
+      "time": "Brakes",
+      "points": 0.0,
+      "status": "Brakes"
+    },
+    {
+      "position": 16,
+      "driver": "Christian Goethals",
+      "team": "Cooper",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 17,
+      "driver": "Graham Hill",
+      "team": "Team Lotus",
+      "time": "Oil pipe",
+      "points": 0.0,
+      "status": "Oil pipe"
+    },
+    {
+      "position": 18,
+      "driver": "Jean Behra",
+      "team": "BRM",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 19,
+      "driver": "Carel Godin de Beaufort",
+      "team": "Porsche",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 20,
+      "driver": "Hans Herrmann",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 21,
+      "driver": "Stirling Moss",
+      "team": "Vanwall",
+      "time": "Magneto",
+      "points": 1.0,
+      "status": "Magneto"
+    },
+    {
+      "position": 22,
+      "driver": "Dick Gibson",
+      "team": "Cooper",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 23,
+      "driver": "Brian Naylor",
+      "team": "Cooper",
+      "time": "Fuel pump",
+      "points": 0.0,
+      "status": "Fuel pump"
+    },
+    {
+      "position": 24,
+      "driver": "Jack Brabham",
+      "team": "Cooper",
+      "time": "Collision",
+      "points": 0.0,
+      "status": "Collision"
+    },
+    {
+      "position": 25,
+      "driver": "Jo Bonnier",
+      "team": "Maserati",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 26,
+      "driver": "Troy Ruttman",
+      "team": "Maserati",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    }
+  ]
+}

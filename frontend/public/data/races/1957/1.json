@@ -1,0 +1,144 @@
+{
+  "raceName": "Argentine Grand Prix",
+  "circuit": "Buenos Aires",
+  "country": "Argentina",
+  "date": "1957-01-13",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Juan Fangio",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 8.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Jean Behra",
+      "team": "Maserati",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Carlos Menditeguy",
+      "team": "Maserati",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Harry Schell",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 3.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Alfonso de Portago",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Jos\u00e9 Froil\u00e1n Gonz\u00e1lez",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Wolfgang von Trips",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Peter Collins",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Cesare Perdisa",
+      "team": "Ferrari",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Jo Bonnier",
+      "team": "Maserati",
+      "time": "+5 Laps",
+      "points": 0.0,
+      "status": "+5 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Stirling Moss",
+      "team": "Maserati",
+      "time": "+7 Laps",
+      "points": 1.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Alessandro de Tomaso",
+      "team": "Ferrari",
+      "time": "+9 Laps",
+      "points": 0.0,
+      "status": "+9 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Luigi Piotti",
+      "team": "Maserati",
+      "time": "+10 Laps",
+      "points": 0.0,
+      "status": "+10 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Eugenio Castellotti",
+      "team": "Ferrari",
+      "time": "Wheel",
+      "points": 0.0,
+      "status": "Wheel"
+    },
+    {
+      "position": 12,
+      "driver": "Mike Hawthorn",
+      "team": "Ferrari",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 13,
+      "driver": "Luigi Musso",
+      "team": "Ferrari",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    },
+    {
+      "position": 14,
+      "driver": "Peter Collins",
+      "team": "Ferrari",
+      "time": "Clutch",
+      "points": 0.0,
+      "status": "Clutch"
+    }
+  ]
+}

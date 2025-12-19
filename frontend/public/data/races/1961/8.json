@@ -1,0 +1,176 @@
+{
+  "raceName": "United States Grand Prix",
+  "circuit": "New York State",
+  "country": "USA",
+  "date": "1961-10-08",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Innes Ireland",
+      "team": "Lotus-Climax",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Dan Gurney",
+      "team": "Porsche",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Tony Brooks",
+      "team": "BRM",
+      "time": "Finished",
+      "points": 4.0,
+      "status": "Finished"
+    },
+    {
+      "position": 4,
+      "driver": "Bruce McLaren",
+      "team": "Cooper-Climax",
+      "time": "Finished",
+      "points": 3.0,
+      "status": "Finished"
+    },
+    {
+      "position": 5,
+      "driver": "Graham Hill",
+      "team": "BRM",
+      "time": "+1 Lap",
+      "points": 2.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 6,
+      "driver": "Jo Bonnier",
+      "team": "Porsche",
+      "time": "+2 Laps",
+      "points": 1.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Jim Clark",
+      "team": "Lotus-Climax",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Roger Penske",
+      "team": "Cooper-Climax",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Peter Ryan",
+      "team": "Lotus-Climax",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Hap Sharp",
+      "team": "Cooper-Climax",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Masten Gregory",
+      "team": "Lotus-Climax",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Olivier Gendebien",
+      "team": "Lotus-Climax",
+      "time": "+8 Laps",
+      "points": 0.0,
+      "status": "+8 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Roy Salvadori",
+      "team": "Cooper-Climax",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Jim Hall",
+      "team": "Lotus-Climax",
+      "time": "Fuel leak",
+      "points": 0.0,
+      "status": "Fuel leak"
+    },
+    {
+      "position": 14,
+      "driver": "Lloyd Ruby",
+      "team": "Lotus-Climax",
+      "time": "Magneto",
+      "points": 0.0,
+      "status": "Magneto"
+    },
+    {
+      "position": 15,
+      "driver": "Stirling Moss",
+      "team": "Lotus-Climax",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 16,
+      "driver": "Jack Brabham",
+      "team": "Cooper-Climax",
+      "time": "Overheating",
+      "points": 0.0,
+      "status": "Overheating"
+    },
+    {
+      "position": 17,
+      "driver": "Masten Gregory",
+      "team": "Lotus-Climax",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 18,
+      "driver": "Walt Hansgen",
+      "team": "Cooper-Climax",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 19,
+      "driver": "John Surtees",
+      "team": "Cooper-Climax",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 20,
+      "driver": "Ken Miles",
+      "team": "Lotus-Climax",
+      "time": "Withdrew",
+      "points": 0.0,
+      "status": "Withdrew"
+    }
+  ]
+}

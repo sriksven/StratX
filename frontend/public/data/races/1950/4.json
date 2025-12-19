@@ -1,0 +1,152 @@
+{
+  "raceName": "Swiss Grand Prix",
+  "circuit": "Bern",
+  "country": "Switzerland",
+  "date": "1950-06-04",
+  "results": [
+    {
+      "position": 1,
+      "driver": "Nino Farina",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 9.0,
+      "status": "Finished"
+    },
+    {
+      "position": 2,
+      "driver": "Luigi Fagioli",
+      "team": "Alfa Romeo",
+      "time": "Finished",
+      "points": 6.0,
+      "status": "Finished"
+    },
+    {
+      "position": 3,
+      "driver": "Louis Rosier",
+      "team": "Talbot-Lago",
+      "time": "+1 Lap",
+      "points": 4.0,
+      "status": "+1 Lap"
+    },
+    {
+      "position": 4,
+      "driver": "Prince Bira",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 3.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 5,
+      "driver": "Felice Bonetto",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 2.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 6,
+      "driver": "Toulo de Graffenried",
+      "team": "Maserati",
+      "time": "+2 Laps",
+      "points": 0.0,
+      "status": "+2 Laps"
+    },
+    {
+      "position": 7,
+      "driver": "Nello Pagani",
+      "team": "Maserati",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 8,
+      "driver": "Harry Schell",
+      "team": "Talbot-Lago",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 9,
+      "driver": "Louis Chiron",
+      "team": "Maserati",
+      "time": "+3 Laps",
+      "points": 0.0,
+      "status": "+3 Laps"
+    },
+    {
+      "position": 10,
+      "driver": "Johnny Claes",
+      "team": "Talbot-Lago",
+      "time": "+4 Laps",
+      "points": 0.0,
+      "status": "+4 Laps"
+    },
+    {
+      "position": 11,
+      "driver": "Toni Branca",
+      "team": "Maserati",
+      "time": "+7 Laps",
+      "points": 0.0,
+      "status": "+7 Laps"
+    },
+    {
+      "position": 12,
+      "driver": "Juan Fangio",
+      "team": "Alfa Romeo",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 13,
+      "driver": "Philippe \u00c9tancelin",
+      "team": "Talbot-Lago",
+      "time": "Gearbox",
+      "points": 0.0,
+      "status": "Gearbox"
+    },
+    {
+      "position": 14,
+      "driver": "Eug\u00e8ne Martin",
+      "team": "Talbot-Lago",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    },
+    {
+      "position": 15,
+      "driver": "Raymond Sommer",
+      "team": "Ferrari",
+      "time": "Suspension",
+      "points": 0.0,
+      "status": "Suspension"
+    },
+    {
+      "position": 16,
+      "driver": "Luigi Villoresi",
+      "team": "Ferrari",
+      "time": "Engine",
+      "points": 0.0,
+      "status": "Engine"
+    },
+    {
+      "position": 17,
+      "driver": "Alberto Ascari",
+      "team": "Ferrari",
+      "time": "Oil pump",
+      "points": 0.0,
+      "status": "Oil pump"
+    },
+    {
+      "position": 18,
+      "driver": "Yves Cabantous",
+      "team": "Talbot-Lago",
+      "time": "Accident",
+      "points": 0.0,
+      "status": "Accident"
+    }
+  ]
+}
