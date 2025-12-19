@@ -24,6 +24,25 @@
     font-weight: 500;
 }
 
+.lineup-image-container {
+    max-width: 1440px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.lineup-image {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #38383f;
+    transition: transform 0.3s ease;
+}
+
+.lineup-image:hover {
+    transform: scale(1.02);
+}
+
 .drivers-grid {
     max-width: 1440px;
     margin: 0 auto;

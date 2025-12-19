@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Calendar, MapPin, Clock, ChevronDown, ChevronUp } from 'lucide-react';
 import { useState } from 'react';
 import './HomePage.css';
+import f1CarBg from '../assets/f1-car-bg.png';
 
 interface RaceEvent {
     round: number;
@@ -108,7 +109,12 @@ export default function HomePage() {
     };
 
     return (
-        <div className="homepage-2026">
+        <div className="homepage-2026" style={{
+            backgroundImage: `url(${f1CarBg})`,
+            backgroundPosition: 'center 20%',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: '120%'
+        }}>
             <div className="coming-soon-container">
                 <div className="year-display">2026</div>
                 <h1 className="coming-soon-title">COMING SOON</h1>

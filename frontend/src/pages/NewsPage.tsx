@@ -1,12 +1,17 @@
 import { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import './NewsPage.css';
+import boostOvertakeImg from '../assets/news/boost-overtake.jpg';
+import reducedDownforceImg from '../assets/news/reduced-downforce.jpg';
+import powerUnitImg from '../assets/news/power-unit.jpg';
+import carDimensionsImg from '../assets/news/car-dimensions.jpg';
 
 interface Section {
     id: string;
     title: string;
     icon: string;
     content: string[];
+    images?: string[];
 }
 
 const sections: Section[] = [
@@ -22,7 +27,8 @@ const sections: Section[] = [
             'The most significant change is the introduction of Active Aero. The cars can adjust the angle of both their front and rear wing elements depending on where they are on track.',
             'In the corners, the flaps stay shut in their default position to maintain grip. On designated straights, drivers can activate low-drag mode, which opens the flaps and flattens the wings, reducing drag and boosting top speed.',
             'Active Aero means essentially saying goodbye to DRS in its current form, as the rear wing flaps can be opened on every designated straight without the need to be within one second of the car in front.'
-        ]
+        ],
+        images: [carDimensionsImg, reducedDownforceImg]
     },
     {
         id: 'power',
@@ -34,7 +40,8 @@ const sections: Section[] = [
             'The car\'s Energy Recovery System (ERS) can now recharge the battery with twice as much energy per lap, through things like recovery under braking or lifting off the throttle at the end of straights.',
             'The revamp of the power unit does mean it\'s the end of the expensive and complex MGU-H (a heat recovery system), which lacked road relevance and added weight.',
             'For the first time ever, Formula 1 power units will be running Advanced Sustainable Fuels. The fuel is made from cutting-edge sources like carbon capture, municipal waste and non-food biomass – and it is independently certified to meet strict sustainability standards.'
-        ]
+        ],
+        images: [powerUnitImg]
     },
     {
         id: 'driver-tools',
@@ -45,7 +52,8 @@ const sections: Section[] = [
             'Drivers still have a Boost button and can continue to use it in defence as well as overtaking at any point around the lap, providing they have enough charge in their battery. Drivers may use it all at once or spread across the lap.',
             'Drivers will oversee their battery recharge. Working with their race engineer, the duo can select from a range of different modes to recharge their battery, from braking and engine energy.',
             'That means they have three tools they can use tactically when in the heat of battle: Overtake Mode, Boost Button, and Battery Management.'
-        ]
+        ],
+        images: [boostOvertakeImg]
     },
     {
         id: 'safety',
@@ -134,6 +142,15 @@ export default function NewsPage() {
 
                             {isExpanded && (
                                 <div className="section-content">
+                                    {section.images && section.images.length > 0 && (
+                                        <div className="section-images">
+                                            {section.images.map((image, idx) => (
+                                                <div key={idx} className="section-image">
+                                                    <img src={image} alt={`${section.title} - Image ${idx + 1}`} />
+                                                </div>
+                                            ))}
+                                        </div>
+                                    )}
                                     {section.content.map((paragraph, index) => (
                                         <p key={index}>{paragraph}</p>
                                     ))}
