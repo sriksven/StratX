@@ -212,10 +212,50 @@ export default function RaceDetailPage() {
             {isComingSoon ? (
                 <div className="coming-soon-container">
                     <div className="coming-soon-content glass-card">
+
+                        {/* Track Layout Display */}
+                        {displayedRaceInfo && 'circuitImage' in staticRaceData! && (
+                            <div className="track-layout-visual">
+                                <img
+                                    src={staticRaceData!.circuitImage}
+                                    alt={`${staticRaceData!.circuit} Layout`}
+                                    className="circuit-map-img"
+                                    onError={(e) => {
+                                        (e.target as HTMLImageElement).style.display = 'none';
+                                    }}
+                                />
+                            </div>
+                        )}
+
                         <div className="flag-icon-container">
-                            <Flag size={48} className="coming-soon-icon" />
+                            <Flag size={24} className="coming-soon-icon" />
                         </div>
                         <h2 className="coming-soon-title">Race Data Not Yet Available</h2>
+
+                        {/* Circuit Stats Grid */}
+                        {staticRaceData && staticRaceData.circuitLength && (
+                            <div className="circuit-stats-grid">
+                                <div className="stat-item">
+                                    <div className="stat-label">Length</div>
+                                    <div className="stat-value">{staticRaceData.circuitLength}</div>
+                                </div>
+                                <div className="stat-item">
+                                    <div className="stat-label">Laps</div>
+                                    <div className="stat-value">{staticRaceData.laps}</div>
+                                </div>
+                                <div className="stat-item">
+                                    <div className="stat-label">Distance</div>
+                                    <div className="stat-value">{staticRaceData.raceDistance}</div>
+                                </div>
+                                {staticRaceData.lapRecord && (
+                                    <div className="stat-item record">
+                                        <div className="stat-label">Lap Record</div>
+                                        <div className="stat-value">{staticRaceData.lapRecord.time}</div>
+                                        <div className="stat-sub">{staticRaceData.lapRecord.driver} ({staticRaceData.lapRecord.year})</div>
+                                    </div>
+                                )}
+                            </div>
+                        )}
 
                         <div className="coming-soon-info">
                             <p>Detailed telemetry and predictive models for the <strong>{displayedRaceInfo?.meeting_name}</strong> will be activated once the race weekend begins.</p>
