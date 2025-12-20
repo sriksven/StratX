@@ -46,6 +46,24 @@ export default function ResultsPage() {
     const { year } = useParams<{ year: string }>();
     const seasonYear = year ? parseInt(year) : 2025;
 
+    // Handle Future Season (2026)
+    if (seasonYear === 2026) {
+        return (
+            <div className="results-page">
+                <div className="page-header">
+                    <h1>{seasonYear} SEASON RESULTS</h1>
+                    <p className="page-subtitle">Season has not started yet</p>
+                </div>
+                <div className="error-container" style={{ minHeight: '50vh', justifyContent: 'flex-start', paddingTop: '4rem' }}>
+                    <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>⏳</div>
+                    <h2>Waiting for Race Start</h2>
+                    <p>Detailed results, standings, and telemetry analysis will be available here after the first race of the 2026 season.</p>
+                    <Link to="/schedule/2026" className="back-link" style={{ marginTop: '2rem' }}>→ View 2026 Schedule</Link>
+                </div>
+            </div>
+        );
+    }
+
     // Fetch historical data for years before 2025
     const { data: seasonData, isLoading, error } = useQuery({
         queryKey: ['season', seasonYear],
@@ -230,21 +248,21 @@ export default function ResultsPage() {
             <div className="standings-navigation">
                 <h2>View Full Standings</h2>
                 <div className="nav-cards">
-                    <Link to="/results/2025/races" className="nav-card">
+                    <Link to={`/results/${seasonYear}/races`} className="nav-card">
                         <div className="nav-card-icon">🏁</div>
                         <h3>Race Results</h3>
-                        <p>View results from all 24 races</p>
+                        <p>View results from all races</p>
                         <div className="nav-card-arrow">→</div>
                     </Link>
 
-                    <Link to="/results/2025/drivers" className="nav-card">
+                    <Link to={`/results/${seasonYear}/drivers`} className="nav-card">
                         <div className="nav-card-icon">👤</div>
                         <h3>Driver Standings</h3>
                         <p>Complete driver championship standings</p>
                         <div className="nav-card-arrow">→</div>
                     </Link>
 
-                    <Link to="/results/2025/teams" className="nav-card">
+                    <Link to={`/results/${seasonYear}/teams`} className="nav-card">
                         <div className="nav-card-icon">🏁</div>
                         <h3>Team Standings</h3>
                         <p>Complete constructor championship standings</p>

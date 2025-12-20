@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
 import './DriverStandingsPage.css';
 
 interface DriverStanding {
@@ -34,16 +35,40 @@ const driver2025Standings: DriverStanding[] = [
 ];
 
 export default function DriverStandingsPage() {
+    const { year } = useParams<{ year: string }>();
+    const seasonYear = year ? parseInt(year) : 2025;
     const [showDetails, setShowDetails] = useState(false);
+
+    // Handle Future Season (2026)
+    if (seasonYear === 2026) {
+        return (
+            <div className="standings-page">
+                <div className="page-header">
+                    <h1>{seasonYear} DRIVER STANDINGS</h1>
+                    <p className="page-subtitle">Season has not started yet</p>
+                </div>
+                <div className="error-container" style={{ minHeight: '50vh', justifyContent: 'flex-start', paddingTop: '4rem', textAlign: 'center', color: 'white' }}>
+                    <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>⏳</div>
+                    <h2>No Standings Available</h2>
+                    <p style={{ maxWidth: '600px', margin: '0 auto', color: '#9ca3af' }}>Driver standings will update here after the first race of the 2026 season.</p>
+                    <Link to="/schedule/2026" className="back-link" style={{ marginTop: '2rem', display: 'inline-block', color: 'var(--accent-red)', textDecoration: 'none' }}>→ View 2026 Schedule</Link>
+                </div>
+            </div>
+        );
+    }
+
+    const is2025 = seasonYear === 2025;
 
     return (
         <div className="standings-page">
             <div className="page-header">
-                <h1>2025 DRIVER STANDINGS</h1>
-                <p className="page-subtitle">Final standings from the 2025 Formula 1 World Championship</p>
-                <p className="champion-banner">
-                    🏆 <strong>World Champion:</strong> Lando Norris (McLaren-Mercedes) - 423 points
-                </p>
+                <h1>{seasonYear} DRIVER STANDINGS</h1>
+                <p className="page-subtitle">Final standings from the {seasonYear} Formula 1 World Championship</p>
+                {is2025 && (
+                    <p className="champion-banner">
+                        🏆 <strong>World Champion:</strong> Lando Norris (McLaren-Mercedes) - 423 points
+                    </p>
+                )}
             </div>
 
             <div className="standings-controls">

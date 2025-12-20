@@ -8,6 +8,7 @@ export default function Header() {
     const [scheduleOpen, setScheduleOpen] = useState(false);
     const [resultsOpen, setResultsOpen] = useState(false);
     const [season2025Open, setSeason2025Open] = useState(false);
+    const [season2026Open, setSeason2026Open] = useState(false);
     const scheduleTimeoutRef = useRef<number | null>(null);
     const resultsTimeoutRef = useRef<number | null>(null);
 
@@ -76,18 +77,77 @@ export default function Header() {
                         </button>
                         {resultsOpen && (
                             <div className="dropdown-menu">
+                                {/* 2026 Season Submenu */}
                                 <div
                                     className="dropdown-item-parent"
-                                    onMouseEnter={() => setSeason2025Open(true)}
+                                    onMouseEnter={() => {
+                                        setSeason2026Open(true);
+                                        setSeason2025Open(false);
+                                    }}
+                                    onMouseLeave={() => setSeason2026Open(false)}
+                                >
+                                    <span className="dropdown-item-with-submenu">
+                                        2026 Season <ChevronDown size={14} className="submenu-arrow" />
+                                    </span>
+                                    {season2026Open && (
+                                        <div className="dropdown-submenu">
+                                            <Link
+                                                to="/results/2026"
+                                                className="dropdown-item"
+                                                onClick={() => {
+                                                    setResultsOpen(false);
+                                                    setSeason2026Open(false);
+                                                }}
+                                            >
+                                                Season Overview
+                                            </Link>
+                                            <Link
+                                                to="/results/2026/races"
+                                                className="dropdown-item"
+                                                onClick={() => {
+                                                    setResultsOpen(false);
+                                                    setSeason2026Open(false);
+                                                }}
+                                            >
+                                                Race Results
+                                            </Link>
+                                            <Link
+                                                to="/results/2026/drivers"
+                                                className="dropdown-item"
+                                                onClick={() => {
+                                                    setResultsOpen(false);
+                                                    setSeason2026Open(false);
+                                                }}
+                                            >
+                                                Driver Standings
+                                            </Link>
+                                            <Link
+                                                to="/results/2026/teams"
+                                                className="dropdown-item"
+                                                onClick={() => {
+                                                    setResultsOpen(false);
+                                                    setSeason2026Open(false);
+                                                }}
+                                            >
+                                                Team Standings
+                                            </Link>
+                                        </div>
+                                    )}
+                                </div>
+
+                                <div
+                                    className="dropdown-item-parent"
+                                    onMouseEnter={() => {
+                                        setSeason2025Open(true);
+                                        setSeason2026Open(false);
+                                    }}
+                                    onMouseLeave={() => setSeason2025Open(false)}
                                 >
                                     <span className="dropdown-item-with-submenu">
                                         2025 Season <ChevronDown size={14} className="submenu-arrow" />
                                     </span>
                                     {season2025Open && (
-                                        <div
-                                            className="dropdown-submenu"
-                                            onMouseLeave={() => setSeason2025Open(false)}
-                                        >
+                                        <div className="dropdown-submenu">
                                             <Link
                                                 to="/results/2025"
                                                 className="dropdown-item"

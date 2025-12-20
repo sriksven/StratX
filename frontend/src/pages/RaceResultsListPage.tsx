@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import './RaceResultsListPage.css';
 
 interface RaceResult {
@@ -43,13 +43,34 @@ const races2025: RaceResult[] = [
 const sortedRaces = [...races2025].sort((a, b) => a.round - b.round);
 
 export default function RaceResultsListPage() {
+    const { year } = useParams<{ year: string }>();
+    const seasonYear = year ? parseInt(year) : 2025;
+
+    // Handle Future Season (2026)
+    if (seasonYear === 2026) {
+        return (
+            <div className="race-results-list-page">
+                <div className="page-header">
+                    <h1>{seasonYear} RACE RESULTS</h1>
+                    <p className="page-subtitle">Season has not started yet</p>
+                </div>
+                <div className="error-container" style={{ minHeight: '50vh', justifyContent: 'flex-start', paddingTop: '4rem', textAlign: 'center', color: 'white' }}>
+                    <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>⏳</div>
+                    <h2>No Races Completed</h2>
+                    <p style={{ maxWidth: '600px', margin: '0 auto', color: '#9ca3af' }}>Race results will appear here as each round of the 2026 season is completed.</p>
+                    <Link to="/schedule/2026" className="back-link" style={{ marginTop: '2rem', display: 'inline-block', color: 'var(--accent-red)', textDecoration: 'none' }}>→ View 2026 Schedule</Link>
+                </div>
+            </div>
+        );
+    }
+
     const completedRaces = sortedRaces.filter(race => race.completed);
 
     return (
         <div className="race-results-list-page">
             <div className="page-header">
-                <h1>2025 RACE RESULTS</h1>
-                <p className="page-subtitle">Complete race results from all 24 rounds of the 2025 Formula 1 World Championship</p>
+                <h1>{seasonYear} RACE RESULTS</h1>
+                <p className="page-subtitle">Complete race results from all 24 rounds of the {seasonYear} Formula 1 World Championship</p>
                 <div className="season-summary-bar">
                     <div className="summary-stat">
                         <span className="stat-value">{completedRaces.length}</span>
@@ -71,7 +92,7 @@ export default function RaceResultsListPage() {
                     {sortedRaces.map((race) => (
                         <Link
                             key={race.round}
-                            to={`/results/2025/race/${race.round}`}
+                            to={`/results/${seasonYear}/race/${race.round}`}
                             className="race-card"
                         >
                             <div className="race-card-header">

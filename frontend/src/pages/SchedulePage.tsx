@@ -6,7 +6,11 @@ import type { RaceEvent } from '../constants/races';
 
 function getNextRace(races: RaceEvent[]): RaceEvent {
     const now = new Date();
-    const upcomingRace = races.find(race => new Date(race.date) > now);
+    const upcomingRace = races.find(race => {
+        const raceDate = new Date(race.date);
+        const raceEnd = new Date(raceDate.getFullYear(), raceDate.getMonth(), raceDate.getDate(), 23, 59, 59);
+        return raceEnd > now;
+    });
     return upcomingRace || races[races.length - 1]; // Return last race if season is over
 }
 
