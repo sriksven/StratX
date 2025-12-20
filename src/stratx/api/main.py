@@ -4,8 +4,8 @@ from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
 import uvicorn
 
-from data_pipeline.openf1_client import OpenF1Client
-from ml_pipeline.race_predictor import RacePredictor
+from stratx.data.openf1_client import OpenF1Client
+from stratx.ml.race_predictor import RacePredictor
 
 app = FastAPI(title="StratX Race Strategy Engine")
 
@@ -85,4 +85,4 @@ def get_race_admin_feed(session_key: int):
     return client.get_race_control(session_key)
 
 if __name__ == "__main__":
-    uvicorn.run("src.api.main:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("stratx.api.main:app", host="0.0.0.0", port=8000, reload=True)

@@ -1,3 +1,18 @@
+Metadata-Version: 2.4
+Name: stratx
+Version: 0.1.0
+Summary: Real-Time F1 Telemetry and Machine Learning Race Strategy Engine
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: requests
+Requires-Dist: joblib
+Requires-Dist: fastf1
+
 
 # StratX  
 ### **Real-Time F1 Telemetry and Machine Learning Race Strategy Engine**

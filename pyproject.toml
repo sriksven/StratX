@@ -1,0 +1,23 @@
+[project]
+name = "stratx"
+version = "0.1.0"
+description = "Real-Time F1 Telemetry and Machine Learning Race Strategy Engine"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "requests",
+    "joblib",
+    "fastf1"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
