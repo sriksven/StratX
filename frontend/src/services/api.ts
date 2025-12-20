@@ -8,8 +8,8 @@ import type {
     AnomalyDetection,
 } from '../types/index.ts';
 
-// API base URL - configured for the FastAPI backend
-const API_BASE_URL = 'http://localhost:8000/api';
+// API base URL - uses environment variable or falls back to localhost
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
 
 const api = axios.create({
     baseURL: API_BASE_URL,
