@@ -8,159 +8,137 @@ import type {
     AnomalyDetection,
 } from '../types/index.ts';
 
-// API base URL - will be configured for production
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
+// API base URL - configured for the FastAPI backend
+const API_BASE_URL = 'http://localhost:8000/api';
 
 const api = axios.create({
     baseURL: API_BASE_URL,
     timeout: 10000,
 });
 
-// Mock data generators for development
+// Driver Code to Number Mapping (2025 Grid + 2024 references)
+const DRIVER_MAP: Record<string, number> = {
+    'VER': 1, 'NOR': 4, 'GAS': 10, 'PER': 11, 'ALO': 14, 'LEC': 16,
+    'STR': 18, 'MAG': 20, 'TSU': 22, 'ALB': 23, 'ZHO': 24, 'HUL': 27,
+    'OCO': 31, 'BEA': 38, 'HAM': 44, 'SAI': 55, 'RUS': 63, 'BOT': 77,
+    'PIA': 81, 'LAW': 30, 'ANT': 12, 'DOO': 19
+};
+
+const getDriverNumber = (code: string): number => DRIVER_MAP[code] || 1; // Default to Max
+
+// --- Adaptors ---
+const adaptLapPrediction = (data: any, driver: string): LapPrediction => ({
+    driver,
+    predictedLapTime: data.predicted_next_lap || 0,
+    confidence: 0.85, // Mock confidence for now
+    factors: {
+        tyreDegradation: 0.4,
+        fuelLoad: 0.3,
+        trackConditions: 0.9
+    }
+});
+
+const adaptTyrePrediction = (data: any, driver: string): TyreWearPrediction => ({
+    driver,
+    compound: data.compound || 'SOFT',
+    lapNumber: data.current_stint_laps || 10,
+    wearPercentage: 100 - (data.predicted_life_remaining || 100),
+    estimatedLapsRemaining: Math.floor((data.predicted_life_remaining || 0) / 3), // rough estimate
+    degradationRate: 1.2
+});
+
+const adaptPitWindow = (data: any, driver: string): PitWindowRecommendation => ({
+    driver,
+    optimalLap: data.optimal_lap || 0,
+    currentLap: 20, // Mocked in backend
+    confidence: data.confidence === 'HIGH' ? 0.9 : 0.4,
+    reasoning: ['Calculated from tyre degradation curve'],
+    alternativeWindows: [data.open_lap, data.close_lap]
+});
+
+// Mock Generators for endpoints not yet implemented
+const generateMockOvertake = (driver: string): OvertakeProbability => ({
+    attacker: driver,
+    defender: 'NOR',
+    probability: Math.random(),
+    factors: { speedDelta: 12.5, tyreAdvantage: 0.8, drsAvailable: true, trackPosition: 'Main Straight' },
+});
+
+const generateMockAnomaly = (driver: string): AnomalyDetection => ({
+    driver,
+    anomalyType: 'none',
+    severity: 'low',
+    description: 'All systems nominal',
+    confidence: 0.95,
+    timestamp: new Date().toISOString()
+});
+
 const generateMockTelemetry = (driver: string): TelemetryData => ({
     driver,
-    speed: Math.random() * 150 + 200, // 200-350 km/h
+    speed: Math.random() * 150 + 200,
     throttle: Math.random() * 100,
     brake: Math.random() * 50,
-    rpm: Math.random() * 5000 + 10000, // 10000-15000 RPM
+    rpm: Math.random() * 5000 + 10000,
     gear: Math.floor(Math.random() * 8) + 1,
     drs: Math.random() > 0.7,
     timestamp: new Date().toISOString(),
 });
 
-const generateMockLapPrediction = (driver: string): LapPrediction => ({
-    driver,
-    predictedLapTime: 88 + Math.random() * 3, // 88-91 seconds
-    confidence: 0.7 + Math.random() * 0.25,
-    factors: {
-        tyreDegradation: Math.random() * 0.5,
-        fuelLoad: Math.random() * 0.3,
-        trackConditions: 0.8 + Math.random() * 0.2,
-    },
-});
+// --- API Functions ---
 
-const generateMockTyreWear = (driver: string): TyreWearPrediction => ({
-    driver,
-    compound: ['SOFT', 'MEDIUM', 'HARD'][Math.floor(Math.random() * 3)],
-    lapNumber: Math.floor(Math.random() * 30) + 1,
-    wearPercentage: Math.random() * 80,
-    estimatedLapsRemaining: Math.floor(Math.random() * 20) + 5,
-    degradationRate: 1.5 + Math.random() * 2,
-});
-
-const generateMockPitWindow = (driver: string): PitWindowRecommendation => ({
-    driver,
-    optimalLap: Math.floor(Math.random() * 10) + 20,
-    currentLap: Math.floor(Math.random() * 25) + 1,
-    confidence: 0.75 + Math.random() * 0.2,
-    reasoning: [
-        'Tyre degradation approaching critical threshold',
-        'Traffic window opens in 3 laps',
-        'Undercut opportunity available',
-    ],
-    alternativeWindows: [18, 22, 25],
-});
-
-const generateMockOvertake = (driver: string): OvertakeProbability => ({
-    attacker: driver,
-    defender: ['HAM', 'LEC', 'NOR', 'SAI'][Math.floor(Math.random() * 4)],
-    probability: Math.random(),
-    factors: {
-        speedDelta: (Math.random() - 0.5) * 20,
-        tyreAdvantage: Math.random(),
-        drsAvailable: Math.random() > 0.5,
-        trackPosition: 'Turn 1 Braking Zone',
-    },
-});
-
-const generateMockAnomaly = (driver: string): AnomalyDetection => {
-    const types: Array<'mechanical' | 'driver' | 'none'> = ['mechanical', 'driver', 'none', 'none', 'none'];
-    const severities: Array<'low' | 'medium' | 'high'> = ['low', 'medium', 'high'];
-    const type = types[Math.floor(Math.random() * types.length)];
-
-    return {
-        driver,
-        anomalyType: type,
-        severity: type === 'none' ? 'low' : severities[Math.floor(Math.random() * severities.length)],
-        description: type === 'none'
-            ? 'All systems operating normally'
-            : type === 'mechanical'
-                ? 'Unusual vibration detected in rear suspension'
-                : 'Inconsistent braking points detected',
-        confidence: 0.6 + Math.random() * 0.35,
-        timestamp: new Date().toISOString(),
-    };
-};
-
-// API functions
 export const fetchTelemetry = async (driver: string): Promise<TelemetryData> => {
-    try {
-        const response = await api.get(`/telemetry/${driver}`);
-        return response.data;
-    } catch (error) {
-        // Return mock data in development
-        console.warn('Using mock telemetry data');
-        return generateMockTelemetry(driver);
-    }
+    return generateMockTelemetry(driver);
 };
 
 export const fetchTelemetryHistory = async (driver: string): Promise<TelemetryData[]> => {
+    return Array.from({ length: 20 }, () => generateMockTelemetry(driver));
+};
+
+export const fetchLapTimePrediction = async (driver: string, sessionKey: number = 9158): Promise<LapPrediction> => {
     try {
-        const response = await api.get(`/telemetry/${driver}/history`);
-        return response.data;
+        const num = getDriverNumber(driver);
+        const response = await api.get(`/predictions/lap_time`, {
+            params: { session_key: sessionKey, driver_number: num }
+        });
+        return adaptLapPrediction(response.data, driver);
     } catch (error) {
-        // Return mock data in development
-        console.warn('Using mock telemetry history');
-        return Array.from({ length: 20 }, () => generateMockTelemetry(driver));
+        console.warn('Backend unavailable, using fallback', error);
+        return adaptLapPrediction({ predicted_next_lap: 92.5 }, driver);
     }
 };
 
-export const fetchLapTimePrediction = async (driver: string): Promise<LapPrediction> => {
+export const fetchTyreWearPrediction = async (driver: string, sessionKey: number = 9158): Promise<TyreWearPrediction> => {
     try {
-        const response = await api.get(`/predictions/lap-time/${driver}`);
-        return response.data;
+        const num = getDriverNumber(driver);
+        const response = await api.get(`/predictions/tyre_life`, {
+            params: { session_key: sessionKey, driver_number: num }
+        });
+        return adaptTyrePrediction(response.data, driver);
     } catch (error) {
-        console.warn('Using mock lap time prediction');
-        return generateMockLapPrediction(driver);
+        console.warn('Backend unavailable, using fallback');
+        return adaptTyrePrediction({ predicted_life_remaining: 80, compound: 'MEDIUM' }, driver);
     }
 };
 
-export const fetchTyreWearPrediction = async (driver: string): Promise<TyreWearPrediction> => {
+export const fetchPitWindowRecommendation = async (driver: string, sessionKey: number = 9158): Promise<PitWindowRecommendation> => {
     try {
-        const response = await api.get(`/predictions/tyre-wear/${driver}`);
-        return response.data;
+        const num = getDriverNumber(driver);
+        const response = await api.get(`/predictions/strategy_window`, {
+            params: { session_key: sessionKey, driver_number: num }
+        });
+        return adaptPitWindow(response.data, driver);
     } catch (error) {
-        console.warn('Using mock tyre wear prediction');
-        return generateMockTyreWear(driver);
+        console.warn('Backend unavailable, using fallback');
+        return adaptPitWindow({ optimal_lap: 25, confidence: 'HIGH', open_lap: 23, close_lap: 27 }, driver);
     }
 };
 
-export const fetchPitWindowRecommendation = async (driver: string): Promise<PitWindowRecommendation> => {
-    try {
-        const response = await api.get(`/predictions/pit-window/${driver}`);
-        return response.data;
-    } catch (error) {
-        console.warn('Using mock pit window recommendation');
-        return generateMockPitWindow(driver);
-    }
+export const fetchOvertakeProbability = async (driver: string, _sessionKey: number = 9158): Promise<OvertakeProbability> => {
+    // Not implemented in backend yet
+    return generateMockOvertake(driver);
 };
 
-export const fetchOvertakeProbability = async (driver: string): Promise<OvertakeProbability> => {
-    try {
-        const response = await api.get(`/predictions/overtake/${driver}`);
-        return response.data;
-    } catch (error) {
-        console.warn('Using mock overtake probability');
-        return generateMockOvertake(driver);
-    }
-};
-
-export const fetchAnomalyDetection = async (driver: string): Promise<AnomalyDetection> => {
-    try {
-        const response = await api.get(`/predictions/anomaly/${driver}`);
-        return response.data;
-    } catch (error) {
-        console.warn('Using mock anomaly detection');
-        return generateMockAnomaly(driver);
-    }
+export const fetchAnomalyDetection = async (driver: string, _sessionKey: number = 9158): Promise<AnomalyDetection> => {
+    // Not implemented in backend yet
+    return generateMockAnomaly(driver);
 };

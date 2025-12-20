@@ -5,9 +5,10 @@ import './PredictionCards.css';
 interface PredictionCardsProps {
     driver: string;
     isLive: boolean;
+    sessionKey?: number;
 }
 
-export default function PredictionCards({ driver, isLive }: PredictionCardsProps) {
+export default function PredictionCards({ driver, isLive, sessionKey }: PredictionCardsProps) {
     const {
         lapTime,
         tyreWear,
@@ -15,7 +16,7 @@ export default function PredictionCards({ driver, isLive }: PredictionCardsProps
         overtake,
         anomaly,
         isLoading
-    } = usePredictions(driver, isLive);
+    } = usePredictions(driver, isLive, sessionKey);
 
     if (isLoading) {
         return (

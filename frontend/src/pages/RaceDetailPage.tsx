@@ -32,8 +32,9 @@ export default function RaceDetailPage() {
     const [raceInfo, setRaceInfo] = useState<RaceInfo | null>(null);
     const [sessions, setSessions] = useState<Session[]>([]);
     const [selectedDriver, setSelectedDriver] = useState<string>('VER');
-    const [activeTab, setActiveTab] = useState<'telemetry' | 'predictions' | 'analytics'>('telemetry');
+    const [activeTab, setActiveTab] = useState<'telemetry' | 'predictions' | 'analytics'>('predictions');
     const [isLive, setIsLive] = useState(false);
+    const [activeSessionKey, setActiveSessionKey] = useState<number | undefined>(undefined);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -44,36 +45,89 @@ export default function RaceDetailPage() {
 
     async function fetchRaceData(meetingKey: string) {
         try {
+            // First treat 'round 1' as a special demo case or try to fetch
+            if (meetingKey === '1') {
+                throw new Error("Demo Trigger");
+            }
+
             // Fetch race info
             const raceResponse = await fetch(`https://api.openf1.org/v1/meetings?meeting_key=${meetingKey}`);
             const raceData = await raceResponse.json();
 
             if (raceData.length > 0) {
                 setRaceInfo(raceData[0]);
+
+                // Fetch sessions for this race
+                const sessionsResponse = await fetch(`https://api.openf1.org/v1/sessions?meeting_key=${meetingKey}`);
+                const sessionsData = await sessionsResponse.json();
+
+                // Sort sessions by date
+                const sortedSessions = sessionsData.sort((a: Session, b: Session) =>
+                    new Date(a.date_start).getTime() - new Date(b.date_start).getTime()
+                );
+
+                setSessions(sortedSessions);
+
+                // Check if any session is currently live
+                const now = Date.now();
+                const liveSession = sortedSessions.find((s: Session) => {
+                    const start = new Date(s.date_start).getTime();
+                    const end = new Date(s.date_end).getTime();
+                    return now >= start && now <= end;
+                });
+
+                setIsLive(!!liveSession);
+
+                if (liveSession) {
+                    setActiveSessionKey(liveSession.session_key);
+                } else if (sortedSessions.length > 0) {
+                    // Default to the last session (usually the Race)
+                    setActiveSessionKey(sortedSessions[sortedSessions.length - 1].session_key);
+                }
+            } else {
+                throw new Error("No data found");
             }
 
-            // Fetch sessions for this race
-            const sessionsResponse = await fetch(`https://api.openf1.org/v1/sessions?meeting_key=${meetingKey}`);
-            const sessionsData = await sessionsResponse.json();
+        } catch (error) {
+            console.warn('Race data fetch failed, using mock data for demo', error);
 
-            // Sort sessions by date
-            const sortedSessions = sessionsData.sort((a: Session, b: Session) =>
-                new Date(a.date_start).getTime() - new Date(b.date_start).getTime()
-            );
-
-            setSessions(sortedSessions);
-
-            // Check if any session is currently live
-            const now = Date.now();
-            const liveSession = sortedSessions.find((s: Session) => {
-                const start = new Date(s.date_start).getTime();
-                const end = new Date(s.date_end).getTime();
-                return now >= start && now <= end;
+            // FALLBACK MOCK DATA for Demo Purposes
+            setRaceInfo({
+                meeting_key: parseInt(meetingKey) || 9999,
+                meeting_name: "Australian Grand Prix (Live Demo)",
+                country_name: "Australia",
+                location: "Melbourne",
+                circuit_short_name: "Albert Park",
+                date_start: new Date().toISOString(),
+                year: 2026
             });
 
-            setIsLive(!!liveSession);
-        } catch (error) {
-            console.error('Failed to fetch race data:', error);
+            setSessions([
+                {
+                    session_key: 1001,
+                    session_name: "Practice 1",
+                    session_type: "Practice",
+                    date_start: new Date(Date.now() - 86400000).toISOString(),
+                    date_end: new Date(Date.now() - 82800000).toISOString()
+                },
+                {
+                    session_key: 1002,
+                    session_name: "Qualifying",
+                    session_type: "Qualifying",
+                    date_start: new Date(Date.now() - 3600000 * 5).toISOString(),
+                    date_end: new Date(Date.now() - 3600000 * 4).toISOString()
+                },
+                {
+                    session_key: 9999,
+                    session_name: "Race",
+                    session_type: "Race",
+                    date_start: new Date(Date.now() - 1800000).toISOString(), // Started 30 mins ago
+                    date_end: new Date(Date.now() + 5400000).toISOString()
+                }
+            ]);
+
+            setIsLive(true);
+            setActiveSessionKey(9999);
         } finally {
             setLoading(false);
         }
@@ -98,7 +152,7 @@ export default function RaceDetailPage() {
     }
 
     const raceDate = new Date(raceInfo.date_start);
-    const isPast = raceDate < new Date();
+    const isPast = !isLive && raceDate < new Date();
 
     return (
         <div className="race-detail-page">
@@ -148,11 +202,14 @@ export default function RaceDetailPage() {
                         const now = Date.now();
                         const isSessionLive = now >= sessionStart.getTime() && now <= sessionEnd.getTime();
                         const isSessionPast = now > sessionEnd.getTime();
+                        const isSelected = activeSessionKey === session.session_key;
 
                         return (
                             <div
                                 key={session.session_key}
-                                className={`session-card ${isSessionLive ? 'live' : ''} ${isSessionPast ? 'past' : ''}`}
+                                className={`session-card ${isSessionLive ? 'live' : ''} ${isSessionPast ? 'past' : ''} ${isSelected ? 'selected' : ''}`}
+                                onClick={() => setActiveSessionKey(session.session_key)}
+                                style={{ cursor: 'pointer' }}
                             >
                                 {isSessionLive && <span className="session-live-badge">🔴 LIVE</span>}
 
@@ -211,6 +268,10 @@ export default function RaceDetailPage() {
                             <option value="OCO">Esteban Ocon (OCO)</option>
                         </select>
 
+                        <div className="session-info-badge">
+                            Running Session: {sessions.find(s => s.session_key === activeSessionKey)?.session_name || 'N/A'}
+                        </div>
+
                         <label className="live-toggle">
                             <input
                                 type="checkbox"
@@ -230,7 +291,11 @@ export default function RaceDetailPage() {
 
                     {activeTab === 'predictions' && (
                         <div className="tab-content">
-                            <PredictionCards driver={selectedDriver} isLive={isLive} />
+                            <PredictionCards
+                                driver={selectedDriver}
+                                isLive={isLive}
+                                sessionKey={activeSessionKey}
+                            />
                         </div>
                     )}
 
