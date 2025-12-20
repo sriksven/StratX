@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import './DriverStandingsPage.css';
 
 interface DriverStanding {
@@ -34,36 +34,50 @@ const driver2025Standings: DriverStanding[] = [
     { position: 20, driver: 'Sergio Perez', team: 'Red Bull Racing-Honda RBPT', points: 30, wins: 0, podiums: 1 },
 ];
 
+const driver2026Standings: DriverStanding[] = [
+    { position: 1, driver: 'Lando Norris', team: 'McLaren-Mercedes', points: 0, wins: 0, podiums: 0 },
+    { position: 2, driver: 'Charles Leclerc', team: 'Ferrari', points: 0, wins: 0, podiums: 0 },
+    { position: 3, driver: 'Carlos Sainz', team: 'Williams-Mercedes', points: 0, wins: 0, podiums: 0 },
+    { position: 4, driver: 'George Russell', team: 'Mercedes', points: 0, wins: 0, podiums: 0 },
+    { position: 5, driver: 'Lewis Hamilton', team: 'Ferrari', points: 0, wins: 0, podiums: 0 },
+    { position: 6, driver: 'Max Verstappen', team: 'Red Bull Racing-Honda RBPT', points: 0, wins: 0, podiums: 0 },
+    { position: 7, driver: 'Oscar Piastri', team: 'McLaren-Mercedes', points: 0, wins: 0, podiums: 0 },
+    { position: 8, driver: 'Kimi Antonelli', team: 'Mercedes', points: 0, wins: 0, podiums: 0 },
+    { position: 9, driver: 'Fernando Alonso', team: 'Aston Martin-Honda RBPT', points: 0, wins: 0, podiums: 0 },
+    { position: 10, driver: 'Alexander Albon', team: 'Williams-Mercedes', points: 0, wins: 0, podiums: 0 },
+    { position: 11, driver: 'Pierre Gasly', team: 'Alpine-Renault', points: 0, wins: 0, podiums: 0 },
+    { position: 12, driver: 'Yuki Tsunoda', team: 'Racing Bulls-Honda RBPT', points: 0, wins: 0, podiums: 0 },
+    { position: 13, driver: 'Lance Stroll', team: 'Aston Martin-Honda RBPT', points: 0, wins: 0, podiums: 0 },
+    { position: 14, driver: 'Esteban Ocon', team: 'Haas-Ferrari', points: 0, wins: 0, podiums: 0 },
+    { position: 15, driver: 'Nico Hulkenberg', team: 'Sauber-Ferrari', points: 0, wins: 0, podiums: 0 },
+    { position: 16, driver: 'Liam Lawson', team: 'Racing Bulls-Honda RBPT', points: 0, wins: 0, podiums: 0 },
+    { position: 17, driver: 'Oliver Bearman', team: 'Haas-Ferrari', points: 0, wins: 0, podiums: 0 },
+    { position: 18, driver: 'Jack Doohan', team: 'Alpine-Renault', points: 0, wins: 0, podiums: 0 },
+    { position: 19, driver: 'Gabriel Bortoleto', team: 'Sauber-Ferrari', points: 0, wins: 0, podiums: 0 },
+    { position: 20, driver: 'Isack Hadjar', team: 'Red Bull Racing-Honda RBPT', points: 0, wins: 0, podiums: 0 },
+];
+
 export default function DriverStandingsPage() {
     const { year } = useParams<{ year: string }>();
     const seasonYear = year ? parseInt(year) : 2025;
     const [showDetails, setShowDetails] = useState(false);
 
-    // Handle Future Season (2026)
-    if (seasonYear === 2026) {
-        return (
-            <div className="standings-page">
-                <div className="page-header">
-                    <h1>{seasonYear} DRIVER STANDINGS</h1>
-                    <p className="page-subtitle">Season has not started yet</p>
-                </div>
-                <div className="error-container" style={{ minHeight: '50vh', justifyContent: 'flex-start', paddingTop: '4rem', textAlign: 'center', color: 'white' }}>
-                    <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>⏳</div>
-                    <h2>No Standings Available</h2>
-                    <p style={{ maxWidth: '600px', margin: '0 auto', color: '#9ca3af' }}>Driver standings will update here after the first race of the 2026 season.</p>
-                    <Link to="/schedule/2026" className="back-link" style={{ marginTop: '2rem', display: 'inline-block', color: 'var(--accent-red)', textDecoration: 'none' }}>→ View 2026 Schedule</Link>
-                </div>
-            </div>
-        );
-    }
-
     const is2025 = seasonYear === 2025;
+    const is2026 = seasonYear === 2026;
+
+    // Select standings data based on year
+    const standings = is2026 ? driver2026Standings : driver2025Standings;
 
     return (
         <div className="standings-page">
             <div className="page-header">
                 <h1>{seasonYear} DRIVER STANDINGS</h1>
-                <p className="page-subtitle">Final standings from the {seasonYear} Formula 1 World Championship</p>
+                <p className="page-subtitle">
+                    {is2026
+                        ? "Live standings for the 2026 Formula 1 World Championship"
+                        : `Final standings from the ${seasonYear} Formula 1 World Championship`
+                    }
+                </p>
                 {is2025 && (
                     <p className="champion-banner">
                         🏆 <strong>World Champion:</strong> Lando Norris (McLaren-Mercedes) - 423 points
@@ -95,18 +109,18 @@ export default function DriverStandingsPage() {
                         )}
                     </div>
 
-                    {driver2025Standings.map((standing) => (
+                    {standings.map((standing) => (
                         <div
                             key={standing.position}
                             className={`table-row ${standing.position <= 3 ? 'podium-position' : ''}`}
                         >
                             <div className="col-pos">
-                                <span className={`position-badge ${standing.position === 1 ? 'champion' : ''}`}>
+                                <span className={`position-badge ${standing.position === 1 && !is2026 ? 'champion' : ''}`}>
                                     {standing.position}
                                 </span>
                             </div>
                             <div className="col-driver">
-                                {standing.position === 1 && <span className="trophy-icon">🏆</span>}
+                                {standing.position === 1 && !is2026 && <span className="trophy-icon">🏆</span>}
                                 <strong>{standing.driver}</strong>
                             </div>
                             <div className="col-team">{standing.team}</div>
@@ -124,31 +138,34 @@ export default function DriverStandingsPage() {
                 </div>
             </div>
 
-            <div className="season-summary">
-                <h2>Season Highlights</h2>
-                <div className="highlights-grid">
-                    <div className="highlight-card">
-                        <div className="highlight-value">2</div>
-                        <div className="highlight-label">Point Margin</div>
-                        <div className="highlight-desc">Closest championship finish in years</div>
-                    </div>
-                    <div className="highlight-card">
-                        <div className="highlight-value">9</div>
-                        <div className="highlight-label">Race Wins</div>
-                        <div className="highlight-desc">Max Verstappen (Runner-up)</div>
-                    </div>
-                    <div className="highlight-card">
-                        <div className="highlight-value">8</div>
-                        <div className="highlight-label">Race Wins</div>
-                        <div className="highlight-desc">Lando Norris (Champion)</div>
-                    </div>
-                    <div className="highlight-card">
-                        <div className="highlight-value">15</div>
-                        <div className="highlight-label">Rounds Led</div>
-                        <div className="highlight-desc">Oscar Piastri led championship</div>
+            {is2025 && (
+                <div className="season-summary">
+                    <h2>Season Highlights</h2>
+                    <div className="highlights-grid">
+                        <div className="highlight-card">
+                            <div className="highlight-value">2</div>
+                            <div className="highlight-label">Point Margin</div>
+                            <div className="highlight-desc">Closest championship finish in years</div>
+                        </div>
+                        <div className="highlight-card">
+                            <div className="highlight-value">9</div>
+                            <div className="highlight-label">Race Wins</div>
+                            <div className="highlight-desc">Max Verstappen (Runner-up)</div>
+                        </div>
+                        <div className="highlight-card">
+                            <div className="highlight-value">8</div>
+                            <div className="highlight-label">Race Wins</div>
+                            <div className="highlight-desc">Lando Norris (Champion)</div>
+                        </div>
+                        {/* Keep the 4th card but end the block properly */}
+                        <div className="highlight-card">
+                            <div className="highlight-value">15</div>
+                            <div className="highlight-label">Rounds Led</div>
+                            <div className="highlight-desc">Oscar Piastri led championship</div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            )}
         </div>
     );
 }

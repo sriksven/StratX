@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import './TeamStandingsPage.css';
 
 interface TeamStanding {
@@ -24,36 +24,40 @@ const team2025Standings: TeamStanding[] = [
     { position: 10, team: 'Sauber', engine: 'Ferrari', points: 20, wins: 0, podiums: 0 },
 ];
 
+const team2026Standings: TeamStanding[] = [
+    { position: 1, team: 'Ferrari', engine: 'Ferrari', points: 0, wins: 0, podiums: 0 },
+    { position: 2, team: 'McLaren', engine: 'Mercedes', points: 0, wins: 0, podiums: 0 },
+    { position: 3, team: 'Red Bull Racing', engine: 'Honda RBPT', points: 0, wins: 0, podiums: 0 },
+    { position: 4, team: 'Mercedes', engine: 'Mercedes', points: 0, wins: 0, podiums: 0 },
+    { position: 5, team: 'Williams', engine: 'Mercedes', points: 0, wins: 0, podiums: 0 },
+    { position: 6, team: 'Aston Martin', engine: 'Honda RBPT', points: 0, wins: 0, podiums: 0 },
+    { position: 7, team: 'Alpine', engine: 'Renault', points: 0, wins: 0, podiums: 0 },
+    { position: 8, team: 'Racing Bulls', engine: 'Honda RBPT', points: 0, wins: 0, podiums: 0 },
+    { position: 9, team: 'Haas', engine: 'Ferrari', points: 0, wins: 0, podiums: 0 },
+    { position: 10, team: 'Sauber', engine: 'Ferrari', points: 0, wins: 0, podiums: 0 },
+];
+
 export default function TeamStandingsPage() {
     const { year } = useParams<{ year: string }>();
     const seasonYear = year ? parseInt(year) : 2025;
     const [showDetails, setShowDetails] = useState(false);
 
-    // Handle Future Season (2026)
-    if (seasonYear === 2026) {
-        return (
-            <div className="standings-page">
-                <div className="page-header">
-                    <h1>{seasonYear} CONSTRUCTOR STANDINGS</h1>
-                    <p className="page-subtitle">Season has not started yet</p>
-                </div>
-                <div className="error-container" style={{ minHeight: '50vh', justifyContent: 'flex-start', paddingTop: '4rem', textAlign: 'center', color: 'white' }}>
-                    <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>⏳</div>
-                    <h2>No Standings Available</h2>
-                    <p style={{ maxWidth: '600px', margin: '0 auto', color: '#9ca3af' }}>Constructor standings will update here after the first race of the 2026 season.</p>
-                    <Link to="/schedule/2026" className="back-link" style={{ marginTop: '2rem', display: 'inline-block', color: 'var(--accent-red)', textDecoration: 'none' }}>→ View 2026 Schedule</Link>
-                </div>
-            </div>
-        );
-    }
-
     const is2025 = seasonYear === 2025;
+    const is2026 = seasonYear === 2026;
+
+    // Select standings data based on year
+    const standings = is2026 ? team2026Standings : team2025Standings;
 
     return (
         <div className="standings-page">
             <div className="page-header">
                 <h1>{seasonYear} CONSTRUCTOR STANDINGS</h1>
-                <p className="page-subtitle">Final standings from the {seasonYear} Formula 1 World Championship</p>
+                <p className="page-subtitle">
+                    {is2026
+                        ? "Live standings for the 2026 Formula 1 World Championship"
+                        : `Final standings from the ${seasonYear} Formula 1 World Championship`
+                    }
+                </p>
                 {is2025 && (
                     <p className="champion-banner">
                         🏆 <strong>Constructors' Champion:</strong> McLaren-Mercedes - 833 points
@@ -85,18 +89,18 @@ export default function TeamStandingsPage() {
                         )}
                     </div>
 
-                    {team2025Standings.map((standing) => (
+                    {standings.map((standing) => (
                         <div
                             key={standing.position}
                             className={`table-row ${standing.position <= 3 ? 'podium-position' : ''}`}
                         >
                             <div className="col-pos">
-                                <span className={`position-badge ${standing.position === 1 ? 'champion' : ''}`}>
+                                <span className={`position-badge ${standing.position === 1 && !is2026 ? 'champion' : ''}`}>
                                     {standing.position}
                                 </span>
                             </div>
                             <div className="col-team">
-                                {standing.position === 1 && <span className="trophy-icon">🏆</span>}
+                                {standing.position === 1 && !is2026 && <span className="trophy-icon">🏆</span>}
                                 <strong>{standing.team}</strong>
                             </div>
                             <div className="col-engine">{standing.engine}</div>
@@ -114,31 +118,33 @@ export default function TeamStandingsPage() {
                 </div>
             </div>
 
-            <div className="season-summary">
-                <h2>Season Highlights</h2>
-                <div className="highlights-grid">
-                    <div className="highlight-card">
-                        <div className="highlight-value">2nd</div>
-                        <div className="highlight-label">Consecutive Title</div>
-                        <div className="highlight-desc">McLaren's back-to-back championships</div>
-                    </div>
-                    <div className="highlight-card">
-                        <div className="highlight-value">10th</div>
-                        <div className="highlight-label">Overall Title</div>
-                        <div className="highlight-desc">McLaren's constructors' championships</div>
-                    </div>
-                    <div className="highlight-card">
-                        <div className="highlight-value">364</div>
-                        <div className="highlight-label">Point Margin</div>
-                        <div className="highlight-desc">McLaren's dominance over 2nd place</div>
-                    </div>
-                    <div className="highlight-card">
-                        <div className="highlight-value">14</div>
-                        <div className="highlight-label">Race Wins</div>
-                        <div className="highlight-desc">McLaren's winning season</div>
+            {is2025 && (
+                <div className="season-summary">
+                    <h2>Season Highlights</h2>
+                    <div className="highlights-grid">
+                        <div className="highlight-card">
+                            <div className="highlight-value">2nd</div>
+                            <div className="highlight-label">Consecutive Title</div>
+                            <div className="highlight-desc">McLaren's back-to-back championships</div>
+                        </div>
+                        <div className="highlight-card">
+                            <div className="highlight-value">10th</div>
+                            <div className="highlight-label">Overall Title</div>
+                            <div className="highlight-desc">McLaren's constructors' championships</div>
+                        </div>
+                        <div className="highlight-card">
+                            <div className="highlight-value">364</div>
+                            <div className="highlight-label">Point Margin</div>
+                            <div className="highlight-desc">McLaren's dominance over 2nd place</div>
+                        </div>
+                        <div className="highlight-card">
+                            <div className="highlight-value">14</div>
+                            <div className="highlight-label">Race Wins</div>
+                            <div className="highlight-desc">McLaren's winning season</div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            )}
         </div>
     );
 }
