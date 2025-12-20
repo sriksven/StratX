@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Calendar, MapPin, Clock } from 'lucide-react';
 import './SchedulePage.css';
 
@@ -233,31 +234,33 @@ export default function SchedulePage() {
             </div>
 
             {/* Featured Next Race */}
-            <div className="next-race-hero">
-                <div className="hero-label">NEXT RACE</div>
-                <h2 className="hero-race-name">{nextRace.raceName}</h2>
-                <div className="hero-details">
-                    <div className="hero-detail-item">
-                        <MapPin size={20} />
-                        <span>{nextRace.circuit}</span>
-                    </div>
-                    <div className="hero-detail-item">
-                        <MapPin size={20} />
-                        <span>{nextRace.location}, {nextRace.country}</span>
-                    </div>
-                    <div className="hero-detail-item">
-                        <Calendar size={20} />
-                        <span>{formatDateLong(nextRace.date)}</span>
-                    </div>
-                    {daysUntil > 0 && (
-                        <div className="hero-detail-item countdown">
-                            <Clock size={20} />
-                            <span>{daysUntil} days until race</span>
+            <Link to={`/race/${nextRace.round}`} style={{ textDecoration: 'none' }}>
+                <div className="next-race-hero">
+                    <div className="hero-label">NEXT RACE</div>
+                    <h2 className="hero-race-name">{nextRace.raceName}</h2>
+                    <div className="hero-details">
+                        <div className="hero-detail-item">
+                            <MapPin size={20} />
+                            <span>{nextRace.circuit}</span>
                         </div>
-                    )}
+                        <div className="hero-detail-item">
+                            <MapPin size={20} />
+                            <span>{nextRace.location}, {nextRace.country}</span>
+                        </div>
+                        <div className="hero-detail-item">
+                            <Calendar size={20} />
+                            <span>{formatDateLong(nextRace.date)}</span>
+                        </div>
+                        {daysUntil > 0 && (
+                            <div className="hero-detail-item countdown">
+                                <Clock size={20} />
+                                <span>{daysUntil} days until race</span>
+                            </div>
+                        )}
+                    </div>
+                    <div className="hero-round">ROUND {nextRace.round}</div>
                 </div>
-                <div className="hero-round">ROUND {nextRace.round}</div>
-            </div>
+            </Link>
 
             {/* Full Schedule Grid */}
             <div className="schedule-section-title">FULL 2026 CALENDAR</div>
@@ -267,9 +270,11 @@ export default function SchedulePage() {
                     const isNext = race.round === nextRace.round;
 
                     return (
-                        <div
+                        <Link
                             key={race.round}
+                            to={`/race/${race.round}`}
                             className={`race-card ${isPast ? 'past' : ''} ${isNext ? 'next' : ''}`}
+                            style={{ textDecoration: 'none', color: 'inherit' }}
                         >
                             <div className="race-round-badge">
                                 <div className="round-label">ROUND {race.round}</div>
@@ -290,7 +295,7 @@ export default function SchedulePage() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     );
                 })}
             </div>

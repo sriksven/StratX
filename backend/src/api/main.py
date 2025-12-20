@@ -4,8 +4,8 @@ from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
 import uvicorn
 
-from src.ingestion.openf1_client import OpenF1Client
-from src.models.race_predictor import RacePredictor
+from data_pipeline.openf1_client import OpenF1Client
+from ml_pipeline.race_predictor import RacePredictor
 
 app = FastAPI(title="StratX Race Strategy Engine")
 
