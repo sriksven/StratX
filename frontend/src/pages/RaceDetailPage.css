@@ -6,85 +6,204 @@
 
 /* Race Header */
 .race-header {
-    background: linear-gradient(180deg, rgba(220, 38, 38, 0.1) 0%, transparent 100%);
-    padding: 2rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0.95) 0%, rgba(30, 30, 40, 0.9) 100%);
+    padding: 1.5rem 2rem 2.5rem;
+    border-bottom: 2px solid var(--accent-red);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Subtle background accent for header */
+.race-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgba(220, 38, 38, 0.15), transparent 70%);
+    z-index: 0;
+}
+
+.race-header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto 2rem;
+    position: relative;
+    z-index: 1;
 }
 
 .back-button {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.75rem 1.5rem;
-    background: rgba(255, 255, 255, 0.05);
+    padding: 0.6rem 1.2rem;
+    background: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
+    border-radius: 4px;
+    /* Sharper edges for F1 feel */
     color: white;
-    font-size: 0.875rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
+    /* Override previous margin */
 }
 
 .back-button:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--accent-red);
+    border-color: var(--accent-red);
     transform: translateX(-4px);
 }
 
-.race-header-content {
+.header-content-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 3rem;
     max-width: 1400px;
     margin: 0 auto;
-    text-align: center;
-}
-
-.race-status-badge {
-    display: inline-flex;
+    position: relative;
+    z-index: 1;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 1.5rem;
-    background: rgba(220, 38, 38, 0.2);
-    border: 1px solid var(--accent-red);
-    border-radius: 50px;
-    font-size: 0.875rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 1.5rem;
-}
-
-.live-dot {
-    width: 8px;
-    height: 8px;
-    background: var(--accent-red);
-    border-radius: 50%;
-    animation: pulse-dot 2s ease-in-out infinite;
 }
 
 .race-header-title {
-    font-size: 3.5rem;
-    font-weight: 800;
-    background: linear-gradient(135deg, #fff 0%, var(--accent-red) 100%);
+    font-size: 4rem;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 0.9;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #fff 40%, #ccc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 1.5rem;
-    line-height: 1.2;
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .race-header-meta {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 2rem;
-    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    font-family: 'Titillium Web', sans-serif;
+    /* If available, else inherit */
 }
 
 .meta-item {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    color: rgba(255, 255, 255, 0.8);
+    gap: 0.75rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    border-left: 3px solid var(--accent-red);
+}
+
+/* Header Circuit Visuals */
+.header-visual-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1.5rem;
+    backdrop-filter: blur(5px);
+}
+
+.track-layout-visual-header {
+    width: 100%;
+    /* max-height: 250px; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.track-layout-visual-header .circuit-map-img {
+    max-height: 200px;
+    width: auto;
+    max-width: 100%;
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3));
+}
+
+/* Stats in Grid */
+/* Reuse .circuit-stats-grid but style specifically for header placement */
+.circuit-stats-grid.header-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.circuit-stats-grid.header-stats .stat-item {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.75rem;
+    border-radius: 6px;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.circuit-stats-grid.header-stats .stat-item:hover {
+    border-top-color: var(--accent-red);
+}
+
+.circuit-stats-grid.header-stats .stat-value {
     font-size: 1rem;
 }
+
+.circuit-stats-grid.header-stats .stat-label {
+    font-size: 0.7rem;
+}
+
+.circuit-stats-grid.header-stats .stat-sub {
+    font-size: 0.7rem;
+}
+
+/* Coming Soon overrides */
+.coming-soon-container {
+    padding-top: 4rem;
+}
+
+/* Live Badge */
+.race-status-badge {
+    margin-bottom: 0;
+    /* Reset */
+    box-shadow: 0 0 15px rgba(220, 38, 38, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .header-content-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .race-header-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .race-header-meta {
+        justify-content: center;
+    }
+
+    .circuit-stats-grid.header-stats {
+        margin-top: 1rem;
+    }
+}
+
 
 /* Sessions Section */
 .sessions-section {

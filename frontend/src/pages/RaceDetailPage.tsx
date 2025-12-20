@@ -173,12 +173,12 @@ export default function RaceDetailPage() {
         <div className="race-detail-page">
             {/* Header */}
             <header className="race-header">
-                <button className="back-button" onClick={() => navigate('/schedule/2026')}>
-                    <ArrowLeft size={20} />
-                    Back to Schedule
-                </button>
+                <div className="race-header-top">
+                    <button className="back-button" onClick={() => navigate('/schedule/2026')}>
+                        <ArrowLeft size={20} />
+                        Back to Schedule
+                    </button>
 
-                <div className="race-header-content">
                     <div className="race-status-badge">
                         {isLive ? (
                             <>
@@ -193,32 +193,31 @@ export default function RaceDetailPage() {
                             'UPCOMING'
                         )}
                     </div>
+                </div>
 
-                    <h1 className="race-header-title">{displayedRaceInfo?.meeting_name || 'Grand Prix'}</h1>
+                <div className="header-content-grid">
+                    <div className="header-info-col">
+                        <h1 className="race-header-title">{displayedRaceInfo?.meeting_name || 'Grand Prix'}</h1>
 
-                    <div className="race-header-meta">
-                        <div className="meta-item">
-                            <MapPin size={18} />
-                            <span>{displayedRaceInfo?.circuit_short_name}, {displayedRaceInfo?.location}</span>
-                        </div>
-                        <div className="meta-item">
-                            <Calendar size={18} />
-                            <span>{formatDate(raceDate)}</span>
+                        <div className="race-header-meta">
+                            <div className="meta-item">
+                                <MapPin size={18} />
+                                <span>{displayedRaceInfo?.circuit_short_name}, {displayedRaceInfo?.location}</span>
+                            </div>
+                            <div className="meta-item">
+                                <Calendar size={18} />
+                                <span>{formatDate(raceDate)}</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </header>
 
-            {isComingSoon ? (
-                <div className="coming-soon-container">
-                    <div className="coming-soon-content glass-card">
-
+                    <div className="header-visual-col">
                         {/* Track Layout Display */}
-                        {displayedRaceInfo && 'circuitImage' in staticRaceData! && (
-                            <div className="track-layout-visual">
+                        {displayedRaceInfo && staticRaceData?.circuitImage && (
+                            <div className="track-layout-visual-header">
                                 <img
-                                    src={staticRaceData!.circuitImage}
-                                    alt={`${staticRaceData!.circuit} Layout`}
+                                    src={staticRaceData.circuitImage}
+                                    alt={`${staticRaceData.circuit} Layout`}
                                     className="circuit-map-img"
                                     onError={(e) => {
                                         (e.target as HTMLImageElement).style.display = 'none';
@@ -227,14 +226,9 @@ export default function RaceDetailPage() {
                             </div>
                         )}
 
-                        <div className="flag-icon-container">
-                            <Flag size={24} className="coming-soon-icon" />
-                        </div>
-                        <h2 className="coming-soon-title">Race Data Not Yet Available</h2>
-
                         {/* Circuit Stats Grid */}
                         {staticRaceData && staticRaceData.circuitLength && (
-                            <div className="circuit-stats-grid">
+                            <div className="circuit-stats-grid header-stats">
                                 <div className="stat-item">
                                     <div className="stat-label">Length</div>
                                     <div className="stat-value">{staticRaceData.circuitLength}</div>
@@ -256,6 +250,17 @@ export default function RaceDetailPage() {
                                 )}
                             </div>
                         )}
+                    </div>
+                </div>
+            </header>
+
+            {isComingSoon ? (
+                <div className="coming-soon-container">
+                    <div className="coming-soon-content glass-card">
+                        <div className="flag-icon-container">
+                            <Flag size={24} className="coming-soon-icon" />
+                        </div>
+                        <h2 className="coming-soon-title">Race Data Not Yet Available</h2>
 
                         <div className="coming-soon-info">
                             <p>Detailed telemetry and predictive models for the <strong>{displayedRaceInfo?.meeting_name}</strong> will be activated once the race weekend begins.</p>
