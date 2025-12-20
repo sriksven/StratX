@@ -28,7 +28,7 @@ const queryClient = new QueryClient({
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <Router>
+      <Router basename="/StratX">
         <div className="app">
           <Header />
 

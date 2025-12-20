@@ -1,19 +1,44 @@
 import { Trophy } from 'lucide-react';
 import './DriverComparison.css';
+import { DRIVERS } from '../constants/drivers';
 
 interface DriverComparisonProps {
     isLive: boolean;
 }
 
-const mockDrivers = [
-    { position: 1, driver: 'VER', team: 'Red Bull Racing', gap: 'LEADER', lastLap: 89.234, bestLap: 88.123 },
-    { position: 2, driver: 'HAM', team: 'Mercedes', gap: '+2.456', lastLap: 89.567, bestLap: 88.456 },
-    { position: 3, driver: 'LEC', team: 'Ferrari', gap: '+5.123', lastLap: 89.789, bestLap: 88.789 },
-    { position: 4, driver: 'NOR', team: 'McLaren', gap: '+8.901', lastLap: 90.012, bestLap: 89.012 },
-    { position: 5, driver: 'SAI', team: 'Ferrari', gap: '+12.345', lastLap: 90.234, bestLap: 89.234 },
-];
-
 export default function DriverComparison({ isLive }: DriverComparisonProps) {
+    // Generate full grid standings (Mock logic for demo)
+    // We shuffle the drivers a bit to make it look like a race
+    const standings = [...DRIVERS]
+        .map((driver) => {
+            const baseLap = 88.000;
+            // Add some "random" variance based on team performance tiers roughly
+            let tier = 0;
+            if (['McLaren', 'Ferrari', 'Red Bull Racing'].includes(driver.team)) tier = 1;
+            else if (['Mercedes', 'Aston Martin'].includes(driver.team)) tier = 2;
+            else tier = 3;
+
+            return {
+                driver: driver.code,
+                team: driver.team,
+                tier, // used for sorting/gap
+                lastLap: baseLap + Math.random() + (tier * 0.1),
+                bestLap: baseLap + (Math.random() * 0.5) + (tier * 0.05)
+            };
+        })
+        .sort((a, b) => {
+            // Sort by 'speed' (mocked by tier + random)
+            return (a.tier - b.tier) + (Math.random() - 0.5);
+        })
+        .map((data, index) => {
+            const gapSeconds = index === 0 ? 0 : (index * 1.5) + Math.random();
+            return {
+                ...data,
+                position: index + 1,
+                gap: index === 0 ? 'LEADER' : `+${gapSeconds.toFixed(3)}s`
+            };
+        });
+
     return (
         <div className="driver-comparison glass-card">
             <div className="comparison-header">
@@ -32,8 +57,8 @@ export default function DriverComparison({ isLive }: DriverComparisonProps) {
                 </div>
 
                 <div className="table-body">
-                    {mockDrivers.map((driver) => (
-                        <div key={driver.position} className="table-row">
+                    {standings.map((driver) => (
+                        <div key={driver.driver} className="table-row">
                             <div className="col-pos">
                                 <span className={`position-badge ${driver.position <= 3 ? 'podium' : ''}`}>
                                     {driver.position}
