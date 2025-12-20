@@ -9,10 +9,7 @@ dependencies = [
     "uvicorn",
     "pandas",
     "numpy",
-    "scikit-learn",
     "requests",
-    "joblib",
-    "fastf1"
 ]
 
 [build-system]
