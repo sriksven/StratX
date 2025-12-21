@@ -9,8 +9,8 @@ import type {
 } from '../types/index.ts';
 
 // API base URL configuration
-// In Production (GitHub Pages), this MUST be provided via VITE_API_URL env var.
-// In Local Development, it falls back to localhost.
+// In Production, VITE_API_URL should differ from localhost.
+// Example VITE_API_URL: "https://your-app.vercel.app/api" (NO trailing slash)
 const API_BASE_URL = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? 'http://localhost:8000/api' : '');
 
 if (!API_BASE_URL) {
