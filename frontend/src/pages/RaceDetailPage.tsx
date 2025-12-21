@@ -270,9 +270,7 @@ export default function RaceDetailPage() {
                         </div>
 
                         <div className="coming-soon-actions">
-                            <button className="primary-glass-btn" onClick={() => navigate('/race/1')}>
-                                View Live Demo (Australia)
-                            </button>
+
                             <button className="secondary-glass-btn" onClick={() => navigate('/schedule/2026')}>
                                 Return to Schedule
                             </button>
