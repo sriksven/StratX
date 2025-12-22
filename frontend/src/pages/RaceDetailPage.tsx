@@ -6,7 +6,7 @@ import PredictionCards from '../components/PredictionCards';
 import TelemetryCharts from '../components/TelemetryCharts';
 import DriverComparison from '../components/DriverComparison';
 import { DRIVERS } from '../constants/drivers';
-import { RACES_2026 } from '../constants/races';
+import { RACES_2026, RACES_2025 } from '../constants/races';
 import './RaceDetailPage.css';
 
 interface RaceInfo {
@@ -43,11 +43,27 @@ export default function RaceDetailPage() {
     const [loading, setLoading] = useState(true);
     const [isComingSoon, setIsComingSoon] = useState(false);
 
-    // Pre-look up race info from static constants so we don't show "TBD"
+    // Enhanced Static Data Lookup
     const staticRaceData = useMemo(() => {
-        if (!raceId) return null;
-        return RACES_2026.find(r => r.round === parseInt(raceId));
-    }, [raceId]);
+        if (!raceId && !raceInfo) return null;
+
+        // 1. Try matching by fetched race info (Year + Name/Location)
+        if (raceInfo) {
+            const targetList = raceInfo.year === 2025 ? RACES_2025 : RACES_2026;
+            return targetList.find(r =>
+                r.raceName === raceInfo.meeting_name ||
+                r.location === raceInfo.location ||
+                r.circuit === raceInfo.circuit_short_name
+            );
+        }
+
+        // 2. Fallback: Try matching by raceId as Round Number (for direct navigation)
+        // We check 2026 first as default, then 2025
+        const roundNum = parseInt(raceId || '0');
+        return RACES_2026.find(r => r.round === roundNum) ||
+            RACES_2025.find(r => r.round === roundNum);
+
+    }, [raceId, raceInfo]);
 
     useEffect(() => {
         if (raceId) {
