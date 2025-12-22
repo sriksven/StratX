@@ -1,88 +1,50 @@
 import { useParams, Link } from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
 import { ChevronLeft, MapPin, Calendar, Flag, Timer, Sparkles } from 'lucide-react';
 import { RACES_2025 } from '../constants/races';
 import PredictionAccuracyView from '../components/PredictionAccuracyView';
+import { fetchRaceResults, type RaceResultsResponse } from '../services/raceResults';
 import './IndividualRaceResultPage.css';
-
-interface RaceResultDetail {
-    position: number;
-    driver: string;
-    team: string;
-    time: string;
-    points: number;
-    status?: string;
-}
-
-interface RaceInfo {
-    round: number;
-    raceName: string;
-    country: string;
-    circuit: string;
-    date: string;
-    laps: number;
-    distance: string;
-}
-
-// Sample race data - in a real app, this would come from an API
-const raceData: { [key: number]: { info: RaceInfo; results: RaceResultDetail[] } } = {};
-
-// Populate race data from constants
-RACES_2025.forEach(race => {
-    raceData[race.round] = {
-        info: {
-            round: race.round,
-            raceName: race.raceName,
-            country: race.country,
-            circuit: race.circuit,
-            date: race.date,
-            laps: race.laps || 0,
-            distance: race.raceDistance || 'TBD'
-        },
-        // For demo purposes, we'll keep using the static results for now
-        // In a real app, you'd fetch specific results for each race
-        results: [
-            { position: 1, driver: 'Lando Norris', team: 'McLaren-Mercedes', time: '1:28:45.123', points: 25 },
-            { position: 2, driver: 'Max Verstappen', team: 'Red Bull Racing-Honda RBPT', time: '+3.456', points: 18 },
-            { position: 3, driver: 'Oscar Piastri', team: 'McLaren-Mercedes', time: '+8.234', points: 15 },
-            { position: 4, driver: 'George Russell', team: 'Mercedes', time: '+15.678', points: 12 },
-            { position: 5, driver: 'Charles Leclerc', team: 'Ferrari', time: '+22.345', points: 10 },
-            { position: 6, driver: 'Lewis Hamilton', team: 'Ferrari', time: '+28.901', points: 8 },
-            { position: 7, driver: 'Kimi Antonelli', team: 'Mercedes', time: '+35.234', points: 6 },
-            { position: 8, driver: 'Alexander Albon', team: 'Williams-Mercedes', time: '+42.567', points: 4 },
-            { position: 9, driver: 'Fernando Alonso', team: 'Aston Martin-Honda RBPT', time: '+48.123', points: 2 },
-            { position: 10, driver: 'Yuki Tsunoda', team: 'Racing Bulls-Honda RBPT', time: '+52.890', points: 1 },
-            { position: 11, driver: 'Lance Stroll', team: 'Aston Martin-Honda RBPT', time: '+1 lap', points: 0 },
-            { position: 12, driver: 'Nico Hulkenberg', team: 'Haas-Ferrari', time: '+1 lap', points: 0 },
-            { position: 13, driver: 'Pierre Gasly', team: 'Alpine-Renault', time: '+1 lap', points: 0 },
-            { position: 14, driver: 'Esteban Ocon', team: 'Haas-Ferrari', time: '+1 lap', points: 0 },
-            { position: 15, driver: 'Franco Colapinto', team: 'Williams-Mercedes', time: '+1 lap', points: 0 },
-            { position: 16, driver: 'Liam Lawson', team: 'Racing Bulls-Honda RBPT', time: '+2 laps', points: 0 },
-            { position: 17, driver: 'Jack Doohan', team: 'Alpine-Renault', time: '+2 laps', points: 0 },
-            { position: 18, driver: 'Valtteri Bottas', team: 'Sauber-Ferrari', time: 'DNF', points: 0, status: 'Mechanical' },
-            { position: 19, driver: 'Zhou Guanyu', team: 'Sauber-Ferrari', time: 'DNF', points: 0, status: 'Collision' },
-            { position: 20, driver: 'Sergio Perez', team: 'Red Bull Racing-Honda RBPT', time: 'DNF', points: 0, status: 'Engine' },
-        ]
-    };
-});
 
 export default function IndividualRaceResultPage() {
     const { raceId } = useParams<{ raceId: string }>();
     const raceNumber = parseInt(raceId || '1');
-    const race = raceData[raceNumber];
 
-    if (!race) {
+    // Fetch real race results from backend
+    const { data: raceData, isLoading, error } = useQuery<RaceResultsResponse>({
+        queryKey: ['raceResults', raceNumber],
+        queryFn: () => fetchRaceResults(raceNumber),
+        staleTime: 1000 * 60 * 60, // Cache for 1 hour (historical data doesn't change)
+    });
+
+    // Get static race info for fallback
+    const staticRaceInfo = RACES_2025.find(r => r.round === raceNumber);
+
+    if (isLoading) {
+        return (
+            <div className="individual-race-page">
+                <div className="loading-container">
+                    <div className="loading-spinner"></div>
+                    <p>Loading race results...</p>
+                </div>
+            </div>
+        );
+    }
+
+    if (error || !raceData) {
         return (
             <div className="individual-race-page">
                 <div className="page-header">
-                    <h1>Race Not Found</h1>
+                    <h1>Race Results Unavailable</h1>
+                    <p>Could not load results for Round {raceNumber}. The race may not have occurred yet or data is unavailable.</p>
                     <Link to="/results/2025/races" className="back-link">← Back to All Races</Link>
                 </div>
             </div>
         );
     }
 
-    const podium = race.results.slice(0, 3);
-    const fullResults = race.results;
+    const podium = raceData.results.slice(0, 3);
+    const fullResults = raceData.results;
 
     return (
         <div className="individual-race-page">
@@ -94,12 +56,12 @@ export default function IndividualRaceResultPage() {
                             <ChevronLeft size={20} />
                             <span>All Races</span>
                         </Link>
-                        <div className="round-pill">Round {race.info.round}</div>
+                        <div className="round-pill">Round {raceData.round}</div>
                     </div>
 
                     <div className="hero-title-section">
-                        <h1>{race.info.raceName}</h1>
-                        <p className="circuit-name">{race.info.circuit}</p>
+                        <h1>{raceData.race_name}</h1>
+                        <p className="circuit-name">{raceData.circuit}</p>
                     </div>
 
                     <div className="hero-stats-bar">
@@ -107,7 +69,7 @@ export default function IndividualRaceResultPage() {
                             <MapPin className="stat-icon" size={20} />
                             <div className="stat-detail">
                                 <span className="label">Location</span>
-                                <span className="value">{race.info.country}</span>
+                                <span className="value">{raceData.country}</span>
                             </div>
                         </div>
                         <div className="stat-divider"></div>
@@ -115,7 +77,7 @@ export default function IndividualRaceResultPage() {
                             <Calendar className="stat-icon" size={20} />
                             <div className="stat-detail">
                                 <span className="label">Date</span>
-                                <span className="value">{new Date(race.info.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+                                <span className="value">{new Date(raceData.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
                             </div>
                         </div>
                         <div className="stat-divider"></div>
@@ -123,7 +85,7 @@ export default function IndividualRaceResultPage() {
                             <Flag className="stat-icon" size={20} />
                             <div className="stat-detail">
                                 <span className="label">Laps</span>
-                                <span className="value">{race.info.laps}</span>
+                                <span className="value">{raceData.total_laps || staticRaceInfo?.laps || 'N/A'}</span>
                             </div>
                         </div>
                         <div className="stat-divider"></div>
@@ -131,7 +93,7 @@ export default function IndividualRaceResultPage() {
                             <Timer className="stat-icon" size={20} />
                             <div className="stat-detail">
                                 <span className="label">Distance</span>
-                                <span className="value">{race.info.distance}</span>
+                                <span className="value">{staticRaceInfo?.raceDistance || 'N/A'}</span>
                             </div>
                         </div>
                     </div>
@@ -145,7 +107,7 @@ export default function IndividualRaceResultPage() {
                     <h2>Model Performance Analysis</h2>
                 </div>
                 <div className="predictions-container">
-                    <PredictionAccuracyView raceId={race.info.round} />
+                    <PredictionAccuracyView raceId={raceData.round} />
                 </div>
             </div>
 
@@ -200,7 +162,7 @@ export default function IndividualRaceResultPage() {
                     {fullResults.map((result) => (
                         <div
                             key={result.position}
-                            className={`table-row ${result.position <= 3 ? 'podium-row' : ''} ${result.status ? 'dnf-row' : ''}`}
+                            className={`table-row ${result.position <= 3 ? 'podium-row' : ''} ${result.status !== 'Finished' && result.status !== '+1 Lap' ? 'dnf-row' : ''}`}
                         >
                             <div className="col-pos">
                                 <span className={`position-badge ${result.position === 1 ? 'winner' : ''}`}>
@@ -213,7 +175,7 @@ export default function IndividualRaceResultPage() {
                             </div>
                             <div className="col-team">{result.team}</div>
                             <div className="col-time">
-                                {result.status ? (
+                                {result.time === 'DNF' || result.status !== 'Finished' ? (
                                     <span className="dnf-status">DNF - {result.status}</span>
                                 ) : (
                                     result.time

@@ -6,6 +6,7 @@ import uvicorn
 
 from stratx.data.openf1_client import OpenF1Client
 from stratx.ml.race_predictor import RacePredictor
+from stratx.api.race_results import router as results_router
 
 app = FastAPI(title="StratX Race Strategy Engine")
 
@@ -17,6 +18,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Include routers
+app.include_router(results_router)
 
 client = OpenF1Client()
 predictor = RacePredictor()
