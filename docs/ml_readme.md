@@ -77,3 +77,20 @@ This script will:
 *   `src/stratx/ml/race_predictor.py`: Inference engine used by the API.
 *   `src/stratx/ml/train.py`: Training pipeline.
 *   `src/stratx/ml/models/`: Directory containing trained `.pkl` artifacts.
+
+## Model Performance Analysis (2025)
+
+For the 2025 season, we introduced a **Post-Race Validation Loop**. After every completed race, the system compares its pre-race predictions against actual telemetry to generate an **Accuracy Score**.
+
+### Metrics Tracked:
+1.  **Race Strategy Accuracy**:
+    *   Did the model correctly predict the number of stops?
+    *   Was the predicted pit lap within +/- 2 laps of the actual effective strategy?
+2.  **Fastest Lap Prediction**:
+    *   Comparison of predicted vs. actual fastest lap time (Delta < 0.5s is considered "Good").
+3.  **Tyre Degradation Validaton**:
+    *   We compare the predicted "cliff" point against the actual lap where pace began to degrade significantly (>0.5s/lap).
+4.  **Overtake Success Rate**:
+    *   Measures the calibration of our probabilistic model (e.g., if we predicted 80% success, did ~80% of those attempts result in a position change?).
+
+These metrics are visualized in the frontend via the **Analysis View** for all completed 2025 races.
