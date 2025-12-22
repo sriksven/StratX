@@ -41,16 +41,18 @@ Built with **FastF1**, **OpenF1**, **Ergast API**, **Kafka**, **Flink/Faust**, *
 - Driver aggression metrics  
 - Gap computations  
 
-### 🤖 5 ML Prediction Models
-StratX includes **five independent models**, trained offline and served in real-time:
+### 🤖 ML Prediction Models
+StratX includes **advanced predictive models**, trained on **40+ races from the 2024-2025 seasons**:
 
-| Model | Description |
-|-------|-------------|
-| **Lap-Time Prediction** | Predicts next lap time |
-| **Tyre Degradation** | Predicts tyre falloff score |
-| **Pit Window Recommendation** | Suggests optimal pit timing |
-| **Overtake Probability** | Predicts overtaking chances in 1–3 laps |
-| **Anomaly Detection** | Detects mechanical/driver irregularities |
+> **[📄 Read the Full ML Documentation](docs/ml_readme.md)**
+
+| Model | Type | Accuracy (MAE) | Description |
+|-------|------|----------------|-------------|
+| **Lap-Time Prediction** | **Gradient Boosting** | **~0.5s** | Predicts next lap time based on tyre life, track temp, and driver pace. |
+| **Tyre Degradation** | Physics Decay | N/A | Simulates non-linear grip falloff and "cliff" points. |
+| **Pit Window** | Statistical | N/A | Suggests optimal 1-stop strategy windows. |
+| **Overtake Probability** | Probabilistic | N/A | Estimates pass chance based on gap & tyre delta. |
+| **Anomaly Detection** | Rules Engine | N/A | Flags mechanical issues (e.g., High RPM + Low Speed). |
 
 ### 📱 Live Strategy Dashboard
 Interactive UI (React + TypeScript):
