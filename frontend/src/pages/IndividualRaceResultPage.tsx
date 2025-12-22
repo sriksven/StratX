@@ -1,4 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
+import { ChevronLeft, MapPin, Calendar, Flag, Timer } from 'lucide-react';
+import { RACES_2025 } from '../constants/races';
 import './IndividualRaceResultPage.css';
 
 interface RaceResultDetail {
@@ -21,17 +23,22 @@ interface RaceInfo {
 }
 
 // Sample race data - in a real app, this would come from an API
-const raceData: { [key: number]: { info: RaceInfo; results: RaceResultDetail[] } } = {
-    1: {
+const raceData: { [key: number]: { info: RaceInfo; results: RaceResultDetail[] } } = {};
+
+// Populate race data from constants
+RACES_2025.forEach(race => {
+    raceData[race.round] = {
         info: {
-            round: 1,
-            raceName: 'Australian Grand Prix',
-            country: 'Australia',
-            circuit: 'Albert Park Circuit',
-            date: '2025-03-16',
-            laps: 58,
-            distance: '306.124 km'
+            round: race.round,
+            raceName: race.raceName,
+            country: race.country,
+            circuit: race.circuit,
+            date: race.date,
+            laps: race.laps || 0,
+            distance: race.raceDistance || 'TBD'
         },
+        // For demo purposes, we'll keep using the static results for now
+        // In a real app, you'd fetch specific results for each race
         results: [
             { position: 1, driver: 'Lando Norris', team: 'McLaren-Mercedes', time: '1:28:45.123', points: 25 },
             { position: 2, driver: 'Max Verstappen', team: 'Red Bull Racing-Honda RBPT', time: '+3.456', points: 18 },
@@ -54,50 +61,8 @@ const raceData: { [key: number]: { info: RaceInfo; results: RaceResultDetail[] }
             { position: 19, driver: 'Zhou Guanyu', team: 'Sauber-Ferrari', time: 'DNF', points: 0, status: 'Collision' },
             { position: 20, driver: 'Sergio Perez', team: 'Red Bull Racing-Honda RBPT', time: 'DNF', points: 0, status: 'Engine' },
         ]
-    }
-};
-
-// Generate similar data for other races (simplified for demo)
-for (let i = 2; i <= 24; i++) {
-    const raceNames: { [key: number]: string } = {
-        2: 'Chinese Grand Prix',
-        3: 'Japanese Grand Prix',
-        4: 'Bahrain Grand Prix',
-        5: 'Saudi Arabian Grand Prix',
-        6: 'Emilia Romagna Grand Prix',
-        7: 'Monaco Grand Prix',
-        8: 'Spanish Grand Prix',
-        9: 'Canadian Grand Prix',
-        10: 'Austrian Grand Prix',
-        11: 'British Grand Prix',
-        12: 'Belgian Grand Prix',
-        13: 'Hungarian Grand Prix',
-        14: 'Dutch Grand Prix',
-        15: 'Italian Grand Prix',
-        16: 'Azerbaijan Grand Prix',
-        17: 'Singapore Grand Prix',
-        18: 'United States Grand Prix',
-        19: 'Mexico City Grand Prix',
-        20: 'São Paulo Grand Prix',
-        21: 'Las Vegas Grand Prix',
-        22: 'Qatar Grand Prix',
-        23: 'Abu Dhabi Grand Prix',
-        24: 'Miami Grand Prix',
     };
-
-    raceData[i] = {
-        info: {
-            round: i,
-            raceName: raceNames[i] || `Race ${i}`,
-            country: 'TBD',
-            circuit: 'TBD Circuit',
-            date: '2025-01-01',
-            laps: 50,
-            distance: '300 km'
-        },
-        results: raceData[1].results // Reuse for demo
-    };
-}
+});
 
 export default function IndividualRaceResultPage() {
     const { raceId } = useParams<{ raceId: string }>();
@@ -120,18 +85,55 @@ export default function IndividualRaceResultPage() {
 
     return (
         <div className="individual-race-page">
-            <div className="page-header">
-                <Link to="/results/2025/races" className="back-link">← Back to All Races</Link>
-                <div className="round-badge-large">Round {race.info.round}</div>
-                <h1>{race.info.raceName}</h1>
-                <div className="race-meta">
-                    <span>{race.info.circuit}</span>
-                    <span>•</span>
-                    <span>{new Date(race.info.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
-                    <span>•</span>
-                    <span>{race.info.laps} Laps</span>
-                    <span>•</span>
-                    <span>{race.info.distance}</span>
+            <div className="race-hero">
+                <div className="hero-overlay"></div>
+                <div className="hero-content">
+                    <div className="hero-top-bar">
+                        <Link to="/results/2025/races" className="back-btn">
+                            <ChevronLeft size={20} />
+                            <span>All Races</span>
+                        </Link>
+                        <div className="round-pill">Round {race.info.round}</div>
+                    </div>
+
+                    <div className="hero-title-section">
+                        <h1>{race.info.raceName}</h1>
+                        <p className="circuit-name">{race.info.circuit}</p>
+                    </div>
+
+                    <div className="hero-stats-bar">
+                        <div className="stat-item">
+                            <MapPin className="stat-icon" size={20} />
+                            <div className="stat-detail">
+                                <span className="label">Location</span>
+                                <span className="value">{race.info.country}</span>
+                            </div>
+                        </div>
+                        <div className="stat-divider"></div>
+                        <div className="stat-item">
+                            <Calendar className="stat-icon" size={20} />
+                            <div className="stat-detail">
+                                <span className="label">Date</span>
+                                <span className="value">{new Date(race.info.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+                            </div>
+                        </div>
+                        <div className="stat-divider"></div>
+                        <div className="stat-item">
+                            <Flag className="stat-icon" size={20} />
+                            <div className="stat-detail">
+                                <span className="label">Laps</span>
+                                <span className="value">{race.info.laps}</span>
+                            </div>
+                        </div>
+                        <div className="stat-divider"></div>
+                        <div className="stat-item">
+                            <Timer className="stat-icon" size={20} />
+                            <div className="stat-detail">
+                                <span className="label">Distance</span>
+                                <span className="value">{race.info.distance}</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
