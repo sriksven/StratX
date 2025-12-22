@@ -34,6 +34,8 @@
     margin: 0 auto 2rem;
     position: relative;
     z-index: 1;
+    position: relative;
+    /* Center active element if needed or keep spaced */
 }
 
 .back-button {
@@ -54,6 +56,7 @@
     transition: all 0.3s ease;
     margin-bottom: 0;
     /* Override previous margin */
+    align-self: flex-start;
 }
 
 .back-button:hover {
@@ -68,6 +71,9 @@
     gap: 3rem;
     max-width: 1400px;
     margin: 0 auto;
+    /* Center content explicitly */
+    justify-content: center;
+    text-align: center;
     position: relative;
     z-index: 1;
     align-items: center;
@@ -82,8 +88,11 @@
     margin-bottom: 1.5rem;
     background: linear-gradient(135deg, #fff 40%, #ccc 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 .race-header-meta {
@@ -179,30 +188,35 @@
 /* Live Badge */
 .race-status-badge {
     margin-bottom: 0;
-    /* Reset */
     box-shadow: 0 0 15px rgba(220, 38, 38, 0.4);
+    align-self: center;
 }
 
 /* Responsive */
-@media (max-width: 1024px) {
-    .header-content-grid {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
 
-    .race-header-title {
-        font-size: 3rem;
-        text-align: center;
-    }
 
-    .race-header-meta {
-        justify-content: center;
-    }
-
-    .circuit-stats-grid.header-stats {
-        margin-top: 1rem;
-    }
+/* Centered Header Layout */
+.header-content-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
 }
+
+.header-info-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.header-visual-col {
+    /* Hide the complex map/stats for the clean look requested in the image */
+    display: none;
+}
+
+
 
 
 /* Sessions Section */
