@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Calendar, MapPin, Clock, Activity, Flag } from 'lucide-react';
+import { ArrowLeft, Clock, Activity, Flag } from 'lucide-react';
 import LiveTelemetry from '../components/LiveTelemetry';
 import PredictionCards from '../components/PredictionCards';
 import TelemetryCharts from '../components/TelemetryCharts';
@@ -201,12 +201,19 @@ export default function RaceDetailPage() {
 
                         <div className="race-header-meta">
                             <div className="meta-item">
-                                <MapPin size={18} />
-                                <span>{displayedRaceInfo?.circuit_short_name}, {displayedRaceInfo?.location}</span>
+                                <span>{displayedRaceInfo?.circuit_short_name || 'Circuit Name'}</span>
                             </div>
+                            <div className="meta-separator">·</div>
                             <div className="meta-item">
-                                <Calendar size={18} />
                                 <span>{formatDate(raceDate)}</span>
+                            </div>
+                            <div className="meta-separator">·</div>
+                            <div className="meta-item">
+                                <span>{staticRaceData?.laps || 58} Laps</span>
+                            </div>
+                            <div className="meta-separator">·</div>
+                            <div className="meta-item">
+                                <span>{staticRaceData?.raceDistance || '306.124 km'}</span>
                             </div>
                         </div>
                     </div>

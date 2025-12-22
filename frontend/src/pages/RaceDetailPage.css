@@ -28,16 +28,17 @@
 
 .race-header-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 3rem;
+    /* Increase gap between Back button and Status Badge */
     max-width: 1400px;
     margin: 0 auto 2rem;
     position: relative;
     z-index: 1;
-    position: relative;
-    /* Center active element if needed or keep spaced */
 }
 
+/* ... back button style ... */
 .back-button {
     display: inline-flex;
     align-items: center;
@@ -56,7 +57,7 @@
     transition: all 0.3s ease;
     margin-bottom: 0;
     /* Override previous margin */
-    align-self: flex-start;
+    align-self: center;
 }
 
 .back-button:hover {
@@ -66,17 +67,15 @@
 }
 
 .header-content-grid {
-    display: grid;
-    grid-template-columns: 1.2fr 1fr;
-    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
     max-width: 1400px;
     margin: 0 auto;
-    /* Center content explicitly */
-    justify-content: center;
-    text-align: center;
     position: relative;
     z-index: 1;
-    align-items: center;
 }
 
 .race-header-title {
@@ -97,24 +96,34 @@
 
 .race-header-meta {
     display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
     align-items: center;
-    gap: 2rem;
+    gap: 0.75rem;
     margin-bottom: 2rem;
     font-family: 'Titillium Web', sans-serif;
-    /* If available, else inherit */
 }
 
 .meta-item {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 0.5rem 1rem;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 4px;
-    border-left: 3px solid var(--accent-red);
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    /* Remove box styling */
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-left: none;
+}
+
+.meta-separator {
+    color: var(--accent-red);
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 0.5;
+    opacity: 0.6;
 }
 
 /* Header Circuit Visuals */
