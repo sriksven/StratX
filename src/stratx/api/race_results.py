@@ -5,11 +5,14 @@ import fastf1
 from fastapi import APIRouter, HTTPException
 from typing import List, Dict, Any
 import pandas as pd
+import os
 
 router = APIRouter(prefix="/api/results", tags=["results"])
 
 # Enable FastF1 cache
-fastf1.Cache.enable_cache('/tmp/fastf1_cache')
+cache_dir = '/tmp/fastf1_cache'
+os.makedirs(cache_dir, exist_ok=True)
+fastf1.Cache.enable_cache(cache_dir)
 
 @router.get("/2025/{round_number}")
 async def get_race_results(round_number: int) -> Dict[str, Any]:

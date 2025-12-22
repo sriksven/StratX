@@ -31,7 +31,7 @@ export interface RaceResultsResponse {
 
 export const fetchRaceResults = async (round: number): Promise<RaceResultsResponse> => {
     try {
-        const response = await api.get(`/api/results/2025/${round}`);
+        const response = await api.get(`/results/2025/${round}`);
         return response.data;
     } catch (error) {
         console.error(`Failed to fetch race results for round ${round}:`, error);
@@ -41,7 +41,7 @@ export const fetchRaceResults = async (round: number): Promise<RaceResultsRespon
 
 export const fetchDriverPerformance = async (driverCode: string, round: number) => {
     try {
-        const response = await api.get(`/api/results/2025/driver/${driverCode}/performance`, {
+        const response = await api.get(`/results/2025/driver/${driverCode}/performance`, {
             params: { round_number: round }
         });
         return response.data;
