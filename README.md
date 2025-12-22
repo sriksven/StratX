@@ -10,7 +10,7 @@ Built with **FastF1**, **OpenF1**, **Ergast API**, **Kafka**, **Flink/Faust**, *
 
 ## Features
 
-### 📊 Historical F1 Data (1950-2024)
+### Historical F1 Data (1950-2024)
 - **Complete Archive**: Access 75 years of Formula 1 history via Ergast API
 - **Season Overview**: Champions, race results, and standings for every season
 - **Interactive Archive Grid**: Browse all seasons from 1950-2024
@@ -22,29 +22,29 @@ Built with **FastF1**, **OpenF1**, **Ergast API**, **Kafka**, **Flink/Faust**, *
   - Tyre degradation patterns
   - Pit stop efficiency
 
-### 🏎️ 2025 Season Features
+### 2025 Season Features
 - **Live Season Tracking**: Real-time championship standings
 - **Championship Progression Chart**: Interactive visualization of points accumulation
 - **Race Results**: Detailed results for all 24 races
 - **Podium Visualization**: Stunning race winner displays
 - **Driver & Team Standings**: Complete championship tables
 
-### 🔴 Real-Time Streaming
+### Real-Time Streaming
 - Ingest live telemetry from **OpenF1 API**
 - Replay historical sessions using **FastF1**
 - Stream raw data → Kafka topics in real time
 
-### ⚙️ Real-Time Feature Engineering
+### Real-Time Feature Engineering
 - Rolling lap features  
 - Stint metrics  
 - Pace deltas  
 - Driver aggression metrics  
 - Gap computations  
 
-### 🤖 ML Prediction Models
+### ML Prediction Models
 StratX includes **advanced predictive models**, trained on **40+ races from the 2024-2025 seasons**:
 
-> **[📄 Read the Full ML Documentation](docs/ml_readme.md)**
+> **[Read the Full ML Documentation](docs/ml_readme.md)**
 
 | Model | Type | Accuracy (MAE) | Description |
 |-------|------|----------------|-------------|
@@ -54,7 +54,7 @@ StratX includes **advanced predictive models**, trained on **40+ races from the 
 | **Overtake Probability** | Probabilistic | N/A | Estimates pass chance based on gap & tyre delta. |
 | **Anomaly Detection** | Rules Engine | N/A | Flags mechanical issues (e.g., High RPM + Low Speed). |
 
-### 📱 Live Strategy Dashboard
+### Live Strategy Dashboard
 Interactive UI (React + TypeScript):
 - Telemetry gauges (speed, throttle, RPM)
 - Live ML model predictions
@@ -63,7 +63,7 @@ Interactive UI (React + TypeScript):
 - Alerts for tyre cliff, anomalies, pit window
 - Historical data exploration
 
-### 🛠️ MLOps & Observability
+### MLOps & Observability
 - MLflow for experiment tracking & model registry  
 - Feast for feature store (online/offline)  
 - Seldon/FastAPI for live inference  

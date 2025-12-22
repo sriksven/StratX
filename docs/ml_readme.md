@@ -1,9 +1,9 @@
 
-# 🤖 StratX Machine Learning Model Documentation
+# StratX Machine Learning Model Documentation
 
 StratX utilizes a suite of machine learning and heuristic models to provide real-time race strategy insights. These models are designed to ingest telemetry data and output predictive metrics such as lap times, tyre degradation, and overtake probability.
 
-## 🏆 Current Accuracy
+## Current Accuracy
 
 We have trained our primary **Lap Time Prediction** model on the full **2024 and 2025 Formula 1 Seasons** (approx. 40+ races).
 
@@ -15,7 +15,7 @@ We have trained our primary **Lap Time Prediction** model on the full **2024 and
 
 ---
 
-## 🏎️ Models Overview
+## Models Overview
 
 ### 1. Lap Time Predictor (`lap_time_model.pkl`)
 
@@ -52,7 +52,7 @@ Calculates the probability of an overtake occurring in the next 3 laps.
 
 ---
 
-## 🛠️ Training the Models
+## Training the Models
 
 You can retrain the models locally to include the latest race data.
 
@@ -72,7 +72,7 @@ This script will:
 3.  Train a Gradient Boosting Regressor.
 4.  Save the artifact to `src/stratx/ml/models/lap_time_model.pkl`.
 
-## 📂 Project Structure
+## Project Structure
 
 *   `src/stratx/ml/race_predictor.py`: Inference engine used by the API.
 *   `src/stratx/ml/train.py`: Training pipeline.
