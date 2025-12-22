@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
-import { ChevronLeft, MapPin, Calendar, Flag, Timer } from 'lucide-react';
+import { ChevronLeft, MapPin, Calendar, Flag, Timer, Sparkles } from 'lucide-react';
 import { RACES_2025 } from '../constants/races';
+import PredictionAccuracyView from '../components/PredictionAccuracyView';
 import './IndividualRaceResultPage.css';
 
 interface RaceResultDetail {
@@ -134,6 +135,17 @@ export default function IndividualRaceResultPage() {
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            {/* AI Predictions Section */}
+            <div className="predictions-section">
+                <div className="section-header">
+                    <Sparkles className="section-icon" size={24} />
+                    <h2>Model Performance Analysis</h2>
+                </div>
+                <div className="predictions-container">
+                    <PredictionAccuracyView raceId={race.info.round} />
                 </div>
             </div>
 

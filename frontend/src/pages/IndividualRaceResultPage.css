@@ -497,3 +497,33 @@
         font-size: 1.25rem;
     }
 }
+
+/* AI Predictions Section */
+.predictions-section {
+    max-width: 1440px;
+    margin: 0 auto 4rem;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.section-icon {
+    color: #e10600;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+.predictions-container {
+    padding: 0 1rem;
+}

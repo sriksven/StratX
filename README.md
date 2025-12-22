@@ -28,6 +28,8 @@ Built with **FastF1**, **OpenF1**, **Ergast API**, **Kafka**, **Flink/Faust**, *
 - **Race Results**: Detailed results for all 24 races
 - **Podium Visualization**: Stunning race winner displays
 - **Driver & Team Standings**: Complete championship tables
+- **AI Strategy Insights**: Pre-race predictions for strategy, tyre degradation, and lap times
+- **Model Performance Analysis**: Post-race breakdown of AI prediction accuracy (Strategy, Fastest Lap, Overtake Probability) for completed races
 
 ### Real-Time Streaming
 - Ingest live telemetry from **OpenF1 API**

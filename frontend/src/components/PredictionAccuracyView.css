@@ -1,0 +1,177 @@
+.accuracy-view {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.accuracy-header-card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(30, 30, 40, 0.8), rgba(20, 20, 30, 0.9));
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+}
+
+.accuracy-score-ring {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.circular-chart {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    max-height: 250px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #2c2c35;
+    stroke-width: 2.5;
+}
+
+.circle {
+    fill: none;
+    stroke: #00ff88;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.percentage {
+    fill: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 0.5em;
+    text-anchor: middle;
+}
+
+.accuracy-summary h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.accuracy-summary p {
+    margin: 0;
+    color: #a0a0b0;
+    line-height: 1.5;
+}
+
+.accuracy-summary strong {
+    color: #00ff88;
+}
+
+/* Grid */
+.accuracy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.accuracy-card {
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.accuracy-card:hover {
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.metric-label {
+    font-size: 0.875rem;
+    color: #a0a0b0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.icon-good {
+    color: #00ff88;
+}
+
+.icon-warning {
+    color: #ffaa00;
+}
+
+.metric-comparison {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.comparison-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9375rem;
+}
+
+.comp-label {
+    color: #666;
+}
+
+.comp-value {
+    color: #fff;
+    font-weight: 600;
+}
+
+.comp-value.highlight {
+    color: #e10600;
+    /* F1 Red for actuals */
+}
+
+.metric-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.delta-badge {
+    font-size: 0.75rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    color: #ccc;
+    font-family: monospace;
+}
+
+.accuracy-bar-container {
+    flex-grow: 1;
+    height: 4px;
+    background: #333;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.accuracy-bar {
+    height: 100%;
+    background: #00ff88;
+    border-radius: 2px;
+}
+
+.status-warning .accuracy-bar {
+    background: #ffaa00;
+}

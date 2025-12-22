@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Calendar, MapPin, Clock } from 'lucide-react';
 import './SchedulePage.css';
-import { RACES_2026 } from '../constants/races';
+import { RACES_2026, RACES_2025 } from '../constants/races';
 import type { RaceEvent } from '../constants/races';
 
 function getNextRace(races: RaceEvent[]): RaceEvent {
@@ -32,14 +32,25 @@ function getDaysUntilRace(dateString: string): number {
 }
 
 export default function SchedulePage() {
-    const nextRace = getNextRace(RACES_2026);
+    const { year } = useParams<{ year: string }>();
+    const seasonYear = year ? parseInt(year) : 2026;
+
+    // Select the correct race data based on year
+    const races = seasonYear === 2025 ? RACES_2025 : RACES_2026;
+
+    // Safety check just in case races is undefined (e.g. invalid year)
+    // Default to 2026 if not found
+    const displayedRaces = races || RACES_2026;
+    const displayedYear = races ? seasonYear : 2026;
+
+    const nextRace = getNextRace(displayedRaces);
     const daysUntil = getDaysUntilRace(nextRace.date);
 
     return (
         <div className="schedule-page">
             <div className="page-header">
-                <h1>2026 RACE SCHEDULE</h1>
-                <p className="page-subtitle">{RACES_2026.length} races in the 2026 Formula 1 World Championship</p>
+                <h1>{displayedYear} RACE SCHEDULE</h1>
+                <p className="page-subtitle">{displayedRaces.length} races in the {displayedYear} Formula 1 World Championship</p>
             </div>
 
             {/* Featured Next Race */}
@@ -72,9 +83,9 @@ export default function SchedulePage() {
             </Link>
 
             {/* Full Schedule Grid */}
-            <div className="schedule-section-title">FULL 2026 CALENDAR</div>
+            <div className="schedule-section-title">FULL {displayedYear} CALENDAR</div>
             <div className="schedule-grid">
-                {RACES_2026.map((race) => {
+                {displayedRaces.map((race) => {
                     const isPast = new Date(race.date) < new Date();
                     const isNext = race.round === nextRace.round;
 
@@ -88,7 +99,7 @@ export default function SchedulePage() {
                             <div className="race-round-badge">
                                 <div className="round-label">ROUND {race.round}</div>
                                 {isNext && <div className="next-badge">NEXT</div>}
-                                {!isNext && <div className="year-badge">2026</div>}
+                                {!isNext && <div className="year-badge">{displayedYear}</div>}
                             </div>
 
                             <div className="race-details">
