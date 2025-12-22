@@ -97,17 +97,17 @@ export default function PredictionAccuracyView({ raceId }: PredictionAccuracyVie
                             a 15.9155 15.9155 0 0 1 0 -31.831"
                         />
                         <path className="circle"
-                            strokeDasharray="94, 100"
+                            strokeDasharray={strokeDasharray}
                             d="M18 2.0845
                             a 15.9155 15.9155 0 0 1 0 31.831
                             a 15.9155 15.9155 0 0 1 0 -31.831"
                         />
-                        <text x="18" y="20.35" className="percentage">94%</text>
+                        <text x="18" y="20.35" className="percentage">{score}%</text>
                     </svg>
                 </div>
                 <div className="accuracy-summary">
                     <h3>Model Performance</h3>
-                    <p>The AI model correctly predicted the strategy and key race events with <strong>94% accuracy</strong> against actual telemetry data.</p>
+                    <p>The AI model correctly predicted the strategy and key race events with <strong>{score}% accuracy</strong> against actual telemetry data.</p>
                 </div>
             </div>
 
