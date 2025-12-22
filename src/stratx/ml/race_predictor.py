@@ -1,33 +1,69 @@
 import random
 import pandas as pd
 import numpy as np
-from typing import Dict, Any, List
+import joblib
+import os
+from typing import Dict, Any, List, Optional
 
 class RacePredictor:
     """
-    Mock ML models for live race predictions.
-    In a real scenario, these would load trained models (e.g., specific .pkl files).
+    ML-based Race Predictor.
+    Loads trained models for Lap Time, Tyre Life, etc.
+    Falls back to heuristics if models or features are missing.
     """
 
     def __init__(self):
-        # Initialize mock model states or load artifacts
-        pass
+        self.lap_time_model = None
+        
+        # Load Models
+        try:
+            current_dir = os.path.dirname(os.path.abspath(__file__))
+            model_path = os.path.join(current_dir, 'models', 'lap_time_model.pkl')
+            if os.path.exists(model_path):
+                self.lap_time_model = joblib.load(model_path)
+            else:
+                print(f"Warning: Model not found at {model_path}")
+        except Exception as e:
+            print(f"Error loading models: {e}")
 
-    def predict_next_lap_time(self, driver_id: str, current_laps: List[Dict[str, Any]]) -> float:
+    def predict_next_lap_time(self, driver_id: str, current_laps: List[Dict[str, Any]], 
+                              context: Optional[Dict[str, Any]] = None) -> float:
         """
         Predict the time for the upcoming lap.
-        Model: Exponential Moving Average of last 3 laps + random variance.
+        Uses ML Model if 'context' with features is provided.
+        Falls back to Heuristic otherwise.
         """
+        # ML Inference
+        if self.lap_time_model and context:
+            try:
+                # Expecting context to have: Team, Circuit, Compound, TyreLife, LapNumber, TrackTemp
+                # driver_id is passed as arg
+                
+                features = {
+                    'Driver': driver_id,
+                    'Team': context.get('Team', 'Unknown'),
+                    'Circuit': context.get('Circuit', 'Unknown'),
+                    'Compound': context.get('Compound', 'SOFT'),
+                    'TyreLife': float(context.get('TyreLife', 1.0)),
+                    'LapNumber': float(context.get('LapNumber', 1.0)),
+                    'TrackTemp': float(context.get('TrackTemp', 30.0))
+                }
+                
+                df = pd.DataFrame([features])
+                prediction = self.lap_time_model.predict(df)[0]
+                return round(prediction, 3)
+            except Exception as e:
+                print(f"ML Prediction failed: {e}, falling back to heuristic.")
+        
+        # Heuristic Fallback
         if not current_laps:
             return 90.0 # Default ~1:30.000
         
-        # simple heuristic
         recent_times = [l['lap_duration'] for l in current_laps[-3:] if l.get('lap_duration')]
         if not recent_times:
             return 90.0
             
         avg_time = sum(recent_times) / len(recent_times)
-        # Add small variance
         prediction = avg_time + random.uniform(-0.2, 0.2)
         return round(prediction, 3)
 
@@ -47,7 +83,6 @@ class RacePredictor:
         limit = max_laps.get(tyre_compound.upper(), 30)
         
         # Decay formula: 100 - ( (laps^1.2) / (limit^1.2) * 100 )
-        # This creates a curve that accelerates wear near the end
         wear = (laps_on_tyre ** 1.5) / (limit ** 1.5) * 100
         remaining = 100 - wear
         return max(0.0, round(remaining, 1))
@@ -57,7 +92,6 @@ class RacePredictor:
         Suggest optimal pit window.
         Model: Statistical based on typical stint lengths.
         """
-        # Determine strict window based on 1-stop strategy (assuming 50% distance)
         ideal_lap = total_laps // 2
         
         confidence = "HIGH"
@@ -78,7 +112,6 @@ class RacePredictor:
         """
         prob = 0.0
         
-        # Base probability from gap (closer = higher)
         if driver_gap < 0.5:
             prob = 0.85
         elif driver_gap < 1.0:
@@ -88,12 +121,11 @@ class RacePredictor:
         else:
             prob = 0.05
             
-        # Adjust for tyres (Soft vs Hard bonus)
         tyre_hierarchy = ["SOFT", "MEDIUM", "HARD"]
         try:
             d_idx = tyre_hierarchy.index(driver_compound.upper())
             t_idx = tyre_hierarchy.index(target_compound.upper())
-            if d_idx < t_idx: # Driver on softer compound
+            if d_idx < t_idx: 
                 prob += 0.15
         except:
             pass
@@ -105,12 +137,9 @@ class RacePredictor:
         Detect mechanical issues or weird data.
         """
         anomalies = []
-        
-        # Check RPM
         if telemetry_packet.get('rpm', 0) > 13000 and telemetry_packet.get('speed', 0) < 50:
             anomalies.append("High RPM / Low Speed Mismatch")
             
-        # Check Throttle
         if telemetry_packet.get('throttle', 0) > 90 and telemetry_packet.get('speed', 0) == 0:
             anomalies.append("Stalled on Throttle")
             
