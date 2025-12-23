@@ -32,6 +32,13 @@ def load_all_2025_races():
     if _CACHE_LOADED:
         return
     
+    # Skip pre-loading on Vercel (serverless) - load on-demand instead
+    import os
+    if os.getenv('VERCEL'):
+        print("⚠️  Running on Vercel - skipping pre-load, will load on-demand")
+        _CACHE_LOADED = True  # Mark as "loaded" to prevent re-attempts
+        return
+    
     print("🏎️  Loading all 2025 race data into memory...")
     
     for round_number in range(1, 25):  # 24 races
@@ -105,9 +112,49 @@ async def get_race_results(round_number: int) -> Dict[str, Any]:
     if not _CACHE_LOADED:
         load_all_2025_races()
     
-    # Serve from cache
+    # Serve from cache if available
     if round_number in _RACE_DATA_CACHE:
         return _RACE_DATA_CACHE[round_number]
+    
+    # On Vercel (serverless), load individual race on-demand
+    import os
+    if os.getenv('VERCEL'):
+        try:
+            session = fastf1.get_session(2025, round_number, 'R')
+            session.load()
+            
+            results = session.results
+            if results.empty:
+                raise HTTPException(status_code=404, detail=f"No results found for round {round_number}")
+            
+            # Format results
+            race_results = []
+            for idx, row in results.iterrows():
+                race_results.append({
+                    "position": int(row['Position']) if pd.notna(row['Position']) else None,
+                    "driver": row['Abbreviation'],
+                    "driver_number": int(row['DriverNumber']),
+                    "team": row['TeamName'],
+                    "time": str(row['Time']) if pd.notna(row['Time']) else 'DNF',
+                    "points": int(row['Points']) if pd.notna(row['Points']) else 0,
+                    "status": row['Status'] if pd.notna(row['Status']) else 'Finished',
+                    "grid_position": int(row['GridPosition']) if pd.notna(row['GridPosition']) else None,
+                })
+            
+            event = session.event
+            
+            return {
+                "round": round_number,
+                "race_name": event['EventName'],
+                "country": event['Country'],
+                "location": event['Location'],
+                "circuit": event['OfficialEventName'],
+                "date": str(event['EventDate']),
+                "results": race_results,
+                "total_laps": int(session.total_laps) if hasattr(session, 'total_laps') else None,
+            }
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=f"Failed to load race data: {str(e)}")
     
     raise HTTPException(
         status_code=404,
