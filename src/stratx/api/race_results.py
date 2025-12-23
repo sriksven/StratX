@@ -1,11 +1,13 @@
 """
 Race Results API endpoints using FastF1 for real historical data.
+Optimized with in-memory caching for instant retrieval.
 """
 import fastf1
 from fastapi import APIRouter, HTTPException
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 import pandas as pd
 import os
+from functools import lru_cache
 
 router = APIRouter(prefix="/api/results", tags=["results"])
 
@@ -14,58 +16,96 @@ cache_dir = '/tmp/fastf1_cache'
 os.makedirs(cache_dir, exist_ok=True)
 fastf1.Cache.enable_cache(cache_dir)
 
+# In-memory cache for all 2025 race data
+_RACE_DATA_CACHE: Dict[int, Dict[str, Any]] = {}
+_CACHE_LOADED = False
+
+def load_all_2025_races():
+    """
+    Pre-load all 2025 race data into memory on startup.
+    This makes subsequent API calls instant.
+    """
+    global _RACE_DATA_CACHE, _CACHE_LOADED
+    
+    if _CACHE_LOADED:
+        return
+    
+    print("🏎️  Loading all 2025 race data into memory...")
+    
+    for round_number in range(1, 25):  # 24 races
+        try:
+            session = fastf1.get_session(2025, round_number, 'R')
+            session.load()
+            
+            results = session.results
+            if results.empty:
+                continue
+            
+            # Format results
+            race_results = []
+            for idx, row in results.iterrows():
+                race_results.append({
+                    "position": int(row['Position']) if pd.notna(row['Position']) else None,
+                    "driver": row['Abbreviation'],
+                    "driver_number": int(row['DriverNumber']),
+                    "team": row['TeamName'],
+                    "time": str(row['Time']) if pd.notna(row['Time']) else 'DNF',
+                    "points": int(row['Points']) if pd.notna(row['Points']) else 0,
+                    "status": row['Status'] if pd.notna(row['Status']) else 'Finished',
+                    "grid_position": int(row['GridPosition']) if pd.notna(row['GridPosition']) else None,
+                })
+            
+            event = session.event
+            
+            _RACE_DATA_CACHE[round_number] = {
+                "round": round_number,
+                "race_name": event['EventName'],
+                "country": event['Country'],
+                "location": event['Location'],
+                "circuit": event['OfficialEventName'],
+                "date": str(event['EventDate']),
+                "results": race_results,
+                "total_laps": int(session.total_laps) if hasattr(session, 'total_laps') else None,
+            }
+            
+            print(f"  ✅ Round {round_number}: {event['EventName']}")
+            
+        except Exception as e:
+            print(f"  ⚠️  Round {round_number}: Failed - {str(e)}")
+    
+    _CACHE_LOADED = True
+    print(f"🎉 Loaded {len(_RACE_DATA_CACHE)} races into memory!")
+
 @router.get("/2025/{round_number}")
 async def get_race_results(round_number: int) -> Dict[str, Any]:
     """
     Fetch real 2025 race results using FastF1.
     Returns race winner, podium, and full classification.
+    Data is served from in-memory cache for instant response.
     """
-    try:
-        # Load the race session
-        session = fastf1.get_session(2025, round_number, 'R')
-        session.load()
-        
-        # Get race results
-        results = session.results
-        
-        if results.empty:
-            raise HTTPException(status_code=404, detail=f"No results found for round {round_number}")
-        
-        # Format results
-        race_results = []
-        for idx, row in results.iterrows():
-            race_results.append({
-                "position": int(row['Position']) if pd.notna(row['Position']) else None,
-                "driver": row['Abbreviation'],
-                "driver_number": int(row['DriverNumber']),
-                "team": row['TeamName'],
-                "time": str(row['Time']) if pd.notna(row['Time']) else 'DNF',
-                "points": int(row['Points']) if pd.notna(row['Points']) else 0,
-                "status": row['Status'] if pd.notna(row['Status']) else 'Finished',
-                "grid_position": int(row['GridPosition']) if pd.notna(row['GridPosition']) else None,
-            })
-        
-        # Get race info
-        event = session.event
-        
-        return {
-            "round": round_number,
-            "race_name": event['EventName'],
-            "country": event['Country'],
-            "location": event['Location'],
-            "circuit": event['OfficialEventName'],
-            "date": str(event['EventDate']),
-            "results": race_results,
-            "total_laps": int(session.total_laps) if hasattr(session, 'total_laps') else None,
-        }
-        
-    except Exception as e:
-        # Fallback for races that haven't happened or data unavailable
-        raise HTTPException(
-            status_code=404, 
-            detail=f"Could not load race data for round {round_number}: {str(e)}"
-        )
+    # Load cache on first request
+    if not _CACHE_LOADED:
+        load_all_2025_races()
+    
+    # Serve from cache
+    if round_number in _RACE_DATA_CACHE:
+        return _RACE_DATA_CACHE[round_number]
+    
+    raise HTTPException(
+        status_code=404,
+        detail=f"No results found for round {round_number}"
+    )
 
+@router.get("/2025/all")
+async def get_all_race_results() -> List[Dict[str, Any]]:
+    """
+    Get all 2025 race results in a single request.
+    Optimized for bulk data fetching.
+    """
+    if not _CACHE_LOADED:
+        load_all_2025_races()
+    
+    return [_RACE_DATA_CACHE[round_num] for round_num in sorted(_RACE_DATA_CACHE.keys())]
 
 @router.get("/2025/driver/{driver_code}/performance")
 async def get_driver_race_performance(driver_code: str, round_number: int) -> Dict[str, Any]:

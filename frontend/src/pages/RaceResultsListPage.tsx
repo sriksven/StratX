@@ -12,37 +12,34 @@ interface RaceWinner {
     team: string;
 }
 
-// Fetch all 2025 race winners from backend
+// Fetch all 2025 race winners from backend in a single request
 const fetchAllRaceWinners = async (): Promise<RaceWinner[]> => {
     const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
-    // Fetch all 24 races in parallel
-    const fetchPromises = Array.from({ length: 24 }, (_, i) => {
-        const round = i + 1;
-        return fetch(`${API_BASE_URL}/api/results/2025/${round}`)
-            .then(response => {
-                if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                return response.json();
-            })
-            .then(data => ({
-                round: data.round,
-                raceName: data.race_name,
-                country: data.country,
-                circuit: data.circuit,
-                date: data.date,
-                winner: data.results[0].driver,
-                team: data.results[0].team
-            }))
-            .catch(error => {
-                console.error(`Failed to fetch race ${round}:`, error);
-                return null;
-            });
-    });
+    try {
+        // Single bulk request for all races
+        const response = await fetch(`${API_BASE_URL}/api/results/2025/all`);
 
-    const results = await Promise.all(fetchPromises);
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
 
-    // Filter out failed requests
-    return results.filter((r): r is RaceWinner => r !== null);
+        const allRaces = await response.json();
+
+        // Transform to RaceWinner format
+        return allRaces.map((race: any) => ({
+            round: race.round,
+            raceName: race.race_name,
+            country: race.country,
+            circuit: race.circuit,
+            date: race.date,
+            winner: race.results[0].driver,
+            team: race.results[0].team
+        }));
+    } catch (error) {
+        console.error('Failed to fetch all race winners:', error);
+        return [];
+    }
 };
 
 export default function RaceResultsListPage() {
