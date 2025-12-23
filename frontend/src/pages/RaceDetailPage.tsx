@@ -382,21 +382,22 @@ export default function RaceDetailPage() {
 
                             {activeTab === 'predictions' && (
                                 <div className="tab-content">
-                                    <PredictionCards
-                                        driver={selectedDriver}
-                                        isLive={isLive}
-                                        sessionKey={activeSessionKey}
-                                    />
-
-                                    {/* Pre-Race AI Predictions for 2026 races */}
+                                    {/* Pre-Race AI Predictions for 2026 races - shown first */}
                                     {raceInfo && raceInfo.year === 2026 && (
-                                        <div style={{ marginTop: '3rem' }}>
+                                        <div style={{ marginBottom: '3rem' }}>
                                             <PreRacePredictionView
                                                 raceId={parseInt(raceId || '1')}
                                                 raceName={raceInfo.meeting_name}
                                             />
                                         </div>
                                     )}
+
+                                    {/* Live Prediction Cards */}
+                                    <PredictionCards
+                                        driver={selectedDriver}
+                                        isLive={isLive}
+                                        sessionKey={activeSessionKey}
+                                    />
                                 </div>
                             )}
 
