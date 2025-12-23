@@ -27,7 +27,7 @@ def load_all_2025_races():
     This makes subsequent API calls instant.
     Includes: race results, lap data, and session information.
     """
-    global _RACE_DATA_CACHE, _RACE_SESSIONS_CACHE, _CACHE_LOADED
+    global _CACHE_LOADED
     
     if _CACHE_LOADED:
         return
