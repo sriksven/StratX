@@ -22,6 +22,13 @@ app.add_middleware(
 # Include routers
 app.include_router(results_router)
 
+# Startup event to pre-load 2025 race data
+@app.on_event("startup")
+async def startup_event():
+    """Pre-load all 2025 race data into memory for instant retrieval."""
+    from stratx.api.race_results import load_all_2025_races
+    load_all_2025_races()
+
 client = OpenF1Client()
 predictor = RacePredictor()
 
