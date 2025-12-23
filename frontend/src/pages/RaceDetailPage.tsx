@@ -356,35 +356,37 @@ export default function RaceDetailPage() {
                         </div>
 
                         <div className="content-body">
-                            <div className="driver-selector">
-                                <label>Select Driver:</label>
-                                <select
-                                    value={selectedDriver}
-                                    onChange={(e) => setSelectedDriver(e.target.value)}
-                                >
-                                    {DRIVERS.map((driver) => (
-                                        <option key={driver.code} value={driver.code}>
-                                            {driver.name} ({driver.code})
-                                        </option>
-                                    ))}
-                                </select>
-
-                                <div className="session-info-badge">
-                                    {sessions.find(s => s.session_key === activeSessionKey)?.session_name || 'Session'}
-                                </div>
-                            </div>
-
                             {activeTab === 'telemetry' && (
-                                <div className="tab-content">
-                                    <LiveTelemetry driver={selectedDriver} isLive={isLive} />
-                                </div>
+                                <>
+                                    <div className="driver-selector">
+                                        <label>Select Driver:</label>
+                                        <select
+                                            value={selectedDriver}
+                                            onChange={(e) => setSelectedDriver(e.target.value)}
+                                        >
+                                            {DRIVERS.map((driver) => (
+                                                <option key={driver.code} value={driver.code}>
+                                                    {driver.name} ({driver.code})
+                                                </option>
+                                            ))}
+                                        </select>
+
+                                        <div className="session-info-badge">
+                                            {sessions.find(s => s.session_key === activeSessionKey)?.session_name || 'Session'}
+                                        </div>
+                                    </div>
+
+                                    <div className="tab-content">
+                                        <LiveTelemetry driver={selectedDriver} isLive={isLive} />
+                                    </div>
+                                </>
                             )}
 
                             {activeTab === 'predictions' && (
-                                <div className="tab-content">
-                                    {/* Pre-Race AI Predictions for 2026 races - shown first */}
+                                <>
+                                    {/* Pre-Race AI Predictions for 2026 races - shown first, before driver selector */}
                                     {raceInfo && raceInfo.year === 2026 && (
-                                        <div style={{ marginBottom: '3rem' }}>
+                                        <div className="tab-content" style={{ marginBottom: '2rem' }}>
                                             <PreRacePredictionView
                                                 raceId={parseInt(raceId || '1')}
                                                 raceName={raceInfo.meeting_name}
@@ -392,23 +394,63 @@ export default function RaceDetailPage() {
                                         </div>
                                     )}
 
+                                    <div className="driver-selector">
+                                        <label>Select Driver:</label>
+                                        <select
+                                            value={selectedDriver}
+                                            onChange={(e) => setSelectedDriver(e.target.value)}
+                                        >
+                                            {DRIVERS.map((driver) => (
+                                                <option key={driver.code} value={driver.code}>
+                                                    {driver.name} ({driver.code})
+                                                </option>
+                                            ))}
+                                        </select>
+
+                                        <div className="session-info-badge">
+                                            {sessions.find(s => s.session_key === activeSessionKey)?.session_name || 'Session'}
+                                        </div>
+                                    </div>
+
                                     {/* Live Prediction Cards */}
-                                    <PredictionCards
-                                        driver={selectedDriver}
-                                        isLive={isLive}
-                                        sessionKey={activeSessionKey}
-                                    />
-                                </div>
+                                    <div className="tab-content">
+                                        <PredictionCards
+                                            driver={selectedDriver}
+                                            isLive={isLive}
+                                            sessionKey={activeSessionKey}
+                                        />
+                                    </div>
+                                </>
                             )}
 
                             {activeTab === 'analytics' && (
-                                <div className="tab-content">
-                                    <TelemetryCharts driver={selectedDriver} isLive={isLive} />
-                                    <div style={{ marginTop: '2rem' }}>
-                                        <h3 style={{ marginBottom: '1rem' }}>Live Driver Comparison</h3>
-                                        <DriverComparison isLive={isLive} />
+                                <>
+                                    <div className="driver-selector">
+                                        <label>Select Driver:</label>
+                                        <select
+                                            value={selectedDriver}
+                                            onChange={(e) => setSelectedDriver(e.target.value)}
+                                        >
+                                            {DRIVERS.map((driver) => (
+                                                <option key={driver.code} value={driver.code}>
+                                                    {driver.name} ({driver.code})
+                                                </option>
+                                            ))}
+                                        </select>
+
+                                        <div className="session-info-badge">
+                                            {sessions.find(s => s.session_key === activeSessionKey)?.session_name || 'Session'}
+                                        </div>
                                     </div>
-                                </div>
+
+                                    <div className="tab-content">
+                                        <TelemetryCharts driver={selectedDriver} isLive={isLive} />
+                                        <div style={{ marginTop: '2rem' }}>
+                                            <h3 style={{ marginBottom: '1rem' }}>Live Driver Comparison</h3>
+                                            <DriverComparison isLive={isLive} />
+                                        </div>
+                                    </div>
+                                </>
                             )}
                         </div>
                     </section>
