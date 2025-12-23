@@ -29,7 +29,7 @@ export default function PredictionCards({ driver, isLive, sessionKey }: Predicti
     return (
         <div className="predictions-grid">
             {/* Lap Time Prediction */}
-            <div className="prediction-card glass-card shimmer">
+            <div className="prediction-card glass-card">
                 <div className="prediction-header">
                     <Clock className="prediction-icon" />
                     <h3 className="prediction-title">Lap Time Prediction</h3>
@@ -71,7 +71,7 @@ export default function PredictionCards({ driver, isLive, sessionKey }: Predicti
             </div>
 
             {/* Tyre Wear */}
-            <div className="prediction-card glass-card shimmer">
+            <div className="prediction-card glass-card">
                 <div className="prediction-header">
                     <TrendingDown className="prediction-icon icon-warning" />
                     <h3 className="prediction-title">Tyre Degradation</h3>
@@ -101,7 +101,7 @@ export default function PredictionCards({ driver, isLive, sessionKey }: Predicti
             </div>
 
             {/* Pit Window */}
-            <div className="prediction-card glass-card shimmer">
+            <div className="prediction-card glass-card">
                 <div className="prediction-header">
                     <Flag className="prediction-icon icon-success" />
                     <h3 className="prediction-title">Pit Window</h3>
@@ -128,7 +128,7 @@ export default function PredictionCards({ driver, isLive, sessionKey }: Predicti
             </div>
 
             {/* Overtake Probability */}
-            <div className="prediction-card glass-card shimmer">
+            <div className="prediction-card glass-card">
                 <div className="prediction-header">
                     <Target className="prediction-icon icon-purple" />
                     <h3 className="prediction-title">Overtake Probability</h3>
@@ -160,7 +160,7 @@ export default function PredictionCards({ driver, isLive, sessionKey }: Predicti
             </div>
 
             {/* Anomaly Detection */}
-            <div className={`prediction-card glass-card shimmer anomaly-card anomaly-${anomaly?.severity || 'low'}`}>
+            <div className={`prediction-card glass-card anomaly-card anomaly-${anomaly?.severity || 'low'}`}>
                 <div className="prediction-header">
                     <AlertTriangle className="prediction-icon icon-danger" />
                     <h3 className="prediction-title">Anomaly Detection</h3>
