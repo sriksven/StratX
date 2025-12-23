@@ -16,32 +16,33 @@ interface RaceWinner {
 const fetchAllRaceWinners = async (): Promise<RaceWinner[]> => {
     const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
-    const winners: RaceWinner[] = [];
+    // Fetch all 24 races in parallel
+    const fetchPromises = Array.from({ length: 24 }, (_, i) => {
+        const round = i + 1;
+        return fetch(`${API_BASE_URL}/api/results/2025/${round}`)
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                return response.json();
+            })
+            .then(data => ({
+                round: data.round,
+                raceName: data.race_name,
+                country: data.country,
+                circuit: data.circuit,
+                date: data.date,
+                winner: data.results[0].driver,
+                team: data.results[0].team
+            }))
+            .catch(error => {
+                console.error(`Failed to fetch race ${round}:`, error);
+                return null;
+            });
+    });
 
-    // Fetch all 24 races
-    for (let round = 1; round <= 24; round++) {
-        try {
-            const response = await fetch(`${API_BASE_URL}/api/results/2025/${round}`);
-            if (response.ok) {
-                const data = await response.json();
-                const winnerResult = data.results[0]; // First position is the winner
+    const results = await Promise.all(fetchPromises);
 
-                winners.push({
-                    round: data.round,
-                    raceName: data.race_name,
-                    country: data.country,
-                    circuit: data.circuit,
-                    date: data.date,
-                    winner: winnerResult.driver,
-                    team: winnerResult.team
-                });
-            }
-        } catch (error) {
-            console.error(`Failed to fetch race ${round}:`, error);
-        }
-    }
-
-    return winners;
+    // Filter out failed requests
+    return results.filter((r): r is RaceWinner => r !== null);
 };
 
 export default function RaceResultsListPage() {
