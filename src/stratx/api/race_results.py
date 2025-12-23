@@ -18,14 +18,16 @@ fastf1.Cache.enable_cache(cache_dir)
 
 # In-memory cache for all 2025 race data
 _RACE_DATA_CACHE: Dict[int, Dict[str, Any]] = {}
+_RACE_SESSIONS_CACHE: Dict[int, Any] = {}  # Store FastF1 session objects
 _CACHE_LOADED = False
 
 def load_all_2025_races():
     """
     Pre-load all 2025 race data into memory on startup.
     This makes subsequent API calls instant.
+    Includes: race results, lap data, and session information.
     """
-    global _RACE_DATA_CACHE, _CACHE_LOADED
+    global _RACE_DATA_CACHE, _RACE_SESSIONS_CACHE, _CACHE_LOADED
     
     if _CACHE_LOADED:
         return
@@ -40,6 +42,9 @@ def load_all_2025_races():
             results = session.results
             if results.empty:
                 continue
+            
+            # Store the session object for detailed queries
+            _RACE_SESSIONS_CACHE[round_number] = session
             
             # Format results
             race_results = []
@@ -57,6 +62,7 @@ def load_all_2025_races():
             
             event = session.event
             
+            # Cache basic race info
             _RACE_DATA_CACHE[round_number] = {
                 "round": round_number,
                 "race_name": event['EventName'],
@@ -68,13 +74,14 @@ def load_all_2025_races():
                 "total_laps": int(session.total_laps) if hasattr(session, 'total_laps') else None,
             }
             
-            print(f"  ✅ Round {round_number}: {event['EventName']}")
+            print(f"  ✅ Round {round_number}: {event['EventName']} ({len(race_results)} drivers, {session.total_laps if hasattr(session, 'total_laps') else '?'} laps)")
             
         except Exception as e:
             print(f"  ⚠️  Round {round_number}: Failed - {str(e)}")
     
     _CACHE_LOADED = True
     print(f"🎉 Loaded {len(_RACE_DATA_CACHE)} races into memory!")
+    print(f"📊 Total data cached: {len(_RACE_SESSIONS_CACHE)} full sessions with lap data")
 
 @router.get("/2025/all")
 async def get_all_race_results() -> List[Dict[str, Any]]:
@@ -111,13 +118,20 @@ async def get_race_results(round_number: int) -> Dict[str, Any]:
 async def get_driver_race_performance(driver_code: str, round_number: int) -> Dict[str, Any]:
     """
     Get detailed performance metrics for a specific driver in a race.
-    Used for model validation.
+    Used for model validation. Served from in-memory cache for instant response.
     """
+    # Ensure cache is loaded
+    if not _CACHE_LOADED:
+        load_all_2025_races()
+    
+    # Check if we have this race cached
+    if round_number not in _RACE_SESSIONS_CACHE:
+        raise HTTPException(status_code=404, detail=f"No data for round {round_number}")
+    
     try:
-        session = fastf1.get_session(2025, round_number, 'R')
-        session.load()
+        session = _RACE_SESSIONS_CACHE[round_number]
         
-        # Get driver laps
+        # Get driver laps from cached session
         driver_laps = session.laps.pick_driver(driver_code)
         
         if driver_laps.empty:
@@ -153,5 +167,7 @@ async def get_driver_race_performance(driver_code: str, round_number: int) -> Di
             "finish_position": int(driver_laps.iloc[-1]['Position']) if 'Position' in driver_laps.columns else None
         }
         
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
