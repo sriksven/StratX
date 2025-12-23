@@ -76,6 +76,17 @@ def load_all_2025_races():
     _CACHE_LOADED = True
     print(f"🎉 Loaded {len(_RACE_DATA_CACHE)} races into memory!")
 
+@router.get("/2025/all")
+async def get_all_race_results() -> List[Dict[str, Any]]:
+    """
+    Get all 2025 race results in a single request.
+    Optimized for bulk data fetching.
+    """
+    if not _CACHE_LOADED:
+        load_all_2025_races()
+    
+    return [_RACE_DATA_CACHE[round_num] for round_num in sorted(_RACE_DATA_CACHE.keys())]
+
 @router.get("/2025/{round_number}")
 async def get_race_results(round_number: int) -> Dict[str, Any]:
     """
@@ -95,17 +106,6 @@ async def get_race_results(round_number: int) -> Dict[str, Any]:
         status_code=404,
         detail=f"No results found for round {round_number}"
     )
-
-@router.get("/2025/all")
-async def get_all_race_results() -> List[Dict[str, Any]]:
-    """
-    Get all 2025 race results in a single request.
-    Optimized for bulk data fetching.
-    """
-    if not _CACHE_LOADED:
-        load_all_2025_races()
-    
-    return [_RACE_DATA_CACHE[round_num] for round_num in sorted(_RACE_DATA_CACHE.keys())]
 
 @router.get("/2025/driver/{driver_code}/performance")
 async def get_driver_race_performance(driver_code: str, round_number: int) -> Dict[str, Any]:
