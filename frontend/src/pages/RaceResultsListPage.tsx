@@ -12,13 +12,11 @@ interface RaceWinner {
     team: string;
 }
 
-// Fetch all 2025 race winners from backend in a single request
+// Fetch all 2025 race winners from static JSON files (for production)
 const fetchAllRaceWinners = async (): Promise<RaceWinner[]> => {
-    const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
-
     try {
-        // Single bulk request for all races
-        const response = await fetch(`${API_BASE_URL}/api/results/2025/all`);
+        // Use static JSON file from public directory
+        const response = await fetch(`${import.meta.env.BASE_URL}data/2025/all_races.json`);
 
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}`);

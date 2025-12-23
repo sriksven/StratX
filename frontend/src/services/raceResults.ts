@@ -31,8 +31,14 @@ export interface RaceResultsResponse {
 
 export const fetchRaceResults = async (round: number): Promise<RaceResultsResponse> => {
     try {
-        const response = await api.get(`/api/results/2025/${round}`);
-        return response.data;
+        // Use static JSON file from public directory
+        const response = await fetch(`${import.meta.env.BASE_URL}data/2025/race_${round}.json`);
+
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+
+        return await response.json();
     } catch (error) {
         console.error(`Failed to fetch race results for round ${round}:`, error);
         throw error;

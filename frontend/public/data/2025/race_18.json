@@ -1,0 +1,211 @@
+{
+  "round": 18,
+  "race_name": "Singapore Grand Prix",
+  "country": "Singapore",
+  "location": "Marina Bay",
+  "circuit": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2025",
+  "date": "2025-10-05 00:00:00",
+  "results": [
+    {
+      "position": 1,
+      "driver": "RUS",
+      "driver_number": 63,
+      "team": "Mercedes",
+      "time": "0 days 01:40:22.367000",
+      "points": 25,
+      "status": "Finished",
+      "grid_position": 1
+    },
+    {
+      "position": 2,
+      "driver": "VER",
+      "driver_number": 1,
+      "team": "Red Bull Racing",
+      "time": "0 days 00:00:05.430000",
+      "points": 18,
+      "status": "Finished",
+      "grid_position": 2
+    },
+    {
+      "position": 3,
+      "driver": "NOR",
+      "driver_number": 4,
+      "team": "McLaren",
+      "time": "0 days 00:00:06.066000",
+      "points": 15,
+      "status": "Finished",
+      "grid_position": 5
+    },
+    {
+      "position": 4,
+      "driver": "PIA",
+      "driver_number": 81,
+      "team": "McLaren",
+      "time": "0 days 00:00:08.146000",
+      "points": 12,
+      "status": "Finished",
+      "grid_position": 3
+    },
+    {
+      "position": 5,
+      "driver": "ANT",
+      "driver_number": 12,
+      "team": "Mercedes",
+      "time": "0 days 00:00:33.681000",
+      "points": 10,
+      "status": "Finished",
+      "grid_position": 4
+    },
+    {
+      "position": 6,
+      "driver": "LEC",
+      "driver_number": 16,
+      "team": "Ferrari",
+      "time": "0 days 00:00:45.996000",
+      "points": 8,
+      "status": "Finished",
+      "grid_position": 7
+    },
+    {
+      "position": 7,
+      "driver": "ALO",
+      "driver_number": 14,
+      "team": "Aston Martin",
+      "time": "0 days 00:01:20.667000",
+      "points": 6,
+      "status": "Finished",
+      "grid_position": 10
+    },
+    {
+      "position": 8,
+      "driver": "HAM",
+      "driver_number": 44,
+      "team": "Ferrari",
+      "time": "0 days 00:01:25.251000",
+      "points": 4,
+      "status": "Finished",
+      "grid_position": 6
+    },
+    {
+      "position": 9,
+      "driver": "BEA",
+      "driver_number": 87,
+      "team": "Haas F1 Team",
+      "time": "0 days 00:01:33.527000",
+      "points": 2,
+      "status": "Finished",
+      "grid_position": 9
+    },
+    {
+      "position": 10,
+      "driver": "SAI",
+      "driver_number": 55,
+      "team": "Williams",
+      "time": "0 days 00:00:10.754000",
+      "points": 1,
+      "status": "Lapped",
+      "grid_position": 18
+    },
+    {
+      "position": 11,
+      "driver": "HAD",
+      "driver_number": 6,
+      "team": "Racing Bulls",
+      "time": "0 days 00:00:17.335000",
+      "points": 0,
+      "status": "Lapped",
+      "grid_position": 8
+    },
+    {
+      "position": 12,
+      "driver": "TSU",
+      "driver_number": 22,
+      "team": "Red Bull Racing",
+      "time": "0 days 00:00:19.269000",
+      "points": 0,
+      "status": "Lapped",
+      "grid_position": 13
+    },
+    {
+      "position": 13,
+      "driver": "STR",
+      "driver_number": 18,
+      "team": "Aston Martin",
+      "time": "0 days 00:00:24.490000",
+      "points": 0,
+      "status": "Lapped",
+      "grid_position": 15
+    },
+    {
+      "position": 14,
+      "driver": "ALB",
+      "driver_number": 23,
+      "team": "Williams",
+      "time": "0 days 00:00:25.320000",
+      "points": 0,
+      "status": "Lapped",
+      "grid_position": 20
+    },
+    {
+      "position": 15,
+      "driver": "LAW",
+      "driver_number": 30,
+      "team": "Racing Bulls",
+      "time": "0 days 00:00:27.145000",
+      "points": 0,
+      "status": "Lapped",
+      "grid_position": 12
+    },
+    {
+      "position": 16,
+      "driver": "COL",
+      "driver_number": 43,
+      "team": "Alpine",
+      "time": "0 days 00:00:42.890000",
+      "points": 0,
+      "status": "Lapped",
+      "grid_position": 16
+    },
+    {
+      "position": 17,
+      "driver": "BOR",
+      "driver_number": 5,
+      "team": "Kick Sauber",
+      "time": "0 days 00:00:46.753000",
+      "points": 0,
+      "status": "Lapped",
+      "grid_position": 14
+    },
+    {
+      "position": 18,
+      "driver": "OCO",
+      "driver_number": 31,
+      "team": "Haas F1 Team",
+      "time": "0 days 00:00:47.133000",
+      "points": 0,
+      "status": "Lapped",
+      "grid_position": 17
+    },
+    {
+      "position": 19,
+      "driver": "GAS",
+      "driver_number": 10,
+      "team": "Alpine",
+      "time": "0 days 00:00:47.461000",
+      "points": 0,
+      "status": "Lapped",
+      "grid_position": 19
+    },
+    {
+      "position": 20,
+      "driver": "HUL",
+      "driver_number": 27,
+      "team": "Kick Sauber",
+      "time": "0 days 00:00:49.040000",
+      "points": 0,
+      "status": "Lapped",
+      "grid_position": 11
+    }
+  ],
+  "total_laps": 62
+}
