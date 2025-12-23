@@ -1,4 +1,4 @@
-import { CheckCircle, AlertCircle, TrendingUp } from 'lucide-react';
+import { AlertCircle, TrendingUp } from 'lucide-react';
 import './PredictionAccuracyView.css';
 
 interface PreRacePredictionProps {
@@ -14,7 +14,7 @@ interface PredictionMetric {
 }
 
 // Generate pre-race predictions based on historical data and circuit characteristics
-const getPreRacePredictions = (raceId: number, raceName: string): PredictionMetric[] => {
+const getPreRacePredictions = (raceId: number): PredictionMetric[] => {
     // Circuit-specific predictions based on historical patterns
     const circuitData: Record<number, any> = {
         1: { // Australia
@@ -71,7 +71,7 @@ const getPreRacePredictions = (raceId: number, raceName: string): PredictionMetr
 };
 
 export default function PreRacePredictionView({ raceId, raceName }: PreRacePredictionProps) {
-    const predictions = getPreRacePredictions(raceId, raceName);
+    const predictions = getPreRacePredictions(raceId);
     const avgConfidence = Math.round(predictions.reduce((sum, p) => sum + p.confidence, 0) / predictions.length);
 
     return (

@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Clock, Activity, Flag } from 'lucide-react';
 import LiveTelemetry from '../components/LiveTelemetry';
 import PredictionCards from '../components/PredictionCards';
+import PreRacePredictionView from '../components/PreRacePredictionView';
 import TelemetryCharts from '../components/TelemetryCharts';
 import DriverComparison from '../components/DriverComparison';
 import { DRIVERS } from '../constants/drivers';
@@ -386,6 +387,16 @@ export default function RaceDetailPage() {
                                         isLive={isLive}
                                         sessionKey={activeSessionKey}
                                     />
+
+                                    {/* Pre-Race AI Predictions for 2026 races */}
+                                    {raceInfo && raceInfo.year === 2026 && (
+                                        <div style={{ marginTop: '3rem' }}>
+                                            <PreRacePredictionView
+                                                raceId={parseInt(raceId || '1')}
+                                                raceName={raceInfo.meeting_name}
+                                            />
+                                        </div>
+                                    )}
                                 </div>
                             )}
 
